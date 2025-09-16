@@ -8,7 +8,6 @@
 - [Kibana-Dashboards](./Kibana-Dashboards.md "Kibana-Dashboards")
 - [More-about-Elasticsearch](./More-about-Elasticsearch.md "More-about-Elasticsearch")
 - [Exercises](./Exercises.md "Exercises")
-- [Comprehension-checks](./Comprehension-checks.md "Comprehension-checks")
 
 - [⬅ Back to Module](../README.md)
 - [⬅ Back to Course](../../README.md)

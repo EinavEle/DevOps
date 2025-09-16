@@ -8,7 +8,6 @@
 - [Spot-Check-2](./Spot-Check-2.md "Spot-Check-2")
 - [UML](./UML.md "UML")
 - [Exercises](./Exercises.md "Exercises")
-- [Comprehension-check](./Comprehension-check.md "Comprehension-check")
 
 - [⬅ Back to Module](../README.md)
 - [⬅ Back to Course](../../README.md)

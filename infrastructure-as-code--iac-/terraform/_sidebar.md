@@ -12,7 +12,6 @@
 - [Backend-configurations](./Backend-configurations.md "Backend-configurations")
 - [Destroy-infrastructure](./Destroy-infrastructure.md "Destroy-infrastructure")
 - [Exercises](./Exercises.md "Exercises")
-- [Comprehension-check](./Comprehension-check.md "Comprehension-check")
 
 - [⬅ Back to Module](../README.md)
 - [⬅ Back to Course](../../README.md)
