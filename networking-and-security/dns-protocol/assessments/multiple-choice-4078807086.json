@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-4078807086",
+	"source": {
+		"name": "Question 5",
+		"showName": true,
+		"instructions": "What are the benefits of caching in the local DNS server?",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "56b88dec-9dc3-0b6b-b3d7-a994e5dd9c38",
+				"correct": true,
+				"answer": " Less load on root-level, TLD and authoritative servers"
+			},
+			{
+				"_id": "d8a772db-6e2d-e195-8a8a-2ae7a04fd322",
+				"correct": false,
+				"answer": "Provides prioritized access to the root servers"
+			},
+			{
+				"_id": "b61208a7-2ea4-7e72-2514-0cb8d7ae9593",
+				"correct": true,
+				"answer": " Faster replies (if there is a cache hit)"
+			},
+			{
+				"_id": "4945c5f5-1f15-beb7-29c6-f9013a8aa3ab",
+				"correct": false,
+				"answer": "Helps organizations to shut down their authoritative servers as the data is cached locally"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

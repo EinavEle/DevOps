@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3146980900",
+	"source": {
+		"name": "Q10",
+		"showName": true,
+		"instructions": "Given the below Pod:\n\n```yaml \napiVersion: v1\nkind: Pod\nmetadata:\n  name: my-pod\nspec:\n  containers:\n  - name: container\n    image: nginx:latest\n    resources:\n      limits:\n        memory: \"64Mi\"\n```\n\nWhat would be the Memory resources request? ",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "a475e6cb-d409-b2e4-8841-46cb83e842e7",
+				"correct": true,
+				"answer": "`64Mi`\n"
+			},
+			{
+				"_id": "384574dd-c6d2-6d59-8fd0-1f7113b99943",
+				"correct": false,
+				"answer": "The Memory request was not specified, thus would not be defined.\n"
+			},
+			{
+				"_id": "f8c1f23b-680a-7c6d-db92-cc65026b13d1",
+				"correct": false,
+				"answer": "The minimum viable request: `1Mi`.\n"
+			},
+			{
+				"_id": "e7c058db-66b2-5a15-f853-ed9a51e1b1fa",
+				"correct": false,
+				"answer": "The manifest could not be applies since in that case, specifying resources request is mandatory."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-4213848725",
+	"source": {
+		"name": "q3",
+		"showName": true,
+		"instructions": "How can you configure the OS your Lambda runs on?  \n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "aeb68d27-748a-f18d-4e7b-d484f0e653ff",
+				"correct": false,
+				"answer": "In Lambda page, under \"Manage lambda infrastructure\".\n"
+			},
+			{
+				"_id": "97d2ea2a-3098-3024-e15e-27ec9cf16a31",
+				"correct": false,
+				"answer": "You can create a bash script and execute it one for all further lambda invocations.\n"
+			},
+			{
+				"_id": "3cda789d-75b2-978c-40ee-4f44a9228c0a",
+				"correct": false,
+				"answer": "Base your lambda on your own AMI.\n"
+			},
+			{
+				"_id": "6506a4ff-ac68-0c61-d903-79daa1e914d0",
+				"correct": true,
+				"answer": "None of the above since AWS manage infrastructure on your behalf."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

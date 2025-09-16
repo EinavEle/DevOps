@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1068816674",
+	"source": {
+		"name": "q1",
+		"showName": true,
+		"instructions": "Your app is running in an EC2 instance, and needs to read and write data to S3. \nWhile all the below methods should work, which of the below methods is the most recommended to use? \n",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "a54b55b0-543f-f9de-7af3-c6c27c4a3841",
+				"correct": false,
+				"answer": "Store the credentials in Amazon Secret Manager, read them when the app launches.\n"
+			},
+			{
+				"_id": "2ee9bca1-015c-2cd6-9fda-498090240df9",
+				"correct": true,
+				"answer": "Use the IAM role for the EC2 with appropriate permissions in S3.\n"
+			},
+			{
+				"_id": "cdea0113-f266-5c89-b40c-17291c49ad99",
+				"correct": false,
+				"answer": "Execute `aws configure` form within the instance and provide Access Key id and Access Secret Key.\n"
+			},
+			{
+				"_id": "2a9afc62-67e8-8e75-a897-29d687ee47a1",
+				"correct": false,
+				"answer": "Define the credentials in the instance's user data."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

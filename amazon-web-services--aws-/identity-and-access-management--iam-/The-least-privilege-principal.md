@@ -1,0 +1,1 @@
+The least privilege principle is a security best practice that involves giving users and systems only the minimum permissions necessary to perform their tasks or functions, and no more. This helps to reduce the risk of accidental or intentional damage or data loss, and limit the potential impact of security breaches or vulnerabilities.

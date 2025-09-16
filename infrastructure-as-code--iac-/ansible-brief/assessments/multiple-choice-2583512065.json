@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2583512065",
+	"source": {
+		"name": "Q4",
+		"showName": true,
+		"instructions": "Which of the following is a good use case for an ad-hoc command? \n",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "30749a17-7f4c-2caa-eda3-7612a8a1588f",
+				"correct": true,
+				"answer": "Installing firewall on application servers\n"
+			},
+			{
+				"_id": "91b47b36-0335-ea8d-8b3b-83024f5e9794",
+				"correct": true,
+				"answer": "Checking the free memory on a particular group of hosts\n"
+			},
+			{
+				"_id": "20e39e5d-3e81-cdb7-4441-d867458356a1",
+				"correct": true,
+				"answer": "Experimenting with an Ansible module\n"
+			},
+			{
+				"_id": "e4c8cd73-3926-14c7-8294-4b189a1f822d",
+				"correct": false,
+				"answer": "Upgrading some application stack"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,59 @@
+{
+ "name": "Python Iterators",
+ "children": [
+  {
+   "title": "Intro",
+   "id": "1e231d70-dc37-5065-e13d-be3e26c18d29",
+   "type": "page",
+   "pageId": "877e9d23-3734-f62e-7e04-fc5ed4e1dabf"
+  },
+  {
+   "title": "Enumerate",
+   "id": "30909876-cb10-1bf7-b8fe-1dfd8793eb1c",
+   "type": "page",
+   "pageId": "30909876-cb10-1bf7-b8fe-1dfd8793eb1c"
+  },
+  {
+   "title": "Iterables",
+   "id": "e994fca5-a11e-b86e-8885-d32c558ddbc4",
+   "type": "page",
+   "pageId": "2638ae2f-4db1-0d2b-5077-44d94ba38597"
+  },
+  {
+   "title": "Iterator Protocol",
+   "id": "87ec1c3c-0fc3-527a-8700-7b272f372b0c",
+   "type": "page",
+   "pageId": "87ec1c3c-0fc3-527a-8700-7b272f372b0c"
+  },
+  {
+   "title": "How for loop actually works?",
+   "id": "2cdd849f-8c29-212b-1b24-7d1c26d73026",
+   "type": "page",
+   "pageId": "6cc95b0d-38f9-f709-fb8a-3baaf6691f2b"
+  },
+  {
+   "title": "Building an iterator",
+   "id": "cd39cb2e-0394-0fad-7fab-4ebf9765fab2",
+   "type": "page",
+   "pageId": "f694837a-3c7e-5bfe-6a1e-25d5e113a0ac"
+  },
+  {
+   "title": "Generators",
+   "id": "23e07fde-27e4-9b98-70d9-5396ca68ffea",
+   "type": "page",
+   "pageId": "40d39aa4-edc9-af43-5749-7ed4c3fdc639"
+  },
+  {
+   "title": "Generator Expressions",
+   "id": "f39e67ac-0e8d-c559-19f7-c0604eef2d1b",
+   "type": "page",
+   "pageId": "174b8bba-4729-ca1d-d02c-7b9d71126ce0"
+  },
+  {
+   "title": "Exercises",
+   "id": "c7a12670-ee34-2ba6-2cb6-8ce514245db8",
+   "type": "page",
+   "pageId": "38789a58-ea4f-4779-c12f-97a67c7d86be"
+  }
+ ]
+}

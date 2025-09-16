@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1450023444",
+	"source": {
+		"name": "Question 8",
+		"showName": true,
+		"instructions": "In order to connect to a remote machine, which of the following information must exist in the remote machine?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "503f5e28-d492-cb35-9ab0-073af26dc1dc",
+				"correct": false,
+				"answer": "The client OS version"
+			},
+			{
+				"_id": "c9f60570-3d65-d071-464a-3c5c25d52fb7",
+				"correct": true,
+				"answer": "The client's public key"
+			},
+			{
+				"_id": "433c9a71-c15d-158e-f0fe-9b475de26467",
+				"correct": false,
+				"answer": "The client's private key"
+			},
+			{
+				"_id": "5035cc37-ec11-2718-8d0e-2fbd945adde7",
+				"correct": false,
+				"answer": "The client's home directory path"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2169758996",
+	"source": {
+		"name": "Q1",
+		"showName": true,
+		"instructions": "- _____ combine multiple repositories and other repository groups in a single repository\n- _____ repository is where your organization can publish internal releases in repository.\n- _____ is a repository that is linked to a remote repository.",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "238e96bd-ba5f-4b67-1720-5fea2713c5a8",
+				"correct": false,
+				"answer": "Group, Proxy, Hosted\n"
+			},
+			{
+				"_id": "f0290bbe-7654-add4-5945-1a5484fd204b",
+				"correct": false,
+				"answer": "Hosted, Group, Central\n"
+			},
+			{
+				"_id": "43dddfbf-4434-6346-caac-001ce176c1b9",
+				"correct": false,
+				"answer": "Central, Hosted, Proxy Group\n"
+			},
+			{
+				"_id": "02e4a082-7464-d8b4-33dc-db5d9c633287",
+				"correct": true,
+				"answer": "Group, Hosted, Proxy"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

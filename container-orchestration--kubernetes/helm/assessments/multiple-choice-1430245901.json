@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1430245901",
+	"source": {
+		"name": "Q4",
+		"showName": true,
+		"instructions": "The Chart creates a PVC for data for the Vault StatefulSet. \nWhat would be the StorageClass type of the created Volume?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "461e8f65-8fa3-432e-11e7-a541b6688f2c",
+				"correct": false,
+				"answer": "`hostPath`.\n"
+			},
+			{
+				"_id": "4996df35-b95f-c88b-f039-1872b0f2047d",
+				"correct": false,
+				"answer": "`gp2`.\n"
+			},
+			{
+				"_id": "3bfc1f49-2a77-476c-0bf8-2a5f0fbd2011",
+				"correct": false,
+				"answer": "`azurefile`.\n"
+			},
+			{
+				"_id": "5ac958ae-af51-79a2-0963-f21307070f31",
+				"correct": true,
+				"answer": "The StorageClass type can not be specified from the Chart values."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

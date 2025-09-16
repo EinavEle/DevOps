@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-550913458",
+	"source": {
+		"name": "Question 13",
+		"showName": true,
+		"instructions": "After installing a new APT package, a new file is added to the `/etc/profile.d` directory. Which of the following commands would apply the file's configuration to the current shell?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "0a75f689-af61-7154-b8c6-049c82903007",
+				"correct": true,
+				"answer": "`source /etc/profile`"
+			},
+			{
+				"_id": "b2261cc2-339d-84c4-b0d9-dfb8b31051b9",
+				"correct": false,
+				"answer": "`. ~/.bashrc`"
+			},
+			{
+				"_id": "89429a49-2fc2-2b4e-484d-6a329b3c379a",
+				"correct": false,
+				"answer": "`bash /etc/bashrc`"
+			},
+			{
+				"_id": "6b0ce01e-de0a-3973-8a1d-34cc34b6850a",
+				"correct": false,
+				"answer": "All of the above"
+			},
+			{
+				"_id": "14d7a6cc-d264-510d-10d4-e33cdbadb4e8",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

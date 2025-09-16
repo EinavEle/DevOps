@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-24944655",
+	"source": {
+		"name": "q13",
+		"showName": true,
+		"instructions": "\nYou are developing an AWS Lambda function that should communicate with one of your EC2 instances located in a private VPC. \n\nHow can you support this requirements?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "217449b9-a17d-7014-eb01-4aa765326a8a",
+				"correct": false,
+				"answer": "This requirements cannot be fulfilled since the network infrastructure of the lambda is managed by AWS.\n"
+			},
+			{
+				"_id": "5579f531-2c4c-d0b7-a901-7db3c181fb93",
+				"correct": true,
+				"answer": "You can associate your lambda with some of your VPC.\n"
+			},
+			{
+				"_id": "161e07b7-7e81-6368-9427-6438cb603fb1",
+				"correct": false,
+				"answer": "You can allow access from the lambda using VPN.\n"
+			},
+			{
+				"_id": "2bf92241-7ccc-c9bf-1064-3f7f65720ab7",
+				"correct": false,
+				"answer": "You can allow access using VPC PrivateLink."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

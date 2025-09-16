@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-868716987",
+	"source": {
+		"name": "q7",
+		"showName": true,
+		"instructions": "There can be 2 objects in AWS with the same Etag.",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "a1ddacbc-2f38-8a79-10ee-08619d45a28f",
+				"correct": true,
+				"answer": "True\n"
+			},
+			{
+				"_id": "10ff73dc-3a43-d69d-0b16-597f3cb6d4f1",
+				"correct": false,
+				"answer": "False\n"
+			},
+			{
+				"_id": "27caca2d-512f-7f83-c1a3-84e29076438d",
+				"correct": false,
+				"answer": "Only objects in different accounts\n"
+			},
+			{
+				"_id": "eddd6125-0a27-e80a-b5db-072103826508",
+				"correct": false,
+				"answer": "Only objects in different bucket\n"
+			},
+			{
+				"_id": "b7fdc941-c896-4eaf-c0d8-3fc9cbcdf51e",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

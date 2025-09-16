@@ -1,0 +1,18 @@
+- [Simple Queue Service  Sqs  And Simple Notification Service  Sns  Home](./README.md)
+
+- [Slides](./Slides.md "Slides")
+- [Agenda-and-Learning-Goals](./Agenda-and-Learning-Goals.md "Agenda-and-Learning-Goals")
+- [Motivation-for-queueing-systems-](./Motivation-for-queueing-systems-.md "Motivation-for-queueing-systems-")
+- [Synchronous-architecture-discussion-](./Synchronous-architecture-discussion-.md "Synchronous-architecture-discussion-")
+- [Introducing-message-broker--queue-](./Introducing-message-broker--queue-.md "Introducing-message-broker--queue-")
+- [Working-with-SQS](./Working-with-SQS.md "Working-with-SQS")
+- [Run-the-service](./Run-the-service.md "Run-the-service")
+- [Asynchronous-architecture-discussion](./Asynchronous-architecture-discussion.md "Asynchronous-architecture-discussion")
+- [Storing-results-in-a-database--DynamoDB-](./Storing-results-in-a-database--DynamoDB-.md "Storing-results-in-a-database--DynamoDB-")
+- [Spot-Check](./Spot-Check.md "Spot-Check")
+- [Optimize-the-architecture-cost---introducing-SNS-topic](./Optimize-the-architecture-cost---introducing-SNS-topic.md "Optimize-the-architecture-cost---introducing-SNS-topic")
+- [Working-with-SNS](./Working-with-SNS.md "Working-with-SNS")
+- [Exercises](./Exercises.md "Exercises")
+
+- [⬅ Back to Module](../README.md)
+- [⬅ Back to Course](../../README.md)

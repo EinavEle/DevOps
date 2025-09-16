@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-612525532",
+	"source": {
+		"name": "Question 2",
+		"showName": true,
+		"instructions": "Which of the following option(s) is equivalent to `volume: gp2`?",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "5ba2de49-6f17-261a-cca1-fae361ce6de6",
+				"correct": false,
+				"answer": "`volume:gp2`"
+			},
+			{
+				"_id": "7caf0eff-6ff1-74dd-95d9-44cb308a4017",
+				"correct": true,
+				"answer": "`volume: 'gp2'`"
+			},
+			{
+				"_id": "4a8039bc-7183-b2d2-159c-8381ad58e48f",
+				"correct": false,
+				"answer": "`volume:`\n`   - \"gp2\"`"
+			},
+			{
+				"_id": "315a0418-91f6-2451-326c-983f93d2b5af",
+				"correct": true,
+				"answer": "`volume: \"gp2\"`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

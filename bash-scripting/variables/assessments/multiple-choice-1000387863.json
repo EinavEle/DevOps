@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1000387863",
+	"source": {
+		"name": "Question 6",
+		"showName": true,
+		"instructions": "The user elvis performs the following command:\n```bash\n[elvis@station elvis]$ STYLE=terse\n```\nWhich of the following commands could be used to examine the value of `STYLE`?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "bdb8f75b-d96e-77cd-ae44-56ec95c85f87",
+				"correct": true,
+				"answer": "`set`"
+			},
+			{
+				"_id": "4ae6cf59-02ec-8193-b48b-893c54e80f58",
+				"correct": false,
+				"answer": "`env`"
+			},
+			{
+				"_id": "bc1a90f6-c475-9ca7-9e35-55dc16862a27",
+				"correct": false,
+				"answer": "`cat /proc/$$/environ`"
+			},
+			{
+				"_id": "2b47246d-a617-1304-e556-a785915e2fbd",
+				"correct": false,
+				"answer": "`export`"
+			},
+			{
+				"_id": "b3347f82-75a2-5bd7-047f-cb75a84dc3d5",
+				"correct": false,
+				"answer": "A and C"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

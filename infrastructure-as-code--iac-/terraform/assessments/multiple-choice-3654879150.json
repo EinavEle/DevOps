@@ -1,0 +1,44 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3654879150",
+	"source": {
+		"name": "Q7",
+		"showName": true,
+		"instructions": "The `terraform.tfstate` file always matches the currently provisioned infrastructure.\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "c8eb79ee-f669-f5cd-a78d-0ca84f1560b6",
+				"correct": false,
+				"answer": "True\n"
+			},
+			{
+				"_id": "ebc61504-2699-a974-1275-9c72f3bb33be",
+				"correct": true,
+				"answer": "False"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

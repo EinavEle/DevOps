@@ -1,0 +1,25 @@
+{
+	"title": "Ansible brief",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Agenda-and-Learning-Goals-43ad",
+		"IaC-with-Ansible-e695",
+		"Build-a-simple-Inventory-and-use-ad-hoc-commands-e01d",
+		"Working-with-Playbooks-094b",
+		"Ansible-Facts-2699",
+		"Organize-the-playbook-using-Roles-7fed",
+		"Exercises-425d",
+		"Comprehension-Check-6694"
+	]
+}

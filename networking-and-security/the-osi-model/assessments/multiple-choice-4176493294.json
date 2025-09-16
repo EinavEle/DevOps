@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-4176493294",
+	"source": {
+		"name": "Question 3",
+		"showName": true,
+		"instructions": "Complete the missing words in the below paragraph:\n\nIn the ______ layer, bits are passing from one node to another, for example using wires. The ______ layer handles the delivery of segments from the application layer, in a reliable or unreliable way. Then comes the ______ layer which is responsible for moving packets from the source host to the destination host.\nLastly, the ______ layer handles messages from a variety of network applications such as Outlook mail.",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "45f2b934-9b08-7cc9-e8df-42e999b3f8f4",
+				"correct": false,
+				"answer": "Transport, application, network interface, network"
+			},
+			{
+				"_id": "045e29be-7c12-af55-0451-c2ebf91948ff",
+				"correct": true,
+				"answer": "Network interface, transport, network, application"
+			},
+			{
+				"_id": "1b58cd4d-5cca-422e-884b-91df0c0a30b0",
+				"correct": false,
+				"answer": "Application, network, transport, network interface"
+			},
+			{
+				"_id": "5ccf358c-5747-550c-fbeb-26d3011dfdc6",
+				"correct": false,
+				"answer": "Network, network interface, transport, application"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

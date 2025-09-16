@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2122923838",
+	"source": {
+		"name": "Question 6",
+		"showName": true,
+		"instructions": "Which operator tells the shell to run a given command in the background?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "f22bded4-dd94-e3fe-a9aa-e1d608ebdf14",
+				"correct": false,
+				"answer": "!"
+			},
+			{
+				"_id": "8ac6f826-c3d9-2d30-9610-921e76f759f1",
+				"correct": false,
+				"answer": "&&"
+			},
+			{
+				"_id": "a96a3af2-78fc-bb61-6bfe-037f0a5f540c",
+				"correct": true,
+				"answer": "&"
+			},
+			{
+				"_id": "c4950e14-78f6-734d-5c00-ffc9ce48babb",
+				"correct": false,
+				"answer": "$"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

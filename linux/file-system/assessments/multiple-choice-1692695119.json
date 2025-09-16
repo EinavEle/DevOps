@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1692695119",
+	"source": {
+		"name": "Question 7",
+		"showName": true,
+		"instructions": "Which of the following commands could not be used to create a file in `/tmp`?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "ab77162d-c4c8-277f-b785-05f0a40d582f",
+				"correct": true,
+				"answer": "`touch /newfile`"
+			},
+			{
+				"_id": "be72a0e6-fba7-f796-824d-8224e8509a27",
+				"correct": false,
+				"answer": "`touch /tmp/newfile`"
+			},
+			{
+				"_id": "9512b115-105b-8f2c-8a04-ac41188045ea",
+				"correct": false,
+				"answer": "`touch ../newfile`"
+			},
+			{
+				"_id": "1730d9b3-2751-f0cb-db13-99bfe0247b72",
+				"correct": false,
+				"answer": "`touch ../tmp/newfile`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

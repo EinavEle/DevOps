@@ -1,0 +1,8 @@
+Under the /var/lib/docker/containers directory, you will find subdirectories corresponding to each container running on your host machine. Each container has its own unique directory, named after the container ID. Inside each container's directory, you can find the following files and directories:
+1. `config.v2.json`: This file contains the configuration settings for the container, including details like the image used, environment variables, container networking, and more.
+1. `hostconfig.json`: This file stores the configuration settings related to the container's host-specific configuration, such as port bindings, volume mounts, resource limits, and more.
+1. `hostname`: This file contains the hostname assigned to the container.
+1. `resolv.conf`: This file represents the container's DNS configuration (will be discussed in further modules).
+1. `mounts/`: This directory contains information about the mounted volumes associated with the container (will be discussed in further modules).
+1. `networks/`: This directory stores information about the container's network interfaces, such as IP addresses, network settings, and more (will be discussed in further modules).
+1. `*.log`: Depending on your container's logging configuration, you may find log files in this directory. By default, Docker uses the JSON-file logging driver, and log files are stored in `/var/lib/docker/containers/<container_id>/<container_id>.log`.

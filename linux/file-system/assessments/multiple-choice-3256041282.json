@@ -1,0 +1,49 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3256041282",
+	"source": {
+		"name": "Question 11",
+		"showName": true,
+		"instructions": "Given the path `/home/username/secret.txt`, choose the correct sentence:",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "83f7a970-ef7d-5904-aef6-714cbdb95c2a",
+				"correct": false,
+				"answer": "secret.txt is a file"
+			},
+			{
+				"_id": "6204e5f9-d68c-7e52-651d-589d0642d3ea",
+				"correct": false,
+				"answer": "secret.txt is a directory"
+			},
+			{
+				"_id": "7c5a0e2f-ab40-65d7-a980-f43b596df335",
+				"correct": true,
+				"answer": "secret.txt can be either a file or a directory"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

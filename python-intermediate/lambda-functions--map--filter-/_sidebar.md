@@ -1,0 +1,16 @@
+- [Lambda Functions  Map  Filter  Home](./README.md)
+
+- [Intro](./Intro.md "Intro")
+- [The--filter--Function](./The--filter--Function.md "The--filter--Function")
+- [Spot-Check-1](./Spot-Check-1.md "Spot-Check-1")
+- [Lambda-Functions](./Lambda-Functions.md "Lambda-Functions")
+- [Lambda--and-Filter](./Lambda--and-Filter.md "Lambda--and-Filter")
+- [Spot-Check-2](./Spot-Check-2.md "Spot-Check-2")
+- [The--map--Function](./The--map--Function.md "The--map--Function")
+- [Spot--Check-3](./Spot--Check-3.md "Spot--Check-3")
+- [Decode-Exercise](./Decode-Exercise.md "Decode-Exercise")
+- [Exercises](./Exercises.md "Exercises")
+- [Extension-Exercise](./Extension-Exercise.md "Extension-Exercise")
+
+- [⬅ Back to Module](../README.md)
+- [⬅ Back to Course](../../README.md)

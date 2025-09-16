@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3419970503",
+	"source": {
+		"name": "Q7",
+		"showName": true,
+		"instructions": "You have set up a Jenkins server on a private subnet in your organization's network.\nYour development team uses GitHub for version control, and you want to trigger Jenkins jobs automatically when code is pushed to the GitHub repository.\nHowever, you're facing issues with triggering the jobs due to the Jenkins server's location on the private subnet.\n\nWhich method can you use to address this issue effectively?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "04563073-a6c2-a972-aea6-7a5bf18febf2",
+				"correct": false,
+				"answer": "Configure GitHub webhooks to trigger Jenkins jobs.\n"
+			},
+			{
+				"_id": "9e1ff322-1d1f-97ea-d9c3-d0573e13e77c",
+				"correct": false,
+				"answer": "Generate SSH keys and establish a secure connection between your GitHub repository and the Jenkins server.\n"
+			},
+			{
+				"_id": "33c533cb-419f-4b81-5cc7-8fa5b8311ecd",
+				"correct": false,
+				"answer": "Use GitHub Actions.\n"
+			},
+			{
+				"_id": "b24eabe1-3065-18a5-6cdb-a6ab400da414",
+				"correct": true,
+				"answer": "Set up a polling mechanism in Jenkins to periodically check the GitHub repository for code changes."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"title": "Elasticsearch and Kibana",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Agenda-and-learning-goals-4c41",
+		"Monitoring-and-alerting-5745",
+		"Installation-and-import-sample-data-0d9c",
+		"Elastic-and-Kibana-core-concepts-6ad5",
+		"Kibana-Query-Language--KQL--a1a2",
+		"Kibana-Dashboards-0b68",
+		"More-about-Elasticsearch-6565",
+		"Exercises-3729",
+		"Comprehension-checks-44de"
+	]
+}

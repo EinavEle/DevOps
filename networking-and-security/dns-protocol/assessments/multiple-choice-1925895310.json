@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1925895310",
+	"source": {
+		"name": "Question 10",
+		"showName": true,
+		"instructions": "What is the role of an authoritative name server in the DNS?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "0ee6e6b8-b81e-716c-1516-6e984601cebd",
+				"correct": true,
+				"answer": "Is the source of truth in respect to the correct IP address of a hostname. "
+			},
+			{
+				"_id": "b6f6b1ac-06db-3b1a-ccc3-529120138ded",
+				"correct": false,
+				"answer": "Provides a list of TLD servers that can be queried to find the IP address of the hostname."
+			},
+			{
+				"_id": "c6c9f3fc-dee1-6702-9f5c-160abe09c06e",
+				"correct": false,
+				"answer": "It is a local server that caches data."
+			},
+			{
+				"_id": "9387f0ce-061e-4e3c-9261-44ac773f138d",
+				"correct": false,
+				"answer": "It provides the IP address of the DNS server that can provide the hostname A record."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

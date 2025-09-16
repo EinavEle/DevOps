@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1862793331",
+	"source": {
+		"name": "Q10",
+		"showName": true,
+		"instructions": "`ssh`ing into one of the cluster worker nodes, and executing the `docker ps` command would print all running containers on that node. \n\nHere is an example of a container name: \n\n```text \nk8s_POD_currencyservice-79b446569d-n6mtq_default_660fbffb-df77-422d-a408-8bc73e5a77d5_0\n```\n\nWhat information can we extract from the container name?",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "d919b989-46eb-8c5c-cc7d-20a4106a3d15",
+				"correct": false,
+				"answer": "The ports the container is listening to.\n"
+			},
+			{
+				"_id": "73f04524-3263-de43-3b32-3a139e06c726",
+				"correct": true,
+				"answer": "The namespace in which the pod belongs.\n"
+			},
+			{
+				"_id": "7da51aef-0b49-b4d2-cf6b-b85e1d73ec6f",
+				"correct": false,
+				"answer": "The image name of this running container.\n"
+			},
+			{
+				"_id": "1513a4e6-52c5-1405-4a76-0cdda6ee635f",
+				"correct": true,
+				"answer": "This container is a pod in a k8s cluster."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

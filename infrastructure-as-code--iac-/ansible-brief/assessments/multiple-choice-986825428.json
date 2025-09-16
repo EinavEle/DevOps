@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-986825428",
+	"source": {
+		"name": "Q2",
+		"showName": true,
+		"instructions": "After applying the playbook, the output is:\n\n```text\nPLAY RECAP ******************************************************************************************************************************\nserver        : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   \n```",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "9d3f5216-3c7c-7db0-2cc1-421d71ce78ee",
+				"correct": false,
+				"answer": "The `restart apache` handler have been called once.\n"
+			},
+			{
+				"_id": "f5d1459b-eb10-4404-0ebf-e55c010d9702",
+				"correct": false,
+				"answer": "The `restart apache` handler have been called 2 times.\n"
+			},
+			{
+				"_id": "d26a79f2-06b8-1cd8-853f-87b48123574a",
+				"correct": false,
+				"answer": "The `restart apache` handler have been called 3 times once.\n"
+			},
+			{
+				"_id": "cadd8512-6905-6084-796c-b57cb5d32fbb",
+				"correct": true,
+				"answer": "The `restart apache` handler have not been called."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

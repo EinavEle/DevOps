@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3502833321",
+	"source": {
+		"name": "Question 13",
+		"showName": true,
+		"instructions": "When the docker service is restarted by (under default docker daemon configurations):\n```bash\nsudo systemctl restart docker\n```\nWhat happens to the running containers?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "1ac3a427-1d5f-b5d5-af60-decff11ab001",
+				"correct": false,
+				"answer": "Running containers are killed."
+			},
+			{
+				"_id": "5868aa2b-c5df-ff02-be42-e2e03e2cd2fe",
+				"correct": true,
+				"answer": "Running containers are stopped."
+			},
+			{
+				"_id": "30c2e8ce-0124-6386-d219-d15471be6ce9",
+				"correct": false,
+				"answer": "Nothing happens since Docker doesn't run the containers itself, but `runc` does."
+			},
+			{
+				"_id": "8dee9f21-be86-fb05-f4f7-897920df9fd3",
+				"correct": false,
+				"answer": "None of the above."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

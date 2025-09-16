@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3367835038",
+	"source": {
+		"name": "Q4",
+		"showName": true,
+		"instructions": "Choose the correct sentence: \n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "bb4a889d-d45f-5f9e-81fe-94c94f140ce6",
+				"correct": false,
+				"answer": "Primary replicas contain the original data and handle read requests, while secondary replicas are only used for backup purposes.\n"
+			},
+			{
+				"_id": "1238dcfb-689a-e907-56d7-9460b788ff04",
+				"correct": true,
+				"answer": "Primary replicas store the primary copy of the data and manage write operations, while secondary replicas are read-only copies used for read load balancing.\n"
+			},
+			{
+				"_id": "9affd3ed-02e6-c145-3dc5-367aa05d0076",
+				"correct": false,
+				"answer": "Primary replicas handle indexing and search operations, while secondary replicas serve as failover backups in case the primary node fails.\n"
+			},
+			{
+				"_id": "23ff9912-6a3b-745e-fbd2-77227ea0c3eb",
+				"correct": false,
+				"answer": "Primary replicas are responsible for data durability and manage write operations, while secondary replicas are used for distributed search and scale-out purposes."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

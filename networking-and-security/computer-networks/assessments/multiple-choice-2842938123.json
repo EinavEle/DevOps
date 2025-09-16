@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2842938123",
+	"source": {
+		"name": "Question 13",
+		"showName": true,
+		"instructions": "What is the broadcast address of subnet A?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "0ede0471-8712-fcbd-145c-20cdef24f518",
+				"correct": false,
+				"answer": "156.1.1.0"
+			},
+			{
+				"_id": "67b32d06-de39-3d6e-976d-7ae4011e846b",
+				"correct": false,
+				"answer": "156.1.1.1"
+			},
+			{
+				"_id": "c25f3634-fe6d-89f2-a61f-9a93d3383675",
+				"correct": true,
+				"answer": "156.1.1.255"
+			},
+			{
+				"_id": "d6360781-eafd-8627-5771-2bd87f196fed",
+				"correct": false,
+				"answer": "156.1.0.0"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

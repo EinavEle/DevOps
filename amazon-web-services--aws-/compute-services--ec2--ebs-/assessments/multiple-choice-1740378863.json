@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1740378863",
+	"source": {
+		"name": "q4",
+		"showName": true,
+		"instructions": "You are trying to connect to your instances over SSH but failed with \"Timeout Error\". What most likely is the root cause? \n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "2308be7f-e9a7-7c68-bc08-b2d97a36248b",
+				"correct": false,
+				"answer": "The instance is not running.\n"
+			},
+			{
+				"_id": "f99a015e-fea0-9d40-851e-f9c49e3100ce",
+				"correct": false,
+				"answer": "You are using the private IP from your local machine.\n"
+			},
+			{
+				"_id": "ae40e16a-d054-a561-dd6e-7a56af57875b",
+				"correct": true,
+				"answer": "You are blocked by the security group rule.\n"
+			},
+			{
+				"_id": "ae99d79f-152f-9440-6647-5413836e0dcd",
+				"correct": false,
+				"answer": "You don't have IAM permission to connect to the instance."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

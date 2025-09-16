@@ -1,0 +1,64 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3185794463",
+	"source": {
+		"name": "Question 11",
+		"showName": true,
+		"instructions": "Which of the below characteristics are typically associated with a TCP socket?",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "5741d80a-ea2d-d039-51b9-963fd03f74e3",
+				"correct": false,
+				"answer": "The syscall `socket(AF_INET, SOCK_DGRAM, 0)` creates the socket of type TCP."
+			},
+			{
+				"_id": "5740a33f-d014-1cb4-b625-affb3b89c058",
+				"correct": true,
+				"answer": "TCP sockets provide reliable, in-order byte-stream transfer between client and server."
+			},
+			{
+				"_id": "740c0119-a5d6-79e7-7f2c-82750a7fa1bb",
+				"correct": true,
+				"answer": "The function call `socket(AF_INET, SOCK_STREAM, 0)` creates a socket of type TCP."
+			},
+			{
+				"_id": "90d6269a-aacc-2085-5364-0a5c6fc556d4",
+				"correct": true,
+				"answer": "The server uses `accept()` function for incoming client connections."
+			},
+			{
+				"_id": "924d2c6d-6880-207e-702b-004e2c07c55e",
+				"correct": false,
+				"answer": "Data from multiple clients can be received on the same socket."
+			},
+			{
+				"_id": "98d9049d-06bf-154b-fdd0-337533b283f2",
+				"correct": true,
+				"answer": "When a server is contacted by a client, it creates a new server-side socket to communicate with that client."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

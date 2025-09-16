@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2082337365",
+	"source": {
+		"name": "q1",
+		"showName": true,
+		"instructions": "Which of the below actions can be controlled with IAM policies?\n",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "ffb69f25-f2fa-a2b0-ea72-d9395ff6740c",
+				"correct": true,
+				"answer": "Creating an Amazon S3 bucket.\n"
+			},
+			{
+				"_id": "fd16339f-9017-ccdd-3a1d-734d5c77b5b1",
+				"correct": false,
+				"answer": "Control who can SSH into an EC2 instance.\n"
+			},
+			{
+				"_id": "86a44564-da19-203e-3173-957131341110",
+				"correct": true,
+				"answer": "Control the name of an EC2 instance.\n"
+			},
+			{
+				"_id": "3832eba2-75a5-3135-2fa5-43624faf6aa2",
+				"correct": true,
+				"answer": "Control the time in which IAM users can login to the web console."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

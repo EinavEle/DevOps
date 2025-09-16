@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1765813243",
+	"source": {
+		"name": "Question 5",
+		"showName": true,
+		"instructions": "The following text is found in the file `/etc/profile`.\n```bash\nfor i in /etc/profile.d/*.sh ; do\n  if [ -r \"$i\" ]; then\n    . $i\n  fi\ndone\n```\nWhich of the following best describes the execution of this text?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "d494823d-1896-f4ab-6b53-91a3054db5cf",
+				"correct": true,
+				"answer": "For every file in the /etc/profile.d directory that ends .sh, if it is readable, source it."
+			},
+			{
+				"_id": "718a1ae6-5194-0701-673b-0ef4ab52f6a1",
+				"correct": false,
+				"answer": "For every file in the /etc/profile.d directory that ends .sh, if it is readable, execute it."
+			},
+			{
+				"_id": "015d045c-682e-883b-04a0-498553345fea",
+				"correct": false,
+				"answer": "For every file in the /etc/profile.d directory that ends .sh, if it is executable, execute it."
+			},
+			{
+				"_id": "afe44e0b-956a-b2d4-cdfc-4ddc94ed7b69",
+				"correct": false,
+				"answer": "For every file in the /etc/profile.d directory that ends .sh, if it is not a directory, source it."
+			},
+			{
+				"_id": "aa531107-2908-6a60-a18c-748a60b30f6f",
+				"correct": false,
+				"answer": "None of the above."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

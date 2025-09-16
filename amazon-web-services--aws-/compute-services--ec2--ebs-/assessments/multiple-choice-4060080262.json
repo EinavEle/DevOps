@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-4060080262",
+	"source": {
+		"name": "q13",
+		"showName": true,
+		"instructions": "Given a default security group which allows outbound traffic for all ports and protocols, and blocks any inbound traffic.\n\nIf an outgoing request is allowed, but the inbound traffic on that port is not allowed, how can the response to the outgoing request be returned?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "db232900-bf53-5c51-1660-ff2447d00741",
+				"correct": true,
+				"answer": "The response will be allowed to return to the instance even if the inbound traffic on that port is not explicitly allowed.\n"
+			},
+			{
+				"_id": "8248482f-bf3d-a966-d785-6ad951f2436b",
+				"correct": false,
+				"answer": "The response will not be allowed to return to the instance.\n"
+			},
+			{
+				"_id": "dbc3d701-390a-efcb-9a3c-6efc23f999a3",
+				"correct": false,
+				"answer": "It depends on the instance virtualization type.\n"
+			},
+			{
+				"_id": "86627de1-0184-0ffc-928a-f9ea61aa5dad",
+				"correct": false,
+				"answer": "None of the above is relevant"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1510277466",
+	"source": {
+		"name": "Question 10",
+		"showName": true,
+		"instructions": "Which of the following command lines could be used to source the file `config.script`?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "f227a948-b91a-e69e-e021-30be73b7c3bf",
+				"correct": false,
+				"answer": "`.. config.script`"
+			},
+			{
+				"_id": "fa6b5e6e-4be8-2034-207c-76284e05d15a",
+				"correct": true,
+				"answer": "`. config.script`"
+			},
+			{
+				"_id": "360f3b33-0cc0-73c0-84b5-37da8ed881ff",
+				"correct": false,
+				"answer": "`< config.script`"
+			},
+			{
+				"_id": "9167e441-7793-64bf-e886-1a0ed2a6f84c",
+				"correct": false,
+				"answer": "`bash config.script`"
+			},
+			{
+				"_id": "f27a90db-6173-545e-1d23-aa483be48ed9",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

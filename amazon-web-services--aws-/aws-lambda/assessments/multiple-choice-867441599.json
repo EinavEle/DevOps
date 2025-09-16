@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-867441599",
+	"source": {
+		"name": "q10",
+		"showName": true,
+		"instructions": "\nYou have developed an **asynchronous** AWS Lambda function that processes messages from an event source. \nWhat happens in the case of a failure during the execution of the function?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "aa557319-361f-2fcc-2e59-8fcefc9e4c01",
+				"correct": true,
+				"answer": "The lambda execution will retry at least 3 times.\n"
+			},
+			{
+				"_id": "3fef3068-a662-b044-8eea-6ef0a218d90c",
+				"correct": false,
+				"answer": "The lambda will respond with an exception after the first failure.\n"
+			},
+			{
+				"_id": "d27d2fc3-6403-69aa-a732-76e82b065669",
+				"correct": false,
+				"answer": "The event will be sent to a dead letter queue.\n"
+			},
+			{
+				"_id": "52759322-d3fe-b340-401a-0e4b9e5b7975",
+				"correct": false,
+				"answer": "None of the above."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

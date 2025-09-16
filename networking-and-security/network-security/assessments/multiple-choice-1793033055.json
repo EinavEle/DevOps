@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1793033055",
+	"source": {
+		"name": "Question 10",
+		"showName": true,
+		"instructions": "Assume message.txt is a file containing plaintext message from Alice, and signature.txt is a valid signature of messages.txt, signed by Alice’s private key.  \n\nWhat is wrong in the below command, ran in Bob’s machine:\n```bash\nopenssl dgst -sha256 -verify private.key -signature signature.txt message.txt\n```",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "27ee36af-62ee-cd39-b635-7d9831c03682",
+				"correct": false,
+				"answer": "The sha256 cannot be used to verify message authenticity"
+			},
+			{
+				"_id": "bfd22c2b-4990-e577-b05e-67fdf0dd665f",
+				"correct": true,
+				"answer": "The verification should be done using Alice’s public key"
+			},
+			{
+				"_id": "bac58a18-3bce-6388-0240-dca220d74bea",
+				"correct": false,
+				"answer": "The command encrypts the message in message.txt"
+			},
+			{
+				"_id": "2ee3ebdf-ad20-80b1-ff26-fc6e74648b37",
+				"correct": false,
+				"answer": "Bob doesn’t have Alice’s private  key on her own machine. Thus Alice should send it to him using an encrypted channel"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

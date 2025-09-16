@@ -1,0 +1,30 @@
+{
+	"title": "Terraform",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Agenda-and-Learning-Goals-9d9c",
+		"Infrastructure-as-Code-with-Terraform-9477",
+		"Working-with-Terraform-in-AWS-90f1",
+		"Use-variables-to-parametrize-your-configuration-f692",
+		"Outputs-934a",
+		"Modules-77b9",
+		"Data-Sources-b252",
+		"Manage-resource-drifts-006b",
+		"Secrets-and-sensitive-data-0c88",
+		"Backend-configurations-8acc",
+		"Destroy-infrastructure-ab7c",
+		"Exercises-434d",
+		"Comprehension-check-5057"
+	]
+}

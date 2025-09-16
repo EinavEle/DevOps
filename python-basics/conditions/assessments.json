@@ -1,0 +1,155 @@
+[
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-53936874",
+  "source": {
+   "name": "Q1",
+   "showName": true,
+   "instructions": "The keyword `else`",
+   "multipleResponse": false,
+   "isRandomized": false,
+   "answers": [
+    {
+     "_id": "c767cf77-2a93-502a-b1a4-789805bba90e",
+     "correct": false,
+     "answer": "Has to come after every `if`"
+    },
+    {
+     "_id": "552ebed1-1a5e-bbe0-d464-9f454817bf7c",
+     "correct": false,
+     "answer": "Has to come after every `elif`"
+    },
+    {
+     "_id": "ed0ae25b-f973-0207-6c75-06159f8a2328",
+     "correct": true,
+     "answer": "If it exists, has to be at the end of any `if` or `elif`s"
+    },
+    {
+     "_id": "a4707af2-811f-8b7d-bef7-08dccef16d66",
+     "correct": false,
+     "answer": "Is mandatory"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3258957926",
+  "source": {
+   "name": "Q2",
+   "showName": true,
+   "instructions": "What will the following code output? \nPlease don't run the code before answering\n\n```\na = 3\nb = 2\nc = 12\n\nb = b - 3\n\nif b < 2 and a == 3:\n\tb = a\n\nd = a + (b * c)\nb = b - 2\n﻿\nprint(\"Result:\")﻿\nprint(b + d)\n```",
+   "multipleResponse": false,
+   "isRandomized": false,
+   "answers": [
+    {
+     "_id": "cdb39eee-022e-86dd-d6ad-4db6c727c8da",
+     "correct": false,
+     "answer": "-12"
+    },
+    {
+     "_id": "f637217a-ecb0-5ea7-fa8e-2cc8ead394d7",
+     "correct": false,
+     "answer": "-10"
+    },
+    {
+     "_id": "050056c3-9088-43da-f8c0-3a429db7fe11",
+     "correct": true,
+     "answer": "40"
+    },
+    {
+     "_id": "e81ab22b-2a99-bef3-5399-9b090aae2219",
+     "correct": false,
+     "answer": "38"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1271754647",
+  "source": {
+   "name": "Q3",
+   "showName": true,
+   "instructions": "What will the following code output? \nPlease don't run the code before answering\n\n```\nis_banned = False\nnumber_of_requests = 5\nuser = \"admin\"\n\nif not is_banned:\n\tif user == \"instructor\" or user == \"admin\":\n\t\tif number_of_requests < 5:\n\t\t\tprint(\"Processing request...\")\n\t\telse:\n\t\t\tprint(\"Too many requests, please wait\")\n\telse:\n\t\tprint(\"Sorry, no permissions\")\nelse:\n\tprint(\"Error.\")\n```",
+   "multipleResponse": false,
+   "isRandomized": false,
+   "answers": [
+    {
+     "_id": "2b5d1f8e-167d-6c32-cd2e-0d8ba84d461f",
+     "correct": false,
+     "answer": "Processing request..."
+    },
+    {
+     "_id": "225970cb-1cca-e9a7-a86f-30e27694a311",
+     "correct": true,
+     "answer": "Too many requests, please wait"
+    },
+    {
+     "_id": "eaa031c6-8567-f6b9-6861-a6b15dac57da",
+     "correct": false,
+     "answer": "Sorry, no permissions"
+    },
+    {
+     "_id": "b5309ecd-edcb-c19f-30f1-5dfe04bf1eaf",
+     "correct": false,
+     "answer": "Error."
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ }
+]

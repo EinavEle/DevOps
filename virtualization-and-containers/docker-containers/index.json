@@ -1,0 +1,23 @@
+{
+	"title": "Docker Containers",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Agenda-and-Learning-Goals-5fa4",
+		"Running-Your-First-Container-d141",
+		"Container-Management-and-Lifecycle-8ce2",
+		"Container-Configuration-Files-a441",
+		"Exercises-8404",
+		"Comprehension-Check-4835"
+	]
+}

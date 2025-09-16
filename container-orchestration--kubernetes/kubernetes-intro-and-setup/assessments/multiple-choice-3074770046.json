@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3074770046",
+	"source": {
+		"name": "Q9",
+		"showName": true,
+		"instructions": "Assume 15 Kubernetes cluster running in different regions in AWS. You want to run a `kubectl` command, but before, you want to make sure your command will be executed on the right cluster. \nHow can you ensure that? ",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "014e0d4e-4edf-eca7-d9d0-1f274531f299",
+				"correct": false,
+				"answer": "`kubectl get context`\n"
+			},
+			{
+				"_id": "0971978f-87f0-17b3-82b3-5039d8677eab",
+				"correct": false,
+				"answer": "`kubectl config current-context`\n"
+			},
+			{
+				"_id": "4de48857-dc1f-0f26-81a8-7eb6ae3ee90e",
+				"correct": true,
+				"answer": "`kubectl config get-context`\n"
+			},
+			{
+				"_id": "f9be192d-78fc-678c-b77b-ca00b841a94e",
+				"correct": false,
+				"answer": "`minikube status`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

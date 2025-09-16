@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2034611931",
+	"source": {
+		"name": "Question 6",
+		"showName": true,
+		"instructions": "What happens when you run a Docker image that was packed with a Linux kernel different from the kernel of the host machine (the machine the container is running on)?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "93c652c9-197a-1353-7885-cd7556044e71",
+				"correct": false,
+				"answer": "System calls will fail frequently."
+			},
+			{
+				"_id": "04471c2b-c35e-7e08-e180-6a9b031d04e8",
+				"correct": false,
+				"answer": "The docker daemon will not let you run the image."
+			},
+			{
+				"_id": "e846d6cb-fb4b-4286-3dc2-44792b29823f",
+				"correct": true,
+				"answer": "Images don’t contain a kernel — all containers running on a host machine share access to the host’s kernel."
+			},
+			{
+				"_id": "ee3f6091-def3-67af-d6fa-c295c8db00db",
+				"correct": false,
+				"answer": "The image will run smoothly as the docker daemon deals with kernels compatibility."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

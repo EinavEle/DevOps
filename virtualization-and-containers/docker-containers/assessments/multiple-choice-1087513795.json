@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1087513795",
+	"source": {
+		"name": "Question 1",
+		"showName": true,
+		"instructions": "You are trying to run a docker container based on the [Ubuntu image](https://hub.docker.com/_/ubuntu), with the `-it` flags, and get the below error:\n```bash\ndocker run ubuntu -it\ndocker: Error response from daemon: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: exec: \"-it\": executable file not found in $PATH: unknown.\nERRO[0005] error waiting for container: context canceled\n```\nWhat is the root cause?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "a71636cd-042f-819a-dfff-8de0a80eeaee",
+				"correct": false,
+				"answer": "Docker daemon is not up and running. Execute `sudo systemctl start docker`."
+			},
+			{
+				"_id": "f6909810-eedd-9af0-6e05-fb4dbd4f81c4",
+				"correct": false,
+				"answer": "The machine cannot run containers."
+			},
+			{
+				"_id": "94bf0bbd-42c0-7723-0b5d-aa6131ebb652",
+				"correct": true,
+				"answer": "Docker recognizes the `-it` flags as the container command. Execute `docker run -it ubuntu` instead."
+			},
+			{
+				"_id": "891d5e3f-de62-0e5f-5969-78f9ca905a9f",
+				"correct": false,
+				"answer": "The `ubuntu` docker image doesn't exist on the machine. Execute `docker pull ubuntu` before."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

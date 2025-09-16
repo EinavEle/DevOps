@@ -1,0 +1,29 @@
+{
+	"title": "Identity and Access Management (IAM)",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Slides-6a1b",
+		"Agenda-and-Learning-Goals-60e5",
+		"Identity-based-policies-6200",
+		"Spot-check-4e32",
+		"The-least-privilege-principal-f869",
+		"Create-a-policy-to-access-a-certain-bucket-and-prefix-only-and-attach-it-to-your-IAM-role-325f",
+		"Extend-your-policy-59df",
+		"Use-resource-tags-in-the-policy-c625",
+		"Controlling-access-to-EC2-using-resource-tags-f189",
+		"Enforce-tagging-policy-for-resources-0ccd",
+		"Exercises-3f49",
+		"Comprehension-Check-7ba4"
+	]
+}

@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3926978570",
+	"source": {
+		"name": "Question 14",
+		"showName": true,
+		"instructions": "What is the default gateway address of Y?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "2af91e4a-d7c7-deb5-b168-507ede88f80a",
+				"correct": false,
+				"answer": "192.168.1.0"
+			},
+			{
+				"_id": "a34f3328-603c-4902-1f4a-f799a3da6842",
+				"correct": true,
+				"answer": "192.168.1.1"
+			},
+			{
+				"_id": "d0bf16c3-2ed2-a5d0-530f-6b18693f9834",
+				"correct": false,
+				"answer": "10.0.0.1"
+			},
+			{
+				"_id": "69c491d4-1712-6732-7c76-dd47151891bf",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1812216019",
+	"source": {
+		"name": "q3",
+		"showName": true,
+		"instructions": "Your AWS account has 350 IAM users.\nYour product manager asks you to allow 50 users full access on S3. \nHow can you implement this **effectively**?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "a537dff5-6619-3839-d973-74aaf3a40bf2",
+				"correct": true,
+				"answer": "Create an IAM group, add the 50 users, and apply the policy to the group.\n"
+			},
+			{
+				"_id": "3126a850-8ae8-4c48-3a6f-bf5159ccedd5",
+				"correct": false,
+				"answer": "Create a policy and apply it to multiple users using a Bash script.\n"
+			},
+			{
+				"_id": "371308cc-8eef-7ca1-7f96-0d2d175c5ef6",
+				"correct": false,
+				"answer": "Create an S3 bucket policy with unlimited access which includes each user's AWS account ID.\n"
+			},
+			{
+				"_id": "b3e14363-c8ff-d55a-d901-71eb92adff01",
+				"correct": false,
+				"answer": "Create a new role and add each user to the IAM role."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

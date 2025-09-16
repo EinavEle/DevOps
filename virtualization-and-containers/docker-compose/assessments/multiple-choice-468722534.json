@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-468722534",
+	"source": {
+		"name": "Question 3",
+		"showName": true,
+		"instructions": "What is the network used when deploying the two specified services?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "4e998ac5-4c80-7651-c913-232be8fc97be",
+				"correct": false,
+				"answer": "The default docker `bridge` network."
+			},
+			{
+				"_id": "1c0d9d94-3806-cba5-eba1-0cf1c8c658fb",
+				"correct": true,
+				"answer": "Compose automatically creates a custom network for this project."
+			},
+			{
+				"_id": "5ff451a0-2b8b-f367-27eb-5b604b926dd7",
+				"correct": false,
+				"answer": "Networking is disabled in this compose project."
+			},
+			{
+				"_id": "14198983-9785-6168-b2c8-08232dfe38c4",
+				"correct": false,
+				"answer": "None of the above."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

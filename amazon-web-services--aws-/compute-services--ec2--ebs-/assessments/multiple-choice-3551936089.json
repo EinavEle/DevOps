@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3551936089",
+	"source": {
+		"name": "q6",
+		"showName": true,
+		"instructions": "A financial company was expanding its trading platform and required a low-latency, high-bandwidth network for their AWS infrastructure to support high-frequency trading.\nThey found that their current network configuration was causing delays in processing transactions, leading to lost revenue.\n\nTo resolve the issue, they can: ",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "463c10f6-dd42-fdcc-d6a1-50711ee80864",
+				"correct": true,
+				"answer": "Use a placement group of instances to process transactions.\n"
+			},
+			{
+				"_id": "0c8a761d-72cd-d40a-3cb3-2e5d9b391cd4",
+				"correct": false,
+				"answer": "Use IOPS optimized instances.\n"
+			},
+			{
+				"_id": "54e5b2fa-3679-d072-a821-0b68ff3a39d0",
+				"correct": false,
+				"answer": "Use a larger instance type.\n"
+			},
+			{
+				"_id": "ba636385-21de-3fc1-2550-9d0a271785c4",
+				"correct": false,
+				"answer": "Use a load balancer to balance the load evenly."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

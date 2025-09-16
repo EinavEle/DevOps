@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1599891983",
+	"source": {
+		"name": "q9",
+		"showName": true,
+		"instructions": "Choose the possible potential problem(s) that cause stable communication issues between two instances located in different subnets on the same vpc:\n",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "820e5143-9649-e1fa-0236-68916bea1139",
+				"correct": true,
+				"answer": "The security group attached to instance B does not allow outbound traffic at all\n"
+			},
+			{
+				"_id": "3e7c9777-108d-7208-6292-65a109054d14",
+				"correct": false,
+				"answer": "The role instance A assumes is not allowing socket connection\n"
+			},
+			{
+				"_id": "8fe5337a-ffae-2cbb-e22d-1707b363a9dc",
+				"correct": false,
+				"answer": "Network throughput exceeded the maximum limit\n"
+			},
+			{
+				"_id": "a9e386c2-cf28-078d-0dc3-3c67db9d8e56",
+				"correct": true,
+				"answer": "The Network ACL on subnet B does not allow outbound traffic\n"
+			},
+			{
+				"_id": "a3073366-2462-7391-b803-cad3d084e155",
+				"correct": false,
+				"answer": "The routing table of subnet A has no target to route to subnet B"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

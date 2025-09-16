@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3320272682",
+	"source": {
+		"name": "Question 2",
+		"showName": true,
+		"instructions": "For how long the client persists the TCP connection over which requests and responses will be transferred?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "fe458566-4b80-5d81-f6ee-c512e92f4dc8",
+				"correct": false,
+				"answer": "Forever, as she uses keep-alive connection type"
+			},
+			{
+				"_id": "023befce-d51e-9d8b-4d46-86d4c5809869",
+				"correct": false,
+				"answer": "For 300 minutes, as specified in “Keep-Alive” header"
+			},
+			{
+				"_id": "2cfccc15-a45a-da6d-6f5d-6d31d5724204",
+				"correct": true,
+				"answer": "For 300 seconds, as specified in “Keep-Alive” header"
+			},
+			{
+				"_id": "0da8c6f7-4561-d6ef-ba87-ab30fdb0e33d",
+				"correct": false,
+				"answer": "The connection is terminated immediately after a successful response from the server."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

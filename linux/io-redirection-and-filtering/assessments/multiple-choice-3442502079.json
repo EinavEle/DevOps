@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3442502079",
+	"source": {
+		"name": "Question 10",
+		"showName": true,
+		"instructions": "Which of the following command lines would list lines from the file `/etc/group` which contain the text `elvis`?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "7e9f3f5e-0f82-ebbd-29d5-868fb0d21717",
+				"correct": false,
+				"answer": "`grep /etc/group elvis`"
+			},
+			{
+				"_id": "9dd1ee23-afcc-2d33-595d-db239f511036",
+				"correct": false,
+				"answer": "`echo elvis | grep /etc/group`"
+			},
+			{
+				"_id": "fe3ace1a-eb2a-af66-1de9-6e3985537812",
+				"correct": false,
+				"answer": "`echo /etc/group | grep elvis`"
+			},
+			{
+				"_id": "c908185f-a4e5-2961-26d1-cdfecad2842e",
+				"correct": false,
+				"answer": "A and C"
+			},
+			{
+				"_id": "4d684da8-acdf-f692-3b3e-8d4ed9ca6059",
+				"correct": true,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

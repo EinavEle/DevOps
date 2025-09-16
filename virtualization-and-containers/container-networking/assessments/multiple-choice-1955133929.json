@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1955133929",
+	"source": {
+		"name": "Question 7",
+		"showName": true,
+		"instructions": "In order to execute the following command successfully: (Choose all correct answers)\n```bash\ndocker run -p 8080:80 my-app\n```",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "1fb96acd-bbf7-55b6-9c80-73f551e11644",
+				"correct": true,
+				"answer": "The docker daemon service should be up and running."
+			},
+			{
+				"_id": "6133246e-63e0-d1b9-e768-de5414ac40e1",
+				"correct": true,
+				"answer": "Port `8080` must not be bound to another process in the host machine."
+			},
+			{
+				"_id": "48cefbca-554d-0aa8-f5e5-716c54b4e016",
+				"correct": false,
+				"answer": "Port `80` must not be bound to another process in the host machine."
+			},
+			{
+				"_id": "2b9d8ae2-0fca-ffb8-10ba-351a4ce3061b",
+				"correct": false,
+				"answer": "Port `8080` must not be bound to another process running containers launched from the `my-app` image."
+			},
+			{
+				"_id": "3b9726c5-b5b0-8be3-0f24-6c6beded3403",
+				"correct": false,
+				"answer": "Port `80` must not be bound to another process running containers launched from the `my-app` image."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

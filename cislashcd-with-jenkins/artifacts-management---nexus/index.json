@@ -1,0 +1,27 @@
+{
+	"title": "Artifact manager ",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Agenda-and-Learning-Goals-60e5",
+		"Motivation-4dac",
+		"Nexus-Repository-Manager-6200",
+		"Installation-4e32",
+		"Repository-Management-6bc5",
+		"Create-a-PyPi-proxy-repo-680c",
+		"Create-a-PyPi-hosted-repo--pack-and-upload-a-Python-library-80f7",
+		"Create-group-repo-1889",
+		"Exercises-3f49",
+		"Comprehension-Check-7ba4"
+	]
+}

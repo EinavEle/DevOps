@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2247111978",
+	"source": {
+		"name": "Question 5",
+		"showName": true,
+		"instructions": "Which of the following would correctly set the shell variable `ADDR` to `123 Elm St.`?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "75604708-2aa0-499f-803c-3caee37adb2b",
+				"correct": false,
+				"answer": "`ADDR= 123_Elm_St.`"
+			},
+			{
+				"_id": "6e88e860-461a-8407-4b18-f216c62121e4",
+				"correct": false,
+				"answer": "`ADDR = 123_Elm_St.`"
+			},
+			{
+				"_id": "8f4047b2-7cad-6ecf-5a3c-bf9f761382bc",
+				"correct": true,
+				"answer": "`ADDR=\"123_Elm_St.\"`"
+			},
+			{
+				"_id": "c7e56240-6405-b4ec-3777-f2555c714232",
+				"correct": false,
+				"answer": "`ADDR=123_Elm_St.`"
+			},
+			{
+				"_id": "21012d69-2fdf-b47d-8ae3-f5f2977b9d2e",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

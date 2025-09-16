@@ -1,0 +1,25 @@
+{
+	"title": "Environment Variables",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Agenda-and-Learning-Goals-1f20",
+		"Environment-Variables-Defined-fc15",
+		"Spot-Check-f445",
+		"The--PATH-Environment-Variable-52d8",
+		"The-export-Command-e099",
+		"Spot-Check-4f2c",
+		"Exercises-564e",
+		"Comprehension-Check-3af6"
+	]
+}

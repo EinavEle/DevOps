@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3765629814",
+	"source": {
+		"name": "Question 2",
+		"showName": true,
+		"instructions": "What syntax error exists in the script?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "44ad151c-20d6-2b48-178c-757f884e11ed",
+				"correct": false,
+				"answer": "The words `for` and `do` must occur on the same line."
+			},
+			{
+				"_id": "37b02823-406c-d90a-e69e-375d1013719f",
+				"correct": false,
+				"answer": "There must be no spaces between `[` and `-r` on the line starting if."
+			},
+			{
+				"_id": "df8a1d21-c91b-d78e-03e2-12a5a1d91aa9",
+				"correct": false,
+				"answer": "The `gzip` command must be specified using an absolute reference."
+			},
+			{
+				"_id": "ed9a2e86-d0e8-e8fa-f5fd-6bbbb0d0a8e9",
+				"correct": false,
+				"answer": "The last line contains the misspelled word `fi`."
+			},
+			{
+				"_id": "ab63508c-7d5c-6b20-b8b8-42f133dbbca2",
+				"correct": true,
+				"answer": "The last two lines (containing `done` and `fi`) need to be transposed."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

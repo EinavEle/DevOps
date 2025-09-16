@@ -1,0 +1,25 @@
+{
+	"title": "SSH",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Agenda-and-Learning-Goals-2709",
+		"Intro-7c8e",
+		"Basic-Usage-d013",
+		"Generating-a-public-private-key-pair-Locally-c707",
+		"Allowing-Account-Access-----ssh-authorized-keys--3013",
+		"Transferring-Files-Securely-and-Easily--scp-4bba",
+		"Exercises-1331",
+		"Comprehension-Check-996b"
+	]
+}

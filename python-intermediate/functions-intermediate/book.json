@@ -1,0 +1,83 @@
+{
+ "name": "Functions Intermediate",
+ "children": [
+  {
+   "title": "args and kwargs",
+   "id": "fda9c7a5-7040-dae9-e6bc-cf46e2e0b6a3",
+   "type": "page",
+   "pageId": "fda9c7a5-7040-dae9-e6bc-cf46e2e0b6a3"
+  },
+  {
+   "title": "Multiple Return Values",
+   "id": "0357fb6c-eade-7cdf-e249-357c1322e6be",
+   "type": "page",
+   "pageId": "f3aec28b-0e11-c0bb-4611-e8ca9103307a"
+  },
+  {
+   "title": "The Function Object",
+   "id": "1bea825c-9f6b-f73f-71e7-1f3e9cc426f0",
+   "type": "page",
+   "pageId": "b0601d71-14f0-f608-89e5-5d8b2690b9e9"
+  },
+  {
+   "title": "Nested Funcitons",
+   "id": "25c4641e-3886-664d-0edc-a626aea79910",
+   "type": "page",
+   "pageId": "fc8efa87-da1a-362e-6d2d-db4885fab0b2"
+  },
+  {
+   "title": "Spot Check",
+   "id": "fa260bab-d461-7c58-bdbc-925ffa5e6281",
+   "type": "page",
+   "pageId": "2c0e5bc7-282d-e7cf-73c1-29a379eb352e"
+  },
+  {
+   "title": "Namespace",
+   "id": "a4deedc0-176e-defd-07dc-ff93f8287814",
+   "type": "page",
+   "pageId": "a4deedc0-176e-defd-07dc-ff93f8287814"
+  },
+  {
+   "title": "Function Scope",
+   "id": "817cfc49-56ff-6d21-05dc-1e1de321c00f",
+   "type": "page",
+   "pageId": "a17c50b5-4fce-cddd-3f0d-cab60af3cd08"
+  },
+  {
+   "title": "Global Keyword",
+   "id": "8d1e31cc-d613-96dc-f39a-25d0717b6a65",
+   "type": "page",
+   "pageId": "d910f7c3-cc56-ebb2-8963-03096513b415"
+  },
+  {
+   "id": "e820aecb-c83d-b91b-e65e-6079557a5f68",
+   "title": "Nested Scope",
+   "pageId": "122c7b82-a187-2cbd-9386-07902041c674",
+   "type": "page"
+  },
+  {
+   "id": "20170284-cc2c-b73b-54ed-ff21ae5ec4ae",
+   "title": "Closure",
+   "pageId": "12abb89d-b55e-4605-5d97-254fb127756a",
+   "type": "page"
+  },
+  {
+   "id": "147b0bd0-e05d-ea16-a192-b92243b15f72",
+   "title": "Extra Material: Print as an example",
+   "pageId": "7915f5de-e876-099d-b29e-961a3fb1f31b",
+   "type": "page"
+  },
+  {
+   "id": "b0c452c9-7f6b-db69-a2e0-6fc74faf1bba",
+   "title": "Exercises",
+   "pageId": "a1907715-1a68-8ffb-e000-5a37354b334b",
+   "type": "page"
+  },
+  {
+   "id": "a61c7c44-ffe0-5884-285e-86db0dddf658",
+   "title": "Extension Exercise",
+   "pageId": "c7af39d1-566d-73b2-a663-05e40d8ac872",
+   "type": "page"
+  }
+ ]
+}

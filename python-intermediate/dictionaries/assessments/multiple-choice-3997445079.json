@@ -1,0 +1,56 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "bc8dbd46-ee06-a4cf-d862-08ee691b3a78",
+				"answer": "1",
+				"correct": false
+			},
+			{
+				"_id": "347622e2-711a-4150-537a-f602961b51b6",
+				"answer": "2",
+				"correct": true
+			},
+			{
+				"_id": "4a0a7205-ea19-f4a5-6f22-fb7b3b98afa4",
+				"answer": "a",
+				"correct": false
+			},
+			{
+				"_id": "39abe9d3-fc90-915f-55ba-4e9f4c6da872",
+				"answer": "b",
+				"correct": false
+			},
+			{
+				"_id": "ffb08ef9-111c-f340-63cc-dd7f1036cc68",
+				"answer": "Error",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"guidance": "",
+		"incorrectPoints": 0,
+		"instructions": "What will the following code output? \nPlease don't run this code before answering\n```\nx = {\n\t\"a\": 1,\n\t\"b\": 2,\n\t1: \"b\",\n\t2: \"a\"\n}\n\nprint(x[x[1]])\n```",
+		"isRandomized": false,
+		"learningObjectives": "",
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "Q3",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponse": false,
+		"showName": true
+	},
+	"taskId": "multiple-choice-3997445079",
+	"type": "multiple-choice"
+}

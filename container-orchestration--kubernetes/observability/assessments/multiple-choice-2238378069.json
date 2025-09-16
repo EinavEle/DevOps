@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2238378069",
+	"source": {
+		"name": "Q3",
+		"showName": true,
+		"instructions": "In the context of a Kubernetes DaemonSet, what happens during a rolling update?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "369745db-6325-ca77-0a23-00cdc58d5acc",
+				"correct": false,
+				"answer": "Old pod is killed, then new one created. This is done for all pods synonymously.\n"
+			},
+			{
+				"_id": "1aa77f8b-d68f-405a-fe31-ed041c38ca28",
+				"correct": false,
+				"answer": "New pod is created, then old pod is killed. This is done for all pods synonymously.\n"
+			},
+			{
+				"_id": "47ec3500-78c7-8da9-4809-8a956920102c",
+				"correct": true,
+				"answer": "Old pod is killed, then new one created. This is done one by one.\n"
+			},
+			{
+				"_id": "83209cc8-11a8-0928-1b32-629952b10bd2",
+				"correct": false,
+				"answer": "New pod is created, then old pod is killed. This is done one by one.\n"
+			},
+			{
+				"_id": "634a8a93-2260-0bf8-a5b5-ec46cd861315",
+				"correct": false,
+				"answer": "Rolling updates are not supported in DaemonSets, only `OnDelete` strategy."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

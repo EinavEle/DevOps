@@ -1,0 +1,27 @@
+{
+	"title": "Pull Request testing",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Agenda-and-Learning-Goals-60e5",
+		"Motivation-4dac",
+		"Create-a-multi-branch-pipeline-6200",
+		"Protect--main--branch--4e32",
+		"Pull-requests-tests-f869",
+		"Pull-requests-tests---Unittests--in-Python--ff9a",
+		"Pull-requests-tests---Code-linting-check--in-Python--9440",
+		"Pull-requests-tests---Functional-testing-2106",
+		"Exercises-3f49",
+		"Comprehension-Check-7ba4"
+	]
+}

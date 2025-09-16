@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1783864864",
+	"source": {
+		"name": "Question 3",
+		"showName": true,
+		"instructions": "```bash\n[elvis@station]$ ssh ec2-user@69.57.97.126 \"echo ‘hi’ | grep h > /tmp/greet\"\n```\nOn the remote machine, which of the following processes was not executed as a result of this command?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "3baca7e1-16a1-9d4f-b1d3-5b0f42d648a4",
+				"correct": false,
+				"answer": "echo"
+			},
+			{
+				"_id": "174a2c48-8ae4-3208-2fe5-554824c1dcc1",
+				"correct": true,
+				"answer": "ssh"
+			},
+			{
+				"_id": "fb4bb330-b603-7ab9-efcc-8875f5414440",
+				"correct": false,
+				"answer": "grep"
+			},
+			{
+				"_id": "7b288f4e-7194-d887-d4fa-a538ade26a9b",
+				"correct": false,
+				"answer": "All of the above processes are executed on the remote machine."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

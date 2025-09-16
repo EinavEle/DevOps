@@ -1,0 +1,26 @@
+{
+	"title": "Jenkins pipelines",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Agenda-and-Learning-Goals-60e5",
+		"Jenkins-pipelines-4dac",
+		"Create-your-first-pipeline-6200",
+		"Pipeline-Execution-4e32",
+		"The-Build-phase-f869",
+		"The-Deploy-phase-ff9a",
+		"The-Build-and-Deploy-phases---overview-9440",
+		"Exercises-3f49",
+		"Comprehension-Check-7ba4"
+	]
+}

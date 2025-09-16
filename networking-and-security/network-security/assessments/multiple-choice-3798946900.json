@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3798946900",
+	"source": {
+		"name": "Question 5",
+		"showName": true,
+		"instructions": "When data is encrypted using a private key:",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "b536541e-6eaf-943a-00a6-0186dea74e83",
+				"correct": true,
+				"answer": "Everyone can decrypt  it"
+			},
+			{
+				"_id": "c611fdcc-ad91-46d9-5928-826666d69588",
+				"correct": false,
+				"answer": "No one can decrypt  it"
+			},
+			{
+				"_id": "dad8d982-3b3c-9ace-29b0-590a8dcec08d",
+				"correct": true,
+				"answer": "Only the public key owner can decrypt it"
+			},
+			{
+				"_id": "03c727e0-da40-7410-733e-97b1a49ebf14",
+				"correct": false,
+				"answer": "Only certificate authority can decrypt it"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

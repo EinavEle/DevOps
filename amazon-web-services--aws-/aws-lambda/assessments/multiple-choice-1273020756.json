@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1273020756",
+	"source": {
+		"name": "q5",
+		"showName": true,
+		"instructions": "Given the below Python lambda:\n\n```python \ndef lambda_handler(event, context):\n    file_path = 'myfile.txt'\n    with open(file_path, 'w') as file:\n        file.write('This is a write operation.')\n```\n \nWhat could be a potential problem? ",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "78747233-1960-75c1-6182-24690f15ae58",
+				"correct": true,
+				"answer": "The file `myfile.txt` cannot be created in a read-only path.\n"
+			},
+			{
+				"_id": "2afd1539-6527-2a35-d5b0-9877e7a0cbf2",
+				"correct": false,
+				"answer": "Other lambdas could access the created files.\n"
+			},
+			{
+				"_id": "6fcd0446-6b4d-961a-a2cc-143ce8521eb2",
+				"correct": false,
+				"answer": "There is no error handling in the code.\n"
+			},
+			{
+				"_id": "f8719aba-cc44-49b8-4586-191d41f79189",
+				"correct": false,
+				"answer": "The function should be executed successfully."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2067061227",
+	"source": {
+		"name": "Question 6",
+		"showName": true,
+		"instructions": "Assume the server response status code is 500. How can you advise the client?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "e074db6d-b213-69cf-4d2f-15e10286acb4",
+				"correct": false,
+				"answer": "Perform the request with `Connection: close` header."
+			},
+			{
+				"_id": "22b4b1b0-c833-8ff3-8eae-45a01fa27a94",
+				"correct": true,
+				"answer": "Nothing can help as this code indicates a server side error, the client can try again later."
+			},
+			{
+				"_id": "aa4e0363-df5e-6cc8-ae8a-b0a65fac1e1f",
+				"correct": false,
+				"answer": "Check the resource path."
+			},
+			{
+				"_id": "d4a7ca91-dc4b-69f5-2976-2826bc03961e",
+				"correct": false,
+				"answer": "Send the request over HTTPS."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

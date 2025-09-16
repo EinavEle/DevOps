@@ -1,0 +1,221 @@
+[
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1020668528",
+  "source": {
+   "name": "Q1",
+   "showName": true,
+   "instructions": "The two boolean values available in Python are...",
+   "multipleResponse": false,
+   "isRandomized": false,
+   "answers": [
+    {
+     "_id": "c6999792-41d8-14ff-5ecd-0a2009b0892a",
+     "correct": true,
+     "answer": "True, False"
+    },
+    {
+     "_id": "3c30942c-410f-d463-d5e9-8d070edb277c",
+     "correct": false,
+     "answer": "true, false"
+    },
+    {
+     "_id": "d7c93867-8c48-6a7c-0622-c1a6444ed6cf",
+     "correct": false,
+     "answer": "Both of the above"
+    },
+    {
+     "_id": "315c0357-f8df-6577-d209-32b93f4968a3",
+     "correct": false,
+     "answer": "None of the above"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2430200006",
+  "source": {
+   "name": "Q2",
+   "showName": true,
+   "instructions": "What will this code output? \nPlease don't run the code before answering\n\n```\nprint(\"3\" == 3)\n```",
+   "multipleResponse": false,
+   "isRandomized": false,
+   "answers": [
+    {
+     "_id": "7473011c-f4b3-f90c-c11d-fbd1ae2b836b",
+     "correct": false,
+     "answer": "An Error"
+    },
+    {
+     "_id": "de5947df-d0cc-c383-e5cf-d23b14dde7dd",
+     "correct": false,
+     "answer": "True"
+    },
+    {
+     "_id": "dd44dca0-ef9b-ded8-3dd6-61fd06506693",
+     "correct": true,
+     "answer": "False"
+    },
+    {
+     "_id": "57521271-af43-4fe7-2cd4-e5c77de6d5a2",
+     "correct": false,
+     "answer": "true"
+    },
+    {
+     "_id": "7f1ef08b-5ddf-3736-c2b8-04ef09349bf3",
+     "correct": false,
+     "answer": "false"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2480992628",
+  "source": {
+   "name": "Q3",
+   "showName": true,
+   "instructions": "What will this code output? \nPlease don't run the code before answering\n\n```\ngame = \"pool\"\ntime = 5\n\nprint(game)\n\ninvitation = \"Come play \" + game + \" at \" + time\nprint(invitation)\n```",
+   "multipleResponse": false,
+   "isRandomized": false,
+   "answers": [
+    {
+     "_id": "d98cfcf7-de06-95fe-7320-e559e9737175",
+     "correct": false,
+     "answer": "An error"
+    },
+    {
+     "_id": "912df139-9fd3-744e-a3aa-cc4821aac70d",
+     "correct": false,
+     "answer": "True"
+    },
+    {
+     "_id": "4a8294ab-e140-9401-9b18-9a8f56dd2183",
+     "correct": false,
+     "answer": "true"
+    },
+    {
+     "_id": "eb34bef2-8e6c-7f3c-6592-24f481bc3fd6",
+     "correct": false,
+     "answer": "\"pool\", then \"Come play pool at 5\""
+    },
+    {
+     "_id": "3acd865c-b6d9-48e2-0c24-19da4fe446fe",
+     "correct": true,
+     "answer": "\"pool\", then an error"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-211781808",
+  "source": {
+   "name": "Q4",
+   "showName": true,
+   "instructions": "What is the result of this code? \nPlease don't run the code before answering\n\n```\nc1 = True\nc2 = False\nc3 = False\n\nprint( (c1 and c2) or not (c1 and c3) )\n```",
+   "multipleResponse": false,
+   "isRandomized": false,
+   "answers": [
+    {
+     "_id": "017127fe-e13a-3f74-d22c-a0014c65df57",
+     "correct": false,
+     "answer": "An Error"
+    },
+    {
+     "_id": "18e9b1ea-a3a6-2b20-d0ef-49236279fa81",
+     "correct": true,
+     "answer": "True"
+    },
+    {
+     "_id": "6f18fc30-daa3-950c-c34b-88950400989f",
+     "correct": false,
+     "answer": "False"
+    },
+    {
+     "_id": "06c708cb-5047-385e-d032-ba3836cf71bf",
+     "correct": false,
+     "answer": "true"
+    },
+    {
+     "_id": "4b22ddff-9ba9-20b1-1692-b23eda97a659",
+     "correct": false,
+     "answer": "false"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ }
+]

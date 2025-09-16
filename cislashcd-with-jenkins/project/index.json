@@ -1,0 +1,20 @@
+{
+	"title": "Jenkins Project",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Learning-goals-7500",
+		"CI-CD-and-Kubernetes-project-1a6a",
+		"FOR-COURSE-STAFF-6f8e"
+	]
+}

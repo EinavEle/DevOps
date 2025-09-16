@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-4090853430",
+	"source": {
+		"name": "Question 8",
+		"showName": true,
+		"instructions": "What is the output of this code?\n```bash\nVAR=\"/var/www/html/website.com/html/\"\necho \"${VAR#*/html}\"\n```",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "4b64347c-a35d-0fd1-e1a5-0171b2bdb7ee",
+				"correct": true,
+				"answer": "/website.com/html/\n"
+			},
+			{
+				"_id": "7f86b028-aaf2-195e-c0b1-befe0a848bba",
+				"correct": false,
+				"answer": "/html/website.com/html/"
+			},
+			{
+				"_id": "73cef7d2-355e-33e2-df42-c0e0f97f57be",
+				"correct": false,
+				"answer": "/var/www/html/website.com/"
+			},
+			{
+				"_id": "32e2dcb1-42eb-14cd-200a-5bf4f79f41a8",
+				"correct": false,
+				"answer": "Nothing will be echoed on the screen."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

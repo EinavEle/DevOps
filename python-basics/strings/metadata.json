@@ -1,0 +1,112 @@
+{
+ "sections": [
+  {
+   "id": "78c5101b-122b-4b99-5746-2b9e10e512ce",
+   "title": "Intro",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Intro-78c5.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "00aacd97-0d50-1002-0e3d-f2af627dfca2",
+   "title": "len",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/len-00aa.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "a89a5089-7254-27e0-4f3f-51e2bb0d7e23",
+   "title": "String Operations",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/String-Operations-a89a.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "f87b3e83-bd64-9791-88ab-b2b4c329ec01",
+   "title": "String   Formatting",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/String---Formatting-f87b.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "d2a5994e-d3c9-9660-49ff-93c08e6af8af",
+   "title": "Escaping",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Escaping-d2a5.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "45526c2b-087c-2588-23cc-aeb14fe7525c",
+   "title": "Accesssing Characters",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Accesssing-Characters-4552.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "1895e7ef-a57d-ce1d-a93b-b781f4fb9b7e",
+   "title": "Exercises",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercises-1895.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "53b9a2e0-55df-da07-861a-272fea59cf20",
+   "title": "Extension",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Extension-53b9.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  }
+ ],
+ "theme": "light",
+ "scripts": [],
+ "lexikonTopic": "",
+ "suppressPageNumbering": false,
+ "useSubmitButtons": true,
+ "useMarkAsComplete": true,
+ "hideMenu": false,
+ "allowGuideClose": false,
+ "collapsedOnStart": false,
+ "hideSectionsToggle": false,
+ "hideBackToDashboard": false,
+ "protectLayout": false
+}

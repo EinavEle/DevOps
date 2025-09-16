@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-103146920",
+	"source": {
+		"name": "Q12",
+		"showName": true,
+		"instructions": "What is the minimum number of Pod might be observed during version update? \n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "92b3a8cf-b5c0-d2bc-da40-087ee905add1",
+				"correct": false,
+				"answer": "5\n"
+			},
+			{
+				"_id": "44486494-be85-450a-a4ed-323679463bf4",
+				"correct": true,
+				"answer": "4\n"
+			},
+			{
+				"_id": "f29e95c6-d2a5-6afa-29c4-6f212344e713",
+				"correct": false,
+				"answer": "3\n"
+			},
+			{
+				"_id": "d863c800-67b3-f18b-505e-5d34364a7a97",
+				"correct": false,
+				"answer": "0"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

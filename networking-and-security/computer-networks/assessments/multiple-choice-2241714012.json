@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2241714012",
+	"source": {
+		"name": "Question 3",
+		"showName": true,
+		"instructions": "What is the IP address of madonna's machine?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "47a22f2c-8d75-8c6e-851e-8a0894301745",
+				"correct": false,
+				"answer": "118.45.92.0"
+			},
+			{
+				"_id": "9e00065c-046d-7c0a-2123-b236b8e8fd91",
+				"correct": false,
+				"answer": "127.0.0.1"
+			},
+			{
+				"_id": "82f06780-d4cb-0293-f84b-90a228d77cfe",
+				"correct": true,
+				"answer": "118.45.92.51"
+			},
+			{
+				"_id": "868aa25f-9165-0bd1-64fa-5712a621fc8b",
+				"correct": false,
+				"answer": "66.23.35.53"
+			},
+			{
+				"_id": "75b8a9aa-8866-4b9e-824a-5278fdb4786a",
+				"correct": false,
+				"answer": "Not enough information is provided."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

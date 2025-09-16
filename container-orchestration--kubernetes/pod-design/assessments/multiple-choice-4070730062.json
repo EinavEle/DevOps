@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-4070730062",
+	"source": {
+		"name": "Q5",
+		"showName": true,
+		"instructions": "Given the following Pod:\n\n```yaml \napiVersion: v1\nkind: Pod\nmetadata:\n  name: multi-container-pod\nspec:\n  containers:\n  - name: container-1\n    image: nginx:latest\n    resources:\n      requests:\n        memory: \"256Mi\"\n        cpu: \"100m\"\n      limits:\n        memory: \"512Mi\"\n        cpu: \"200m\"\n\n  - name: container-2\n    image: busybox:latest\n    command: [\"/bin/sh\", \"-c\", \"sleep 3600\"]\n    resources:\n      requests:\n        memory: \"128Mi\"\n        cpu: \"50m\"\n      limits:\n        memory: \"256Mi\"\n        cpu: \"100m\"\n\n  - name: container-3\n    image: alpine:latest\n    command: [\"/bin/sh\", \"-c\", \"sleep 3600\"]\n    resources:\n      requests:\n        memory: \"64Mi\"\n        cpu: \"25m\"\n      limits:\n        memory: \"128Mi\"\n        cpu: \"50m\"\n```\n\nChoose the correct sentence(s): ",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "fcfa17f6-0b68-79b7-a780-fea4cf9656f6",
+				"correct": true,
+				"answer": "The Pod will be scheduled on a Node with at least 448M and 175m of unallocated memory and CPU.\n"
+			},
+			{
+				"_id": "b6d162b0-0266-5517-35e2-168f46850176",
+				"correct": false,
+				"answer": "The Pod will be scheduled on a Node with at least 256Mi and 200m of unallocated memory and CPU.\n"
+			},
+			{
+				"_id": "56f25bf9-a42d-5c3b-e387-87e665981061",
+				"correct": false,
+				"answer": "The Pod will be schedules on any available Node, regardless unallocated resources.\n"
+			},
+			{
+				"_id": "a44ee39d-59af-8230-6dff-af9cc6fdcb2c",
+				"correct": false,
+				"answer": "In case of insufficient memory, only `container-3` would be scheduled since it requests the minimum."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

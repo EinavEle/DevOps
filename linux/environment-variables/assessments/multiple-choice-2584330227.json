@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2584330227",
+	"source": {
+		"name": "Question 4",
+		"showName": true,
+		"instructions": "Which of the following is not a feature of environment variables?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "a845a0a4-7770-3013-a39b-f5ccd8d4670f",
+				"correct": false,
+				"answer": " All processes use environment variables, not just those running the bash shell."
+			},
+			{
+				"_id": "df2cd0c0-4187-2c16-9681-02e19fa9860a",
+				"correct": false,
+				"answer": "Environment variables are inherited by child processes by default."
+			},
+			{
+				"_id": "ec86c26b-75e4-53de-d0a7-dc9e31ca78cb",
+				"correct": true,
+				"answer": "Upon startup, the bash shell clears all previously defined environment variables."
+			},
+			{
+				"_id": "ff244e3e-cd8c-3306-80dc-280bfd260873",
+				"correct": false,
+				"answer": "Environment variables can be examined using files found in the `/proc` filesystem."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

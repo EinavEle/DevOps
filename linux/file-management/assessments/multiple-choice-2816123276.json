@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2816123276",
+	"source": {
+		"name": "Question 8",
+		"showName": true,
+		"instructions": "Which of the following pairs of commands always produce the same effect?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "1e402287-8e74-83ab-7f74-c3ef35432427",
+				"correct": false,
+				"answer": "`cd ..` and `cd -`"
+			},
+			{
+				"_id": "c54c3344-1971-762e-b57b-58e86b562615",
+				"correct": false,
+				"answer": "`cd /` and `cd root`"
+			},
+			{
+				"_id": "fafb6c2c-f62a-0a40-d62c-e5027dbb4d52",
+				"correct": false,
+				"answer": "`cwd` and `pwd`"
+			},
+			{
+				"_id": "eb7949e7-12c5-19b3-8ce6-2effdfa82ea4",
+				"correct": true,
+				"answer": "`cd ~` and `cd`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,53 @@
+{
+ "name": "Collections and Data Types",
+ "children": [
+  {
+   "title": "Intro",
+   "id": "459fb280-fee8-516b-b3bf-0df0307fb989",
+   "type": "page",
+   "pageId": "fa4078bc-af59-d364-4e7e-db2262dcc857"
+  },
+  {
+   "title": "Everything is an Object",
+   "id": "bf4f025f-dcab-526f-afac-566a36744088",
+   "type": "page",
+   "pageId": "fb9e8a11-f125-89fe-fd77-de9359c3852e"
+  },
+  {
+   "title": "is vs ==",
+   "id": "8f97f7ac-d9fe-3ab4-34bd-7a5b3b1edef8",
+   "type": "page",
+   "pageId": "8f97f7ac-d9fe-3ab4-34bd-7a5b3b1edef8"
+  },
+  {
+   "id": "50f9ac9f-7b76-5368-e25e-30b8146dc03e",
+   "title": "Type Conversion",
+   "pageId": "50f50882-09d9-79df-02ab-d944f81952e4",
+   "type": "page"
+  },
+  {
+   "id": "0946e2e7-2ff0-2393-957c-c451cf3c2692",
+   "title": "Collection Operations and Functions",
+   "pageId": "81abe29b-74e9-e860-36b1-341dda43161c",
+   "type": "page"
+  },
+  {
+   "title": "Mutable vs Immutable",
+   "id": "da5b9e37-9605-97bf-90f4-0e87f4a949cf",
+   "type": "page",
+   "pageId": "da5b9e37-9605-97bf-90f4-0e87f4a949cf"
+  },
+  {
+   "id": "993d7dfd-f901-6add-50f3-c76a5d98aafc",
+   "title": "Ordered vs Unordered",
+   "pageId": "7688e229-9a96-4fe1-0fda-ea001068d9b6",
+   "type": "page"
+  },
+  {
+   "id": "a4a592e4-2e13-b913-9679-1f24fc9d069c",
+   "title": "Iterable",
+   "pageId": "6e11837b-b427-b860-6cb5-7edef21606fc",
+   "type": "page"
+  }
+ ]
+}

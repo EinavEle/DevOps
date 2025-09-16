@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2925424161",
+	"source": {
+		"name": "Question 8",
+		"showName": true,
+		"instructions": "How would you run the `sleep 10` command as a foreground process?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "a18b9b8b-1446-1d9f-d0c0-f8676fbef4c6",
+				"correct": false,
+				"answer": "`fg sleep 10`"
+			},
+			{
+				"_id": "c0424291-943b-291e-09e1-983ea0bd496e",
+				"correct": false,
+				"answer": "`sleep 10 &`"
+			},
+			{
+				"_id": "fb6ca45c-d6dd-5e20-17d7-5536431be884",
+				"correct": false,
+				"answer": "`foreground sleep 10`"
+			},
+			{
+				"_id": "6fdf09a1-0d5c-08b0-6baa-7dc2f0423ec7",
+				"correct": true,
+				"answer": "`sleep 10`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

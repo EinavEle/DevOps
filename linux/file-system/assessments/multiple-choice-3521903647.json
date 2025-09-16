@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3521903647",
+	"source": {
+		"name": "Question 3",
+		"showName": true,
+		"instructions": "Which of the following could have been displayed by `pwd`?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "06442212-61d1-dd76-dbe0-2366c563efd5",
+				"correct": false,
+				"answer": "`home/student`"
+			},
+			{
+				"_id": "4f088d24-5994-d811-8282-fec2f8544d54",
+				"correct": true,
+				"answer": "`/etc`"
+			},
+			{
+				"_id": "58565ddf-f2ab-73af-0b56-8a686a9fe67c",
+				"correct": false,
+				"answer": "`..`"
+			},
+			{
+				"_id": "265e0323-e03a-3981-ef38-c195c3931d44",
+				"correct": false,
+				"answer": "`~`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

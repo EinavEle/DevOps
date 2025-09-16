@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3471812979",
+	"source": {
+		"name": "Question 3",
+		"showName": true,
+		"instructions": "The server uses `HTTP/2`. Choose the correct statement:",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "fd1d2ed4-8dc9-023b-018c-a499c63ff854",
+				"correct": false,
+				"answer": "The request will fail since the client uses `HTTP/1.1`"
+			},
+			{
+				"_id": "c9d3baa7-3287-4f81-1431-bdbcfea69065",
+				"correct": true,
+				"answer": "The client and server might use different versions of the HTTP protocol"
+			},
+			{
+				"_id": "469aa0cb-cb99-f688-9e7d-cf5de34fe5fb",
+				"correct": false,
+				"answer": "The request will succeed if the client will emit the HTTP version from the first line"
+			},
+			{
+				"_id": "10f5bf6b-5e8c-e14a-9e91-7bc8b5aff2e2",
+				"correct": false,
+				"answer": "The client should send a `GETVERSION` request to get the server HTTP version"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

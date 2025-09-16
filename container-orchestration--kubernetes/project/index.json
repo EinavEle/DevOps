@@ -1,0 +1,20 @@
+{
+	"title": "Project-6",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Learning-goals-088a",
+		"Kubernetes-project-e3ee",
+		"COURSE-STAFF-ONLY-1286"
+	]
+}

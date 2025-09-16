@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-482346242",
+	"source": {
+		"name": "q2",
+		"showName": true,
+		"instructions": "Which of the following statements best describe how a request to AWS is authorized?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "cd91732a-2c39-c6ae-ad76-382147776f45",
+				"correct": false,
+				"answer": "The request is default denied, but this can be overridden by an allow policy. If a policy explicitly denies a request, it can be overridden by another policy.\n"
+			},
+			{
+				"_id": "46009537-144b-0593-a56b-9bbf03e5ae36",
+				"correct": true,
+				"answer": "The request is default denied, but this can be overridden by an allow policy. In contrast, if a policy explicitly denies a request, that denial can't be overridden.\n"
+			},
+			{
+				"_id": "6e9340f6-a912-a269-62a7-0c34bc2140df",
+				"correct": false,
+				"answer": "The request can either be allowed or denied depending on the request and each can be overwritten by the other.\n"
+			},
+			{
+				"_id": "ee9d8d76-57d3-cc22-506c-ff6db51b86bc",
+				"correct": false,
+				"answer": "The request is default allowed, but this can be overridden by a deny policy."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-928611425",
+	"source": {
+		"name": "Question 13",
+		"showName": true,
+		"instructions": "In UDP, how does the server know the client IP address and the port number to reply to in response to a received message?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "fb4d8043-9dd9-5182-aabd-6de0b111991c",
+				"correct": false,
+				"answer": "Using the DNS protocol."
+			},
+			{
+				"_id": "ab83a85a-8692-09e2-edbc-78e653a8046e",
+				"correct": true,
+				"answer": "Every message sent by the client contains the IP number and port."
+			},
+			{
+				"_id": "daa279de-a753-765a-dc70-61192392442c",
+				"correct": false,
+				"answer": "The accept() syscall creates a new socket that is bound to the specific client, which is established using the IP and port number of the client."
+			},
+			{
+				"_id": "f47bcc39-186e-b298-8c50-a414cad8cc29",
+				"correct": false,
+				"answer": "The server looks for the correct port number in the `/etc/services` file."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

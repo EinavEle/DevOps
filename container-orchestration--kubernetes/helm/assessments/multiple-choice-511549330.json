@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-511549330",
+	"source": {
+		"name": "Q5",
+		"showName": true,
+		"instructions": "Consider the below 3 values YAML files: \n\n```yaml \n# values-general.yaml\n\nserver:\n  image:\n    tag: \"1.16.0\"\n  terminationGracePeriodSeconds: 15\n```\n\n```yaml \n# values-production.yaml\n\nserver:\n  livenessProbe:\n    enabled: true\n  terminationGracePeriodSeconds: 20\n```\n\n```yaml \n# values-canary.yaml\n\nserver:\n  route:\n    enabled: false\n  terminationGracePeriodSeconds: 60\n```\n\nGiven the below `helm upgrade` command: \n\n```bash\nhelm upgrade values hashicorp/vault -f values-general.yaml -f values-production.yaml -f values-canary.yaml\n```\n\nWhat is the final value for the `terminationGracePeriodSeconds` configuration in the Helm chart?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "70a8dab2-bc00-a6b8-57c0-ab4fbe3ba6a2",
+				"correct": false,
+				"answer": "15\n"
+			},
+			{
+				"_id": "ead54db4-aa74-d5c1-35df-f1d5d5fc95c8",
+				"correct": false,
+				"answer": "20\n"
+			},
+			{
+				"_id": "3418bf3e-5b67-b6a1-68b3-d0901a515d0f",
+				"correct": true,
+				"answer": "60\n"
+			},
+			{
+				"_id": "49eab815-ee0d-9dc0-cd11-c938df6c7118",
+				"correct": false,
+				"answer": "It will result in an error/conflict."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

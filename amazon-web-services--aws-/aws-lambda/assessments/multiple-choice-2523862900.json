@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2523862900",
+	"source": {
+		"name": "q8",
+		"showName": true,
+		"instructions": "You are trying to improve the performance of your AWS Lambda functions. \nYour goal is to increase the CPU resources allocated to your lambda. \n\nWhat would you do that?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "de5b8251-fa8b-3cd5-eb44-13a371d83707",
+				"correct": false,
+				"answer": "You cannot control the CPU as infrastructure is managed by AWS.\n"
+			},
+			{
+				"_id": "fe4bc2ae-a06d-eccf-1495-f6a1f6fda87d",
+				"correct": false,
+				"answer": "In your lambda page, increase the CPU resources.\n"
+			},
+			{
+				"_id": "dad34626-cbeb-5739-15a4-12041d6b1dd2",
+				"correct": true,
+				"answer": "In your lambda page, increase the RAM resources.\n"
+			},
+			{
+				"_id": "3e60b278-22c0-8822-fc64-7e42049372f4",
+				"correct": false,
+				"answer": "Choose higher version runtime."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2700534667",
+	"source": {
+		"name": "q1",
+		"showName": true,
+		"instructions": "Your app is deployed in `eu-north-1` and requires 4 instances to be considered healthy.\nWhich of the following deployments is the cheapest and fault tolerant in case of AZ outage?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "6504bd98-4f49-9154-781c-b2514727b80e",
+				"correct": false,
+				"answer": "2 instances in `eu-north-1a`, 2 instances in `eu-north-1b`"
+			},
+			{
+				"_id": "2fb1da1d-dda8-4267-22b2-e3f64aa21571",
+				"correct": true,
+				"answer": "4 instances in `eu-north-1a`, 4 instances in `eu-north-1b`"
+			},
+			{
+				"_id": "cddd5946-5cf6-7f14-970d-d1b2e2c1cb08",
+				"correct": false,
+				"answer": "4 instances in `eu-north-1a`, 4 spot instances in `eu-north-1b` "
+			},
+			{
+				"_id": "ce572cf0-6bfd-db3b-8b5b-5e088f2b10dd",
+				"correct": false,
+				"answer": "4 instances in `eu-north-1a`, 4 instances in `eu-north-1b`, 2 instances in `eu-north-1c`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,71 @@
+{
+ "name": "Conditions",
+ "children": [
+  {
+   "title": "Intro",
+   "id": "1fc67e96-2480-ed9e-30b1-5accbdd52715",
+   "pageId": "1fc67e96-2480-ed9e-30b1-5accbdd52715",
+   "type": "page"
+  },
+  {
+   "title": "If Statement",
+   "id": "eb4a4dde-015e-ee94-0b4e-d6f5920c1005",
+   "pageId": "eb4a4dde-015e-ee94-0b4e-d6f5920c1005",
+   "type": "page"
+  },
+  {
+   "id": "9b476986-c8fd-3fa5-dd33-93c8199933bb",
+   "title": "Code Blocks",
+   "pageId": "3346a402-a06c-182d-ff24-f5c7652ff4c3",
+   "type": "page"
+  },
+  {
+   "id": "00a5fc8a-7857-1949-f4d2-2e6a141ec150",
+   "title": "Else",
+   "pageId": "0d4f1487-75dc-7290-d89a-d9ebae52188a",
+   "type": "page"
+  },
+  {
+   "id": "5472bedd-9c14-3896-086a-1ca669dceff6",
+   "title": "Spot Check",
+   "pageId": "c5b53b76-68e2-0abb-6647-d25137e5176b",
+   "type": "page"
+  },
+  {
+   "id": "8b76f06b-6692-a838-448b-6b7697a1ee26",
+   "title": "Elif",
+   "pageId": "8b53e28d-8d88-3f44-53af-39663ae128db",
+   "type": "page"
+  },
+  {
+   "id": "6db042ac-bc26-3f06-6c7a-42c88ffb7876",
+   "title": "Complex & Nested Conditions",
+   "pageId": "a1d20613-2ba9-c14b-a869-756bd061b903",
+   "type": "page"
+  },
+  {
+   "id": "ff383562-f2a8-a618-23e0-672e756633d4",
+   "title": "Spot Check",
+   "pageId": "191a2ff7-d964-7c72-9707-2ac9da1c35e6",
+   "type": "page"
+  },
+  {
+   "id": "d3778b8c-0027-4a5d-174a-770452078571",
+   "title": "Ternary",
+   "pageId": "fddb52ce-3acc-a60d-4e63-fb4a36879fdc",
+   "type": "page"
+  },
+  {
+   "id": "72ef4b98-118c-981c-1534-9117ca457951",
+   "title": "Exercises",
+   "pageId": "dea1fa3e-9fb8-de02-2277-b7608f612bd2",
+   "type": "page"
+  },
+  {
+   "id": "7bed0ac9-6528-85a4-146e-0083a613e0a7",
+   "title": "Comprehension Check",
+   "pageId": "a576c48f-8e6c-6a37-b717-7b9cbd962662",
+   "type": "page"
+  }
+ ]
+}

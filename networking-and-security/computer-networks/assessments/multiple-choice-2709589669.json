@@ -1,0 +1,49 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2709589669",
+	"source": {
+		"name": "Question 6",
+		"showName": true,
+		"instructions": "To which network interface will the traffic be routed for the IP address 127.1.1.1?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "f4f32666-e005-e5ab-3661-8c9b5b58d336",
+				"correct": false,
+				"answer": "eth0"
+			},
+			{
+				"_id": "82d8a7bc-6598-7fb1-5a62-e133aec7cf16",
+				"correct": true,
+				"answer": "lo"
+			},
+			{
+				"_id": "152b0614-587f-b894-65fe-e0f575d832af",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3665233054",
+	"source": {
+		"name": "Question 11",
+		"showName": true,
+		"instructions": "Which of the following command lines would return the number of lines which contain the text `freedom` found in the file `/usr/share/doc/redhat-release-5Server/GPL`?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "b4a3d43a-4a8a-5385-d512-e43e114edf00",
+				"correct": false,
+				"answer": "`grep freedom /usr/share/doc/redhat-release-5Server/GPL | wc -w`"
+			},
+			{
+				"_id": "d0bfbe86-3571-aa07-41d7-bb9d09521e10",
+				"correct": true,
+				"answer": "`grep freedom /usr/share/doc/redhat-release-5Server/GPL | wc -l`"
+			},
+			{
+				"_id": "67281e96-4d3c-5106-3942-c5184bee7056",
+				"correct": false,
+				"answer": "`grep freedom /usr/share/doc/redhat-release-5Server/GPL | wc -c`"
+			},
+			{
+				"_id": "66b4fc7a-3d97-00d5-2f7f-55d41ffb11ce",
+				"correct": false,
+				"answer": "`grep freedom /usr/share/doc/redhat-release-5Server/GPL | wc -n`"
+			},
+			{
+				"_id": "c3d9371b-a9de-b3c9-0997-980264e2d163",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

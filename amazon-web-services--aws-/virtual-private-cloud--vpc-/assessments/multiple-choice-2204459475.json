@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2204459475",
+	"source": {
+		"name": "q4",
+		"showName": true,
+		"instructions": "You are designing a VPC network for your AWS environment.\nYou have created two subnets, Subnet A and Subnet B in the same AZ. \nSubnet A uses a CIDR block of 10.0.0.0/24, while Subnet B uses a CIDR block of 10.0.1.0/24. \n\nWhat could be misconfiguration for the subnets CIDR?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "bab9e485-0695-2676-8afc-f53161bddfbb",
+				"correct": false,
+				"answer": "The CIDR blocks of Subnet A and Subnet B should overlap.\n"
+			},
+			{
+				"_id": "48608fba-39d0-875c-7362-e0476042c3da",
+				"correct": false,
+				"answer": "The CIDR block of Subnet A should be smaller than the CIDR block of Subnet B.\n"
+			},
+			{
+				"_id": "652badcd-fd5d-76c1-8d5a-ab5e16b39f7a",
+				"correct": false,
+				"answer": "The CIDR block of Subnet A should be larger than the CIDR block of Subnet B.\n"
+			},
+			{
+				"_id": "9b67857d-9cdd-ec1c-df6e-cdaee17ae268",
+				"correct": false,
+				"answer": "The CIDR blocks of Subnet A and Subnet B should have the same size.\n"
+			},
+			{
+				"_id": "e63e3c96-48ff-19b4-fffe-56610566e17c",
+				"correct": true,
+				"answer": "The configuration is good."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

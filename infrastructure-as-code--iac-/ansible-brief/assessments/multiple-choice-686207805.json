@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-686207805",
+	"source": {
+		"name": "Q1",
+		"showName": true,
+		"instructions": "\nConsider the following playbook: \n\n```yaml \n- name: Frontend servers\n  hosts: frontend\n  become: yes\n  tasks:\n    - name: ???\n      ansible.builtin.apt:\n        name: nginx\n        state: absent\n```\n\nApplying this playbook on an Ubuntu host with Nginx already installed:\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "3ba89eb0-02d6-098d-8bbf-2e9aa750bae1",
+				"correct": false,
+				"answer": "Will install nginx again.\n"
+			},
+			{
+				"_id": "01a6e1cf-a920-f4cb-b082-3587821ee55e",
+				"correct": true,
+				"answer": "Will remove the nginx installation.\n"
+			},
+			{
+				"_id": "fbca39ee-d6a7-9242-aea3-c25a580c678b",
+				"correct": false,
+				"answer": "Will do nothing since nginx is already installed.\n"
+			},
+			{
+				"_id": "cdf07b88-1074-887b-4e38-5dafa0276a47",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

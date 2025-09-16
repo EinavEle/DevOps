@@ -1,0 +1,127 @@
+{
+ "sections": [
+  {
+   "id": "27c06d5c-b870-3f7e-48d9-03e67af7c875",
+   "title": "Intro",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Intro-27c0.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  },
+  {
+   "id": "c3a19d5f-fde8-1e10-202d-ccd307efd893",
+   "title": "Tuple Basics",
+   "files": [
+    {
+     "path": "work.py",
+     "panel": 2,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-guides-left",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Tuple-Basics-c3a1.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  },
+  {
+   "id": "ef43571a-882b-9480-3d9f-e23d1b610a01",
+   "title": "Accessing Tuple Items: Indices",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Accessing-Tuple-Items--Indices-ef43.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  },
+  {
+   "id": "36cd8ca4-c0b4-119c-60de-013a67a490ff",
+   "title": "Access Tuple Elements: Slicing",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Access-Tuple-Elements--Slicing-36cd.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  },
+  {
+   "id": "3d1d732a-89b2-3242-aa84-9cc3523e0bd2",
+   "title": "Spot Check 1",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Spot-Check-1-3d1d.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  },
+  {
+   "id": "4783cf54-1070-585b-c324-cf24ee5108a4",
+   "title": "Updating Tuples",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Updating-Tuples-4783.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  },
+  {
+   "id": "227535a8-f408-063c-93d4-c19de44b9c94",
+   "title": "Additional Ways to Create Tuples",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Additional-Ways-to-Create-Tuples-2275.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  },
+  {
+   "id": "25dd53ce-4857-2e5c-422c-b49b56fb3975",
+   "title": "Exercises",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercises-25dd.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  }
+ ],
+ "theme": "light",
+ "scripts": [],
+ "lexikonTopic": "",
+ "suppressPageNumbering": false,
+ "useSubmitButtons": true,
+ "useMarkAsComplete": true,
+ "hideMenu": false,
+ "allowGuideClose": false,
+ "collapsedOnStart": false,
+ "hideSectionsToggle": false,
+ "hideBackToDashboard": false,
+ "protectLayout": false
+}

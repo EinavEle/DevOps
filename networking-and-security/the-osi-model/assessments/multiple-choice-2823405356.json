@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2823405356",
+	"source": {
+		"name": "Question 1",
+		"showName": true,
+		"instructions": "Which of the following services are guaranteed by UDP?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "6f2754e2-aadf-01ba-cbe3-a9c1728e85c9",
+				"correct": false,
+				"answer": "Control packet order flow"
+			},
+			{
+				"_id": "fe0d368c-16f6-6236-fdf6-73c6650abca3",
+				"correct": false,
+				"answer": "Detect corrupted packets"
+			},
+			{
+				"_id": "62249ae5-44db-32ff-029d-8a3f72d5538a",
+				"correct": false,
+				"answer": "Make sure all packets have been transferred"
+			},
+			{
+				"_id": "e723c7d1-c564-4baf-8c08-8808817ceaf5",
+				"correct": true,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

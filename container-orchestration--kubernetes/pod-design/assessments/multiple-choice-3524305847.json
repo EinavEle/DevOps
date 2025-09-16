@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3524305847",
+	"source": {
+		"name": "Q13",
+		"showName": true,
+		"instructions": "Given the below Deployment: \n\n```yaml\napiVersion: apps/v1\nkind: Deployment\nmetadata:\n  name: myapp-deployment\nspec:\n  replicas: 3\n  selector:\n    matchLabels:\n      app: myapp\n  template:\n    metadata:\n      labels:\n        app: myapp\n    spec:\n      containers:\n      - name: myapp-container\n        image: nginx:latest\n```\n\nYou are told that there is an HPA configured for this Deployment.\nWhat is the potential issue when changing the image tag and applying again the Deployment? ",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "2607c5e6-d1f5-1f50-fb41-a549fb290c6b",
+				"correct": true,
+				"answer": "This will instruct Kubernetes to scale the current number of Pods to the value of the `replicas`.\n"
+			},
+			{
+				"_id": "10c42d8f-ecac-4950-ec69-8bf8f3ea336c",
+				"correct": false,
+				"answer": "It's not recommended the perform Rolling Update during scale up event.\n"
+			},
+			{
+				"_id": "6cfd54ce-ea68-2251-cc6e-96e791b199ce",
+				"correct": false,
+				"answer": "The image tag should be changes in the HorizontalPodAutoscaler object first.\n"
+			},
+			{
+				"_id": "0e3eef47-0e5b-1e68-2d06-e302a343289a",
+				"correct": false,
+				"answer": "There is no any issue."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

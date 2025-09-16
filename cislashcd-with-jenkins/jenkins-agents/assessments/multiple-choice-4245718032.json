@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-4245718032",
+	"source": {
+		"name": "Q1",
+		"showName": true,
+		"instructions": "The Jenkins Controller is:",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "c0121440-532e-a037-0459-65521b84bb38",
+				"correct": true,
+				"answer": "The central, coordinating process which stores configuration, loads plugins, and renders the various user interfaces for Jenkins.\n"
+			},
+			{
+				"_id": "cd52b6b8-5a3e-ccfe-32f8-e3a7f10c0ea6",
+				"correct": false,
+				"answer": "Is typically a machine, or container, which connects to a Jenkins agent and executes tasks when directed by the Jenkins server.\n"
+			},
+			{
+				"_id": "1b49d010-47b7-4d57-d5c7-59a18ba22e80",
+				"correct": false,
+				"answer": "A slot for execution of work defined by a Pipeline or job on a Node.\n"
+			},
+			{
+				"_id": "e0bfc315-3802-ac78-e214-cc86fae1c16c",
+				"correct": false,
+				"answer": "A user-configured description of work which Jenkins should perform, such as building a piece of software, etc."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

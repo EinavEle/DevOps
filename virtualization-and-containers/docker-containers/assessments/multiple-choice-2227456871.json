@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2227456871",
+	"source": {
+		"name": "Question 2",
+		"showName": true,
+		"instructions": "From the perspective of the host machine, a running Docker container is essentially considered as just another process within the system. However, inside the container itself, the running process operates within its own isolated environment, perceiving itself as the sole process within that system.\n\nChoose the correct sentence(s) regarding the process id:",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "68131d84-8acf-d19e-5533-c612016dfbc1",
+				"correct": false,
+				"answer": "The PID of the container as it is seen from the host machine is the same as it seen within the container."
+			},
+			{
+				"_id": "3ed369e0-75bf-39fe-d26f-2e8dd3d98649",
+				"correct": true,
+				"answer": "The PID of the container as it is seen from the host machine is different from the PID as it is seen within the container."
+			},
+			{
+				"_id": "1ae73b86-852a-66c8-7c10-a1099e5f825f",
+				"correct": true,
+				"answer": "The PID of the container as it is seen within the container is 1."
+			},
+			{
+				"_id": "54755eec-8fe0-51b2-75e0-422e8d51960b",
+				"correct": false,
+				"answer": "The PID of the container is the same as the docker daemon's PID (`dockerd`)."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

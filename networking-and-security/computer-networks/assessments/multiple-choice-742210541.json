@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-742210541",
+	"source": {
+		"name": "Question 11",
+		"showName": true,
+		"instructions": "Excluding the network address, and broadcast address of each subnet, how many hosts can potentially be in the whole network?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "5d62faa0-ee5f-f7b9-c63d-09eff5756261",
+				"correct": false,
+				"answer": "256 - 6 (network and broadcast addresses)"
+			},
+			{
+				"_id": "61db03a3-91a9-8b39-ea8f-011dc5a04e11",
+				"correct": false,
+				"answer": "512 - 6 (network and broadcast addresses)"
+			},
+			{
+				"_id": "fa8be468-905a-62ae-923e-8efd53fa1d74",
+				"correct": true,
+				"answer": "65536 - 6 (network and broadcast addresses)"
+			},
+			{
+				"_id": "aa36abc7-edf2-7387-cdbb-9474df6b53bd",
+				"correct": false,
+				"answer": "214 - 6 (network and broadcast addresses)"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

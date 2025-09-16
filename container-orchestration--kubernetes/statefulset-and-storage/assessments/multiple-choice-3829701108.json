@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3829701108",
+	"source": {
+		"name": "Q8",
+		"showName": true,
+		"instructions": "\nGiven a PVC:\n\n```yaml\napiVersion: v1\nkind: PersistentVolumeClaim\nmetadata:\n  name: my-pvc\nspec:\n  accessModes:\n    - ReadWriteOnce\n  resources:\n    requests:\n      storage: 5Gi\n```\n\nWhich is bound to the following PV:\n\n```yaml \napiVersion: v1\nkind: PersistentVolume\nmetadata:\n  name: my-pv\nspec:\n  capacity:\n    storage: 5Gi\n  accessModes:\n    - ReadWriteOnce\n```\n\nNow consider two Pods:\n\n```yaml\napiVersion: v1\nkind: Pod\nmetadata:\n  name: pod-1\nspec:\n  containers:\n  - name: container-1\n    image: nginx:latest\n    volumeMounts:\n    - name: my-storage\n      mountPath: /data\n  volumes:\n  - name: my-storage\n    persistentVolumeClaim:\n      claimName: my-pvc\n---\napiVersion: v1\nkind: Pod\nmetadata:\n  name: pod-2\nspec:\n  containers:\n  - name: container-2\n    image: busybox:latest\n    command: [\"/bin/sh\", \"-c\", \"sleep 3600\"]\n    volumeMounts:\n    - name: my-storage\n      mountPath: /data  \n  volumes:\n  - name: my-storage\n    persistentVolumeClaim:\n      claimName: my-pvc\n```\n\nChoose the correct sentence:\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "f0bf3e73-fbd1-1e09-c8b9-5685d9ef782d",
+				"correct": false,
+				"answer": "The above example can not work since the two Pods can not use the same PVC.\n"
+			},
+			{
+				"_id": "8a504fce-1c0e-dd0b-c0e6-136db402db73",
+				"correct": false,
+				"answer": "The above example works.\n"
+			},
+			{
+				"_id": "24f826ec-4cb2-8eb3-a9f6-bf08ddd84a38",
+				"correct": true,
+				"answer": "The above example can work only if the two Pods are scheduled on the same node.\n"
+			},
+			{
+				"_id": "47e7bceb-c7da-b513-3402-53c10bc2fb54",
+				"correct": false,
+				"answer": "None of the above."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

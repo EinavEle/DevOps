@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-314115748",
+	"source": {
+		"name": "Q10",
+		"showName": true,
+		"instructions": "Given the below Service: \n\n```yaml \napiVersion: v1\nkind: Service\nmetadata:\n  name: my-service\nspec:\n  type: NodePort\n  ports:\n    - protocol: TCP\n      port: 8080\n      targetPort: 80\n      nodePort: 30302\n  selector:\n    app: myapp\n```\n\nLet's say this Kubernetes cluster is provisioned in AWS with 50 EC2 instances. ",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "ba4819e9-9177-6c61-de4f-e6b6875d3966",
+				"correct": true,
+				"answer": "The service is accessible from any IP of the cluster's EC2s, on port 30302\n"
+			},
+			{
+				"_id": "3ebfd716-b411-cb9f-bac4-936ff459bebb",
+				"correct": false,
+				"answer": "The service is accessible from any IP of the cluster's EC2s IP, on port 8080\n"
+			},
+			{
+				"_id": "dfc331c9-1649-97de-c4d1-84e8109e403b",
+				"correct": false,
+				"answer": "The service is accessible from only one IP of the cluster's EC2s, on port 30302\n"
+			},
+			{
+				"_id": "ca89b139-804c-11f4-1f71-208f010341d1",
+				"correct": false,
+				"answer": "The service is accessible from only one IP of the cluster's EC2s, on port 8080\n"
+			},
+			{
+				"_id": "35f0c164-04f2-f9e1-98d8-8b67085bb351",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"title": "Virtualization Overview",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Slideshow-ba72",
+		"Agenda-and-Learning-Goals-013c",
+		"History-of-Virtualization-de63",
+		"Containers-Terminology-c8f2",
+		"Docker-Architecture-b2e1",
+		"Docker-Installation-and-Configuration-685f",
+		"Spot-Check-c68c",
+		"Hello-World-Example-4507",
+		"Exercise-ee7b",
+		"Comprehension-Check-f512"
+	]
+}

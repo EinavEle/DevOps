@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-981339686",
+	"source": {
+		"name": "q1",
+		"showName": true,
+		"instructions": "\nYou are designing a highly scalable application that utilizes DynamoDB for its database needs.\nThe application is expected to handle a maximum of 1000 reads/second and 500 writes/second. \nItems average size is 4 KB.\n\nHow many RCU and WCU are required?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "f6b72985-9e7a-156d-5c4f-dcbca12b3156",
+				"correct": true,
+				"answer": "500 RCU and 2000 WCU\n"
+			},
+			{
+				"_id": "f88536e6-1e8c-07c9-9bad-fa44fa6004c8",
+				"correct": false,
+				"answer": "2000 RCU and 500 WCU\n"
+			},
+			{
+				"_id": "df344215-5545-6a10-c2e4-fb83592d1e5b",
+				"correct": false,
+				"answer": "1000 RCU and 500 WCU\n"
+			},
+			{
+				"_id": "c25b5002-a18f-d73e-76c0-6b2a697f0daf",
+				"correct": false,
+				"answer": "500 RCU and 1000 WCU"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

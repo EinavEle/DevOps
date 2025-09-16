@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-948595740",
+	"source": {
+		"name": "Question 9",
+		"showName": true,
+		"instructions": "Of these, how many are on remote machines?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "5aa4d393-bf4a-0711-2f25-b4873bf7cd3a",
+				"correct": true,
+				"answer": "1"
+			},
+			{
+				"_id": "31a2c53f-e799-6872-41f4-30ef1f6505c8",
+				"correct": false,
+				"answer": "0"
+			},
+			{
+				"_id": "07339b39-98e6-6f81-ec51-3de4d04cb5e1",
+				"correct": false,
+				"answer": "11"
+			},
+			{
+				"_id": "c40688b5-788f-f5fe-868b-cb2e1125f6ab",
+				"correct": false,
+				"answer": "2"
+			},
+			{
+				"_id": "ab6537f1-b603-5ca0-994b-ae9dd5fcf744",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

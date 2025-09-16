@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2864629798",
+	"source": {
+		"name": "Q9",
+		"showName": true,
+		"instructions": "How many files are in `/etc/my-secret`?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "004f2c29-e524-610f-ed1e-1d0907952c54",
+				"correct": false,
+				"answer": "1\n"
+			},
+			{
+				"_id": "42912e33-165a-316e-54b8-ebddaf6c106d",
+				"correct": true,
+				"answer": "2\n"
+			},
+			{
+				"_id": "13326c14-e466-3952-fbe4-77d536f5d7b6",
+				"correct": false,
+				"answer": "3\n"
+			},
+			{
+				"_id": "d3e3ee16-15d5-759f-59b8-a17f97e59e3c",
+				"correct": false,
+				"answer": "Unknown"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

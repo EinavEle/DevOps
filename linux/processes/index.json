@@ -1,0 +1,27 @@
+{
+	"title": "Processes",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Slideshow-525d",
+		"Agenda-and-Learning-Goals-60d5",
+		"Process-Definition-da2d",
+		"Processes-State-37e1",
+		"The-Process-Tree-10f7",
+		"Signals-5856",
+		"Services-ea37",
+		"Spot-Check-d8c5",
+		"Exercises-ce6f",
+		"Comprehension-Check-f259"
+	]
+}

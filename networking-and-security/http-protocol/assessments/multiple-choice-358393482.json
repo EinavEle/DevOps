@@ -1,0 +1,49 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-358393482",
+	"source": {
+		"name": "Question 11",
+		"showName": true,
+		"instructions": "A client sends 2 requests to the server. Here is the response for the first request:\n```bash\nHTTP/1.0 200 OK\nDate: Wed, 09 Sep 2020 23:46:21 +0000\nServer: Apache/2.2.3 (CentOS)\nLast-Modified: Wed, 09 Sep 2020 23:51:41 +0000\nETag:17dc6-a5c-bf716880.\nContent-Length: 418\nConnection: Close\nContent-type: image/html\n```\nWas the client using the same TCP socket for both requests?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "9a358de3-7c9a-985a-4435-20ad4b4bc970",
+				"correct": false,
+				"answer": "Yes"
+			},
+			{
+				"_id": "344b19a1-9dc1-487f-ba02-b0d3a20e5e76",
+				"correct": true,
+				"answer": "No"
+			},
+			{
+				"_id": "2828b4b1-ba69-313c-ecf8-41f71cc916a0",
+				"correct": false,
+				"answer": "We don't know"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

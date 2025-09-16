@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2419115467",
+	"source": {
+		"name": "Q2",
+		"showName": true,
+		"instructions": "Which of the below kubernetes component is running as a DaemonSet in the cluster?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "8008de3a-34b2-efce-f853-96d20bcd53e6",
+				"correct": true,
+				"answer": "`kube-proxy`\n"
+			},
+			{
+				"_id": "3083e342-4f88-3035-3d66-058d95eb3a76",
+				"correct": false,
+				"answer": "`API server`\n"
+			},
+			{
+				"_id": "336ea2a2-c3e2-c822-473d-8f55628ae498",
+				"correct": false,
+				"answer": "`kube-controller-manager`\n"
+			},
+			{
+				"_id": "48b4b75b-8ef2-843d-1fa2-23b7429336c0",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

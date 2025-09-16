@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3920230612",
+	"source": {
+		"name": "Question 1",
+		"showName": true,
+		"instructions": "Which of the following would the bash shell interpret as a comment?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "8c5bb578-870d-2a3e-40ee-0d903efab02f",
+				"correct": false,
+				"answer": "/* blagh */"
+			},
+			{
+				"_id": "47af8b76-b158-a789-eea8-6bbd4ac45635",
+				"correct": false,
+				"answer": "% blagh"
+			},
+			{
+				"_id": "0283745d-21e9-0f70-04ea-3cf5d274403b",
+				"correct": true,
+				"answer": "\\# blagh"
+			},
+			{
+				"_id": "4ca377d9-b35b-aa25-3d88-b56f5dbd6eba",
+				"correct": false,
+				"answer": "B and C"
+			},
+			{
+				"_id": "2b092025-a207-9f9b-56b8-58102c8e303c",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

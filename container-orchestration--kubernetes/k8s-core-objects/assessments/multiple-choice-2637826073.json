@@ -1,0 +1,64 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2637826073",
+	"source": {
+		"name": "Q5",
+		"showName": true,
+		"instructions": "Given a Deployment called `worker` with 4 replicas. Assume the Deployment state is as described below:\n\n```console\n$ kubectl get pods\nNAME                                  READY   STATUS    RESTARTS      AGE     IP            NODE  \nworker-846c94dc48-v6gd5               1/1     Running      0          2d12h   10.244.0.31   node1\nworker-846c94dc48-k42tv               1/1     Running      0          1m      10.244.0.19   node2\nworker-846c94dc48-tnl2t               1/1     Pending      0          1m      10.244.0.24   node3\nworker-846c94dc48-cjkvn               1/1     Running      0          1m      10.244.0.25   node1\n```\n\nIf the Deployment would scaled down to 2 replicas. Which Pods would be scaled down? \n\nHint: https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/#scaling-a-replicaset\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "c0ad0a9d-e186-ad65-a799-58d1b2041f5f",
+				"correct": false,
+				"answer": "`v6gd5` and `k42tv`\n"
+			},
+			{
+				"_id": "97bf9a27-4c7b-ef8f-486e-83aaf396ec95",
+				"correct": false,
+				"answer": "`v6gd5` and `tnl2t`\n"
+			},
+			{
+				"_id": "6ea5113c-418e-3679-a98b-47df8f176121",
+				"correct": false,
+				"answer": "`v6gd5` and `cjkvn`\n"
+			},
+			{
+				"_id": "c853276c-1ca0-a0d1-90dd-a9c8651eaafc",
+				"correct": false,
+				"answer": "`k42tv` and `tnl2t`\n"
+			},
+			{
+				"_id": "50c166d4-673d-5473-e3b9-ea5f1c10a1f2",
+				"correct": false,
+				"answer": "`k42tv` and `cjkvn`\n"
+			},
+			{
+				"_id": "65ff6147-9b22-41dd-8dd2-b5efe347ad14",
+				"correct": true,
+				"answer": "`tnl2t` and `cjkvn`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

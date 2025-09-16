@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-855925000",
+	"source": {
+		"name": "Q3",
+		"showName": true,
+		"instructions": "Every Linux container can:\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "8ccf0b1f-74a8-c70a-9fd1-0a536c7feba1",
+				"correct": false,
+				"answer": "Kill other processes.\n"
+			},
+			{
+				"_id": "ceced5dc-880d-4561-ca75-0907f6fe6442",
+				"correct": true,
+				"answer": "Execute system calls to the kernel.\n"
+			},
+			{
+				"_id": "0d655338-e0c4-e27e-b448-a11eeaeafdf1",
+				"correct": false,
+				"answer": "Use the CPU as much as it needs.\n"
+			},
+			{
+				"_id": "01e011cd-23dc-401b-7af3-ae15de809299",
+				"correct": false,
+				"answer": "Access the host machine's file system."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,49 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2197163896",
+	"source": {
+		"name": "Question 10",
+		"showName": true,
+		"instructions": "Is the address space public or private?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "2ed8c0f8-1ef0-4d64-c87b-4bdd77f3d9bf",
+				"correct": true,
+				"answer": "Public"
+			},
+			{
+				"_id": "82ca39f9-324e-82dc-4899-750d67ea06b8",
+				"correct": false,
+				"answer": "Private"
+			},
+			{
+				"_id": "f4ac335e-9c0b-e065-914e-c3701ef54d69",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

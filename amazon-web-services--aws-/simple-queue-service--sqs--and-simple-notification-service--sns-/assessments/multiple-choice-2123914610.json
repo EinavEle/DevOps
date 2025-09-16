@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2123914610",
+	"source": {
+		"name": "q4",
+		"showName": true,
+		"instructions": "You are the DevOps engineer responsible for designing an event notification system for a popular e-commerce platform.\nThe platform uses the same topic for both order placements and order cancellations.\n\nWhich type of topic would you choose?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "032e7e80-49da-6169-783a-228e0289262c",
+				"correct": false,
+				"answer": "Standard\n\n"
+			},
+			{
+				"_id": "256250b7-dcd9-d1c2-8e37-aebc33704778",
+				"correct": true,
+				"answer": "FIFO\n"
+			},
+			{
+				"_id": "d5889711-67f4-35e8-cb60-277a73ad53e3",
+				"correct": false,
+				"answer": "It doesn't matter\n\n"
+			},
+			{
+				"_id": "f4aed5e6-2fc5-fd64-5a85-2097697bc42b",
+				"correct": false,
+				"answer": "Dead letter topic"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"title": "DevOps Course Onboarding",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Course-Onboarding-624e",
+		"Onboarding-for-course-teacher-e2b4"
+	]
+}

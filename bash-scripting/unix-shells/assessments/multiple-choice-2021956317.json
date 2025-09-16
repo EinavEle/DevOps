@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2021956317",
+	"source": {
+		"name": "Question 14",
+		"showName": true,
+		"instructions": "What permissions are needed on a file in order for it to be sourced?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "2c1b7e22-b1f0-2478-d744-124ec9e20ca7",
+				"correct": false,
+				"answer": "execute permissions"
+			},
+			{
+				"_id": "d3eb0b27-7015-b364-f949-a1f832413acc",
+				"correct": true,
+				"answer": "read permissions"
+			},
+			{
+				"_id": "bb1bccf2-d294-ae5e-5d7d-b0c6373c8978",
+				"correct": false,
+				"answer": "write permissions"
+			},
+			{
+				"_id": "e20e15d9-ac33-4ec5-15cb-3b439fcfa55d",
+				"correct": false,
+				"answer": "A and B"
+			},
+			{
+				"_id": "9585701f-5d9a-1e77-9d63-970d3d067036",
+				"correct": false,
+				"answer": "All of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

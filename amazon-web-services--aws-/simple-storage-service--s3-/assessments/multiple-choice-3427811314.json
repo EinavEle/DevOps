@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3427811314",
+	"source": {
+		"name": "q4",
+		"showName": true,
+		"instructions": "How can you ensure that the data has been saved in S3?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "e9c4e772-1f63-ee62-d758-d4051095bcff",
+				"correct": false,
+				"answer": "The bucket is strongly consistent so there is no need to check data integrity.\n"
+			},
+			{
+				"_id": "7891c986-0a87-327e-80fa-7093d934ee33",
+				"correct": false,
+				"answer": "Check in the bucket logs.\n"
+			},
+			{
+				"_id": "7940edf4-4f4c-e774-ebe6-7fb18387872f",
+				"correct": true,
+				"answer": "If the request status code is 200, the object has been stored successfully.\n"
+			},
+			{
+				"_id": "cdfa7e7d-ffb4-37f0-bd2b-0f616a19c866",
+				"correct": false,
+				"answer": "Using Content-MD5, eTag or checksums."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

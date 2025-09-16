@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2214460725",
+	"source": {
+		"name": "Q11",
+		"showName": true,
+		"instructions": "What is the maximum number of Pod might be observed during version update? \n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "9c940e45-ece3-c7a5-259c-b694824a6024",
+				"correct": false,
+				"answer": "5\n"
+			},
+			{
+				"_id": "00fd3188-92fe-0750-59ed-8fa24c6cf72d",
+				"correct": false,
+				"answer": "2\n"
+			},
+			{
+				"_id": "91e9dad3-7bd7-f466-38c2-76b642fb6aae",
+				"correct": false,
+				"answer": "8\n"
+			},
+			{
+				"_id": "faf11c5c-1d61-bc4b-d2e9-31dc7a353988",
+				"correct": true,
+				"answer": "7"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

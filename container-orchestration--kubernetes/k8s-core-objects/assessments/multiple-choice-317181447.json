@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-317181447",
+	"source": {
+		"name": "Q3",
+		"showName": true,
+		"instructions": "Let's say, in addition to the above `nginx-with-sidecar` Pod, you apply the following `Deployment` manifest:\n\n\n\n```yaml \napiVersion: apps/v1\nkind: Deployment\nmetadata:\n  name: nginx-deployment\nspec:\n  replicas: 3\n  selector:\n    matchLabels:\n      app: nginx-with-sidecar\n  template:\n    metadata:\n      labels:\n        app: nginx-with-sidecar\n    spec:\n      containers:\n        - name: nginx-container\n          image: nginx:latest\n          ports:\n            - containerPort: 80\n        - name: sidecar-container\n          image: busybox:latest\n          command: [\"/bin/sh\", \"-c\", \"while true; do echo 'Sidecar Container Running'; sleep 10; done\"]\n```\n\nHow many replicas are currently running in the underlying ReplicaSet created by the Deployment?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "a15180a7-c508-6c9c-fe90-ff940184eb7e",
+				"correct": false,
+				"answer": " 2\n"
+			},
+			{
+				"_id": "7f2f887e-87ed-ec2a-741a-627351f02351",
+				"correct": true,
+				"answer": " 3\n"
+			},
+			{
+				"_id": "3e02ca7a-23b7-a3c1-1ce7-3906e3517acf",
+				"correct": false,
+				"answer": " 0\n"
+			},
+			{
+				"_id": "30e1c357-e65d-991b-15f5-0a6926abfb34",
+				"correct": false,
+				"answer": " 4"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

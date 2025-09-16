@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1349711539",
+	"source": {
+		"name": "Q1",
+		"showName": true,
+		"instructions": "You apply the following Pod: \n\n\n```yaml\napiVersion: v1\nkind: Pod\nmetadata:\n  name: myapp\nspec:\n  containers:\n  - name: server\n    image: alpine:latest\n    command: [\"/bin/sh\", \"-c\", \"sleep 3600\"]\n    resources:\n      requests:\n        cpu: \"1000m\"\n      limits:\n        cpu: \"1000m\"\n```\n\nWhich Node the Pod would be scheduled on? ",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "39b998f9-ad94-7161-ef58-a090392986d0",
+				"correct": false,
+				"answer": "node1\n"
+			},
+			{
+				"_id": "052a1df1-7856-e537-7a0a-e4b1b86642f9",
+				"correct": true,
+				"answer": "node2\n"
+			},
+			{
+				"_id": "645d7253-f048-6ac0-8d53-70a71ad46ff2",
+				"correct": false,
+				"answer": "node3\n"
+			},
+			{
+				"_id": "ecb66b2f-4887-0799-7c44-d5b5a2f1df44",
+				"correct": false,
+				"answer": "node2 or node3"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

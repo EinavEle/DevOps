@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-257738913",
+	"source": {
+		"name": "q4",
+		"showName": true,
+		"instructions": "What does the following policy for Amazon EC2 do?\n\n\n```json\n{\n  \"Version\": \"2012-10-17\",\n  \"Statement\": {\n    \"Effect\": \"Deny\",\n    \"Action\": \"*\",\n    \"Resource\": \"*\",\n    \"Condition\": {\n      \"NotIpAddress\": {\n        \"aws:SourceIp\": [\n          \"192.0.2.0/24\",\n          \"203.0.113.0/24\"\n        ]\n      },\n      \"Bool\": {\"aws:ViaAWSService\": \"false\"}\n    }\n  }\n}\n```",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "4961c403-4f5a-47ad-aa9e-1b22e20a09cf",
+				"correct": true,
+				"answer": "Allow users with the above source IP to access resources.\n"
+			},
+			{
+				"_id": "97966985-f451-1134-02e2-5ac161656a85",
+				"correct": false,
+				"answer": "Denies access to AWS based on the source IP, even for AWS resources who try to access other resources.\n"
+			},
+			{
+				"_id": "56eeafe1-c6dc-ba6c-565a-bd35d5085d49",
+				"correct": false,
+				"answer": "Denies access to AWS based on the source IP.\n"
+			},
+			{
+				"_id": "56aaa724-1f8f-d3bb-043b-594d3f5824c0",
+				"correct": false,
+				"answer": "Denies access from EC2 instances to the above IP ranges."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

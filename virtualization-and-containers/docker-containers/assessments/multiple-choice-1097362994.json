@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1097362994",
+	"source": {
+		"name": "Question 7",
+		"showName": true,
+		"instructions": "How many environment variables are given to the container process?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "d10ed0ca-9949-a591-bceb-b25d06365b8c",
+				"correct": false,
+				"answer": "0"
+			},
+			{
+				"_id": "6777dd9a-9ead-ae95-3d05-daa91fd204b2",
+				"correct": false,
+				"answer": "2"
+			},
+			{
+				"_id": "cc48e877-f3ce-d32a-388a-85329a45bd4a",
+				"correct": false,
+				"answer": "4"
+			},
+			{
+				"_id": "004457a8-cb90-221c-c76f-3d6e767f0ecb",
+				"correct": true,
+				"answer": "6"
+			},
+			{
+				"_id": "6fa32f1c-5515-c05a-2d0e-d978acaf9f34",
+				"correct": false,
+				"answer": "8"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

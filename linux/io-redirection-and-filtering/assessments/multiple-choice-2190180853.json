@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2190180853",
+	"source": {
+		"name": "Question 12",
+		"showName": true,
+		"instructions": "To copy `file1.txt` to `file2.txt`, you could use",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "9248b3f0-1b7d-ed11-e1b2-d19dafa00aeb",
+				"correct": false,
+				"answer": "`cp file1.txt > file2.txt`"
+			},
+			{
+				"_id": "cf2173dc-a471-0217-4305-1176f943de74",
+				"correct": true,
+				"answer": "`cat file1.txt > file2.txt`"
+			},
+			{
+				"_id": "8dad6dd6-5ea9-3397-2f9b-d8bda04c2097",
+				"correct": false,
+				"answer": "`dupe file1.txt file2.txt`"
+			},
+			{
+				"_id": "a9baa0d9-c84b-7e8f-01a9-2d831b8f2db7",
+				"correct": false,
+				"answer": "`mv file1.txt file2.txt`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

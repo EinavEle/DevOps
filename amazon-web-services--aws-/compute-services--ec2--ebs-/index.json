@@ -1,0 +1,28 @@
+{
+	"title": "Compute Services",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Slides-e5ec",
+		"Agenda-and-Learning-Goals-60e5",
+		"Elastic-Cloud-Computing--EC2--6200",
+		"Spot-Check-4e32",
+		"Amazon-Machine-Image-f869",
+		"Instance-lifecycle-325f",
+		"Elastic-Block-Storage-59df",
+		"Elastic-Block-Storage-c625",
+		"Spot-Check-3786",
+		"Exercises-3f49",
+		"Comprehension-Check-7ba4"
+	]
+}

@@ -1,0 +1,1 @@
+You can manage docker images in a similar way you've managed containers. List available images with `docker images`, pulling images from a registry using `docker pull`, pushing images to a registry with `docker push`, removing images using `docker image rm`, and inspecting image details with `docker inspect`, among others.

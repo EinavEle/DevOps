@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1095342737",
+	"source": {
+		"name": "Question 2",
+		"showName": true,
+		"instructions": "Which of the following is a true statement?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "13909a76-a33d-aa6b-6ae1-80941ed3edd5",
+				"correct": false,
+				"answer": "Only the root user may run processes from a shell."
+			},
+			{
+				"_id": "4b2a313c-b4c6-41ec-6e62-29b8bd272208",
+				"correct": true,
+				"answer": "The shell is a process that is commonly used to execute other processes."
+			},
+			{
+				"_id": "b2f9415d-a8db-6622-b356-1583f7edb28d",
+				"correct": false,
+				"answer": "The shell is the kernel component that interacts directly with hardware."
+			},
+			{
+				"_id": "787bf0fa-7427-d561-c5da-aa7f9f2c56ce",
+				"correct": false,
+				"answer": "Only one instance of a shell may be running as a process."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

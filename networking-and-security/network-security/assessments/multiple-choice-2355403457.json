@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2355403457",
+	"source": {
+		"name": "Question 6",
+		"showName": true,
+		"instructions": "In typical client-server communication (choose all the correct sentences):",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "22066e68-aeee-6be8-8b1b-3c43b0a39a69",
+				"correct": false,
+				"answer": "CA signs on the client's public-key"
+			},
+			{
+				"_id": "74b5040d-030e-dc80-3076-950e3eea969c",
+				"correct": true,
+				"answer": "CA signs on the server’s public-key"
+			},
+			{
+				"_id": "43decaba-a6ed-61f5-cb95-c7b5bf670029",
+				"correct": true,
+				"answer": "The public key of CA should reside in the client’s machine"
+			},
+			{
+				"_id": "011ea5da-6957-4730-b439-cf97cdda5b17",
+				"correct": false,
+				"answer": "The private key of CA should reside in the client’s machine"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

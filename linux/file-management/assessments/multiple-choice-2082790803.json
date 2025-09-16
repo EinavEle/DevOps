@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2082790803",
+	"source": {
+		"name": "Question 9",
+		"showName": true,
+		"instructions": "Your screen shows the following:\n```bash\n[student@station html]$ cd ../bin\n[student@station bin]$ pwd\n/home/student/bin\n[student@station bin]$ cd -\n```\nWhat would be the output of the command `pwd`?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "da060e91-1c1a-b0bd-c78a-2266fa2d2695",
+				"correct": false,
+				"answer": "`/home/student`"
+			},
+			{
+				"_id": "533830aa-7808-7a3a-e40b-bbe80fcbe4c0",
+				"correct": true,
+				"answer": "`/home/student/html`"
+			},
+			{
+				"_id": "a73aaa63-d021-45ce-5dd1-bebe1957e23b",
+				"correct": false,
+				"answer": "`/home/html`"
+			},
+			{
+				"_id": "7e854b4f-5204-c614-a2b3-0d46656a7c7d",
+				"correct": false,
+				"answer": "`-`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

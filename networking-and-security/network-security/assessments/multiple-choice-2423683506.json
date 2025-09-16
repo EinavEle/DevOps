@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2423683506",
+	"source": {
+		"name": "Question 4",
+		"showName": true,
+		"instructions": "Which of the following properties of hash function is violated for the below hash function?\n```bash\nf(x) = x + 5\n\nE.g.\nf(4) = 9\nf(7) = 12\n```",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "501ccc49-c91e-911d-12de-dcca7f3de34f",
+				"correct": false,
+				"answer": "Deterministic"
+			},
+			{
+				"_id": "7e76bc93-6053-db94-10d5-b94a34eb6142",
+				"correct": true,
+				"answer": "One-way function"
+			},
+			{
+				"_id": "7bd27b83-726f-da2c-5362-21f4b3fda977",
+				"correct": false,
+				"answer": "Uniform distribution"
+			},
+			{
+				"_id": "467506e6-1388-f689-25a9-5e2f541291a6",
+				"correct": true,
+				"answer": "Small input changes, significant hash changes"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

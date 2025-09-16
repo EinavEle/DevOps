@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3588975526",
+	"source": {
+		"name": "q7",
+		"showName": true,
+		"instructions": "How can an instance be copied to another region?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "3b52a1e9-e25c-4875-ebb6-0aeab3b7ad09",
+				"correct": true,
+				"answer": "By creating an AMI and copying it to another region.\n"
+			},
+			{
+				"_id": "0eb455e4-2d08-0dc8-8069-ea4d25232b58",
+				"correct": false,
+				"answer": "Using the `aws ec2 cp` command.\n"
+			},
+			{
+				"_id": "827bbbe1-e64e-7fee-f801-3dbbe20bfa40",
+				"correct": false,
+				"answer": "There is no way to copy an instance to another region.\nBy detaching the EBS volume, migrate it to another "
+			},
+			{
+				"_id": "99acf105-cdce-8ba5-575d-1a7ba3b13263",
+				"correct": false,
+				"answer": "region, and attach it to the new instance.\n"
+			},
+			{
+				"_id": "7a9d4411-be0c-6b27-e260-5ecad91bdf2a",
+				"correct": false,
+				"answer": "None of the above."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

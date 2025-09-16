@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1198706642",
+	"source": {
+		"name": "q2",
+		"showName": true,
+		"instructions": "Which of the below features of S3 can protect from accidental data deletion or overridden?  \n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "29c32154-3af1-143c-0db6-16f4508de522",
+				"correct": false,
+				"answer": "Deny object deletion using an IAM bucket policy.\n\n\n\n"
+			},
+			{
+				"_id": "90c7d88c-654b-9208-42f6-85c2cb745b8b",
+				"correct": false,
+				"answer": "Check data integrity before every upload operation."
+			},
+			{
+				"_id": "911e80d2-58c4-fed1-3de0-62201b79921a",
+				"correct": false,
+				"answer": "Access objects using pre-signed URLs."
+			},
+			{
+				"_id": "7e3f6f31-c3d0-d445-cd4e-1a71bb3d380e",
+				"correct": true,
+				"answer": "Enable bucket versioning."
+			},
+			{
+				"_id": "538aa67d-d767-c01f-d7a5-f173df58be7a",
+				"correct": false,
+				"answer": "Enable cross-region replication."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3632334396",
+	"source": {
+		"name": "Question 4",
+		"showName": true,
+		"instructions": "What is wrong with this script?\n```bash\n#!/bin/bash\nif [ $PET = dog ] ;then\n\techo \"You have a dog\"\nfi\n```",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "58236ba7-93d8-bfc7-fad4-b365194ce1d5",
+				"correct": false,
+				"answer": " If the value of `PET` doesn't match dog, the script will return a nonzero status code."
+			},
+			{
+				"_id": "42dc7932-1e12-a51c-aa66-2cabc2253c2b",
+				"correct": false,
+				"answer": "There is nothing wrong with it. The condition checks the value of `PET` perfectly."
+			},
+			{
+				"_id": "4b0ec53a-586b-2404-6d52-2819d90ba51d",
+				"correct": true,
+				"answer": "It will fail if the `PET` variable is empty or undefined."
+			},
+			{
+				"_id": "9636c0b3-b2c3-08e6-2360-9c09d0eed73e",
+				"correct": false,
+				"answer": "The then statement needs to be on a separate line."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

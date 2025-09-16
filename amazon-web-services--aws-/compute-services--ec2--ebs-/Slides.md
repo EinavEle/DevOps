@@ -1,0 +1,1 @@
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQcaWcrNsrnz6fRFCIsDRSqTSBXMjqNv_xRJ1I_8ETtTEPkb9r6jEtOIbw7Rl26rnYIle7b59Xiip2t/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>

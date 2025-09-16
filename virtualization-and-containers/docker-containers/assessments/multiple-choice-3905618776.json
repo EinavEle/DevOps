@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3905618776",
+	"source": {
+		"name": "Question 12",
+		"showName": true,
+		"instructions": "The [official `mysql` image](https://hub.docker.com/_/mysql) is running by the following command: `docker run -e MYSQL_ROOT_PASSWORD=1234 mysql`.\n\nWhich of the below docker commands can help with debugging the `/var/run/mysqld/mysqld.sock` file, which is located within the container?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "7eb3f565-5a8e-b3ab-6128-858a9e673725",
+				"correct": true,
+				"answer": "`docker exec`"
+			},
+			{
+				"_id": "c5b45997-34e6-b748-f0d9-0100fc1dbb06",
+				"correct": false,
+				"answer": "`docker logs`"
+			},
+			{
+				"_id": "95862f38-1cbe-b1fa-5a75-c56cfbbf78c8",
+				"correct": false,
+				"answer": "`docker run`"
+			},
+			{
+				"_id": "c0c879af-e5a9-de5d-d976-3fc22bdc5eb1",
+				"correct": false,
+				"answer": "`docker ps`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,83 @@
+{
+ "name": "File I/O",
+ "children": [
+  {
+   "title": "Intro",
+   "id": "b7d225eb-964a-18af-ba02-82931d3428eb",
+   "type": "page",
+   "pageId": "b7d225eb-964a-18af-ba02-82931d3428eb"
+  },
+  {
+   "title": "Reading `.txt` Files",
+   "id": "23dd7b07-70fa-1f12-f66d-8a4e09ec5837",
+   "type": "page",
+   "pageId": "23dd7b07-70fa-1f12-f66d-8a4e09ec5837"
+  },
+  {
+   "title": "Spot Check 1",
+   "id": "d45ce603-e359-38fe-e565-378cd143d103",
+   "type": "page",
+   "pageId": "8ce1d8d6-b499-264b-3152-2b63c1e52059"
+  },
+  {
+   "title": "Writing to `.txt` file",
+   "id": "b3cf4ee4-8c99-4366-91c6-b23bcfc19213",
+   "type": "page",
+   "pageId": "0a861fa5-3d62-1897-eb0e-b62a04a474aa"
+  },
+  {
+   "title": "Spot Check 2",
+   "id": "58b103ec-88bd-c0ae-34db-f3933fd4e632",
+   "type": "page",
+   "pageId": "f104b4be-c98f-5005-3fff-1a81fe1e3b17"
+  },
+  {
+   "title": "Reading JSON files",
+   "id": "658dfbeb-7468-ef42-de47-ed3962a5575b",
+   "type": "page",
+   "pageId": "18bbb814-34a5-bd7c-d536-714a56a84a1a"
+  },
+  {
+   "title": "Writing to JSON files",
+   "id": "49f131c0-4bcd-10c6-7646-0d148afcd48f",
+   "type": "page",
+   "pageId": "5c379980-8558-6d81-7ee5-7d7e512c117d"
+  },
+  {
+   "id": "9a091327-7fc8-aa4a-6f7f-cba7c037c572",
+   "title": "Spot Check 3",
+   "pageId": "1741db94-5e58-77a9-d910-02118178b2b9",
+   "type": "page"
+  },
+  {
+   "id": "1282c2b8-838b-5e76-818d-f2bb560897d3",
+   "title": "Reading `.csv` files",
+   "pageId": "b3bcf319-aa33-ff2d-6f9b-bc9a6ba5c2f0",
+   "type": "page"
+  },
+  {
+   "id": "0519b00e-aa79-a924-1209-b49b0fac3bab",
+   "title": "Writing to `.csv` files",
+   "pageId": "591c558a-4f3c-069c-f5c0-32534c7cb838",
+   "type": "page"
+  },
+  {
+   "id": "d791e419-2172-73ab-7838-05d4cd42aa13",
+   "title": "Spot Check 4",
+   "pageId": "d0efd78a-8d58-22f7-ba5a-591182ad3d4f",
+   "type": "page"
+  },
+  {
+   "title": "Exercises",
+   "id": "830490ed-b4a2-1f66-a7fc-cc23e0317271",
+   "type": "page",
+   "pageId": "e347b4ba-3981-9f1f-7599-f96936b29eff"
+  },
+  {
+   "title": "Comprehension Check",
+   "id": "f42806a4-00f6-d8b5-261c-39a39354f1ab",
+   "type": "page",
+   "pageId": "6617fb35-793f-3a72-52b0-51795753caa1"
+  }
+ ]
+}

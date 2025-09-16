@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1365005506",
+	"source": {
+		"name": "Q4",
+		"showName": true,
+		"instructions": "You use Terraform to create a temporary development environments in the cloud. \nAll environments are being destroyed at midnight.\n\nWhich command can help you to print all the resources that would be deleted?  ",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "fd742b25-d6ff-84d9-442a-8c3e4fcbb68e",
+				"correct": true,
+				"answer": "`terraform plan -destroy`\n"
+			},
+			{
+				"_id": "99ad087b-f7ee-8ba6-a9d6-341b9f6dfc2a",
+				"correct": false,
+				"answer": "`terraform state -destroy`\n"
+			},
+			{
+				"_id": "6021cc0b-c543-03a9-0af7-c90a53d3d21c",
+				"correct": false,
+				"answer": "`terraform destroy`\n"
+			},
+			{
+				"_id": "33bbf950-4baf-8403-fe3e-a3aaad0345de",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

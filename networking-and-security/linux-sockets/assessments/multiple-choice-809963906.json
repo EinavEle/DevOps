@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-809963906",
+	"source": {
+		"name": "Question 2",
+		"showName": true,
+		"instructions": "In TCP/IP networking, what parameter is used to specify a particular process on a machine?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "120fb6ac-7846-ace4-3a93-10666ce923aa",
+				"correct": false,
+				"answer": "IP address"
+			},
+			{
+				"_id": "62cb5460-a4ae-1c8d-7d7f-508ff26efd23",
+				"correct": false,
+				"answer": "Window size"
+			},
+			{
+				"_id": "1bd4852f-2929-7a1d-45ec-9cb257064abe",
+				"correct": true,
+				"answer": "Port number"
+			},
+			{
+				"_id": "f787dc7c-3474-6ed4-3add-924d670d2c87",
+				"correct": false,
+				"answer": "Protocol"
+			},
+			{
+				"_id": "eb62f2b9-bf78-226a-4a6f-5e53b045343c",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

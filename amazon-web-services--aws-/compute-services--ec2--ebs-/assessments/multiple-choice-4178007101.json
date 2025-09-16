@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-4178007101",
+	"source": {
+		"name": "q9",
+		"showName": true,
+		"instructions": "You are tasked with setting up a new web application on AWS.\nThe application is expected to receive a high volume of traffic and needs to have low latency.\nYou know that the application requires fast storage that can handle a high number of read and write operations.\n\nWhat EBS option would you choose to ensure optimal performance for the application?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "b9286f08-d7bb-a334-47be-99845a818c9f",
+				"correct": false,
+				"answer": "EBS volume with magnetic hard drive\n"
+			},
+			{
+				"_id": "66c8a3ca-f30e-9a62-7eca-cfc3e00ffe7a",
+				"correct": false,
+				"answer": "Store all the data files in the ephemeral storage of the server\n"
+			},
+			{
+				"_id": "ff707407-c648-fd4b-3635-f36d8f6a5d3a",
+				"correct": true,
+				"answer": "EBS volume with provisioned IOPS\n"
+			},
+			{
+				"_id": "3f41aee0-168f-a77f-7718-0c62c1faad3b",
+				"correct": false,
+				"answer": "EBS volume with general-purpose SSD"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

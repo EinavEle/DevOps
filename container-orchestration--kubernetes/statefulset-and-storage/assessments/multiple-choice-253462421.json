@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-253462421",
+	"source": {
+		"name": "Q7",
+		"showName": true,
+		"instructions": "Can 2 PVCs be bound to the same PV? \n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "ec5ea8ba-21c4-24bc-a1e6-165a4a4e0690",
+				"correct": true,
+				"answer": "No!\n"
+			},
+			{
+				"_id": "5019482b-51ae-ee09-7b90-bcd8038ad134",
+				"correct": false,
+				"answer": "Yes!\n\n"
+			},
+			{
+				"_id": "71d249db-e365-ff5a-004f-3fd5a858f151",
+				"correct": false,
+				"answer": "Only in the PV accessModes is ReadWriteMany."
+			},
+			{
+				"_id": "660cdeb7-0ff1-ca45-0881-75a8f60c1826",
+				"correct": false,
+				"answer": "Only in the PV accessModes is ReadWriteMany and is located in the same namespace of the PVC."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

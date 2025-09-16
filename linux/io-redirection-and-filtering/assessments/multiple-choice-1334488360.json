@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1334488360",
+	"source": {
+		"name": "Question 5",
+		"showName": true,
+		"instructions": "The command `echo file.1 file.2` will",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "a3683df0-cbe0-7bb2-2f20-9758781c9f70",
+				"correct": false,
+				"answer": "copy `file.1` to `file.2`"
+			},
+			{
+				"_id": "c9e8cf91-29b4-71c2-be95-2e1c161692bc",
+				"correct": false,
+				"answer": "display the contents of `file.1` and `file.2` on STDOUT"
+			},
+			{
+				"_id": "3d21f8c6-4dcc-e446-f9dd-4f4b93d36c28",
+				"correct": false,
+				"answer": "produce an error message because there is no redirection symbol"
+			},
+			{
+				"_id": "1dbde810-40b6-ed96-7848-2823ccc486b3",
+				"correct": true,
+				"answer": "display \"file.1 file.2\" on STDOUT"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

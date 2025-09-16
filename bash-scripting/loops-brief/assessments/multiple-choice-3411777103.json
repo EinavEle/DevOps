@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3411777103",
+	"source": {
+		"name": "Question 1",
+		"showName": true,
+		"instructions": "Which of the following lines could replace the line `if [ -r $i ]`  above, with no effect on script execution?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "44ead173-e9a8-60c3-f918-64fcf1eaf3f6",
+				"correct": true,
+				"answer": "`if test -r $i`"
+			},
+			{
+				"_id": "4ae2f4db-2bb6-b74f-9618-2373bbbbec1a",
+				"correct": false,
+				"answer": "`if [-r $i]`"
+			},
+			{
+				"_id": "50da59b8-213d-f595-baa9-3e1043b1a226",
+				"correct": false,
+				"answer": "`if [ -r -o $i ]`"
+			},
+			{
+				"_id": "299a684e-2003-8f3f-5fa2-51f5cfecdac9",
+				"correct": false,
+				"answer": "`if [ -e $i`"
+			},
+			{
+				"_id": "8f34f9bc-ee3e-a6df-e575-d88e90a7bd03",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

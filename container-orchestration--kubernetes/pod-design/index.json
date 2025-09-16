@@ -1,0 +1,26 @@
+{
+	"title": "Pod deep dive",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Agenda-and-Learning-Goals-39d9",
+		"Deep-diving-into-Pods-bb9f",
+		"Resource-management-for-Pods-and-containers-c2ed",
+		"Container-probes---Liveness-and-Readiness-probes-ee05",
+		"Assign-Pods-to-Nodes-21e2",
+		"Horizontal-Pod-autoscaling-fbd1",
+		"Multiple-containers-pod-0eef",
+		"Exercises-68b6",
+		"Comprehension-check-894b"
+	]
+}

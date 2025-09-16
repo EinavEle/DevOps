@@ -1,0 +1,53 @@
+{
+ "name": "Naming Conventions",
+ "children": [
+  {
+   "title": "Intro",
+   "id": "8f944524-e040-42bd-afaa-486d23ae3cd4",
+   "pageId": "8f944524-e040-42bd-afaa-486d23ae3cd4",
+   "type": "page"
+  },
+  {
+   "title": "Variables",
+   "id": "687cfb75-e343-b7d7-3d1e-af3204ae8ac8",
+   "pageId": "687cfb75-e343-b7d7-3d1e-af3204ae8ac8",
+   "type": "page"
+  },
+  {
+   "id": "a47efa41-98b8-51d0-dfdb-ea1c9556f9c2",
+   "title": "Functions",
+   "pageId": "2f03ccba-5b12-e4cb-1225-6602f0c9774d",
+   "type": "page"
+  },
+  {
+   "id": "61b28536-4f66-99e9-c22d-d0fe199111c8",
+   "title": "Class",
+   "pageId": "9dbba20a-cdf9-4b1c-7323-cd6f7dcd1523",
+   "type": "page"
+  },
+  {
+   "id": "4127e676-62f2-b0c2-350a-5e3976be2ea5",
+   "title": "Modules and Packages",
+   "pageId": "ded272a8-0a36-3a4b-53ec-048c5ddce5ab",
+   "type": "page"
+  },
+  {
+   "id": "4317786e-1040-2c33-dab7-6ea6d6321a66",
+   "title": "Underscores",
+   "pageId": "7d5e791e-f914-74f4-40a5-9cc1b9d8fa35",
+   "type": "page"
+  },
+  {
+   "id": "d4c4fda6-9cf8-a4b7-3c84-1b2f7b00018d",
+   "title": "Underscore Summary",
+   "pageId": "4daf4f57-5879-808f-5a51-83f264387639",
+   "type": "page"
+  },
+  {
+   "id": "984d332b-f517-a1ed-0f1b-c40bfddc5f50",
+   "title": "Styling Conventions",
+   "pageId": "82ce5e22-a149-7898-6244-e60d284a5819",
+   "type": "page"
+  }
+ ]
+}

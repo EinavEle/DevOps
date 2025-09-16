@@ -1,0 +1,307 @@
+[
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2724593670",
+  "source": {
+   "name": "Q1",
+   "showName": true,
+   "instructions": "What will the following code output? \nPlease don't run the code before answering\nAssume is_odd is a command that determines whether a number is odd ( True ) or not ( False ).\n\nWhat would the following code output?\n\n\n```python\nnums = [5, 4, 1, 3, 5, 2]\nmiddle_num = 0\n\nif is_odd(len(nums)):\n    middle_num = nums[len(nums)//2]\nelse:\n    middle_num = (nums[len(nums)//2] + nums[len(nums)//2 - 1]) // 2\n\n\nprint(middle_num)\n```",
+   "multipleResponse": false,
+   "isRandomized": false,
+   "answers": [
+    {
+     "_id": "35c91c73-49ec-a29e-e009-e24f9131215f",
+     "correct": false,
+     "answer": "1"
+    },
+    {
+     "_id": "a11579c2-420b-762e-d1ab-63ad1bb94e57",
+     "correct": true,
+     "answer": "2"
+    },
+    {
+     "_id": "2550eb34-68f7-2e01-eeea-6475bc59bed3",
+     "correct": false,
+     "answer": "3"
+    },
+    {
+     "_id": "edb6a816-5348-7aac-e3cd-2739a7cf414b",
+     "correct": false,
+     "answer": "4"
+    },
+    {
+     "_id": "6d3558ba-0b07-8263-cd42-3a4cfb878598",
+     "correct": false,
+     "answer": "5"
+    },
+    {
+     "_id": "ca2796b6-2356-f203-7144-83587f77fd45",
+     "correct": false,
+     "answer": "Error"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "work.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 2,
+      "content": "work.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1266190328",
+  "source": {
+   "name": "Q2",
+   "showName": true,
+   "instructions": "What are some considerations when using `remove`?",
+   "multipleResponse": false,
+   "isRandomized": false,
+   "answers": [
+    {
+     "_id": "c2b216e3-cc87-52eb-0acf-898128f371b5",
+     "correct": false,
+     "answer": "Nothing, works all the time"
+    },
+    {
+     "_id": "005ee249-bc08-cf62-e291-ea30ea0dd3d4",
+     "correct": false,
+     "answer": "Item can't exist more than once in the list"
+    },
+    {
+     "_id": "2c81bd8b-e490-9368-cbde-0d08a55b20b3",
+     "correct": false,
+     "answer": "Item can only exist once in the list"
+    },
+    {
+     "_id": "3d1c9e5f-172b-b706-e260-1bef2e8228fe",
+     "correct": true,
+     "answer": "Item has to be in the list"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "work.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 2,
+      "content": "work.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-4263008148",
+  "source": {
+   "name": "Q3",
+   "showName": true,
+   "instructions": "What will the following code output? \nPlease don't run the code before answering\n\n```\ncabinet = [\"President\", \"VP\", \"Chief of Staff\", \"General\", \"Secretary of Defense\"]\nsupporters = []\n\nsupporters.append(cabinet[1])\nsupporters.append(cabinet[3])\n\nif len(supporters) > 0:\n\tif \"President\" in supporters or len(supporters) > 2:\n\t\tprint(\"Approved\")\n\telse:\n\t\tprint(\"Denied\")\nelse:\n\tprint(\"Not enough supporters\")\n```",
+   "multipleResponse": false,
+   "isRandomized": false,
+   "answers": [
+    {
+     "_id": "526a3afb-7e78-9433-c657-3734a6e8da00",
+     "correct": false,
+     "answer": "Approved"
+    },
+    {
+     "_id": "9d575e21-634b-258c-2649-631ae218dfe9",
+     "correct": true,
+     "answer": "Denied"
+    },
+    {
+     "_id": "bd6f5ee9-9f4a-2aed-a3b5-0394217bd021",
+     "correct": false,
+     "answer": "Not enough supporters"
+    },
+    {
+     "_id": "0ca320e5-7729-e10e-02f9-051e97572994",
+     "correct": false,
+     "answer": "An error"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "work.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 2,
+      "content": "work.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2068267850",
+  "source": {
+   "name": "Q4",
+   "showName": true,
+   "instructions": "What will the following code output? \nPlease don't run the code before answering\n```\nnames = [\"Zady\", \"Yolinda\", \"Xiu\", \"William\"]\nnames2 = [\"Xiu\", \"William\", \"Victor\", \"Ulderman\", \"Teresa\"]\n\nnames.pop(len(names) - 1)\nnames.remove(names2[1])\n\nprint(\"Done\")\n```",
+   "multipleResponse": false,
+   "isRandomized": false,
+   "answers": [
+    {
+     "_id": "a1dfefa5-c86b-33bc-0fd1-3e08c719e0c5",
+     "correct": false,
+     "answer": "Xiu"
+    },
+    {
+     "_id": "8b538658-54a5-b135-db8e-d70b6e532625",
+     "correct": false,
+     "answer": "William"
+    },
+    {
+     "_id": "cb733038-2acc-21d4-d21a-63cb1e3e5545",
+     "correct": false,
+     "answer": "Done"
+    },
+    {
+     "_id": "c63eed02-6d43-47a7-be67-193a8c1763ad",
+     "correct": true,
+     "answer": "An Error"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "work.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 2,
+      "content": "work.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2061178462",
+  "source": {
+   "name": "Q5",
+   "showName": true,
+   "instructions": "What will this code output?\n```\nfriends = []\nprint(friends[0] + \" is my best friend\")\n```",
+   "multipleResponse": false,
+   "isRandomized": false,
+   "answers": [
+    {
+     "_id": "f680d57b-edd6-ad0b-3695-17556b3fb568",
+     "correct": false,
+     "answer": "is my best friend"
+    },
+    {
+     "_id": "fbbbab24-b35c-c56e-7ff4-5c43fb8fee90",
+     "correct": false,
+     "answer": "0 is my best friend"
+    },
+    {
+     "_id": "03feba22-61c3-db3b-6747-711f3ff26944",
+     "correct": true,
+     "answer": "An error"
+    },
+    {
+     "_id": "82fadadb-46ca-cd38-e951-f60bb5016832",
+     "correct": false,
+     "answer": "None of the above"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "work.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 2,
+      "content": "work.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ }
+]

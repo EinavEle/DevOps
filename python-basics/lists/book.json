@@ -1,0 +1,101 @@
+{
+ "name": "Lists",
+ "children": [
+  {
+   "title": "Intro",
+   "id": "43233358-109a-7373-d083-67b1d812d499",
+   "pageId": "43233358-109a-7373-d083-67b1d812d499",
+   "type": "page"
+  },
+  {
+   "title": "List Basics",
+   "id": "60cbf1a4-2bb0-0cad-4f3f-a8024927e8ed",
+   "pageId": "60cbf1a4-2bb0-0cad-4f3f-a8024927e8ed",
+   "type": "page"
+  },
+  {
+   "id": "2543bd8f-802d-a354-1655-e26342f00d2a",
+   "title": "Accessing List Items: Indices",
+   "pageId": "3500963e-725b-13ae-3df7-f1e0ba5eba9f",
+   "type": "page"
+  },
+  {
+   "id": "8b540f56-0d90-1060-8e76-a6dfbef1e7fe",
+   "title": "Values from Lists",
+   "pageId": "362ea29c-dbe3-c4c0-db8b-dd4b68707eea",
+   "type": "page"
+  },
+  {
+   "id": "454da56c-e4f9-4df4-b487-674b3bf1754a",
+   "title": "Overwriting List  Items",
+   "pageId": "9da6db76-43df-1f82-6050-7e6cecd64070",
+   "type": "page"
+  },
+  {
+   "id": "a3b8a516-86ef-708d-663b-56d76259481e",
+   "title": "Updating List Items",
+   "pageId": "fe5becae-2a62-bbec-20a7-0705d2692ed3",
+   "type": "page"
+  },
+  {
+   "id": "0c5e425e-4566-38a0-e29c-040508ead838",
+   "title": "Adding to Lists",
+   "pageId": "e69ec8de-8f92-20d4-3273-70be6c5ef3bd",
+   "type": "page"
+  },
+  {
+   "id": "bdfcc18a-a8e5-238d-8ab7-65ee66785810",
+   "title": "Checking if Item in List",
+   "pageId": "b7200119-49cc-8d36-30d4-fc1313ca834f",
+   "type": "page"
+  },
+  {
+   "id": "22f11579-89db-a77d-4f47-afeeb7b2ff83",
+   "title": "Spot Check",
+   "pageId": "9e6eb61d-a594-84bf-966b-b84cfba23a2b",
+   "type": "page"
+  },
+  {
+   "id": "507ee39a-e27c-9dcf-cb0a-c04b4f3dd683",
+   "title": "Removing from List",
+   "pageId": "29fca4a4-d0bf-dec3-6980-dcfac36c4d8e",
+   "type": "page"
+  },
+  {
+   "id": "1ceefa10-72f2-55c1-a2dd-8fdf818bcb42",
+   "title": "Reference Type",
+   "pageId": "4bc2b01d-b730-5ace-2c45-e189272f9c7b",
+   "type": "page"
+  },
+  {
+   "id": "1a09644d-4a2a-f4fb-b489-bd42a499859a",
+   "title": "Slicing",
+   "pageId": "e90dc15c-47c1-eba5-1b76-a47e02693af0",
+   "type": "page"
+  },
+  {
+   "id": "db22d054-75ad-d8a4-845e-9bea3428da1d",
+   "title": "List Methods",
+   "pageId": "1f4bdbed-9cb6-757a-d39d-aba16e187faf",
+   "type": "page"
+  },
+  {
+   "id": "1e66b872-301b-edc4-1660-5218e588da0b",
+   "title": "List Comprehension",
+   "pageId": "59af09fd-dff9-c915-003a-13610949d593",
+   "type": "page"
+  },
+  {
+   "id": "921f87b7-111f-7510-8fee-0a734d0bfbc5",
+   "title": "Exercises",
+   "pageId": "4508d63c-e4dc-648d-93f3-843d325853a1",
+   "type": "page"
+  },
+  {
+   "id": "2331e2b7-9a50-f6ba-ce59-d8dd02d1ae92",
+   "title": "Comprehension Check",
+   "pageId": "cfeeda57-8d75-35df-2f6d-2260a37ee86b",
+   "type": "page"
+  }
+ ]
+}

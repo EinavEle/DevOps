@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1943943063",
+	"source": {
+		"name": "Question 5",
+		"showName": true,
+		"instructions": "Assume the server response status code is `408`. Choose the most likely root cause for this response.",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "4a754be4-2058-d01c-7a32-bd69def9dfa9",
+				"correct": false,
+				"answer": "The client sent `HEAD` request"
+			},
+			{
+				"_id": "0d54819f-8908-bc03-adcc-4637da1d25ac",
+				"correct": true,
+				"answer": "The server is overloaded"
+			},
+			{
+				"_id": "ad670e46-685f-76a3-99ab-7f92260ddb39",
+				"correct": false,
+				"answer": "The request is down"
+			},
+			{
+				"_id": "e5616fae-56f0-3757-ee6b-56bd793b8f65",
+				"correct": false,
+				"answer": "The server already served this resource to this client"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

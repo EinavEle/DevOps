@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-4120781694",
+	"source": {
+		"name": "q1",
+		"showName": true,
+		"instructions": "You are building order-processing application to processes customer's orders. \nYou use an SQS queue as the underlying mechanism to process customer purchase (sending confirmation email, issue an order report, etc..). \n\nWhich SQS queue best fits for this task?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "d92bab0f-63c3-12cf-ce66-0c4fe8e87fe5",
+				"correct": false,
+				"answer": "Standard\n"
+			},
+			{
+				"_id": "84f61fe2-0867-14b9-c9bc-074a60d71f6b",
+				"correct": false,
+				"answer": "FIFO\n"
+			},
+			{
+				"_id": "cb268528-3803-ce3f-fcef-50d31717b5c0",
+				"correct": true,
+				"answer": "Both standard or FIFO\n"
+			},
+			{
+				"_id": "00395833-3eb2-3073-9721-1bd16f22674f",
+				"correct": false,
+				"answer": "Dead letter queue"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

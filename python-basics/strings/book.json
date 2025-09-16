@@ -1,0 +1,53 @@
+{
+ "name": "Strings",
+ "children": [
+  {
+   "title": "Intro",
+   "id": "78c5101b-122b-4b99-5746-2b9e10e512ce",
+   "pageId": "78c5101b-122b-4b99-5746-2b9e10e512ce",
+   "type": "page"
+  },
+  {
+   "title": "len",
+   "id": "00aacd97-0d50-1002-0e3d-f2af627dfca2",
+   "pageId": "00aacd97-0d50-1002-0e3d-f2af627dfca2",
+   "type": "page"
+  },
+  {
+   "id": "3dfed20d-1176-1aa8-ddb4-c519a254181b",
+   "title": "String Operations",
+   "pageId": "a89a5089-7254-27e0-4f3f-51e2bb0d7e23",
+   "type": "page"
+  },
+  {
+   "id": "b4fc50a0-8d96-49fb-0c2f-7035008b8a13",
+   "title": "String   Formatting",
+   "pageId": "f87b3e83-bd64-9791-88ab-b2b4c329ec01",
+   "type": "page"
+  },
+  {
+   "id": "5656c76e-3e9b-38f4-3aa0-93e88d2d5670",
+   "title": "Escaping",
+   "pageId": "d2a5994e-d3c9-9660-49ff-93c08e6af8af",
+   "type": "page"
+  },
+  {
+   "id": "1fbce82b-65c1-547e-fbdd-3b7cdbe546d7",
+   "title": "Accesssing Characters",
+   "pageId": "45526c2b-087c-2588-23cc-aeb14fe7525c",
+   "type": "page"
+  },
+  {
+   "id": "8bdbd0de-ef9b-cdb4-0a75-1d9c754d91af",
+   "title": "Exercises",
+   "pageId": "1895e7ef-a57d-ce1d-a93b-b781f4fb9b7e",
+   "type": "page"
+  },
+  {
+   "id": "8695156d-9006-04c6-d960-2f782ddcf4e1",
+   "title": "Extension",
+   "pageId": "53b9a2e0-55df-da07-861a-272fea59cf20",
+   "type": "page"
+  }
+ ]
+}

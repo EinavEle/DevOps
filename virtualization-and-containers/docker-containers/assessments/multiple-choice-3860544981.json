@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3860544981",
+	"source": {
+		"name": "Question 4",
+		"showName": true,
+		"instructions": "When running `docker run -e MYSQL_ROOT_PASSWORD=1234 mysql`, what is the main process name of the container as it's seen **from the host machine**?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "f0c2ec3c-b21a-8076-f8b9-45dfdcaf743c",
+				"correct": true,
+				"answer": "`mysqld`"
+			},
+			{
+				"_id": "f8ad4360-a6c4-1357-de98-726b1d21fe8c",
+				"correct": false,
+				"answer": "`dockerd`"
+			},
+			{
+				"_id": "ec2174e5-4662-64e0-1149-9966f258a3b1",
+				"correct": false,
+				"answer": "`containerd`"
+			},
+			{
+				"_id": "f42f713d-30e2-f112-3d06-9a39a1cd92ca",
+				"correct": false,
+				"answer": "`runc`"
+			},
+			{
+				"_id": "ca3e79f0-4ff1-56ba-f525-d494239c7d56",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

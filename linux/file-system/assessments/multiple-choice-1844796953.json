@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1844796953",
+	"source": {
+		"name": "Question 6",
+		"showName": true,
+		"instructions": "The file `e2fsck` is a privileged command that must always be available to the system and being used by the system admin. This file would be found in",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "ce80aa11-c433-799b-2ae4-ef8b58eb775e",
+				"correct": false,
+				"answer": "`/tmp`"
+			},
+			{
+				"_id": "881f5659-11e8-3e49-67c5-b48284cccce9",
+				"correct": false,
+				"answer": "`/etc`"
+			},
+			{
+				"_id": "8c9b16ea-e285-3c00-b4d5-a7e958a00b13",
+				"correct": false,
+				"answer": "`/var/lib`"
+			},
+			{
+				"_id": "7440b93a-ae48-9a29-3537-ed2fe999438c",
+				"correct": true,
+				"answer": "`/sbin`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

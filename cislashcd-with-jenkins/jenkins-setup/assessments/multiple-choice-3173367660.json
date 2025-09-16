@@ -1,0 +1,64 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3173367660",
+	"source": {
+		"name": "Q2",
+		"showName": true,
+		"instructions": "Which of the below might be disadvantage(s) of Jenkins community plugins?\n",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "254ea6b1-6c30-2671-9b5b-2a2a94d9f850",
+				"correct": false,
+				"answer": "Enhanced functionality\n"
+			},
+			{
+				"_id": "936e72be-ed2c-27b7-02db-27f7abc724d8",
+				"correct": true,
+				"answer": "Compatibility issues\n"
+			},
+			{
+				"_id": "3d3bac9b-e59c-7659-1a48-8e435dc14128",
+				"correct": true,
+				"answer": "Security concerns\n"
+			},
+			{
+				"_id": "623869b9-bfb9-3408-9431-62b2de3edb10",
+				"correct": false,
+				"answer": "Flexibility and customization\n"
+			},
+			{
+				"_id": "4849e884-afd0-5797-ae4c-5bf08cf8fd2a",
+				"correct": false,
+				"answer": "Easy integration with other tools\n"
+			},
+			{
+				"_id": "a6057948-bb62-ca89-2353-91c8703d5713",
+				"correct": true,
+				"answer": "Poor documentation and support"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

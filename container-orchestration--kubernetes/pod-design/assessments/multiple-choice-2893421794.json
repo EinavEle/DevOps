@@ -1,0 +1,49 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2893421794",
+	"source": {
+		"name": "Q16",
+		"showName": true,
+		"instructions": "Given a node with a taint `group=blue`, and a Pod with toleration for `group=blue`.\n\n\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "6ccb3fe9-ef23-52de-c52f-9fda89e34f30",
+				"correct": false,
+				"answer": "The Pod will always be placed on that node.\n"
+			},
+			{
+				"_id": "a0aad8cd-4052-4f9b-28ed-9d6c4ca1a04b",
+				"correct": false,
+				"answer": "The Pod will not be placed on that node.\n"
+			},
+			{
+				"_id": "8ead3089-689b-9bff-8750-51c059aa7142",
+				"correct": true,
+				"answer": "The Pod may be placed on that node."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

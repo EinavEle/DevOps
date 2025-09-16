@@ -1,0 +1,25 @@
+{
+	"title": "IO Redirection and Filtering",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Agenda-and-Learning-Goals-7267",
+		"The---and----Operators-8a18",
+		"The---Operator-99f9",
+		"Linux-grep-Command-and-Regular-Expressions-0742",
+		"Spot-Check-456d",
+		"IO-Pipes-Under-the-Hood-496a",
+		"Exercises-4182",
+		"Comprehension-Check-c2f2"
+	]
+}

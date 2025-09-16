@@ -1,0 +1,49 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-4267149793",
+	"source": {
+		"name": "Question 4",
+		"showName": true,
+		"instructions": "```bash\n[elvis@station]$ ssh ec2-user@69.57.97.126 \"echo ‘hi’ | grep h > /tmp/greet\"\n```\nOn which machine was the file `/tmp/greet` created?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "d5a086cd-7aab-bd9c-3d96-9481ab3fffee",
+				"correct": false,
+				"answer": "The local machine"
+			},
+			{
+				"_id": "a05c201d-c028-c6f3-f998-9165299df5b3",
+				"correct": true,
+				"answer": "The remote machine"
+			},
+			{
+				"_id": "226e13b8-defd-ae17-3f64-fe7ca16f538f",
+				"correct": false,
+				"answer": "Not enough information is provided"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-314929856",
+	"source": {
+		"name": "Question 14",
+		"showName": true,
+		"instructions": "Which command(s) can help you to resolve the following error:\n```bash\nError response from daemon: You cannot remove a running container 76004df79402d330992abe9f423715904fb590663f797fee3bca4e9e877f0ac0. Stop the container before attempting removal or force remove\n```",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "1c64d0fe-4a51-866d-8998-2d486966b450",
+				"correct": false,
+				"answer": "`docker run 76004df794`"
+			},
+			{
+				"_id": "73d6c219-78ba-f04a-4116-f6f3d5110a12",
+				"correct": true,
+				"answer": "`docker kill --signal STOP 76004df794`"
+			},
+			{
+				"_id": "13c9b6f8-e25c-0ae2-3336-1f3b5889b7c9",
+				"correct": false,
+				"answer": "`docker top 76004df794`"
+			},
+			{
+				"_id": "db3494bf-3fe9-f398-c3da-25d7e356a1e1",
+				"correct": true,
+				"answer": "`docker stop 76004df794`"
+			},
+			{
+				"_id": "10589674-08f7-afc7-6c61-2a3b301bf8b2",
+				"correct": false,
+				"answer": "`docker pause 76004df794`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"title": "K8s core objects",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Agenda-and-Learning-Goals-3c0e",
+		"Pods-8ac8",
+		"Workload-resources---Replicaset-e8b1",
+		"Workload-resources---Deployment-1bf0",
+		"Service-3bcb",
+		"Secret-5716",
+		"ConfigMap-0f82",
+		"Kubernetes-core-objects-summary-e8f3",
+		"Exercises-8c17",
+		"Comprehension-check-b530"
+	]
+}

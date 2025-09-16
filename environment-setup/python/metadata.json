@@ -1,0 +1,42 @@
+{
+ "sections": [
+  {
+   "id": "9e81bf48-e282-077f-5280-5895498eb792",
+   "title": "Installation",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Installation-9e81.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  },
+  {
+   "id": "f51d71c9-2ed5-945d-3a48-1afe9c60ba71",
+   "title": "Execution",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Execution-f51d.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  }
+ ],
+ "theme": "light",
+ "scripts": [],
+ "lexikonTopic": "",
+ "suppressPageNumbering": false,
+ "useSubmitButtons": true,
+ "useMarkAsComplete": true,
+ "hideMenu": false,
+ "allowGuideClose": false,
+ "collapsedOnStart": false,
+ "hideSectionsToggle": false,
+ "hideBackToDashboard": false,
+ "protectLayout": false
+}

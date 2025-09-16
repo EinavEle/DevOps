@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-24674715",
+	"source": {
+		"name": "Question 4",
+		"showName": true,
+		"instructions": "Given the below running container command executed by `elvis`:\n```bash\n[elvis@hostname]$ docker run -it -v /test_data:/test_data busybox /bin/sh\n```\nAssume the command `touch /test_data/hi` was successfully executed from within the container. When running `ls -l /test_data`** from the host machine**, who are the user and group owners of the created `hi` file?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "89fb231f-dc50-0347-a9e0-46d83d0e0586",
+				"correct": false,
+				"answer": "`elvis`"
+			},
+			{
+				"_id": "d4ace0a4-63c1-6cb5-341f-ea1d8e91ce55",
+				"correct": false,
+				"answer": "`dockerd`"
+			},
+			{
+				"_id": "5d85edc9-9508-f6a4-cf8a-b9c927121010",
+				"correct": true,
+				"answer": "`root`"
+			},
+			{
+				"_id": "8ab6c77f-cb0a-5d0e-ebdc-c0d0f72e807a",
+				"correct": false,
+				"answer": "Since this file was created from within a container in the host machine fs, there is no user and group owning the file."
+			},
+			{
+				"_id": "9dcd43b2-a7c5-5cd3-88c7-1857f742f7b1",
+				"correct": false,
+				"answer": "None of the above."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

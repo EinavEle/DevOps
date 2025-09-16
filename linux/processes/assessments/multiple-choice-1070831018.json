@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1070831018",
+	"source": {
+		"name": "Question 4",
+		"showName": true,
+		"instructions": "Open a new terminal session and type the command `python`. Then send a SIGINT signal using your keyboard. What best describes how the python process responds to the SIGINT signal? (you can exit this process by typing `exit()` in the python console)",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "6b5cc130-f181-cc0d-99e6-9a104d626e55",
+				"correct": false,
+				"answer": "The program ignores the SIGINT signal"
+			},
+			{
+				"_id": "0a63456e-b2ce-be37-5b07-d996dfb7d9f4",
+				"correct": true,
+				"answer": "The program has implemented a custom signal handler for the SIGINT signal."
+			},
+			{
+				"_id": "359b9aa1-33ed-fd59-0565-f905828ce9bf",
+				"correct": false,
+				"answer": "The program behaves as the kernel's default signal handler for the SIGINT signal, which is to terminate the process."
+			},
+			{
+				"_id": "075be001-387d-0fa0-4e0d-af85c4ba8bde",
+				"correct": false,
+				"answer": "The program behaves as the kernel's default signal handler for the SIGINT signal, which is to stop (suspend) the process."
+			},
+			{
+				"_id": "874b3acb-437a-0e25-5cd3-d5d6b3eee990",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

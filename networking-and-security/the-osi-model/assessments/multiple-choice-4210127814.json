@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-4210127814",
+	"source": {
+		"name": "Question 2",
+		"showName": true,
+		"instructions": "WhatsApp voice call feature has two major components:\n1. Call manager - responsible for initializing the call to the destined participant, to ring, and to start the conversation session once the two sides are on-line.\n2. Call streamer - responsible for transmitting the recorded voice buffer between participants.\n\nChoose the **most suitable** underlying protocol for each component:",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "6577c2e2-0507-5766-5794-8b0a4622ac71",
+				"correct": true,
+				"answer": "The call manager relying on TCP while the streamer on UDP"
+			},
+			{
+				"_id": "cce7610c-02bb-0a68-ca6c-98294baec96f",
+				"correct": false,
+				"answer": "The call manager relying on UDP while the streamer on TCP"
+			},
+			{
+				"_id": "c02ebb91-cfdb-8740-13f0-4269f78dc689",
+				"correct": false,
+				"answer": "Both components relying on TCP"
+			},
+			{
+				"_id": "d560c2f2-00eb-7dc3-c97e-ecb82218317a",
+				"correct": false,
+				"answer": "Both components relying on UDP"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

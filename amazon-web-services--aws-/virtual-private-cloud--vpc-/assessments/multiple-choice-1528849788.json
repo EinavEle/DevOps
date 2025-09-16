@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1528849788",
+	"source": {
+		"name": "q1",
+		"showName": true,
+		"instructions": "You deploy Flask webserver on an EC2 instance. Deploying the service in multiple subnets can ensure highly available and fault-tolerant architecture.\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "f1dc5bf4-11ad-c67c-8bcc-0cc57819c5d8",
+				"correct": false,
+				"answer": "True, only in case the subnets was created in different regions.\n"
+			},
+			{
+				"_id": "ab4cd6ca-2b33-a02a-5fb8-2942e93c16dc",
+				"correct": false,
+				"answer": "False, we can use one subnet that spans over multiple AZs.\n"
+			},
+			{
+				"_id": "d17a4193-cb31-7fb8-3fa3-d680147755e7",
+				"correct": true,
+				"answer": "True, only in case the subnets was created in different AZs.\n"
+			},
+			{
+				"_id": "e0ca36c7-4c77-8b55-ec1a-2c43860ca86a",
+				"correct": false,
+				"answer": "False, multiple VPCs can ensure highly available and fault-tolerant architecture."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

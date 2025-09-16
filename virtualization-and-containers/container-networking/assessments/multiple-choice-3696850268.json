@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3696850268",
+	"source": {
+		"name": "Question 9",
+		"showName": true,
+		"instructions": "Choose the correct sentence(s):",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "f417051c-c5c3-f9e8-ed10-d4c4b9a8feae",
+				"correct": false,
+				"answer": "The container can be connected to a user-defined bridge network."
+			},
+			{
+				"_id": "4fa2be4e-4c37-7d39-4b11-4ceafe952446",
+				"correct": true,
+				"answer": "The container cannot be connected to a user-defined bridge network."
+			},
+			{
+				"_id": "2a54fa37-58a8-faa8-dbd8-8e37b800d350",
+				"correct": false,
+				"answer": "The container can be connected to the default bridge network."
+			},
+			{
+				"_id": "71fab976-52a6-2ccc-739c-f83ab714b35e",
+				"correct": true,
+				"answer": "The container cannot be connected to the default bridge network."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

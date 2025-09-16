@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3753826297",
+	"source": {
+		"name": "Question 6",
+		"showName": true,
+		"instructions": "Consider the below script named `myscript.sh`:\n```bash\n#!/bin/sh\n\nX=1\necho $X\n```\nThe script is executed by `bash myscript.sh`. Which shell is running the script?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "ab3de8fe-4ade-338f-9ce8-1946e0c92020",
+				"correct": true,
+				"answer": "`bash`"
+			},
+			{
+				"_id": "b55da4f7-aa40-2b36-3530-ef0ae3c5dc10",
+				"correct": false,
+				"answer": "`sh`"
+			},
+			{
+				"_id": "2ac865b9-b3bd-0354-5fcb-32bab85c7f81",
+				"correct": false,
+				"answer": "Depends on the user's definition in `/etc/profile`"
+			},
+			{
+				"_id": "38ff58b0-9292-5e6b-acee-4ae644262d6a",
+				"correct": false,
+				"answer": "Depends on the user's definition in `~/.bashrc`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

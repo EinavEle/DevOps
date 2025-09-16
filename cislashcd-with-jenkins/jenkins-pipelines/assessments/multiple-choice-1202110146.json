@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1202110146",
+	"source": {
+		"name": "q3",
+		"showName": true,
+		"instructions": "One of your customers was concerned that their sensitive data could be compromised if your system is running on a shared physical hardware in AWS.\nThey were worried that other customers sharing the same hardware could potentially access their data. \n\nHow would you answer him? \n\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "20a8b330-95f2-b9fa-fd62-07dd627517da",
+				"correct": false,
+				"answer": "We will encrypt the disks\n"
+			},
+			{
+				"_id": "dc1fb079-1d12-96d8-0bc5-2c9cc679c051",
+				"correct": false,
+				"answer": "We will operate out service from a private network\n"
+			},
+			{
+				"_id": "40076170-699d-affe-fd29-0e7425fc47e2",
+				"correct": true,
+				"answer": "It's AWS responsibility to allowed shared IaaS securely\n"
+			},
+			{
+				"_id": "9607eca5-cbe3-fa9e-5f3b-def6178160f1",
+				"correct": false,
+				"answer": "We will run your account in a dedicated instance"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

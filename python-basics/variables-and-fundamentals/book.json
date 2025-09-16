@@ -1,0 +1,101 @@
+{
+ "name": "Variables and Fundamentals",
+ "children": [
+  {
+   "title": "Intro",
+   "id": "9ba9868b-d317-a658-ad60-a09eb35164bc",
+   "pageId": "9ba9868b-d317-a658-ad60-a09eb35164bc",
+   "type": "page"
+  },
+  {
+   "title": "Variables",
+   "id": "8bb1a43b-b434-656f-2cce-fc793fc0c60e",
+   "pageId": "8bb1a43b-b434-656f-2cce-fc793fc0c60e",
+   "type": "page"
+  },
+  {
+   "id": "c1d15259-e900-7d57-aa1d-87899d9d085d",
+   "title": "Defining Variables",
+   "pageId": "f57ead46-c810-6f3d-5a7a-05592ade94d1",
+   "type": "page"
+  },
+  {
+   "id": "407a8fce-4d5d-39e3-54a5-af507ddeafde",
+   "title": "Comments",
+   "pageId": "52fcf0b6-7326-a6da-3943-f88dd277b8a4",
+   "type": "page"
+  },
+  {
+   "id": "df24d1af-d81e-94a5-89ed-f092dd69ae7e",
+   "title": "Types: Strings, Numbers, and Booleans",
+   "pageId": "75b83067-dd91-29a2-87d9-db71c0aafb8a",
+   "type": "page"
+  },
+  {
+   "id": "2c296950-8703-551a-3855-15e543d1ae61",
+   "title": "Spot Check",
+   "pageId": "a96e28d3-1dfb-2456-5fb7-b32bc1725b1e",
+   "type": "page"
+  },
+  {
+   "id": "82b1a939-8204-7382-7ea0-9dbb79ec93cc",
+   "title": "Types: Floats",
+   "pageId": "957acc88-6325-cc89-cab9-f3eeabde5d1e",
+   "type": "page"
+  },
+  {
+   "id": "adbddd80-4cd5-ea0c-2b39-fcbb0ec72186",
+   "title": "Operators: Mathematical, Comparison, Logical",
+   "pageId": "f091863a-735e-8ee4-8f37-de5e2892beee",
+   "type": "page"
+  },
+  {
+   "id": "dfb267a0-ebc9-05dc-5cfb-98d58407de5e",
+   "title": "Spot Check",
+   "pageId": "ee8e5f8c-27ab-2560-cf0e-f91404596768",
+   "type": "page"
+  },
+  {
+   "id": "cbdfc27b-c74b-8b0e-f1d7-e2c1ba5f154f",
+   "title": "Concatenation",
+   "pageId": "55c0a97d-e9d0-55e7-982e-ea8694920cc1",
+   "type": "page"
+  },
+  {
+   "id": "4fe9fc2b-f7b7-8058-21df-b7d402c70297",
+   "title": "Overwriting and Updating Variables",
+   "pageId": "c38326d1-ec2b-f212-ab11-1cbc9fad5ec9",
+   "type": "page"
+  },
+  {
+   "id": "ea03848d-2bd4-2f08-ecc4-25a423f01e9f",
+   "title": "Special Operators",
+   "pageId": "8f3690ba-60a7-8d41-9a1b-14f783cf6cb8",
+   "type": "page"
+  },
+  {
+   "id": "16747e01-fd2c-8e3b-31d6-377f73022a5e",
+   "title": "Errors and Bugs",
+   "pageId": "059200d3-58d9-c29a-10bd-42d93656dce3",
+   "type": "page"
+  },
+  {
+   "id": "bd6b7bdc-b24a-b0a1-b7c0-8db40d9f0ebc",
+   "title": "Exercises",
+   "pageId": "182d9bc1-46b2-cfee-c644-5c30b1719016",
+   "type": "page"
+  },
+  {
+   "id": "67142a62-1a91-9e3b-5299-150789c07cfe",
+   "title": "Extension",
+   "pageId": "731d2f37-c0a4-d8fc-1d00-fe433cd00ba4",
+   "type": "page"
+  },
+  {
+   "id": "a138b6cd-04f9-5fd5-e2cc-c3f2f3116016",
+   "title": "Comprehension Check",
+   "pageId": "bc3a54aa-7064-8dc8-7269-aa1f5a7ec90f",
+   "type": "page"
+  }
+ ]
+}

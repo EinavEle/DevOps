@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1666475036",
+	"source": {
+		"name": "q3",
+		"showName": true,
+		"instructions": "Review [S3 performance](https://docs.aws.amazon.com/AmazonS3/latest/userguide/optimizing-performance.html) summary.\n\nYou consider using S3 bucket to store on a daily basis thousands of millions of short text objects for a new service in your company. \n\n\nWhich of the below information should be taken into account before choosing S3 as your solution?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "eb481611-b800-6eb0-2517-aae6e440d43c",
+				"correct": false,
+				"answer": "The size of individual object being written to S3\n"
+			},
+			{
+				"_id": "224b2ded-9b83-30e8-fc8a-c901900a36d8",
+				"correct": true,
+				"answer": "The total number of requests per second at peak usage\n"
+			},
+			{
+				"_id": "84ec865d-7a22-d11f-af6d-b2c6144dcd30",
+				"correct": false,
+				"answer": "The number of customers that will use the service\n"
+			},
+			{
+				"_id": "b2645f49-3261-9fd6-257b-ad5508535ead",
+				"correct": false,
+				"answer": "The total amount of storage needs for each S3 bucket"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

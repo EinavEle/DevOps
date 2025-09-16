@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1341614504",
+	"source": {
+		"name": "Question 11",
+		"showName": true,
+		"instructions": "The `/root` directory is noteworthy because",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "12dff17b-bd8f-1433-828c-9f632685f40e",
+				"correct": false,
+				"answer": "It is the root of the Linux filesystem"
+			},
+			{
+				"_id": "35879942-e7f7-e930-b5d4-54e63ea190cc",
+				"correct": true,
+				"answer": "It is the superuser's home directory"
+			},
+			{
+				"_id": "d048b9d2-af2a-2f01-f57c-2cb1e864d8a7",
+				"correct": false,
+				"answer": "It can always be abbreviated as `~`"
+			},
+			{
+				"_id": "150aa91a-4b0f-f811-41f0-9b55794c8ff6",
+				"correct": false,
+				"answer": "Its contents cannot be read by any user"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

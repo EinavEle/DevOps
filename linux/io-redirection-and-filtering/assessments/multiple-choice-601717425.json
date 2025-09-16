@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-601717425",
+	"source": {
+		"name": "Question 9",
+		"showName": true,
+		"instructions": "Given the file `logs.txt`. Which of the following commands will necessarily increase the size of the file (its total bytes)?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "02062a91-77e3-b288-3c98-a0f94741d4bd",
+				"correct": false,
+				"answer": "`cat logs.txt`"
+			},
+			{
+				"_id": "5596add7-f935-ca19-c1b6-68cfa6a0b4f1",
+				"correct": false,
+				"answer": "`echo \"hiiiiiiiiiiiiiiiiiiii\" > logs.txt`"
+			},
+			{
+				"_id": "b7a124c3-790d-c1f4-841d-89bd51b47a51",
+				"correct": false,
+				"answer": "`rm logs.txt`"
+			},
+			{
+				"_id": "63e9d0d6-9920-9874-dbf5-b6376fe4dc0d",
+				"correct": true,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

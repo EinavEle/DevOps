@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1139002142",
+	"source": {
+		"name": "Question 6",
+		"showName": true,
+		"instructions": "Which file is automatically updated whenever the first connection to a new host is accepted?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "5bee7663-627f-77b3-6325-63072067393e",
+				"correct": false,
+				"answer": "`~/.ssh/id_dsa.pub`"
+			},
+			{
+				"_id": "962674f6-e4bf-e7ee-8f64-54d18cd6ad98",
+				"correct": true,
+				"answer": "`~/.ssh/known_hosts`"
+			},
+			{
+				"_id": "1094f1b9-1bc0-1a4e-f941-c525f694e98b",
+				"correct": false,
+				"answer": "`~/.ssh/authorized_keys`"
+			},
+			{
+				"_id": "18a47f55-a892-3adf-9dad-42cadaa97ee2",
+				"correct": false,
+				"answer": "`~/.ssh/authorized_hosts`"
+			},
+			{
+				"_id": "37f2e5ca-63c5-ee33-8146-c71aef2b223b",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

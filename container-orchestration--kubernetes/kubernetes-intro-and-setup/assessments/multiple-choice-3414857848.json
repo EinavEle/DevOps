@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3414857848",
+	"source": {
+		"name": "Q5",
+		"showName": true,
+		"instructions": "In the kubeconfig file, what does the `server: URL` point to? Choose the accurate answer\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "f31c4c1a-cf31-f5bd-9f3b-ee2293afc659",
+				"correct": false,
+				"answer": "The URL address of the cluster."
+			},
+			{
+				"_id": "406968e9-caa7-957d-cd87-16499ab00914",
+				"correct": true,
+				"answer": "The URL address of the API server."
+			},
+			{
+				"_id": "c031d15d-8e4f-98ed-c31b-8d17105f46f3",
+				"correct": false,
+				"answer": "The URL address of one of the cluster nodes."
+			},
+			{
+				"_id": "76eef180-d180-0746-77c1-4d0fea3e26bb",
+				"correct": false,
+				"answer": "The URL address of the control plane machine."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

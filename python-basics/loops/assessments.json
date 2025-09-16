@@ -1,0 +1,155 @@
+[
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3740301925",
+  "source": {
+   "name": "Q1",
+   "showName": true,
+   "instructions": "What will this code output? \nPlease don't execute the code\n```\nemployee_ages = [23, 23, 26, 26, 27, 27, 29, 29]\n\nsame = True\n\nfor i in range(0, len(employee_ages) -1):\n\tif employee_ages[i] != employee_ages[i+1]:\n\t\tsame = False\n\nprint(same)\n```",
+   "multipleResponse": false,
+   "isRandomized": false,
+   "answers": [
+    {
+     "_id": "b65beaea-091c-5096-2c18-8ba56a36c71b",
+     "correct": false,
+     "answer": "True"
+    },
+    {
+     "_id": "740d0d6b-65fb-1a24-3bda-9610394c54e6",
+     "correct": true,
+     "answer": "False"
+    },
+    {
+     "_id": "2690047e-5f3c-2e21-8038-35a12bf0f09d",
+     "correct": false,
+     "answer": "An Error"
+    },
+    {
+     "_id": "ad0760e2-3048-e4ca-fe42-2024afc2941b",
+     "correct": false,
+     "answer": "None of the above"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-596554643",
+  "source": {
+   "name": "Q2",
+   "showName": true,
+   "instructions": "When should we use a `while` loop?",
+   "multipleResponse": false,
+   "isRandomized": false,
+   "answers": [
+    {
+     "_id": "90037b18-df47-d137-1544-31c1db3827aa",
+     "correct": false,
+     "answer": "Always"
+    },
+    {
+     "_id": "62d73bec-9f38-0d97-7b59-7fa4659235f0",
+     "correct": false,
+     "answer": "Whenever, if we prefer to"
+    },
+    {
+     "_id": "7e1fa20e-d112-5dc3-90a6-bebdbb5dc6bc",
+     "correct": false,
+     "answer": "When the number of iterations and the end condition are known"
+    },
+    {
+     "_id": "3c7ccef8-dabb-23be-dfa0-488097e0ca92",
+     "correct": true,
+     "answer": "When the number of iterations are unknown, but the end condition is known"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3098615705",
+  "source": {
+   "name": "Q3",
+   "showName": true,
+   "instructions": "What will the following code output? \nPlease don't execute the code\n\n```\nmy_lottery_numbers = [7, 3, 21, 4, 28, 5]\nactual_lottery_numbers = [7, 3, 21, 4, 29, 5]\n\nwon = True\n\nfor i in range(0, len(my_lottery_numbers)):\n\tif my_lottery_numbers[i] != actual_lottery_numbers[i]:\n\t\twon = False\n\nif won:\n\tprint(\"Won!\")\nelse:\n\tprint(\"Lost\")\n```",
+   "multipleResponse": false,
+   "isRandomized": false,
+   "answers": [
+    {
+     "_id": "47dc851a-4812-54b5-8b7b-51f38fb37c29",
+     "correct": false,
+     "answer": "Win!"
+    },
+    {
+     "_id": "f2eb5c7b-ffdc-93ac-2909-81d5d478c0fa",
+     "correct": true,
+     "answer": "Lost"
+    },
+    {
+     "_id": "87510dd3-c8b0-0c7c-93a2-cfd09e65847d",
+     "correct": false,
+     "answer": "Nothing"
+    },
+    {
+     "_id": "c458f88c-41ab-c55b-a9e1-eb02bdf350da",
+     "correct": false,
+     "answer": "An Error"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ }
+]

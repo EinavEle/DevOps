@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-46523765",
+	"source": {
+		"name": "Question 2",
+		"showName": true,
+		"instructions": "Assume the following DNS records are stored in a TLD DNS server:\n```bash\n(www.google.com, ns1.google.com, ???, 3600)\n(ns1.google.com, ???, A, 60)\n```\nAssume the following records are stored in the google.com authoritative DNS server:\n```bash\n(www.google.com, us-east-1.google.com, ???, 3600)\n(us-east-1.google.com, 146.54.29.12, ???, 60)\n```\nChoose the possible input for the missing content (top-down)",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "749338a0-ce34-c6e7-13a4-7a7ca7b44eb4",
+				"correct": false,
+				"answer": "NS, 192.168.229.2, CNAME, A"
+			},
+			{
+				"_id": "c15764eb-423a-1be0-6614-76aad2c77df0",
+				"correct": true,
+				"answer": "NS, 193.168.229.2, CNAME, A"
+			},
+			{
+				"_id": "c8c972dd-218b-ae88-5da6-ebe083a63cad",
+				"correct": false,
+				"answer": "NS, 146.44.119.13, CNAME, AAAA"
+			},
+			{
+				"_id": "c9c6430e-78ef-09e1-d5f3-98c0c1f574b6",
+				"correct": false,
+				"answer": "A, 127.0.0.1, CNAME, A"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

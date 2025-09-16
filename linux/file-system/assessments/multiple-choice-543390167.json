@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-543390167",
+	"source": {
+		"name": "Question 1",
+		"showName": true,
+		"instructions": "Which of the following is an absolute directory reference?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "299b6852-a832-8148-7040-b9885e9a3635",
+				"correct": true,
+				"answer": "`/home/student`"
+			},
+			{
+				"_id": "e9289352-7d9e-fab0-3c44-3cdf8d80003a",
+				"correct": false,
+				"answer": "`../etc`"
+			},
+			{
+				"_id": "f04502bd-f1cf-3273-c5f1-63f7b0303458",
+				"correct": false,
+				"answer": "`..`"
+			},
+			{
+				"_id": "9d51ee7b-bcaf-0da9-85fb-fe7863a3b6e0",
+				"correct": false,
+				"answer": "`home/myuser`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

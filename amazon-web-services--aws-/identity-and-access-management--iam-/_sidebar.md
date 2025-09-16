@@ -1,0 +1,16 @@
+- [Identity And Access Management  Iam  Home](./README.md)
+
+- [Slides](./Slides.md "Slides")
+- [Agenda-and-Learning-Goals](./Agenda-and-Learning-Goals.md "Agenda-and-Learning-Goals")
+- [Identity-based-policies](./Identity-based-policies.md "Identity-based-policies")
+- [Spot-check](./Spot-check.md "Spot-check")
+- [The-least-privilege-principal](./The-least-privilege-principal.md "The-least-privilege-principal")
+- [Create-a-policy-to-access-a-certain-bucket-and-prefix-only-and-attach-it-to-your-IAM-role](./Create-a-policy-to-access-a-certain-bucket-and-prefix-only-and-attach-it-to-your-IAM-role.md "Create-a-policy-to-access-a-certain-bucket-and-prefix-only-and-attach-it-to-your-IAM-role")
+- [Extend-your-policy](./Extend-your-policy.md "Extend-your-policy")
+- [Use-resource-tags-in-the-policy](./Use-resource-tags-in-the-policy.md "Use-resource-tags-in-the-policy")
+- [Controlling-access-to-EC2-using-resource-tags](./Controlling-access-to-EC2-using-resource-tags.md "Controlling-access-to-EC2-using-resource-tags")
+- [Enforce-tagging-policy-for-resources](./Enforce-tagging-policy-for-resources.md "Enforce-tagging-policy-for-resources")
+- [Exercises](./Exercises.md "Exercises")
+
+- [⬅ Back to Module](../README.md)
+- [⬅ Back to Course](../../README.md)

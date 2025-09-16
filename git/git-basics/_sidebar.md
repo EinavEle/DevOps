@@ -1,0 +1,17 @@
+- [Git Basics Home](./README.md)
+
+- [Pre-Install](./Pre-Install.md "Pre-Install")
+- [Intro---Version-Control](./Intro---Version-Control.md "Intro---Version-Control")
+- [Installing-Git](./Installing-Git.md "Installing-Git")
+- [Setup](./Setup.md "Setup")
+- [Creating-a-Local-Repository](./Creating-a-Local-Repository.md "Creating-a-Local-Repository")
+- [Tracking-Files](./Tracking-Files.md "Tracking-Files")
+- [Github](./Github.md "Github")
+- [Making-Changes](./Making-Changes.md "Making-Changes")
+- [Going-Backwards](./Going-Backwards.md "Going-Backwards")
+- [Cloning](./Cloning.md "Cloning")
+- [Cheat-Sheet](./Cheat-Sheet.md "Cheat-Sheet")
+- [Practice](./Practice.md "Practice")
+
+- [⬅ Back to Module](../README.md)
+- [⬅ Back to Course](../../README.md)

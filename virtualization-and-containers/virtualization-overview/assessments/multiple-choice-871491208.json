@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-871491208",
+	"source": {
+		"name": "Question 1",
+		"showName": true,
+		"instructions": "Visit the official SLA page of AWS. What is the percentage of availability of a service called S3, below which you deserve a 100% credit?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "c99c1ec8-ea92-1032-3d69-41558b0710b6",
+				"correct": true,
+				"answer": "< 95.00%"
+			},
+			{
+				"_id": "371ecee0-df32-781a-6c3e-7120dab81669",
+				"correct": false,
+				"answer": "< 99.00%"
+			},
+			{
+				"_id": "0bdd5bac-d8e4-13f2-f7fb-3ffdc8d1bdf7",
+				"correct": false,
+				"answer": "< 95.99%"
+			},
+			{
+				"_id": "4008d2aa-30eb-b40e-6ffb-8b679f7b6959",
+				"correct": false,
+				"answer": "< 100.00%"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

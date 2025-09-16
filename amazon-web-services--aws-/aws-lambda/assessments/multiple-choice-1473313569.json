@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1473313569",
+	"source": {
+		"name": "q7",
+		"showName": true,
+		"instructions": "You are developing a serverless application that requires the use of a custom Python library across multiple AWS Lambda functions. \nThe library contains common utility functions and dependencies that need to be shared among the functions. \n\nWhat is the recommended AWS service or feature to streamline the deployment and maintenance of the library across the Lambda functions?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "43beb446-baed-5d9b-8ecc-8aed7448ca57",
+				"correct": false,
+				"answer": "AWS Lambda environment variables\n"
+			},
+			{
+				"_id": "50db407a-b460-50db-ee43-167356a51ef7",
+				"correct": true,
+				"answer": "AWS Lambda layers\n"
+			},
+			{
+				"_id": "32b257ca-5d81-8b67-85d9-c0804ef9def3",
+				"correct": false,
+				"answer": "AWS CloudFormation templates\n"
+			},
+			{
+				"_id": "3f9ddb36-bd87-d11a-eb25-6c69164bc396",
+				"correct": false,
+				"answer": "AWS Step Functions"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3987170563",
+	"source": {
+		"name": "Question 1",
+		"showName": true,
+		"instructions": "When a user runs the command `who` from the command line, which of the following best describes what happens?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "364a8b9e-60a0-0c41-39a0-563d4a909c27",
+				"correct": true,
+				"answer": "The shell asks the kernel to execute the contents of the file `/usr/bin/who` as a separate process, displaying the process's output on the terminal."
+			},
+			{
+				"_id": "7cba3d41-dfb8-38cb-038e-7125f4759a69",
+				"correct": false,
+				"answer": "The shell makes the `who` system call, prompting the Linux kernel for the output directly."
+			},
+			{
+				"_id": "557c28c8-0330-8dd5-be51-c53350676c51",
+				"correct": false,
+				"answer": "The shell exits, and is replaced by the `who` process. When the `who` process terminates, it replaces itself with a new shell process."
+			},
+			{
+				"_id": "89310167-9974-739b-8be4-dd3ca8c7c8d2",
+				"correct": false,
+				"answer": "None of the above."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

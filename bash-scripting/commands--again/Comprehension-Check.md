@@ -1,0 +1,6 @@
+{Check It!|assessment}(multiple-choice-2355965002)
+{Check It!|assessment}(multiple-choice-1093722780)
+{Check It!|assessment}(multiple-choice-3265742965)
+{Check It!|assessment}(multiple-choice-3130515846)
+{Check It!|assessment}(multiple-choice-244909331)
+{Check It!|assessment}(multiple-choice-2122923838)

@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1215390473",
+	"source": {
+		"name": "Q7",
+		"showName": true,
+		"instructions": "What would the following command print? \n\n```bash\ncat /etc/my-secret/password\n```\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "0d1d4bce-fae5-0753-f32e-bee6c6c650dd",
+				"correct": false,
+				"answer": "k8s_is_great!\n"
+			},
+			{
+				"_id": "e635301f-bee8-f64f-3425-84921a525a5d",
+				"correct": false,
+				"answer": "No such file or directory error\n"
+			},
+			{
+				"_id": "889e295a-0721-cf55-f6c7-b541ddf81b7c",
+				"correct": true,
+				"answer": "password123\n"
+			},
+			{
+				"_id": "7444246e-7d81-cb14-42fd-ba2506d5796e",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

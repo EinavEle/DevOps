@@ -1,0 +1,3 @@
+Global variables or **environment variables** are variables available for any process or application running in the same environment. Global variables are being transferred from parent process to child program. They are used to store system-wide settings and configuration information, such as the current user's preferences, system paths, and language settings. Environment variables are an essential part of the Unix and Linux operating systems and are used extensively by command-line utilities and scripts.
+
+The `env` or `printenv` commands can be used to display environment variables.

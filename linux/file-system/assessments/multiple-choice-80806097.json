@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-80806097",
+	"source": {
+		"name": "Question 5",
+		"showName": true,
+		"instructions": "The file `named.conf` is a system configuration file. This file belongs in",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "128579a3-c64b-3ec9-4a65-26f0100db65a",
+				"correct": false,
+				"answer": "`/tmp`"
+			},
+			{
+				"_id": "e6814cb9-d214-09c2-6400-6d88e42a5817",
+				"correct": true,
+				"answer": "`/etc`"
+			},
+			{
+				"_id": "b6056330-3b0f-2650-fde3-f2f4c577fa13",
+				"correct": false,
+				"answer": "`/bin`"
+			},
+			{
+				"_id": "ee3fe261-6b2f-e9c6-a155-2b3d5c84287d",
+				"correct": false,
+				"answer": "`/home/myuser`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

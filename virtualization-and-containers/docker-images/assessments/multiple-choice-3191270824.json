@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3191270824",
+	"source": {
+		"name": "Question 8",
+		"showName": true,
+		"instructions": "In a Dockerfile, suppose you have the following line: `COPY app/ /usr/src/app/`. Assume the owner and group of `app` directory on your host machine is `elvis`, whose UID (user id) is 1000 and GID (group id) is 1000.\n\nWhat will be the UID and GID of the files in the `/usr/src/app` directory in the resulting Docker image?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "5724811b-c3d2-8a77-604d-751c328cc0af",
+				"correct": true,
+				"answer": "`0`"
+			},
+			{
+				"_id": "89f1f5d2-b24d-d6bd-c3e4-badff6f8928a",
+				"correct": false,
+				"answer": "`1000`"
+			},
+			{
+				"_id": "fcf70bbe-c084-727d-720c-50fab29c5d7f",
+				"correct": false,
+				"answer": "Files in an image don't have UID and GID."
+			},
+			{
+				"_id": "eac69e22-5112-fd60-67d6-d6331802a1e4",
+				"correct": false,
+				"answer": "None of the above."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

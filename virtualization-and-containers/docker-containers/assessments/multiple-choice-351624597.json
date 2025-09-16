@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-351624597",
+	"source": {
+		"name": "Question 9",
+		"showName": true,
+		"instructions": "The container status is:",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "77d25427-a202-b076-5a8e-ddadd2209b18",
+				"correct": false,
+				"answer": "Exited"
+			},
+			{
+				"_id": "679e0838-b028-bac8-8986-a7f0a82c5364",
+				"correct": false,
+				"answer": "Created"
+			},
+			{
+				"_id": "80aba137-d814-8ff0-0c7c-c7d895d468d6",
+				"correct": true,
+				"answer": "Running"
+			},
+			{
+				"_id": "d601a152-55c4-5871-d9d6-8123b2898365",
+				"correct": false,
+				"answer": "Restarting"
+			},
+			{
+				"_id": "1bbce8f7-2330-6114-72b7-b1e490572230",
+				"correct": false,
+				"answer": "We can't know from the output alone"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

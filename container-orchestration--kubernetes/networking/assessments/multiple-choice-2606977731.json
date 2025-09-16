@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2606977731",
+	"source": {
+		"name": "Q2",
+		"showName": true,
+		"instructions": "\nConsider the below Pod: \n\n```yaml \napiVersion: v1\nkind: Pod\nmetadata:\n  name: mc1\nspec:\n  containers:\n    - name: webserver\n      image: nginx:latest\n    - name: helper\n      image: debian\n      command: [\"/bin/sh\", \"-c\"]\n      args:\n        - while true; do\n            wget localhost:80\n            sleep 1;\n          done\n```\n\nChoose the correct sentence(s):",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "4fce7b35-f7fe-f9b3-5f7a-de5e5e93bc4e",
+				"correct": true,
+				"answer": "Each container has its own IP address.\n\n\n\n"
+			},
+			{
+				"_id": "42cb0eb0-e0e2-f8f3-8288-3fb469fbd135",
+				"correct": false,
+				"answer": "The containers don't have the same MAC address."
+			},
+			{
+				"_id": "56196101-c094-3d02-3ea6-7856228357be",
+				"correct": true,
+				"answer": "IP addresses exist at the Pod scope."
+			},
+			{
+				"_id": "bc35e1f3-e35c-df26-efe2-744e1fd921fc",
+				"correct": true,
+				"answer": "Container `helper` will be running properly."
+			},
+			{
+				"_id": "08bae456-bf58-faa1-b586-703a2a693a6e",
+				"correct": false,
+				"answer": "Both `helper` and `webserver` can use port 80 for internal usage."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

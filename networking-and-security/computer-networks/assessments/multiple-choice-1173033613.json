@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1173033613",
+	"source": {
+		"name": "Question 17",
+		"showName": true,
+		"instructions": "To which network interface will the traffic to 10.0.1.234 be routed?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "5da18ea8-08e1-bd71-74a4-4ad0f9b39be2",
+				"correct": false,
+				"answer": "lo"
+			},
+			{
+				"_id": "6d13e140-baa4-5347-5bb8-573942999505",
+				"correct": true,
+				"answer": "eth0"
+			},
+			{
+				"_id": "2ae93580-54f0-88a6-0261-09f339b19d5c",
+				"correct": false,
+				"answer": "eth1"
+			},
+			{
+				"_id": "fe9984cd-1fa2-f7f7-b392-21ea811cef98",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

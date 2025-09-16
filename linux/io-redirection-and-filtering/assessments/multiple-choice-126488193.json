@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-126488193",
+	"source": {
+		"name": "Question 2",
+		"showName": true,
+		"instructions": "Which of the following command lines would list all lines from `/usr/share/dict/words` which contain the text `sun`, preceded by their line number?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "f9f754d7-2ff9-2c4c-77e8-d7b203401658",
+				"correct": true,
+				"answer": "`grep -n sun /usr/share/dict/words`"
+			},
+			{
+				"_id": "5db99912-72ec-210d-d232-62a25ba30dd1",
+				"correct": false,
+				"answer": "`grep -N /usr/share/dict/words sun`"
+			},
+			{
+				"_id": "5c39702c-da4d-3dc1-37fa-7e105fb1c19e",
+				"correct": false,
+				"answer": "`grep -r /usr/share/dict/words sun`"
+			},
+			{
+				"_id": "95de62fc-3905-0a36-d5bc-5ec920109dab",
+				"correct": false,
+				"answer": "`grep -r sun /usr/share/dict/words`"
+			},
+			{
+				"_id": "49bae0ad-22fb-8119-1ed4-a0ea2a66a906",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

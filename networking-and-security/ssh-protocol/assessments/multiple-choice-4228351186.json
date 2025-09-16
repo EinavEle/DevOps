@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-4228351186",
+	"source": {
+		"name": "Question 7",
+		"showName": true,
+		"instructions": "Which of the following command lines could be used to recursively copy the `~/backups` directory to a remote machine's `/tmp` directory?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "16447b5f-43ec-c716-e82f-e7a4c1e32214",
+				"correct": false,
+				"answer": "`scp backups ec2-user@69.57.97.126:tmp`"
+			},
+			{
+				"_id": "e175d202-bb76-ab43-b745-b6153085c5ab",
+				"correct": true,
+				"answer": "`scp -r backups ec2-user@69.57.97.126:/tmp`"
+			},
+			{
+				"_id": "066e0969-7063-fef5-d103-203acaa6f753",
+				"correct": false,
+				"answer": "`scp -R /tmp/backups ec2-user@69.57.97.126:`"
+			},
+			{
+				"_id": "b88db610-9602-130a-adf5-862300512e5b",
+				"correct": false,
+				"answer": "`scp backups ec2-user@69.57.97.126:`"
+			},
+			{
+				"_id": "d36ff526-80b4-5358-1a43-a6e4d0c27acc",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"title": "DNS Protocol",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Agenda-and-Learning-Goals-22ad",
+		"Intro-6481",
+		"How-does-DNS-work--5a7a",
+		"Manually-Resolving-google-com-0c98",
+		"DNS-Record-Types-58f6",
+		"The-Local-DNS-Server-9ae7",
+		"DNS-Caching-4652",
+		"Registering-a-Domain-9ec3",
+		"Exercises-09c1",
+		"Comprehension-Check-0095"
+	]
+}

@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-4211350453",
+	"source": {
+		"name": "Question 10",
+		"showName": true,
+		"instructions": "Given an image called `curl-tool`built using the below Dockerfile:\n```bash\nFROM ubuntu\nLABEL description=\"Containerized `curl` tool image\"\n\nRUN apt update && apt install curl -y\n\nENTRYPOINT [\"curl\"]\nCMD [\"google.com\"]\n```\nWhich of the following `docker run` commands will be running successfully?",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "5091efef-70bf-94e5-c5a6-1aec62f97133",
+				"correct": true,
+				"answer": "`docker run curl-tool`"
+			},
+			{
+				"_id": "a0919106-e6de-e049-9f03-0909132011e0",
+				"correct": true,
+				"answer": "`docker run curl-tool github.com`"
+			},
+			{
+				"_id": "1e371476-4f5f-62c1-6b3c-68359583ce83",
+				"correct": false,
+				"answer": "`docker run -it curl-tool /bin/bash`"
+			},
+			{
+				"_id": "74d30532-dcdc-976a-1f83-3867d4528f3d",
+				"correct": false,
+				"answer": "`docker run curl-tool ls`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

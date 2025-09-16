@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2387578690",
+	"source": {
+		"name": "Q6",
+		"showName": true,
+		"instructions": "You have set up a Jenkins pipline which pushes an image to ERC. \nRecently, you've noticed that sometimes the pipeline gets stuck due to unavailability or ECR:\n\n```text\nThe push refers to repository [xxxxxxxxxxx.dkr.ecr.ca-central-1.amazonaws.com/reponame]\n714c1b96dd83: Retrying in 1 second \nd2cdc77dd068: Retrying in 1 second \n30aad807caf5: Retrying in 1 second \n0559774c4ea2: Retrying in 1 second \n285b8616682f: Retrying in 1 second \n4aeea0ec2b15: Waiting \n1b1312f842d8: Waiting \nc310009e0ef3: Waiting \na48777e566d3: Waiting \n2a0c9f28029a: Waiting \n```\n\nThis issues resulted and prolonged blocking of your build and deployment pipelines. \n\nHow can you address this issue? ",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "1acf300e-6eec-3300-a104-a6d6e3dc1f13",
+				"correct": false,
+				"answer": "Disable concurrent builds: `options { disableConcurrentBuilds() }`\n"
+			},
+			{
+				"_id": "34a16ee2-fdc2-4b98-68dd-e58afd9007b2",
+				"correct": true,
+				"answer": "Add a build timeout: `options { timeout(time: 25, unit: 'MINUTES') }`\n"
+			},
+			{
+				"_id": "33ea5f80-4c4d-5156-6bbd-378379459f40",
+				"correct": false,
+				"answer": "Preserve build stashes: `options { preserveStashes(buildCount: 5) }`\n"
+			},
+			{
+				"_id": "4136d046-410b-8479-7b2b-6f6db26deb09",
+				"correct": false,
+				"answer": "Open a support ticket to AWS team"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

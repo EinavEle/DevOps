@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-238632892",
+	"source": {
+		"name": "q8",
+		"showName": true,
+		"instructions": "In your AWS environment, you have an instance located in Availability Zone A (AZ-A) within a private subnet.\nYou have also set up a NAT Gateway in Availability Zone B (AZ-B) to handle outbound internet traffic for instances located in private subnets.\nThe NAT Gateway has the appropriate routes and configurations.\nYou observe that the EC2 instance in AZ-A is experiencing significant outbound traffic to the internet. \n\nHow can you design a cost-optimized architecture to handle this outbound traffic efficiently?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "94b5841c-b778-06d6-35bd-abe20464dcfd",
+				"correct": false,
+				"answer": "Replace the NAT Gateway with a NAT instance for cost savings.\n"
+			},
+			{
+				"_id": "77073937-c3d7-e217-7c14-7a2b0f8ca728",
+				"correct": false,
+				"answer": "Use a VPC Endpoint to route the outbound traffic directly to the internet without incurring NAT Gateway costs.\n"
+			},
+			{
+				"_id": "01a3b5a6-f24d-f30a-fcfd-33b2407b5957",
+				"correct": true,
+				"answer": "Configure a public subnet with the NAT gateway in AZ-A."
+			},
+			{
+				"_id": "e2474bde-618b-ac52-76e0-469e50e5b558",
+				"correct": false,
+				"answer": "Deploy an internet-facing Elastic Load Balancer (ELB) in front of the EC2 instance to handle the outbound traffic."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

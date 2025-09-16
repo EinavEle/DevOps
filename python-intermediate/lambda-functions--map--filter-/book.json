@@ -1,0 +1,77 @@
+{
+ "name": "Lambda Functions (Map, Filter)",
+ "children": [
+  {
+   "title": "Intro",
+   "id": "78ae0ce0-4a75-0483-c8da-3cd511068ff2",
+   "type": "page",
+   "pageId": "78ae0ce0-4a75-0483-c8da-3cd511068ff2"
+  },
+  {
+   "title": "The `filter` Function",
+   "id": "458cca5c-459d-e1d2-60e2-445456822850",
+   "type": "page",
+   "pageId": "458cca5c-459d-e1d2-60e2-445456822850"
+  },
+  {
+   "title": "Spot Check 1",
+   "id": "a2aca003-8038-aa5d-6a4d-c7137d4c6805",
+   "type": "page",
+   "pageId": "f3a6ea7d-849f-8ced-d1ff-a5f8766c5b64"
+  },
+  {
+   "title": "Lambda Functions",
+   "id": "af68c014-8ea2-7326-d583-3fc68212eff4",
+   "type": "page",
+   "pageId": "505bebc5-9e80-811e-12b3-21d0421ed174"
+  },
+  {
+   "title": "Lambda  and Filter",
+   "id": "b1b98a74-3764-80db-d25e-ec3e76948963",
+   "type": "page",
+   "pageId": "61e830b8-c125-47c8-400c-2bb3f6dd987b"
+  },
+  {
+   "title": "Spot Check 2",
+   "id": "0b1bed4d-9f1c-50af-5f11-b3d95ff58ce3",
+   "type": "page",
+   "pageId": "ec6c49c1-b467-9561-cbb1-34e6bb4f4cac"
+  },
+  {
+   "title": "The `map` Function",
+   "id": "3d6e89e1-7494-d09c-bca4-46d2bfb9d6d9",
+   "type": "page",
+   "pageId": "2f925139-6916-fbd2-600c-534bddd23e21"
+  },
+  {
+   "title": "Spot  Check 3",
+   "id": "2d62752e-2772-4299-318d-5437ed127af9",
+   "type": "page",
+   "pageId": "b4a7a694-3087-5d0c-840b-988888e365da"
+  },
+  {
+   "title": "Decode Exercise",
+   "id": "4d338ef7-9c52-0833-11bb-96defb548dd5",
+   "type": "page",
+   "pageId": "b646abeb-3b29-b73a-eed5-34ad9d7ab207"
+  },
+  {
+   "title": "Exercises",
+   "id": "0f7ea47f-4877-5a3b-3bfc-49805ae4914f",
+   "type": "page",
+   "pageId": "dbeb2ba6-1a62-0254-3848-dc262ffa32e0"
+  },
+  {
+   "title": "Extension Exercise",
+   "id": "38a86d5e-3e1d-59aa-9461-7448e4c44e66",
+   "type": "page",
+   "pageId": "5390d063-30de-f666-dd92-1e1d64c3db7f"
+  },
+  {
+   "title": "Comprehension Check",
+   "id": "b8735f0e-3ecb-d23a-6c84-99a022e7a8ae",
+   "type": "page",
+   "pageId": "dd1d0c40-545c-bb0f-d6a5-ef1bd02f561a"
+  }
+ ]
+}

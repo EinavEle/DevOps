@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-42424114",
+	"source": {
+		"name": "Q1",
+		"showName": true,
+		"instructions": "Which of the following is the reason why a Fluentd DaemonSet didn't create a service?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "811e77ab-d510-e89d-2928-aef59088699b",
+				"correct": false,
+				"answer": "DaemonSets restrict service creation.\n"
+			},
+			{
+				"_id": "8c9b78ec-8438-94ac-ee9f-50d6b945ea36",
+				"correct": false,
+				"answer": "Communication with DaemonSet is done using `localhost`.\n"
+			},
+			{
+				"_id": "ed3c3a98-8a3b-aa87-05af-926c1126870a",
+				"correct": true,
+				"answer": "FluentD pods push data, they don't receive incoming traffic.\n"
+			},
+			{
+				"_id": "71e18dad-845b-939f-1687-d28df1b94363",
+				"correct": false,
+				"answer": "The DaemonSet did create a service."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"title": "Docker Composer",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Agenda-and-Learning-Goals-19ba",
+		"New-Page-e8e9",
+		"Compose-Benefits-ca90",
+		"Installation-f54c",
+		"Introducing-YAML-dfd8",
+		"Try-Compose-1cf5",
+		"Spot-Check-f177",
+		"Exercise-90d3",
+		"Comprehension-Check-07f9"
+	]
+}

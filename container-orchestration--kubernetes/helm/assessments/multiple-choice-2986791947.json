@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2986791947",
+	"source": {
+		"name": "Q2",
+		"showName": true,
+		"instructions": "Applying the Chart with the default values will create an Ingress for the `server`? \n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "b7b2b12a-f221-fbce-a04c-0a92a43ebcc8",
+				"correct": true,
+				"answer": "No.\n"
+			},
+			{
+				"_id": "d1d0b6a8-3ee2-04c3-dae7-d57df3fb6c1f",
+				"correct": false,
+				"answer": "Yes.\n"
+			},
+			{
+				"_id": "8450640c-bc95-114f-ee1f-d26e3764fae4",
+				"correct": false,
+				"answer": "Ingress os not part of the Chart.\n"
+			},
+			{
+				"_id": "566c8086-bcbd-470b-e8ba-c4a97f6d859b",
+				"correct": false,
+				"answer": "Depends on the Ingress Controller type."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

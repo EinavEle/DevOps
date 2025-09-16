@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3288361543",
+	"source": {
+		"name": "Question 2",
+		"showName": true,
+		"instructions": "Which of the following is a relative directory reference?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "6785eeaa-80fc-c2e0-9f52-7eff5766cb0a",
+				"correct": false,
+				"answer": "`/home/student`"
+			},
+			{
+				"_id": "27445c26-97e6-a5e4-45ac-935d643b89b6",
+				"correct": false,
+				"answer": "`/etc`"
+			},
+			{
+				"_id": "f654ae79-d4e4-e4e4-ceb1-2945b8da54f6",
+				"correct": true,
+				"answer": "`..`"
+			},
+			{
+				"_id": "012c7c01-9bd4-a3be-eff1-ae6cf0be9d7e",
+				"correct": false,
+				"answer": "`~`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-4057268130",
+	"source": {
+		"name": "Question 1",
+		"showName": true,
+		"instructions": "For a communication session between a pair of programs, which program is the client and which is the server?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "11473698-e5ac-2405-da2e-b7d1dba89ea0",
+				"correct": true,
+				"answer": "The program that initializes the TCP connection is the client"
+			},
+			{
+				"_id": "d1b523a3-c917-f7c6-bbad-34593ab3f65a",
+				"correct": false,
+				"answer": "The program that initializes the TCP connection is the server"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

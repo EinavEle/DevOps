@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3394980169",
+	"source": {
+		"name": "q3",
+		"showName": true,
+		"instructions": "After experiencing a DDoS attack during the night, you discovered that your instances are accessed directly using their public IP addresses, allowing bypass the Application Load Balancer (ALB) that routes traffic to the instance. \n\nHow can you overcome this vulnerability? \n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "e2c508fd-b6f4-adb4-f647-c38a7ec7d412",
+				"correct": false,
+				"answer": "Place instances in a private VPC.\n"
+			},
+			{
+				"_id": "ae91bc79-c7d9-0597-9704-e28c52735816",
+				"correct": true,
+				"answer": "Configure the instances to accept traffic only from the ALB using security group rule.\n"
+			},
+			{
+				"_id": "1d930971-e613-8c52-e552-87fe671fb2e2",
+				"correct": false,
+				"answer": "Block any incoming requests during nights.\n"
+			},
+			{
+				"_id": "7bdf46fb-185c-98fd-3300-380a9d25a230",
+				"correct": false,
+				"answer": "There is no mitigation to this vulnerability."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

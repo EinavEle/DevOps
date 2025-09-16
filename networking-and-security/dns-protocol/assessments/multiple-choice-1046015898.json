@@ -1,0 +1,64 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1046015898",
+	"source": {
+		"name": "Question 8",
+		"showName": true,
+		"instructions": "Which of the domains require 2 seconds to be resolved? (count the resolve time for each domain separately. Do not add the time it took to resolve the previous ones.)",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "7aca87c1-59fe-ab89-23d6-c7c75e36464b",
+				"correct": false,
+				"answer": "1"
+			},
+			{
+				"_id": "16ea4ce6-4473-1515-0d85-92d1e9b367f3",
+				"correct": false,
+				"answer": "2"
+			},
+			{
+				"_id": "fb31bf47-91fa-c6d0-e3e5-a656e0a55e6b",
+				"correct": false,
+				"answer": "3"
+			},
+			{
+				"_id": "7d3cae0b-bb84-691e-9060-e9e637f5bb92",
+				"correct": true,
+				"answer": "4"
+			},
+			{
+				"_id": "4ee8df67-9fc9-7293-b3b8-7bf3bef05c7a",
+				"correct": false,
+				"answer": "5"
+			},
+			{
+				"_id": "638d35b8-f17e-0f4d-fce6-43a5f1ed615e",
+				"correct": true,
+				"answer": "6"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

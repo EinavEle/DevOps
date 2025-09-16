@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3964546906",
+	"source": {
+		"name": "Question 1",
+		"showName": true,
+		"instructions": "In which file does SSH store a user's private RSA key, by default?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "4c482cc2-4707-116f-0d19-6b1708536aa1",
+				"correct": false,
+				"answer": "`~/.key.private`"
+			},
+			{
+				"_id": "4ca538be-0f48-193c-25ec-62856e11abee",
+				"correct": false,
+				"answer": "` ~/.ssh/rsa`"
+			},
+			{
+				"_id": "f92bfe79-2c3c-c13d-8367-21b6b34b0c59",
+				"correct": true,
+				"answer": "`~/.ssh/id_rsa`"
+			},
+			{
+				"_id": "8a7f6782-0472-5636-9f11-798030a917ae",
+				"correct": false,
+				"answer": "`~/.sshrc`"
+			},
+			{
+				"_id": "dfd253e2-d017-dee1-bbbb-5636c310e3a0",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

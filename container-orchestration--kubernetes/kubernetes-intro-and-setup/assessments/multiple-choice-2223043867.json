@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2223043867",
+	"source": {
+		"name": "Q1",
+		"showName": true,
+		"instructions": "What are possible options to provide the `my-configs.yaml` kubeconfig to `kubectl` command?\n",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "ca62e151-5c7c-7693-9d86-e3a96a1c25c7",
+				"correct": true,
+				"answer": "Using `KUBECONFIG=my-configs.yaml` environment variable.\n"
+			},
+			{
+				"_id": "98f9e7bc-2c2e-b26b-ff26-b0206f92a71b",
+				"correct": true,
+				"answer": "Using `--kubeconfig my-configs.yaml` flag in the `kubectl`.\n"
+			},
+			{
+				"_id": "687a6d3b-06ef-25ff-6521-c153672134a6",
+				"correct": false,
+				"answer": "Placing the `my-configs.yaml` file into `~/kubeconfig` directory.\n"
+			},
+			{
+				"_id": "413224df-709c-fea7-b11f-098c861b19fc",
+				"correct": false,
+				"answer": "Placing the `my-configs.yaml` file into `~/kube/config` directory."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

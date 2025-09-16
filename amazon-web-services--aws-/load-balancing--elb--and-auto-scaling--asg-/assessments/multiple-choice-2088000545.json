@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2088000545",
+	"source": {
+		"name": "q2",
+		"showName": true,
+		"instructions": "In the security group of an Application Load Balancer (ALB), port 80 is configured to be open for incoming traffic. \nHowever, in the security group of the EC2 instances hosting the application, port 80 is not allowed. The instance configured correctly as a target in the ALB.\n\nGiven this configuration, would a request to the ALB url, port 80, from a client to the application succeed?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "a81b8cd5-0de9-5597-91c2-0aa836934368",
+				"correct": true,
+				"answer": "Yes.\n"
+			},
+			{
+				"_id": "f774e8f9-c756-0607-aa91-859d5046c6b5",
+				"correct": false,
+				"answer": "No.\n"
+			},
+			{
+				"_id": "49f1dfc4-93f4-23df-ce18-2d66eba73af8",
+				"correct": false,
+				"answer": "Depends on the configuration of the network access control list (NACL) associated with the LB.\n"
+			},
+			{
+				"_id": "6b4c6729-c826-7abc-bbc3-eec4074464bf",
+				"correct": false,
+				"answer": "Depends on whether the ALB and the EC2 instances are launched within the same availability zone."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

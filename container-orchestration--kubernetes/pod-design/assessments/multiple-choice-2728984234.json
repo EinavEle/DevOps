@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2728984234",
+	"source": {
+		"name": "Q7",
+		"showName": true,
+		"instructions": "Given the below command and the output:\n\n\n```console\n$ kubectl describe pod test-pod-123\nName:                           test-pod-123\nNamespace:                      default\nImage(s):                       alpine\nNode:                           kubernetes-node-tf0f/10.240.216.66\nLabels:                         name=test-pod-123\nStatus:                         Running\nReason:\nMessage:\nIP:                             10.244.2.75\nContainers:\n  alpine:\n    Image:  alpine:latest\n    Limits:\n      cpu:          100m\n      memory:       50Mi\n    State:          Running\n      Started:      Tue, 07 Jul 2019 12:54:41 -0700\n    Last State:     Terminated\n      Reason:       OOMKilled\n      Exit Code:    137\n      Started:      Fri, 07 Jul 2019 12:54:30 -0700\n      Finished:     Fri, 07 Jul 2019 12:54:33 -0700\n    Ready:          False\n    Restart Count:  5\nConditions:\n  Type      Status\n  Ready     False\nEvents:\n  Type    Reason     Age   From               Message\n  ----    ------     ----  ----               -------\n  Normal  Scheduled  42s   default-scheduler  Successfully assigned test-pod-123 to kubernetes-node-tf0f\n  Normal  Pulled     41s   kubelet            Container image \"alpine:latest\" already present on machine\n  Normal  Created    41s   kubelet            Created container alpine\n  Normal  Started    40s   kubelet            Started container alpine\n  Normal  Killing    32s   kubelet            Killing container with id ead3fb35-5cf5-44ed-9ae1-488115be66c6: Need to kill Pod\n```\n\nChoose the correct sentence: \n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "a4ac6d73-e231-2ec0-659b-af15e7104976",
+				"correct": false,
+				"answer": "The `alpine` container was killed because it hit a resource limit.\n"
+			},
+			{
+				"_id": "6a4231d7-065e-1e05-1384-61a441c64c36",
+				"correct": false,
+				"answer": "The `alpine` container is running with no issues (`Status: Running`).\n"
+			},
+			{
+				"_id": "715f0264-f7b0-5221-e800-3a08b79094aa",
+				"correct": true,
+				"answer": "The `alpine` container is restarting again and again because it is hitting a resource limit.\n"
+			},
+			{
+				"_id": "9e15462d-97ea-d8f4-f133-94b10d512ec3",
+				"correct": false,
+				"answer": "The output is not authentic since the last Pod State is `Terminated`, but the Pod status is `Running`."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

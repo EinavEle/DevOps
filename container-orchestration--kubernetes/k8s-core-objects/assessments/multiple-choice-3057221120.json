@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3057221120",
+	"source": {
+		"name": "Q8",
+		"showName": true,
+		"instructions": "What is the file type of `/etc/my-secret/password`? ",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "2a0947f4-6d23-09e8-48be-7bbdb366b5b7",
+				"correct": false,
+				"answer": "Regular file (`-`).\n"
+			},
+			{
+				"_id": "39e15fc0-4a84-a67d-8627-429ac9d422a1",
+				"correct": false,
+				"answer": "Directory (`d`).\n"
+			},
+			{
+				"_id": "08bc7978-1bce-36fe-0982-a95b7a285d3b",
+				"correct": true,
+				"answer": "Link (`l`).\n"
+			},
+			{
+				"_id": "77ee8b78-bd32-81cb-437e-f23c71cdae7b",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2707234638",
+	"source": {
+		"name": "Question 16",
+		"showName": true,
+		"instructions": "Consider the below two `docker run` commands:\n```bash\ndocker run -p 8080:80 nginx\ndocker run -p 8080:80 nginx\n```\nAssume there are no other containers running on the host machine. Choose the correct sentence:",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "9b24b5f8-21aa-bcf2-c1a7-fa8a03742c03",
+				"correct": false,
+				"answer": "The commands create and run two different containers successfully."
+			},
+			{
+				"_id": "f4887876-e1d6-a935-6178-865ef44dfb0b",
+				"correct": false,
+				"answer": "The second command does nothing since the first command runs the nginx container image successfully."
+			},
+			{
+				"_id": "87e05d6a-6ccc-fac5-02e9-88f05207cecb",
+				"correct": false,
+				"answer": "The seconds command will fail since you are not able to run two different containers from the `nginx` image."
+			},
+			{
+				"_id": "e1474360-c9d7-ab5a-f151-244debd72e84",
+				"correct": true,
+				"answer": "The seconds command will fail since port 8080 is bound to the first container."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

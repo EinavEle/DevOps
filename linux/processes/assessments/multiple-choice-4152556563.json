@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-4152556563",
+	"source": {
+		"name": "Question 3",
+		"showName": true,
+		"instructions": "Which of the following is not true for the Linux operating system?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "a0c21ee8-3093-06a3-093e-6c5a5e6cad35",
+				"correct": false,
+				"answer": "Multiple processes appear to be running at the same time."
+			},
+			{
+				"_id": "8ea783ee-e099-4e9b-4acc-a4bc6348b895",
+				"correct": true,
+				"answer": "Only one instance of any given program may be running as a process."
+			},
+			{
+				"_id": "e1bfe613-8741-1064-3c59-54c12b91c046",
+				"correct": false,
+				"answer": "Programs are stored as files in the filesystem."
+			},
+			{
+				"_id": "fbadba02-b37d-7988-5f82-0d4e52d63e8b",
+				"correct": false,
+				"answer": "Only one instance of the kernel may be running at any given time."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1404952391",
+	"source": {
+		"name": "Question 1",
+		"showName": true,
+		"instructions": "What happens if you use the `set -e` in a Bash script?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "a2e2097e-cd80-7a0a-bea2-6f6ffd61a563",
+				"correct": false,
+				"answer": "It will cause Bash to exit if a function or subshell returns a nonzero status code."
+			},
+			{
+				"_id": "b3b006b0-6c3c-25c5-c8ca-4558992701f5",
+				"correct": false,
+				"answer": "It will cause Bash to exit if a conditional returns a non-zero status code."
+			},
+			{
+				"_id": "425364b5-00d3-776a-2bef-4fa729d2f5bf",
+				"correct": false,
+				"answer": "It will cause Bash to exit if local, declare, or typeset assignments return a nonzero status code."
+			},
+			{
+				"_id": "109ad4e1-d3d8-2bc8-eb95-6e0063434e68",
+				"correct": true,
+				"answer": "It will cause Bash to exit if a command, list of commands, compound command, or potentially a pipeline returns a nonzero status code."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

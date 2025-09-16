@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-476505279",
+	"source": {
+		"name": "Question 1",
+		"showName": true,
+		"instructions": "What is the networking driver used by the network `mynginx` connected to?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "54e4d9ea-edec-2bda-681b-a3a20a6df1c3",
+				"correct": false,
+				"answer": "Overlay"
+			},
+			{
+				"_id": "3f5819ae-e1d6-dd6e-7ce5-0db59219a949",
+				"correct": false,
+				"answer": "None"
+			},
+			{
+				"_id": "30c813a2-15c5-a48c-98f1-a4ca930da02e",
+				"correct": false,
+				"answer": "Host"
+			},
+			{
+				"_id": "6ae1e8ae-e565-808e-2e2f-f6940ecfdc35",
+				"correct": true,
+				"answer": "Bridge"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3161492858",
+	"source": {
+		"name": "Question 6",
+		"showName": true,
+		"instructions": "The following text is found in the file `/etc/profile`.\n```bash\nfor i in /etc/profile.d/*.sh ; do\n  if [ -r \"$i\" ]; then\n    . $i\n  fi\ndone\n```\nWhat innocent action could a system administrator make that causes an error when this section of the above script is executed?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "9d1a5721-1e10-dd2b-9b12-96afc0182124",
+				"correct": false,
+				"answer": "The administrator could place a file that does not end with `.sh` in the `/etc/profile.d` directory."
+			},
+			{
+				"_id": "3f5025b5-736e-334c-876b-628d75ffafc6",
+				"correct": false,
+				"answer": "The administrator could place a file that does not have executable permissions in the `/etc/profile.d` directory."
+			},
+			{
+				"_id": "0177b87b-9a40-4b91-e9e7-f9a7c48b8492",
+				"correct": true,
+				"answer": "The administrator could place a file that does not have read permissions in the `/etc/profile.d` directory."
+			},
+			{
+				"_id": "7d7183e5-877a-8193-7afd-9355fa0c8d06",
+				"correct": false,
+				"answer": "The administrator could place a file that does not have write permissions in the `/etc/profile.d `directory."
+			},
+			{
+				"_id": "d263bb45-87ca-3066-7ba8-104915473096",
+				"correct": false,
+				"answer": " The administrator could place a file titled `source me.sh` in the `/etc/profile.d` directory."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

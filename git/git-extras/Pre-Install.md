@@ -1,0 +1,1 @@
+{Button Text | terminal}(command)

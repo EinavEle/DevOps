@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1113861487",
+	"source": {
+		"name": "Question 6",
+		"showName": true,
+		"instructions": "When a socket is opened by a server and awaiting client connections, what state is the socket said to be in?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "9b29da1e-739f-f869-b8f6-fa3cb6ccbc9b",
+				"correct": false,
+				"answer": "Waiting"
+			},
+			{
+				"_id": "53784fde-4222-268a-9494-f6ad23a21eec",
+				"correct": true,
+				"answer": "Listening"
+			},
+			{
+				"_id": "3295ea19-24a5-c2b9-4f76-cef206b76ce0",
+				"correct": false,
+				"answer": "Established"
+			},
+			{
+				"_id": "15907db5-edb8-81eb-23ad-6024d5ad5d14",
+				"correct": false,
+				"answer": "Initialized"
+			},
+			{
+				"_id": "01bd4cda-6761-f1bb-a38e-1dd9e5d69335",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

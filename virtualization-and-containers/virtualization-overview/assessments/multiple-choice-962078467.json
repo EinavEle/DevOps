@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-962078467",
+	"source": {
+		"name": "Q5",
+		"showName": true,
+		"instructions": "Which of the following resources is shared by all containers?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "b815f59d-f754-d7f2-dabd-d33494464322",
+				"correct": false,
+				"answer": "Libraries\n"
+			},
+			{
+				"_id": "8dc10286-15b2-6ef2-f9cf-0bc355492d9f",
+				"correct": true,
+				"answer": "Kernel\n"
+			},
+			{
+				"_id": "42777cf1-44a6-f721-3f31-038e465f4b1d",
+				"correct": false,
+				"answer": "Application code\n"
+			},
+			{
+				"_id": "a6e1829e-5167-6698-49cc-ba492d81edbd",
+				"correct": false,
+				"answer": "Software running on the OS system"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

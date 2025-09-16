@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-826741880",
+	"source": {
+		"name": "q9",
+		"showName": true,
+		"instructions": "You need to estimate the required provisioning capacity for an AWS Lambda function that is expected to handle a sustained load of 500 requests per second.\nEach request takes approximately 15 milliseconds to process.\n\nBased on these requirements, which of the following calculations best match the minimum number of concurrent executions needed to handle the expected load?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "52bc4ca0-1c54-504d-811d-2d9b1f4ab576",
+				"correct": false,
+				"answer": "5 concurrent executions\n"
+			},
+			{
+				"_id": "5b9e3a45-be30-26b3-cc0b-ce17c1d9d5d4",
+				"correct": false,
+				"answer": "10 concurrent executions\n"
+			},
+			{
+				"_id": "75b7e6aa-5cb4-cd21-1461-84b0c1415720",
+				"correct": true,
+				"answer": "50 concurrent executions\n"
+			},
+			{
+				"_id": "d6ecaa9c-515f-e93b-08da-d1454abef424",
+				"correct": false,
+				"answer": "100 concurrent executions"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

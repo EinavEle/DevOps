@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3031721408",
+	"source": {
+		"name": "Question 4",
+		"showName": true,
+		"instructions": "How can the `app` service access the `redis` service?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "228d2807-df27-868d-61e7-0c52179894f3",
+				"correct": false,
+				"answer": "We need `redis`'s IP address."
+			},
+			{
+				"_id": "3564fdaa-a5bb-9086-590b-0d9d4efaf0aa",
+				"correct": true,
+				"answer": "By `redis:6379`."
+			},
+			{
+				"_id": "d6ccc80a-6075-ec48-0f23-2ab459ba3ef1",
+				"correct": false,
+				"answer": "By `services.redis:6379`."
+			},
+			{
+				"_id": "b64392a8-4853-9144-f8d3-8886882d3fa9",
+				"correct": false,
+				"answer": "The `redis` service is not accessible from the `app` service."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

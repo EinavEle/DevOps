@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3910185076",
+	"source": {
+		"name": "Question 1",
+		"showName": true,
+		"instructions": "How many layers is the image `sonatype/nexus3:3.41.0` composed of?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "9ede6830-4711-2a38-0b04-172d42feeb82",
+				"correct": false,
+				"answer": "3"
+			},
+			{
+				"_id": "6112cfaf-7e2c-e081-d84d-897869b14b46",
+				"correct": true,
+				"answer": "4"
+			},
+			{
+				"_id": "ac07e09e-6494-951f-ec58-124d6440fed0",
+				"correct": false,
+				"answer": "5"
+			},
+			{
+				"_id": "833537ee-5362-7f95-d13b-7a7b2a007375",
+				"correct": false,
+				"answer": "6"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

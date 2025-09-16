@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1754472069",
+	"source": {
+		"name": "Question 2",
+		"showName": true,
+		"instructions": "Given the bellow directory structure for a Go app:\n```bash\n.\n├── app.Dockerfile\n├── cmd\n│   ├── client\n│   │   ├── main.go\n│   │   ├── request.go\n│   │   └── ui.go\n│   └── server\n│       ├── main.go\n│       └── translate.go\n├── go.mod\n└── go.sum\n```\nThe app should be built as a Docker image called `myapp` using a Dockerfile named `app.Dockerfile` (instead the default name of `Dockerfile`). \n Which command can build the app?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "092201f1-788c-75c1-6228-60c2f37182b6",
+				"correct": false,
+				"answer": "`docker build -t myapp .`"
+			},
+			{
+				"_id": "4616fca3-0880-49af-1332-3283294a54ff",
+				"correct": true,
+				"answer": "`docker build -t myapp -f app.Dockerfile .`"
+			},
+			{
+				"_id": "3ce21ee9-ae1c-e39d-2cb3-6fe82f7734d9",
+				"correct": false,
+				"answer": "`docker build -f app.Dockerfile .`"
+			},
+			{
+				"_id": "fa05a664-4a9e-089a-3119-68ef91c0b522",
+				"correct": false,
+				"answer": "`docker build -t myapp -f app.Dockerfile ./server`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

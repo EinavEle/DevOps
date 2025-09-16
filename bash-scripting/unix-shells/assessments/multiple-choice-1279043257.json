@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1279043257",
+	"source": {
+		"name": "Question 3",
+		"showName": true,
+		"instructions": "Which of the following statements best describes the set of commands the user has executed in his opened terminal session?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "01da7cf0-add3-9cff-681b-62df9b3c8533",
+				"correct": true,
+				"answer": "The user has executed the `bash` command 3 times, then `pstree`"
+			},
+			{
+				"_id": "24d438bf-66c6-3ba4-cfd1-469d5443caea",
+				"correct": false,
+				"answer": "The user has executed the `bash` command 4 times, then `pstree`"
+			},
+			{
+				"_id": "70807991-cd53-28c3-c95e-c1353f8b5ec0",
+				"correct": false,
+				"answer": "The user has executed the `bash` command 2 times, then `pstree`"
+			},
+			{
+				"_id": "9fd72927-9f56-78f5-c66b-4a8bbcdbe109",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

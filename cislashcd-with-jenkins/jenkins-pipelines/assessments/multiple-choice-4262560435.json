@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-4262560435",
+	"source": {
+		"name": "Q2",
+		"showName": true,
+		"instructions": "Given the stage:\n\n```text\nstage(\"Determine new version\") {\n    steps {\n        sh \"docker-compose exec -T php-fpm composer --no-ansi --no-interaction tests-ci\"\n    }\n\n    post {\n        always {\n            junit \"build/junit/*.xml\"\n            step([\n                    $class              : \"CloverPublisher\",\n                    cloverReportDir     : \"build/coverage\",\n                    cloverReportFileName: \"clover.xml\"\n            ])\n        }\n    }\n}\n```\n\nWhich of the following lines should be added to the `stage{}` scope such that the stage would be executed only when the job was originated from branch `main`? \n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "f1911d4f-c8f6-1072-6a37-1fb6c019a1f1",
+				"correct": false,
+				"answer": "Add `branch { \"main\" }`.\n"
+			},
+			{
+				"_id": "823a6fe0-20d2-742d-6d39-46b0e3211ac9",
+				"correct": false,
+				"answer": "Add `return \"main\"`.\n"
+			},
+			{
+				"_id": "bb8dae6c-ff97-8ba0-3011-9c74947a2692",
+				"correct": true,
+				"answer": "Add `when { branch \"main\" }`.\n"
+			},
+			{
+				"_id": "2ce4d90b-7baa-59d7-0010-6a1dbd20e650",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

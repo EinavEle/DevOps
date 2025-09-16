@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2864897910",
+	"source": {
+		"name": "Question 2",
+		"showName": true,
+		"instructions": "What is the result of this script?\n```bash\ntxt=Penguins\n[ “${txt:2:4}” = “ngui” ]; echo $?\n```",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "3b8c265c-b6c4-7d97-b000-c73b81fd65a9",
+				"correct": true,
+				"answer": "0, representing 'true', because the substring of txt in the above indices is  “ngui”"
+			},
+			{
+				"_id": "a3ab15d8-f49e-9922-619c-1b93d2fa3d0d",
+				"correct": false,
+				"answer": "0, representing 'true', because everybody loves penguins!"
+			},
+			{
+				"_id": "53c5cafb-d7be-8ed7-ee38-bb470cea9940",
+				"correct": false,
+				"answer": "1, representing 'false', because the variable \"txt\" is not between 2 to 4 character length"
+			},
+			{
+				"_id": "39d530b6-3d13-279a-e206-07fe1ce6d66d",
+				"correct": false,
+				"answer": "1, representing 'false', because the variable \"txt\" does not contain “ngui”"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

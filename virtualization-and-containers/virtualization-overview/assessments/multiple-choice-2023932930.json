@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2023932930",
+	"source": {
+		"name": "Q1",
+		"showName": true,
+		"instructions": "How does the docker client communicate with the docker server on the same machine?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "2496ff08-e5b4-0782-3241-4ddc77cdcf43",
+				"correct": true,
+				"answer": "via UNIX socket.\n"
+			},
+			{
+				"_id": "a93f6366-bfa0-36e5-148c-eab37b7983fb",
+				"correct": false,
+				"answer": "via TCP socket.\n"
+			},
+			{
+				"_id": "e6907c9e-ee0f-2808-28b4-974716a07f6f",
+				"correct": false,
+				"answer": "via HTTP request/response.\n"
+			},
+			{
+				"_id": "378330e3-8ea3-fafb-b500-048e67f41437",
+				"correct": false,
+				"answer": "None of the above."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

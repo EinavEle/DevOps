@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1939135310",
+	"source": {
+		"name": "q2",
+		"showName": true,
+		"instructions": "You have set up a VPC with public and private subnets.\nThe public subnet contains an Application Load Balancer (ALB) to receive incoming traffic, while the private subnet hosts your backend EC2 instances.\nHowever, your application in the private subnet is unable to connect to the internet.\nUpon investigation, you find that a NAT gateway is placed in the private subnet. \n\nWhat misconfiguration led to this issue?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "32c9a3c2-c7ed-9501-0aff-709e67043a28",
+				"correct": true,
+				"answer": "The NAT gateway should have been placed in the public subnet instead of the private subnet.\n"
+			},
+			{
+				"_id": "940ec6cb-0f42-9675-26bd-468d396f6c8d",
+				"correct": false,
+				"answer": "The NAT gateway should have been placed in both the public and private subnets to facilitate bidirectional communication.\n"
+			},
+			{
+				"_id": "9ec36103-fbbc-7976-7f12-6a862218ee9f",
+				"correct": false,
+				"answer": "The NAT gateway should have been disabled to allow direct internet access from the private subnet.\n"
+			},
+			{
+				"_id": "60928fc8-bcc9-cbf0-594f-3d9b8511f35a",
+				"correct": false,
+				"answer": "The NAT gateway should have been configured with a different elastic IP address."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

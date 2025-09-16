@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3560383928",
+	"source": {
+		"name": "q2",
+		"showName": true,
+		"instructions": "Your naive cloud architect suggests that they should automate the backup of your EBS volumes to the same availability zone (AZ) in which EC2 instances were running.\nThe idea is that this would ensure that you always have a backup copy of your data in case of an outage or failure.\n\nWhat would you tell him?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "c2eb2385-47ec-461b-29dc-9fd5ee5d2000",
+				"correct": false,
+				"answer": "EBS volumes are automatically and redundantly stored in multiple physical volumes in the same availability zone, you only need to enable the \"auto replicate\" toggle."
+			},
+			{
+				"_id": "c09fc1e3-6451-86b0-cf82-fc5ce8f44a00",
+				"correct": true,
+				"answer": "EBS volumes are automatically and redundantly stored in multiple physical volumes in the same availability zone as part of the normal operations of the EBS service at no additional charge."
+			},
+			{
+				"_id": "3700e79b-3aed-9098-6613-399b160dbf8c",
+				"correct": false,
+				"answer": "EBS volumes are automatically and redundantly stored in multiple physical volumes in the different availability zones as part of the normal operations of the EBS service."
+			},
+			{
+				"_id": "309e8610-5957-2670-6369-dbfbcb4bbbf0",
+				"correct": false,
+				"answer": "EBS volumes can be redundantly stored in multiple regions as part of the normal operations of the EBS service."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

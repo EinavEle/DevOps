@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2686627173",
+	"source": {
+		"name": "Question 15",
+		"showName": true,
+		"instructions": "When sourcing a file with the `source` built-in command, what type of subshell is invoked?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "9edf67e5-7b7f-c982-cd39-615c2cf14b82",
+				"correct": false,
+				"answer": "A non-interactive login shell"
+			},
+			{
+				"_id": "f21790aa-a014-de37-e78d-8e46943e2d07",
+				"correct": false,
+				"answer": "An interactive non-login shell"
+			},
+			{
+				"_id": "49b8fd0a-ff08-d1a0-fa33-02a7718a36ca",
+				"correct": false,
+				"answer": "A non-interactive non-login shell"
+			},
+			{
+				"_id": "48bef3a0-8501-84f6-60b2-5ff9ca5fe1e5",
+				"correct": true,
+				"answer": "The question is misguided, because no subshell is invoked when sourcing a file (the commands\nin the file executed in the current shell)."
+			},
+			{
+				"_id": "5ac92356-72b6-6adf-21ce-fdf3b5a41b9f",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

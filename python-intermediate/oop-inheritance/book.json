@@ -1,0 +1,47 @@
+{
+ "name": "OOP Inheritance",
+ "children": [
+  {
+   "title": "Intro",
+   "id": "db861717-b44d-8f86-ed2d-a59d8e52fe0c",
+   "pageId": "db861717-b44d-8f86-ed2d-a59d8e52fe0c",
+   "type": "page"
+  },
+  {
+   "title": "Syntax",
+   "id": "90e42471-0c5f-58d8-de60-c879a9f42e79",
+   "pageId": "90e42471-0c5f-58d8-de60-c879a9f42e79",
+   "type": "page"
+  },
+  {
+   "id": "5643c1c6-473a-9007-4e37-02a1cd1633a1",
+   "title": "Overriding Methods",
+   "pageId": "257edac0-bcf6-2f9c-8eaa-d3d0e6d45213",
+   "type": "page"
+  },
+  {
+   "id": "de218de0-b681-306f-3b3a-c703dfc3732d",
+   "title": "Adding Attributes: `super`",
+   "pageId": "c307af22-ba62-825a-d7ac-90f19f18b4e8",
+   "type": "page"
+  },
+  {
+   "id": "66507651-9ac6-235b-9f19-cf9095281def",
+   "title": "Spot Check 1",
+   "pageId": "97a6eaa6-755d-5404-8b18-20ecea7ff993",
+   "type": "page"
+  },
+  {
+   "id": "afc2d8fd-682a-a9aa-20ad-9f69e5c76d30",
+   "title": "`type` and `isinstance`",
+   "pageId": "fd486ae3-98dd-c7b3-9ca6-bbb71cb782ba",
+   "type": "page"
+  },
+  {
+   "id": "4211b89a-1625-da00-fedf-51783d74ed2c",
+   "title": "Comprehension Check",
+   "pageId": "d3c8040d-a44e-649d-847f-e583fc9b638f",
+   "type": "page"
+  }
+ ]
+}

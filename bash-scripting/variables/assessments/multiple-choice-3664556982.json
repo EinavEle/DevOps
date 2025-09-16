@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3664556982",
+	"source": {
+		"name": "Question 10",
+		"showName": true,
+		"instructions": "When used from within a script, which variable contains the name of the script?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "34264e30-8260-8265-d998-d198e68771c1",
+				"correct": true,
+				"answer": "`$0`"
+			},
+			{
+				"_id": "4ead0017-bc2b-c268-f331-ba2964361991",
+				"correct": false,
+				"answer": "`$#`"
+			},
+			{
+				"_id": "858bfe0e-48d2-9a3e-af48-40e62a4b302e",
+				"correct": false,
+				"answer": "`$$`"
+			},
+			{
+				"_id": "3d573897-e621-2d23-a8a9-cf10c5e5a53f",
+				"correct": false,
+				"answer": "`$@`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

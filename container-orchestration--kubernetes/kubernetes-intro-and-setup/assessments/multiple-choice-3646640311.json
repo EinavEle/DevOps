@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3646640311",
+	"source": {
+		"name": "Q7",
+		"showName": true,
+		"instructions": "What namespace does `kube-scheduler` Pod reside in?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "525e405b-9625-eba3-ecb8-0920e8f7073a",
+				"correct": false,
+				"answer": "`default`"
+			},
+			{
+				"_id": "32258022-5912-de3e-9e6a-47fe4e190d70",
+				"correct": false,
+				"answer": "`minikube`"
+			},
+			{
+				"_id": "6ee2616e-3955-4caf-f28d-27c80ddf68f4",
+				"correct": true,
+				"answer": "`kube-system`"
+			},
+			{
+				"_id": "d342420e-276d-b144-e66d-8a3fa7750b31",
+				"correct": false,
+				"answer": "`kubernetes-dashboard`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

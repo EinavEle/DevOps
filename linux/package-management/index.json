@@ -1,0 +1,22 @@
+{
+	"title": "Package Management",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Agenda-and-Learning-Goals-1c07",
+		"apt-get-Package-Manager-d5df",
+		"Spot-Check-a45a",
+		"Exercise-7562",
+		"Comprehension-Check-17df"
+	]
+}

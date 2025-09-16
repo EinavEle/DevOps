@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1486011071",
+	"source": {
+		"name": "Question 1",
+		"showName": true,
+		"instructions": "The command `sudo apt-get install grafana` will install the latest version of the `grafana` package. ",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "209013a7-a429-90ad-5b81-b97fded6ff17",
+				"correct": false,
+				"answer": "Correct."
+			},
+			{
+				"_id": "f2882891-8de4-4dd0-8e88-d6650343fc9b",
+				"correct": false,
+				"answer": "Depends on the specific `apt-get` version."
+			},
+			{
+				"_id": "ee3a80c1-9416-3654-fb97-7823c90360bb",
+				"correct": true,
+				"answer": "Depends on whether the latest `grafana` version is available in the local index."
+			},
+			{
+				"_id": "3f4966be-ab76-1140-b8e2-4c51fe8994b3",
+				"correct": false,
+				"answer": "The `grafana` package isn't available for Ubuntu."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

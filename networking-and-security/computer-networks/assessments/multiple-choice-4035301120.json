@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-4035301120",
+	"source": {
+		"name": "Question 7",
+		"showName": true,
+		"instructions": "Suppose you have the following IP address: `192.168.1.128`\nUsing the [longest prefix match](https://en.wikipedia.org/wiki/Longest_prefix_match) algorithm to determine the route, which of the following networks will this IP address be routed to?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "ddad992f-b301-fc17-20d2-bbd698befb80",
+				"correct": false,
+				"answer": "192.168.1.0/32"
+			},
+			{
+				"_id": "dc889c05-8f82-f927-59dd-9274475eb910",
+				"correct": true,
+				"answer": "192.168.1.0/24"
+			},
+			{
+				"_id": "be551c40-5c90-92bb-3325-b703157a3e6a",
+				"correct": false,
+				"answer": "192.168.1.0/16"
+			},
+			{
+				"_id": "d14e4b30-ae36-e452-2d5e-e303f2d41cc3",
+				"correct": false,
+				"answer": "192.168.1.0/0"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

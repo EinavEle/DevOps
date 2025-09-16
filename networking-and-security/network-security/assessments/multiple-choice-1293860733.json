@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1293860733",
+	"source": {
+		"name": "Question 9",
+		"showName": true,
+		"instructions": "Consider the below **authenticity** scheme:\n1. Alice creates a plaintext file\n1. Alice signs the plaintext file using her own public key\n1. Alice sends the signature along with the original plaintext\n1. Bob verifies the message sent by Alice using Alice’s public key\n\nWhat is wrong in the above scheme?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "3e17b328-dd95-ddba-8a90-dae6509e30f4",
+				"correct": false,
+				"answer": "Alice should send only the signature, not the original plaintext"
+			},
+			{
+				"_id": "e525b74c-9b2e-6b76-670b-e0f2635d6855",
+				"correct": false,
+				"answer": "Bob needs Alice’s public key in order to decrypt the signature, which should be kept privately in Alice’s machine"
+			},
+			{
+				"_id": "938e30d0-73dc-f20d-6249-989af52fcd50",
+				"correct": true,
+				"answer": "Alice should sign using her own private key"
+			},
+			{
+				"_id": "6f885d38-2dfd-1f1b-2bd8-44d770ff6a30",
+				"correct": false,
+				"answer": "Alice should sign using Bob’s public key"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

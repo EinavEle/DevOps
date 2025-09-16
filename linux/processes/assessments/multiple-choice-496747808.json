@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-496747808",
+	"source": {
+		"name": "Question 12",
+		"showName": true,
+		"instructions": "Which key pressed within the `top` command allows the user to send a signal to a process?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "5336ad13-1204-fa66-6f3e-a20e719739f3",
+				"correct": false,
+				"answer": "s"
+			},
+			{
+				"_id": "97a034ac-224a-1317-a679-15636ccddbb2",
+				"correct": false,
+				"answer": "z"
+			},
+			{
+				"_id": "bd5c6850-aeed-8e32-504f-8e1fc313c030",
+				"correct": false,
+				"answer": "t"
+			},
+			{
+				"_id": "f59ffb4e-4b0f-7fc2-096d-23445f4941c7",
+				"correct": true,
+				"answer": "k"
+			},
+			{
+				"_id": "d869f146-6563-d04f-1140-dfa4337c0099",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

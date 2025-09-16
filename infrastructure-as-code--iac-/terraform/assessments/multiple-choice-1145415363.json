@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1145415363",
+	"source": {
+		"name": "Q6",
+		"showName": true,
+		"instructions": "Examine the following configuration, which uses the data source for an AWS AMI.\nWhat value should you enter for the ami argument in the `aws_instance` resource?\n\n```terraform\ndata \"aws_ami\" \"ubuntu\" {\n  ...\n}\n\nresource \"aws_instance\" \"web\" {\n  ami = ...\n  instance_type = \"t2.micro\"\n  tags = {\n    Name = \"myinstance\"\n  }\n  \n}\n```\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "062f56c8-493c-e5f2-9c04-c190297a3268",
+				"correct": false,
+				"answer": "`aws_ami.ubuntu`\n"
+			},
+			{
+				"_id": "995f6249-d4ab-5fc6-7d1c-eded4c9bdbc5",
+				"correct": false,
+				"answer": "`data.aws_ami.ubuntu`\n"
+			},
+			{
+				"_id": "606bb848-fd6d-a412-2431-9b6929e0074c",
+				"correct": true,
+				"answer": "`data.aws_ami.ubuntu.id`\n"
+			},
+			{
+				"_id": "2a0aac35-2a1f-c4a4-22b2-a3d4f29a861d",
+				"correct": false,
+				"answer": "`aws_ami.ubuntu.id`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

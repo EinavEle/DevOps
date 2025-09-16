@@ -1,0 +1,64 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-4147708790",
+	"source": {
+		"name": "Question 5",
+		"showName": true,
+		"instructions": "Which of the following files would be included in the output of the command `ls r*s`?",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "89e6ceea-3168-b95d-2ab6-266f7d60b69e",
+				"correct": false,
+				"answer": "eras"
+			},
+			{
+				"_id": "6544e7a5-7d3e-1c58-592d-c4d60250f1cc",
+				"correct": false,
+				"answer": "raged"
+			},
+			{
+				"_id": "79af2530-110b-de02-27cf-d5c84fc64495",
+				"correct": true,
+				"answer": "rigs"
+			},
+			{
+				"_id": "4a2d0109-5e0a-81ee-ae9b-765e753d91ef",
+				"correct": false,
+				"answer": "retry"
+			},
+			{
+				"_id": "f5f6b970-bf6e-f5fd-7f0d-1f4ae7f800b0",
+				"correct": true,
+				"answer": "racks"
+			},
+			{
+				"_id": "f46123e1-7183-9cba-885d-da1293f1ed20",
+				"correct": false,
+				"answer": "wrens"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1069527158",
+	"source": {
+		"name": "Q1",
+		"showName": true,
+		"instructions": "Sensitive data is saved as plantext in `terraform.tfstate` file. \n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "88fe97fb-cbf0-bdc8-6faf-5bd1d30e4c0b",
+				"correct": true,
+				"answer": "True\n"
+			},
+			{
+				"_id": "4638d99f-491c-c167-7d46-0b83e04d265e",
+				"correct": false,
+				"answer": "False"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

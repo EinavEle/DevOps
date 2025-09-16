@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-495545503",
+	"source": {
+		"name": "Question 6",
+		"showName": true,
+		"instructions": "Containers can have multiple IP addresses:",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "263ae72d-3f1c-c6a8-9c69-7591f97df35e",
+				"correct": true,
+				"answer": "When connected to multiple networks."
+			},
+			{
+				"_id": "df919034-bc4f-0bf7-285e-5b18502202eb",
+				"correct": false,
+				"answer": "Container can have only one IP address."
+			},
+			{
+				"_id": "289e0d3f-080c-9423-d4ac-4405c05407d4",
+				"correct": false,
+				"answer": "When connected to an overlay network."
+			},
+			{
+				"_id": "67e41952-45fa-889d-c6ee-ee960cbde74f",
+				"correct": false,
+				"answer": "When running under the `host` network."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2215413810",
+	"source": {
+		"name": "Q6",
+		"showName": true,
+		"instructions": "Consider the following Service: \n\n```yaml\napiVersion: v1\nkind: Service\nmetadata:\n  namespace: stage\n  name: my-service\nspec:\n  selector:\n    app: myapp\n  ports:\n    - protocol: TCP\n      port: 80\n      targetPort: 8080\n```\n\nGiven the below Pod: \n\n```yaml \napiVersion: v1\nkind: Pod\nmetadata:\n  name: nginx\nspec:\n  containers:\n  - name: nginx\n    image: nginx:latest\n```\n\nHow does the `nginx` Pod access the `my-service` service? ",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "7f741a87-9f3c-b8d0-ce63-01c0316ac000",
+				"correct": true,
+				"answer": "`http://my-service.stage:80`\n"
+			},
+			{
+				"_id": "7a8cacd7-94e0-782d-862a-9e149bf6d4e6",
+				"correct": false,
+				"answer": "`http://my-service:80`\n"
+			},
+			{
+				"_id": "9fa536d2-4420-a593-ee30-62f56187ecfc",
+				"correct": false,
+				"answer": "`http://my-service:8080`\n"
+			},
+			{
+				"_id": "fc31a2d9-889f-bb03-d291-0528abb10988",
+				"correct": true,
+				"answer": "`http://my-service.stage.svc.cluster.local:80`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

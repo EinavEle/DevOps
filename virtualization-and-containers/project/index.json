@@ -1,0 +1,25 @@
+{
+	"title": "Docker Project",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Agenda-and-Learning-Goals-58d5",
+		"Background-3c12",
+		"Preliminaries-4be1",
+		"Implementation-guidelines---the--mongo--microservice-64f9",
+		"Implementation-guidelines---the--yolo5--microservice-b1a2",
+		"Implementation-guidelines---the--polybot--microservice-a1e6",
+		"Wrap-Up-Everything-as-a-Docker-Compose-Project-2694",
+		"Submission-7965"
+	]
+}

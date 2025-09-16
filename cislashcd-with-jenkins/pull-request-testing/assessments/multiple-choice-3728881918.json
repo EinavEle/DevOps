@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3728881918",
+	"source": {
+		"name": "Q1",
+		"showName": true,
+		"instructions": "A developer creates a pull request from `smith/fix_connection_str` into `main`. \n\nBefore the code changes would be merged to production branch (`main`), the code should be tested by the Pull Request Testing pipeline in Jenkins. \n\nChoose the correct sentence regarding which version of code should be tested: \n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "4bb51a66-1c23-25ae-1f38-dabfd8944e5e",
+				"correct": false,
+				"answer": "The `smith/fix_connection_str` feature branch as is."
+			},
+			{
+				"_id": "18544081-dd15-0291-fa0e-02f6a658d9de",
+				"correct": true,
+				"answer": "The `main` branch, after `smith/fix_connection_str` was merged into it."
+			},
+			{
+				"_id": "ff898f0c-dd42-651a-6a45-e36736ff1ae0",
+				"correct": false,
+				"answer": "The `main` branch, before `smith/fix_connection_str` was merged into it."
+			},
+			{
+				"_id": "21b64fda-4da2-812e-6576-8cac5bdab1b7",
+				"correct": false,
+				"answer": "The `main` branch as is."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

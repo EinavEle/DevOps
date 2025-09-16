@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3269006411",
+	"source": {
+		"name": "q6",
+		"showName": true,
+		"instructions": "S3 service is:",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "da264180-4adc-3f3f-bea5-430d29ae24f3",
+				"correct": true,
+				"answer": "SaaS\n"
+			},
+			{
+				"_id": "33021c99-1b2e-557b-eccb-f3c687dfe208",
+				"correct": false,
+				"answer": "PaaS\n"
+			},
+			{
+				"_id": "52ed4208-2c3d-066d-d9f3-7ebaea11b738",
+				"correct": false,
+				"answer": "IaaS\n"
+			},
+			{
+				"_id": "0b8c9a18-94b9-3e06-5d47-c015356ad70b",
+				"correct": false,
+				"answer": "IaaC"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

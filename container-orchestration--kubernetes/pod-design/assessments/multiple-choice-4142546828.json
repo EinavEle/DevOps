@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-4142546828",
+	"source": {
+		"name": "Q14",
+		"showName": true,
+		"instructions": "Given the below Deployment: \n\n```yaml\napiVersion: apps/v1\nkind: Deployment\nmetadata:\n  name: myapp-deployment\nspec:\n  replicas: 3\n  selector:\n    matchLabels:\n      app: myapp\n  template:\n    metadata:\n      labels:\n        app: myapp\n    spec:\n      containers:\n      - name: myapp-container\n        image: nginx:latest\n        ports:\n        - containerPort: 80\n        readinessProbe:\n          httpGet:\n            path: /index.html\n            port: 80\n          initialDelaySeconds: 5\n          periodSeconds: 10\n          timeoutSeconds: 5\n          successThreshold: 1\n          failureThreshold: 3\n```\n\nIn the event of unavailability, how long does it take for kube-proxy to stop routing traffic to a Pod (the time denoted by `x`)?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "70f90026-4544-25c9-284a-a9feb1f36d0e",
+				"correct": false,
+				"answer": "x = 30\n"
+			},
+			{
+				"_id": "864e3a50-17ca-6c0c-1cfd-201c29813a0e",
+				"correct": false,
+				"answer": "10 < x < 20\n"
+			},
+			{
+				"_id": "05bbef0c-d1eb-4ff4-994a-2219e9d1951c",
+				"correct": false,
+				"answer": "x = 25\n"
+			},
+			{
+				"_id": "5f26e9a4-b178-69a0-a0fd-9725dece8478",
+				"correct": true,
+				"answer": "20 < x < 30"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,64 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-99463569",
+	"source": {
+		"name": "Q8",
+		"showName": true,
+		"instructions": "\nConsider the below resources\n\n```terraform\nresource \"aws_eip\" \"public_ip\" {\n    vpc = true\n    instance = aws_instance.web_server.id\n}\n \nresource \"aws_instance\" \"web_server\" {\n  ami           = \"ami-2757f631\"\n  instance_type = \"t2.micro\"\n  depends_on = [aws_s3_bucket.company_data]\n}\n```\n\nChoose the correct sentence(s):",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "cb8e033d-4d57-a7af-044e-a5ec1fb12162",
+				"correct": true,
+				"answer": "`aws_instance.web_server` explicitly depends on `aws_s3_bucket.company_data`.\n"
+			},
+			{
+				"_id": "8e763f2f-7faa-5c4f-95dc-e8e1c9b47b8c",
+				"correct": false,
+				"answer": "`aws_instance.web_server` implicitly depends on `aws_s3_bucket.company_data`.\n"
+			},
+			{
+				"_id": "0e3013b8-15f7-8c8c-b2d7-1af4e356a3df",
+				"correct": false,
+				"answer": "`aws_eip.public_ip` explicitly depends on `aws_instance.web_server`.\n"
+			},
+			{
+				"_id": "ae044375-f191-2f18-2cd5-8f534ae191ae",
+				"correct": true,
+				"answer": "`aws_eip.public_ip` implicitly depends on `aws_instance.web_server`.\n"
+			},
+			{
+				"_id": "55c7c9d9-74a0-69e7-e15c-1a2c8c35c369",
+				"correct": false,
+				"answer": "`aws_instance.web_server` explicitly depends on `aws_eip.public_ip`.\n"
+			},
+			{
+				"_id": "0ac44ca6-b44e-c3db-e9b1-dd6ce9318c04",
+				"correct": false,
+				"answer": "`aws_instance.web_server` implicitly depends on `aws_eip.public_ip`."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

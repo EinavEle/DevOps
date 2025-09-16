@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-983482178",
+	"source": {
+		"name": "Question 1",
+		"showName": true,
+		"instructions": "How many different hosts can be connected to the subnet denoted by `10.0.1.0/24`?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "af7c7fba-b8d8-2816-5cd2-88eaf436eb67",
+				"correct": true,
+				"answer": "254"
+			},
+			{
+				"_id": "b6703723-8ca5-07a7-70b2-fbe9ff4e45be",
+				"correct": false,
+				"answer": "24"
+			},
+			{
+				"_id": "2d4c9949-b9f6-15ea-5174-2224d8e8c190",
+				"correct": false,
+				"answer": "1024"
+			},
+			{
+				"_id": "e5b2112b-14d5-23f4-c120-da463d3a3b75",
+				"correct": false,
+				"answer": "255"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

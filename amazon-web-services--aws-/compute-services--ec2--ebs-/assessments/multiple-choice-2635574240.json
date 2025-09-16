@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2635574240",
+	"source": {
+		"name": "q8",
+		"showName": true,
+		"instructions": "As a system administrator for a large company, you were tasked with choosing the most cost-effective pricing option for a production server that required 12 CPUs for the next one year.\nAfter considering the options, you decided to purchase:\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "6861bcce-43e3-0516-d5e7-b27e0757254c",
+				"correct": false,
+				"answer": "Spot instance\n"
+			},
+			{
+				"_id": "449e88dc-d749-872b-1e0a-d2500804a809",
+				"correct": false,
+				"answer": "On-demand instance\n"
+			},
+			{
+				"_id": "141eebd8-a7f6-592f-aabf-0c2e5512ab1b",
+				"correct": true,
+				"answer": "Reserved instance\n"
+			},
+			{
+				"_id": "72bb966e-8a4f-714d-6ae0-5c09d8d7f015",
+				"correct": false,
+				"answer": "Dedicated instance"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

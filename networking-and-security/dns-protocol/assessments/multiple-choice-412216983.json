@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-412216983",
+	"source": {
+		"name": "Question 1",
+		"showName": true,
+		"instructions": "Which file is used when resolving the hostname localhost?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "e4b876dc-463b-b4d4-4a62-2561cf92245a",
+				"correct": false,
+				"answer": "/etc/inittab"
+			},
+			{
+				"_id": "5fca1be7-9bf2-211b-6582-b176914a5c7d",
+				"correct": true,
+				"answer": "/etc/hosts"
+			},
+			{
+				"_id": "c21d8a4e-899d-d672-364d-ca96da37a772",
+				"correct": false,
+				"answer": "/etc/resolv.conf"
+			},
+			{
+				"_id": "f64e9734-da12-8507-9831-3d7937e995b6",
+				"correct": false,
+				"answer": "/etc/sysconfig/localhost"
+			},
+			{
+				"_id": "404bdff3-7ee4-d29c-1471-48f127510914",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

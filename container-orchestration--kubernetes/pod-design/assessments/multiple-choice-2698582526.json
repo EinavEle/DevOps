@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2698582526",
+	"source": {
+		"name": "Q2",
+		"showName": true,
+		"instructions": "You get the following `FailedScheduling` error when tried to deploy some Pod:\n\n```text\n0/3 nodes are available: 1 Insufficient cpu.\n```\n\nChoose the correct sentence:",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "4a54a6f6-b730-8281-90b9-bfea4c8c4795",
+				"correct": true,
+				"answer": "The Pod has a CPU resource request larger than `2` CPUs (`2000m`).\n"
+			},
+			{
+				"_id": "108645e2-e258-6949-5b06-744a8e8a9c1a",
+				"correct": false,
+				"answer": "The Pod doesn't specify CPU request request.\n"
+			},
+			{
+				"_id": "87ff5f09-2c39-23c8-2188-4c1e327187bb",
+				"correct": false,
+				"answer": "The Pod has a CPU resource limit larger than `2` CPUs (`2000m`).\n"
+			},
+			{
+				"_id": "ceba05e6-02d0-fc24-457f-c5667313f481",
+				"correct": false,
+				"answer": "The cluster is overloaded at that moment, you should try again later."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

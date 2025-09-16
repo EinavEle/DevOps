@@ -1,0 +1,24 @@
+{
+	"title": "Linux Sockets",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Agenda-and-Learning-Goals-915e",
+		"Sockets-8938",
+		"The-Client-Server-Model-8cf3",
+		"Socket-Communication-Demonstrated-1ca2",
+		"Well-known-and-Privileged-Ports--More-on-netstat-4871",
+		"Exercise-7023",
+		"Comprehension-Check-26aa"
+	]
+}

@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1634004782",
+	"source": {
+		"name": "Question 9",
+		"showName": true,
+		"instructions": "Given the below output of the `ip address` command:\n```bash\n1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000\ninet 127.0.0.1/8 scope host lo\nvalid_lft forever preferred_lft forever\n\n2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000\ninet 192.168.0.2/24 brd 192.168.0.255 scope global eth0\nvalid_lft forever preferred_lft forever\n\n3: wlan0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000\ninet 192.168.1.2/24 brd 192.168.1.255 scope global wlan0\nvalid_lft forever preferred_lft forever\n```\nAssuming that a request is made to the IP address `192.168.2.0`, which network interface will be used to route this request?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "23a2a4ee-a993-4c21-94dc-86dab31582ce",
+				"correct": false,
+				"answer": "1"
+			},
+			{
+				"_id": "a07a0736-0693-7244-859d-31e27e8b7f9a",
+				"correct": false,
+				"answer": "2"
+			},
+			{
+				"_id": "52088418-cdce-52ae-e81a-c53ac55c46a0",
+				"correct": false,
+				"answer": "3"
+			},
+			{
+				"_id": "40256c65-fae2-81c4-e35c-d12dfdb9d226",
+				"correct": true,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

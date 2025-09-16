@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2597484834",
+	"source": {
+		"name": "q4",
+		"showName": true,
+		"instructions": "You have set up an Application Load Balancer (ALB) to distribute incoming traffic across 2 instances.\nBut when you test how is the load being balanced by performing requests from multiple regions, you've noticed that requests are always routed to the same EC2 instance.\n\nWhich of the below best match the root cause? ",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "7bd2312e-8edb-a1be-312f-a032294bc677",
+				"correct": false,
+				"answer": "The ALB uses sticky sessions.\n"
+			},
+			{
+				"_id": "4162f748-cb76-2fe8-fe66-6626b4e2f956",
+				"correct": false,
+				"answer": "The ALB was created in a single AZ.\n"
+			},
+			{
+				"_id": "0879567f-43be-d5ff-fc82-eac76867c9f0",
+				"correct": true,
+				"answer": "One of the instances has failed to pass the health checks.\n"
+			},
+			{
+				"_id": "6004a0e6-b612-1e6c-a144-201917d74905",
+				"correct": false,
+				"answer": "None of the above."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

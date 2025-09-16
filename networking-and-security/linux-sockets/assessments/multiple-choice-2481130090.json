@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2481130090",
+	"source": {
+		"name": "Question 8",
+		"showName": true,
+		"instructions": "How many TCP/IP clients are currently connected to services on elvis machine?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "e4d285b3-d9a4-a8d3-65f9-c25060cdecd6",
+				"correct": false,
+				"answer": "1"
+			},
+			{
+				"_id": "0ec63c67-23f8-abe0-a07e-6ca83afa9e42",
+				"correct": false,
+				"answer": "0"
+			},
+			{
+				"_id": "edd5e459-d0f3-8a05-1639-87dd514a8d1f",
+				"correct": true,
+				"answer": "2"
+			},
+			{
+				"_id": "4702a3d1-be65-1796-0f91-3813e8e13c2b",
+				"correct": false,
+				"answer": "11"
+			},
+			{
+				"_id": "6c0ca2a9-648b-9fc8-85d6-3e7a21e1630c",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

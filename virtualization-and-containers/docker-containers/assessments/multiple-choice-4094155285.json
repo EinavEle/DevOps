@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-4094155285",
+	"source": {
+		"name": "Question 18",
+		"showName": true,
+		"instructions": "You are trying to run an `nginx` container using the following command:\n```bash\ndocker run --name some-nginx -e DEBUG=true nginx\n```\nBut encounter the following error:\n```bash\ndocker: Error response from daemon: Conflict. The container name \"/some-nginx\" is already in use by container \"761aacef37cfe438f77fe92d6e4a2eeecc6d72c9cea9eb5f73d5af5a1ae377d2\". You have to remove (or rename) that container to be able to reuse that name.\nSee 'docker run --help'\n```\nWhich command can help you resolve the problem?",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "a442a5d2-be40-7699-2e2a-b51fdcebeb64",
+				"correct": false,
+				"answer": "`docker run --force --name some-nginx -e DEBUG=true nginx`"
+			},
+			{
+				"_id": "5982ce6a-ef84-83b9-38a4-f7330e3a3581",
+				"correct": true,
+				"answer": "`docker rm some-nginx`"
+			},
+			{
+				"_id": "d2fbb2a1-5c60-a0f0-c15c-9c6c70be31b5",
+				"correct": false,
+				"answer": "`docker kill some-nginx`"
+			},
+			{
+				"_id": "217e0ccd-b842-20bb-9471-1c92e648f9a1",
+				"correct": true,
+				"answer": "`docker rename some-nginx some-ng`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

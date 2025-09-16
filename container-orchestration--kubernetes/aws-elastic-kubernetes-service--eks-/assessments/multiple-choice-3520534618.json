@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3520534618",
+	"source": {
+		"name": "Q1",
+		"showName": true,
+		"instructions": "In EKS, when creating a node group, an autoscaling group (ASG) is created under the hood.\nAssume we want to scale our cluster's nodes CPU utilization. \nWhy is the native scaling functionality of the ASG often considered insufficient? Why is an Autoscaler or Karpenter needed for node autoscaling?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "431809de-5eda-7da7-712e-d7d58fa7848a",
+				"correct": false,
+				"answer": "Because the ASG lacks the ability to scale vertically.\n"
+			},
+			{
+				"_id": "83e76a44-3373-759e-a842-eb4b579a0365",
+				"correct": false,
+				"answer": "Because Karpenter provides better integration with EKS.\n\n"
+			},
+			{
+				"_id": "d8edfe1f-cc2b-a047-33fe-fc0cce9c0262",
+				"correct": false,
+				"answer": "Because the ASG scales based on the Memory usage, buy we need scale by CPU."
+			},
+			{
+				"_id": "253cdf33-4191-8851-76b0-f9cac678c8ce",
+				"correct": true,
+				"answer": "Because the ASG's native scaling relies on actual CPU consumption rather than CPU requests of pods."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

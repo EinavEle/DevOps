@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-993430813",
+	"source": {
+		"name": "Question 17",
+		"showName": true,
+		"instructions": "The following command has run successfully:\n```bash\ndocker run -it ubuntu /bin/bash\n```\nWhat can be stated regarding the container?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "117ba71e-7711-10ee-5e96-40e93098e0a9",
+				"correct": false,
+				"answer": "The `ubuntu` image existed on the machine before the command was executed."
+			},
+			{
+				"_id": "5539c26b-0414-3f0b-6f5e-3e373c55d68a",
+				"correct": true,
+				"answer": "The binary `/bin/bash` exists in the container's file system."
+			},
+			{
+				"_id": "b40a9193-c3f1-0608-71c1-81f7c70f9a36",
+				"correct": false,
+				"answer": "The `-it` flags allow you to run within the container every command that is available on the host machine."
+			},
+			{
+				"_id": "bb90bbf9-9539-c9eb-e733-abaf3fbc9a60",
+				"correct": false,
+				"answer": "None of the above."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

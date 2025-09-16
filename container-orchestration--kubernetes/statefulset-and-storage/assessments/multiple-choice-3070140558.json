@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3070140558",
+	"source": {
+		"name": "Q1",
+		"showName": true,
+		"instructions": "Choose all correct statement(s)\n\nPerforming the below command:\n\n```bash \nkubectl scale statefulset mysql --replicas=2\n```",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "d5977eb6-87b0-4d09-5b2c-6b69fe66e0d3",
+				"correct": true,
+				"answer": "Will not delete the volume associated with `mysql-2` replica.\n"
+			},
+			{
+				"_id": "3cb83a8f-f1a1-0568-fa09-5b958c1fb2c1",
+				"correct": false,
+				"answer": "Will delete the volume associated with `mysql-2` replica.\n"
+			},
+			{
+				"_id": "d9bb5311-97a8-7fcb-e1fa-d4e8320f0b76",
+				"correct": false,
+				"answer": "Will delete the PVC associated with `mysql-0` replica.\n"
+			},
+			{
+				"_id": "398d4c02-61a3-3caf-3c82-e880f0cf38ee",
+				"correct": true,
+				"answer": "Will not delete the PVC associated with `mysql-2` replica."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

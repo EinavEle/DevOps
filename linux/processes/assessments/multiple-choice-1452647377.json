@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1452647377",
+	"source": {
+		"name": "Question 6",
+		"showName": true,
+		"instructions": "Given a terminal session with a long process running in it, how will you **ask** this process to terminate?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "2d45681b-50fd-551b-cb69-3327ba2d1848",
+				"correct": false,
+				"answer": "CTRL+z"
+			},
+			{
+				"_id": "f8b03889-e908-a37d-b78d-6005c0fb2911",
+				"correct": true,
+				"answer": "CTRL+c"
+			},
+			{
+				"_id": "e5ce85b9-248d-4288-43d6-1240cd7ee3dd",
+				"correct": false,
+				"answer": "CTRL+l"
+			},
+			{
+				"_id": "7a976dbf-7347-42f3-cad7-a69761b40fb8",
+				"correct": false,
+				"answer": "CTRL+c twice"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

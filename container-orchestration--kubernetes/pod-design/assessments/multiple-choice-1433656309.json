@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1433656309",
+	"source": {
+		"name": "Q15",
+		"showName": true,
+		"instructions": "You deploy an application by applying some Deployment object. \nYou notice that Pods are in `CrashLoopBack` mode. \n\nWhich of the below step(s) can help? \n",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "9f30e944-e8dc-a0ed-a60e-4f2e11168563",
+				"correct": true,
+				"answer": "Investigate Pod events.\n"
+			},
+			{
+				"_id": "23649c42-1c65-cd67-5bb5-bfc9b309f392",
+				"correct": false,
+				"answer": "Delete the problematic Pods.\n"
+			},
+			{
+				"_id": "299cd047-4d3d-2a2f-c1f5-41b600925ea8",
+				"correct": true,
+				"answer": "Read through the Pod logs.\n"
+			},
+			{
+				"_id": "0f056323-8481-e039-6423-4b7ce0d06411",
+				"correct": false,
+				"answer": "Re-apply the Deployment object.\n"
+			},
+			{
+				"_id": "a701b9e8-a430-927e-e52e-f81ed8667e14",
+				"correct": false,
+				"answer": "Drain the node on which the Pods are running."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

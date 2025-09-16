@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2628306766",
+	"source": {
+		"name": "Question 9",
+		"showName": true,
+		"instructions": "Which of the following commands would deliver a SIGTERM to the `xscreensaver` process?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "e4ed152b-1641-35dd-bee2-b50b8fe56581",
+				"correct": false,
+				"answer": "`kill TERM xscreensaver`"
+			},
+			{
+				"_id": "554db422-4b0b-2114-21c5-00d87a461fae",
+				"correct": true,
+				"answer": "`kill 4846`"
+			},
+			{
+				"_id": "e55f0fa3-0969-f6d4-309a-8a1cae20403d",
+				"correct": false,
+				"answer": "`kill xscreensaver`"
+			},
+			{
+				"_id": "a7359073-870d-504d-08d7-e1732d39360f",
+				"correct": false,
+				"answer": "`kill -9 4849`"
+			},
+			{
+				"_id": "d35b1b71-b16a-fc1c-fe3f-65706ff3128d",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

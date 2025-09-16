@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1368814451",
+	"source": {
+		"name": "Question 3",
+		"showName": true,
+		"instructions": "What file contains a catalog of well known services?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "fd5c16be-832c-58cc-4add-3d365d4e607a",
+				"correct": true,
+				"answer": "/etc/services"
+			},
+			{
+				"_id": "4a945950-c53a-6ee1-6565-48c0475dff06",
+				"correct": false,
+				"answer": "/etc/protocols"
+			},
+			{
+				"_id": "928ca6ce-a726-2463-a9b2-7d5172dd4c1b",
+				"correct": false,
+				"answer": "/usr/share/net/services"
+			},
+			{
+				"_id": "7a3ddd4d-2c85-d466-e436-1c217da094cd",
+				"correct": false,
+				"answer": "/usr/share/net/protocols"
+			},
+			{
+				"_id": "6f5dd16e-6dd4-8000-ff4b-a422a0c826bb",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

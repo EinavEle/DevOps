@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2763788755",
+	"source": {
+		"name": "Q6",
+		"showName": true,
+		"instructions": "Choose the correct sentence\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "47acf9c7-67d8-5e05-b1c4-55929a9e1120",
+				"correct": false,
+				"answer": "The API server is a component running as a Linux service on the control-plane machine"
+			},
+			{
+				"_id": "51e69403-c413-9269-44a6-ed4ee16338e0",
+				"correct": true,
+				"answer": "The API server itself is running as a Pod in the cluster, on the control-plane node."
+			},
+			{
+				"_id": "42d09eb4-0236-9aad-9b26-1d5646115df9",
+				"correct": false,
+				"answer": "The API server is running in the cluster control-plane node, but not as a Pod."
+			},
+			{
+				"_id": "0408821d-abcc-965c-c2e5-fb5014296201",
+				"correct": false,
+				"answer": "None of the above."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

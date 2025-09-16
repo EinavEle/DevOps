@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1957708432",
+	"source": {
+		"name": "q2",
+		"showName": true,
+		"instructions": "You're team is developing a news website that receives an average of 500 read requests per second during peak hours.\nEach news article is approximately 10 KB in size.\n\nWhich of the following is a proper DB design?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "1238d6c6-1b78-c626-a8b6-680568605c74",
+				"correct": false,
+				"answer": "Autoscale read capacity from min of 1 to max of 250.\n"
+			},
+			{
+				"_id": "ea04ef1f-0153-34bc-86e9-e2d13c39a42f",
+				"correct": false,
+				"answer": "Autoscale read capacity from min of 1 to max of 750.\n"
+			},
+			{
+				"_id": "b19d5913-d130-470b-3c73-22925c0ecc88",
+				"correct": true,
+				"answer": "Autoscale read capacity from min of 1 to max of 1000.\n"
+			},
+			{
+				"_id": "3007f65c-a9f4-204e-bdc9-c5e6a5856f55",
+				"correct": false,
+				"answer": "Autoscale read capacity from min of 1 to max of 500."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

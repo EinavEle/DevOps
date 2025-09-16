@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1563961718",
+	"source": {
+		"name": "Q4",
+		"showName": true,
+		"instructions": "X is an abstract version of a computer, while Y is an abstract version of an application.  \n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "f0114bbc-c7e4-89dd-36c3-59449f45e76d",
+				"correct": false,
+				"answer": "Containers, Virtual machines.\n"
+			},
+			{
+				"_id": "699f8d63-8ceb-6b51-7c63-5c71146b2c90",
+				"correct": false,
+				"answer": "Virtual machines, Bare metal.\n"
+			},
+			{
+				"_id": "9da6b7c2-c2a2-155e-5d49-82191e29a5e7",
+				"correct": true,
+				"answer": "Virtual machines, containers.\n"
+			},
+			{
+				"_id": "a83dfbb3-a695-2efc-34e0-34873b8dd084",
+				"correct": false,
+				"answer": "Base metal, Containers."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

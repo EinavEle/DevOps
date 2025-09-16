@@ -1,0 +1,47 @@
+{
+ "name": "Pytest",
+ "children": [
+  {
+   "title": "Intro",
+   "id": "d27da60b-ca57-9651-055e-54d830591eda",
+   "type": "page",
+   "pageId": "d27da60b-ca57-9651-055e-54d830591eda"
+  },
+  {
+   "title": "Setup",
+   "id": "a3b47398-9d81-0215-4627-30cdce6838ed",
+   "type": "page",
+   "pageId": "a3b47398-9d81-0215-4627-30cdce6838ed"
+  },
+  {
+   "title": "Usage - simple test",
+   "id": "dd0cc9ee-de2c-9408-5627-e0e94ec337c9",
+   "type": "page",
+   "pageId": "3bf0fc7f-b0c8-9384-bd2b-33233b541a7e"
+  },
+  {
+   "title": "Running Pytest",
+   "id": "c8782b16-32e6-2c34-286e-362f247c0022",
+   "type": "page",
+   "pageId": "98263363-4e05-4208-c332-8639d272df47"
+  },
+  {
+   "id": "23788fca-4940-ff06-c572-29fdeb4fed9a",
+   "title": "Assertions in Pytest",
+   "pageId": "d0b2bf09-807b-1617-7bac-6d42d9ca0db1",
+   "type": "page"
+  },
+  {
+   "id": "5d3d9159-51d1-4856-d723-81d95377c676",
+   "title": "Command line options",
+   "pageId": "e2389e98-cfb4-00b0-8233-20bc4b869c07",
+   "type": "page"
+  },
+  {
+   "id": "2e58ae6d-fd56-0cc8-8634-7db28c852e9c",
+   "title": "Exercises",
+   "pageId": "3112fd48-fe1d-d62c-edfb-5deffaeed92d",
+   "type": "page"
+  }
+ ]
+}

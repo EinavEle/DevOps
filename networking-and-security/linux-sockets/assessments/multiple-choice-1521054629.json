@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1521054629",
+	"source": {
+		"name": "Question 14",
+		"showName": true,
+		"instructions": "A given server has 5 established connections bound to port 80, how many socket files the server holds?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "5a6ed1fc-3c22-54ec-122a-f754b282fdd8",
+				"correct": false,
+				"answer": "5"
+			},
+			{
+				"_id": "4acb33ec-cf1b-c827-58e1-4cdc848c680d",
+				"correct": true,
+				"answer": "6"
+			},
+			{
+				"_id": "3fd9f0c0-d2ba-5ee1-4fd0-cf80c7e9af1f",
+				"correct": false,
+				"answer": "1"
+			},
+			{
+				"_id": "f7cead89-977b-92b2-fcb9-244b800cfab5",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3084341790",
+	"source": {
+		"name": "Question 7",
+		"showName": true,
+		"instructions": "Which of the following command lines would create a file called `make $ at home!`?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "8834eace-68d8-a1a6-2ebd-5814a0977f7e",
+				"correct": false,
+				"answer": "`touch \"make $ at home\"\\!`"
+			},
+			{
+				"_id": "ae6ed11b-03ca-da70-01fd-2690650dc8ca",
+				"correct": false,
+				"answer": "`touch 'make $ at home!'`"
+			},
+			{
+				"_id": "acf43dea-946a-75e1-1488-17ba291b01b3",
+				"correct": false,
+				"answer": "`touch 'make $'\\ at\\ home\\!`"
+			},
+			{
+				"_id": "f51e0b7a-dfc4-251f-bde7-df764a256361",
+				"correct": false,
+				"answer": "A and C"
+			},
+			{
+				"_id": "17b5d994-4019-52eb-993f-23c7e83f05c4",
+				"correct": true,
+				"answer": "All of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

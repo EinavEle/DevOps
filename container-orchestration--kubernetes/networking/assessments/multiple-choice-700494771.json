@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-700494771",
+	"source": {
+		"name": "Q4",
+		"showName": true,
+		"instructions": "\nConsider the below Pod:\n\n```yaml\napiVersion: v1\nkind: Pod\nmetadata:\n  name: nginx-with-sidecar\n  labels:\n    app: nginx-with-sidecar\nspec:\n  containers:\n    - name: nginx\n      image: nginx:1.14\n      ports:\n        - containerPort: 80\n    - name: sidecar-container\n      image: busybox:latest\n      command: [\"/bin/sh\", \"-c\", \"while true; do echo 'Sidecar Container Running'; sleep 10; done\"]\n```\n\nChoose the correct sentence:",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "7adf915e-1dfb-526c-6a32-852c86c20cbb",
+				"correct": false,
+				"answer": "`nginx` and `sidecar-container` don't share the same network interface, thus doesn't the same IP address.\n"
+			},
+			{
+				"_id": "6d0595f8-ab4a-8f3d-2f52-8a73c18e9fd5",
+				"correct": false,
+				"answer": "`nginx` and `sidecar-container` share the same network interface, but doesn't have the same IP address.\n"
+			},
+			{
+				"_id": "be79aca6-b1e1-16e9-b105-1381d0c97083",
+				"correct": true,
+				"answer": "`nginx` and `sidecar-container` share the same network interface, thus have the same IP address.\n"
+			},
+			{
+				"_id": "368b440c-b53e-a04f-6b14-52670297b463",
+				"correct": false,
+				"answer": "`nginx` and `sidecar-container` don't share the same network interface, but have the same IP address."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

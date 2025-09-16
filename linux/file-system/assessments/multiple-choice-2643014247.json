@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2643014247",
+	"source": {
+		"name": "Question 9",
+		"showName": true,
+		"instructions": "Which of the following commands would display the first 5 lines of the file `/etc/passwd`?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "e40aa4b0-3fb2-4bc2-eb0c-adceeecd374f",
+				"correct": true,
+				"answer": "`head -5 /etc/passwd`"
+			},
+			{
+				"_id": "5a8234e9-93ac-01f1-d53c-dc7f42fc9528",
+				"correct": false,
+				"answer": "`head -n /etc/passwd`"
+			},
+			{
+				"_id": "7d237cc1-e1ab-6fa4-4a32-5e0a0acbfe4a",
+				"correct": false,
+				"answer": "`head --five /etc/passwd`"
+			},
+			{
+				"_id": "4556acd4-0964-dc74-a063-206ec9b93933",
+				"correct": false,
+				"answer": "`head /etc/passwd > 5`"
+			},
+			{
+				"_id": "ccf80fff-5a64-1c24-cc93-f363d852354a",
+				"correct": false,
+				"answer": "`head /5 /etc/passwd`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

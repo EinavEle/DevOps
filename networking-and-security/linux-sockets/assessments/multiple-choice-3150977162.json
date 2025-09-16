@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3150977162",
+	"source": {
+		"name": "Question 10",
+		"showName": true,
+		"instructions": "The three sockets bound to port 53 most likely belong to what service?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "295f2945-8d91-2f32-71f7-150999d7e34b",
+				"correct": false,
+				"answer": "SSH (Secure Shell)"
+			},
+			{
+				"_id": "e8952ca9-ab7f-912d-8628-a3664acb2b86",
+				"correct": false,
+				"answer": "HTTP (Hypertext Transfer Protocol)"
+			},
+			{
+				"_id": "f5b4e03d-a209-8476-69cc-8ad4dfa580e6",
+				"correct": false,
+				"answer": "FTP (File Transfer Protocol)"
+			},
+			{
+				"_id": "b915dd6f-b127-7270-fa01-35ee7662ff49",
+				"correct": true,
+				"answer": "DNS (Domain Name Service)"
+			},
+			{
+				"_id": "25e5d095-8a3a-25d7-481a-86ea4255dd39",
+				"correct": false,
+				"answer": "TELNET (Telnet Service)"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

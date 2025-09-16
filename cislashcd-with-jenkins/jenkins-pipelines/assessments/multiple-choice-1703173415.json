@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1703173415",
+	"source": {
+		"name": "Q1",
+		"showName": true,
+		"instructions": "Choose the correct sentence(s) for an **Executor**:\n",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "c4827ae7-c30d-510f-9051-4fef8717c634",
+				"correct": true,
+				"answer": "A slot for execution of work defined by a Pipeline.\n"
+			},
+			{
+				"_id": "f99647ae-2d4a-bb53-3849-1bc1a7491e1b",
+				"correct": false,
+				"answer": "Executor is the central coordinating process which stores configuration, loads plugins, and renders the various user interfaces for Jenkins.\n"
+			},
+			{
+				"_id": "554c0734-b721-5126-fd9d-f1f5ed0dce2b",
+				"correct": true,
+				"answer": "A Node may have zero or more executors configured.\n"
+			},
+			{
+				"_id": "7d7ae90d-3598-7111-ab53-22c19d89a674",
+				"correct": false,
+				"answer": "A user-configured description of work which Jenkins should perform.\n"
+			},
+			{
+				"_id": "f8ec2f7d-d6c1-e943-a919-c9c66000d269",
+				"correct": true,
+				"answer": "The number of executors in a node define how many concurrent jobs are able to execute on that Node."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

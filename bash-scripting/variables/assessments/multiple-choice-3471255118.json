@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3471255118",
+	"source": {
+		"name": "Question 2",
+		"showName": true,
+		"instructions": "Which of the following commands would create a file called `jan_reports.txt`?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "04a16700-eb67-06a7-a892-8bc454147c8c",
+				"correct": true,
+				"answer": "`MONTH=jan; touch ${MONTH}_report.txt`"
+			},
+			{
+				"_id": "31566c74-dacd-96d0-35a5-3b789826de80",
+				"correct": false,
+				"answer": "`MONTH=jan; touch $MONTH_report.txt`"
+			},
+			{
+				"_id": "3026c709-bdf4-901c-bf0e-b67c0d21dce7",
+				"correct": false,
+				"answer": "`MONTH= jan; touch $MONTH_report.txt`"
+			},
+			{
+				"_id": "6dd6d797-a487-53ac-9dde-2b7ef6d3d5a0",
+				"correct": false,
+				"answer": "`MONTH= jan; touch $\"MONTH\"_report.txt`"
+			},
+			{
+				"_id": "b0662da0-2563-538c-993b-8859e261629c",
+				"correct": false,
+				"answer": "A and B"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

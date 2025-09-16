@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-463641737",
+	"source": {
+		"name": "Question 2",
+		"showName": true,
+		"instructions": "You are told that the container's IP address is: `172.18.0.2`. Choose the correct sentence(s).\n\nThe `mynginx` container:",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "cd1cf755-c5b6-ecd7-e63b-2ac54bf23e2e",
+				"correct": false,
+				"answer": "Is accessible from the host machine using `http://localhost:80`."
+			},
+			{
+				"_id": "4283a541-bc25-9821-a64c-ad137f81e6ef",
+				"correct": true,
+				"answer": "Is accessible from the host machine using `http://172.18.0.2:80`."
+			},
+			{
+				"_id": "8822aea3-a05e-fd57-b349-8b6815baa5a1",
+				"correct": true,
+				"answer": "Is accessible from other containers attached to network `mynet5` using `http://172.18.0.2:80`."
+			},
+			{
+				"_id": "8cbaae43-913f-07d3-8701-2559cece70fe",
+				"correct": true,
+				"answer": "Is accessible from other containers attached to network `mynet5` using `http://mynginx:80`."
+			},
+			{
+				"_id": "01044258-e238-7ca9-99e0-f64f67f6db99",
+				"correct": false,
+				"answer": "None of the above."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

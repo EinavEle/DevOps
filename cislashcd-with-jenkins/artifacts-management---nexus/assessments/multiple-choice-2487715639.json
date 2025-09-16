@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2487715639",
+	"source": {
+		"name": "Q2",
+		"showName": true,
+		"instructions": "How does a snapshot repository differ from a release repository?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "ae239dc2-733e-a85b-1172-42f200a5da5a",
+				"correct": false,
+				"answer": "A snapshot repo stores stable, versioned releases, while a release repo contains under development.\n"
+			},
+			{
+				"_id": "97b31cd2-a4eb-540b-86a9-349717e37ed2",
+				"correct": true,
+				"answer": "A snapshot repo stores artifacts under development, while a release repo contains stable, versioned releases.\n"
+			},
+			{
+				"_id": "ce1b9977-be67-631d-441f-95c94b1d3ee8",
+				"correct": false,
+				"answer": "A snapshot repo stores artifacts for backup, while a release repo contains stable, versioned releases.\n"
+			},
+			{
+				"_id": "293e54a2-1d90-31f5-8aca-889734b5133a",
+				"correct": false,
+				"answer": "A snapshot repo stores artifacts under development, while a release repo container release candidates."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

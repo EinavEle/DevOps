@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3556933962",
+	"source": {
+		"name": "Question 4",
+		"showName": true,
+		"instructions": "What is the name of the network interface of the default bridge network which Docker is shipped with?\n**Hint: `ip address`**",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "113a3775-bbef-aad8-98ff-566298f0bac4",
+				"correct": false,
+				"answer": "`lo`"
+			},
+			{
+				"_id": "a6d59e77-5988-55a0-4def-7435d67431d2",
+				"correct": true,
+				"answer": "`docker0`"
+			},
+			{
+				"_id": "e6f162f5-7670-b6ce-6198-666c081b2df7",
+				"correct": false,
+				"answer": "`veth`"
+			},
+			{
+				"_id": "c9395d94-c6eb-0b0f-2c85-625eb4228976",
+				"correct": false,
+				"answer": "`virbr0`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

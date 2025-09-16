@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3931375118",
+	"source": {
+		"name": "Question 11",
+		"showName": true,
+		"instructions": "Which of the following would send a SIGCHLD (signal number 17) to the `ssh-agent` process?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "b12b8a00-d84e-73da-74d3-b0042a974d36",
+				"correct": false,
+				"answer": "`kill -CHLD ssh-agent`"
+			},
+			{
+				"_id": "c567993e-24f4-b377-0e57-3ea6d239a35b",
+				"correct": false,
+				"answer": "`kill -17 ssh-agent`"
+			},
+			{
+				"_id": "9a31c49f-d336-c6bb-b07a-af02aff21bbf",
+				"correct": true,
+				"answer": "`kill -CHLD 4828`"
+			},
+			{
+				"_id": "09afbfe5-e189-a4fc-f222-377d032eace0",
+				"correct": false,
+				"answer": "All of the above"
+			},
+			{
+				"_id": "b24d2d52-76b6-e492-c937-bc22ff869fb2",
+				"correct": false,
+				"answer": "A and C only"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2801978715",
+	"source": {
+		"name": "Q1",
+		"showName": true,
+		"instructions": "In an Elasticsearch cluster consists of three nodes. \nA data stream named `logs-ds` has been created for storing logs. \nUpon checking the cluster health, it is observed that the status is `yellow`.\n\nWhat are the possible causes for the yellow health status?",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "1a2f48ab-8495-7661-5bb3-65e81d5b4f2a",
+				"correct": true,
+				"answer": "Insufficient number of nodes in the cluster.\n"
+			},
+			{
+				"_id": "0fb695ae-535d-8ef5-245f-f73ba6633586",
+				"correct": false,
+				"answer": "A primary shard is unassigned.\n"
+			},
+			{
+				"_id": "19328ab3-1644-e068-c133-98ebcd3c55d1",
+				"correct": false,
+				"answer": "The data stream name is not properly configured.\n"
+			},
+			{
+				"_id": "44838608-61a1-cf4d-5e9a-c705e78cf124",
+				"correct": true,
+				"answer": "Replication factor is set to 0 for the \"LogsDataStream.\""
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

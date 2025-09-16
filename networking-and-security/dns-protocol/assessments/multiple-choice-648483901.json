@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-648483901",
+	"source": {
+		"name": "Question 3",
+		"showName": true,
+		"instructions": "Given a user who is trying to resolve `gov.org.il` and assuming the local DNS server doesn't have the IP or the hostname of the DNS server responsible for the `.il` TLD.\nWhere does the local DNS server go?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "fde4ddfe-6a85-3644-719d-70476be804bc",
+				"correct": false,
+				"answer": "DNS Local"
+			},
+			{
+				"_id": "c22363d6-0259-535b-eff2-22a7dde2e93d",
+				"correct": true,
+				"answer": "DNS Root"
+			},
+			{
+				"_id": "6a924eef-06ed-6123-3f1b-a4d564db9f06",
+				"correct": false,
+				"answer": "DNS TLD"
+			},
+			{
+				"_id": "fc384404-6c79-0d77-9f8d-683da45dd381",
+				"correct": false,
+				"answer": "DNS Authoritative"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

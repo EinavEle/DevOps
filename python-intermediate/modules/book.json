@@ -1,0 +1,83 @@
+{
+ "name": "Modules",
+ "children": [
+  {
+   "title": "Intro",
+   "id": "d1858586-7baa-954f-4635-4d047496a68f",
+   "type": "page",
+   "pageId": "a322c88c-dabd-c1cf-aa29-503dd64b146f"
+  },
+  {
+   "title": "Built-in Modules",
+   "id": "235d4b47-12f1-795d-e5cb-091925ea8f68",
+   "type": "page",
+   "pageId": "235d4b47-12f1-795d-e5cb-091925ea8f68"
+  },
+  {
+   "title": "Spot Check - built-in modules",
+   "id": "5c2983ee-ec3b-b71f-a3b1-5305f74efb81",
+   "type": "page",
+   "pageId": "158cc905-dd99-f021-1183-1ed52cfae179"
+  },
+  {
+   "title": "Custom Modules",
+   "id": "7f7cb1bb-f636-349d-50d7-65cb4fa2eb31",
+   "type": "page",
+   "pageId": "5cb61181-b4f7-a020-02fc-b57b264c0c6c"
+  },
+  {
+   "title": "Relative Imports",
+   "id": "0b17bd19-53e2-9b55-28ae-011b1bc4a8a9",
+   "type": "page",
+   "pageId": "0a7dd121-270c-d2d8-56b4-91fa4094e4b2"
+  },
+  {
+   "title": "init file",
+   "id": "d7459390-10e5-85d2-4591-8d11e52ff6ef",
+   "type": "page",
+   "pageId": "24936891-0273-5c83-4f26-ec8a084510c2"
+  },
+  {
+   "title": "Module and Package Naming",
+   "id": "95251701-9045-95b9-89a8-f85a5cc76773",
+   "type": "page",
+   "pageId": "924c8c85-7a7c-19d6-d224-949b961b1eaa"
+  },
+  {
+   "title": "Spot Check - custom modules",
+   "id": "3ca43bd2-87ff-75f3-9052-a5e6e0f0cf33",
+   "type": "page",
+   "pageId": "cc185461-0013-d40b-0ce7-9e25551a082e"
+  },
+  {
+   "title": "sys.path",
+   "id": "d6c66162-d1b0-3032-1bb7-d2286b24e8ef",
+   "type": "page",
+   "pageId": "0f7cf336-e71e-eb5d-c472-e4c09ba748a5"
+  },
+  {
+   "title": "Circular Dependency",
+   "id": "9ac4b14e-0585-0864-cd45-b21ed0447874",
+   "type": "page",
+   "pageId": "c28a85b8-7a5c-d07a-cd5d-6e922df72a61"
+  },
+  {
+   "title": "pip",
+   "id": "36ae93b5-5a87-049a-16d1-cdf0301a2a85",
+   "type": "page",
+   "pageId": "faae35a7-3ab9-edf8-7b3e-a87fc9516f28"
+  },
+  {
+   "title": "Main Scope Script",
+   "id": "45b93363-bf0c-a639-4936-2783ca18ce40",
+   "type": "page",
+   "pageId": "c4671f71-9a8a-ddbe-2f6a-c7361c346450"
+  },
+  {
+   "title": "Exercises",
+   "id": "cffc5da7-15af-daa3-61ab-d5669544bdb7",
+   "type": "page",
+   "pageId": "0a2cb27b-1c09-6a37-2eea-fb2b5607982c"
+  }
+ ]
+}

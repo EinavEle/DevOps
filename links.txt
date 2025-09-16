@@ -1,0 +1,342 @@
+# environment-setup/postman.tar.zst
+http://localhost:3000/#/environment-setup/postman/Install-Postman.md
+
+# environment-setup/python.tar.zst
+http://localhost:3000/#/environment-setup/python/Installation.md
+http://localhost:3000/#/environment-setup/python/Execution.md
+
+# git/git-basics.tar.zst
+http://localhost:3000/#/git/git-basics/Pre-Install.md
+http://localhost:3000/#/git/git-basics/Intro---Version-Control.md
+http://localhost:3000/#/git/git-basics/Installing-Git.md
+http://localhost:3000/#/git/git-basics/Setup.md
+http://localhost:3000/#/git/git-basics/Creating-a-Local-Repository.md
+http://localhost:3000/#/git/git-basics/Tracking-Files.md
+http://localhost:3000/#/git/git-basics/Github.md
+http://localhost:3000/#/git/git-basics/Making-Changes.md
+http://localhost:3000/#/git/git-basics/Going-Backwards.md
+http://localhost:3000/#/git/git-basics/Cloning.md
+http://localhost:3000/#/git/git-basics/Cheat-Sheet.md
+http://localhost:3000/#/git/git-basics/Practice.md
+
+# git/git-branches.tar.zst
+http://localhost:3000/#/git/git-branches/Local-Branches---Overview.md
+http://localhost:3000/#/git/git-branches/Intro.md
+http://localhost:3000/#/git/git-branches/What-are-Branches-.md
+http://localhost:3000/#/git/git-branches/Why-do-we-need-Branches-.md
+http://localhost:3000/#/git/git-branches/Proper-Branching-Methodology.md
+http://localhost:3000/#/git/git-branches/Branching-Commands.md
+http://localhost:3000/#/git/git-branches/Remote-Branches---Overview.md
+http://localhost:3000/#/git/git-branches/Remote-Branches.md
+http://localhost:3000/#/git/git-branches/Merging.md
+http://localhost:3000/#/git/git-branches/Recap.md
+http://localhost:3000/#/git/git-branches/Extra-Resources.md
+http://localhost:3000/#/git/git-branches/Practice.md
+
+# git/git-collaboration.tar.zst
+http://localhost:3000/#/git/git-collaboration/Collaboration-Overview.md
+http://localhost:3000/#/git/git-collaboration/Intro.md
+http://localhost:3000/#/git/git-collaboration/Collaboration.md
+http://localhost:3000/#/git/git-collaboration/Branching-Out.md
+http://localhost:3000/#/git/git-collaboration/Merging-and-Pull-Requests.md
+http://localhost:3000/#/git/git-collaboration/Practice.md
+http://localhost:3000/#/git/git-collaboration/Fetching.md
+http://localhost:3000/#/git/git-collaboration/Pulling.md
+http://localhost:3000/#/git/git-collaboration/Back-to-Master.md
+http://localhost:3000/#/git/git-collaboration/Switch-Sides---Merge-Conflicts.md
+http://localhost:3000/#/git/git-collaboration/Recap.md
+
+# git/git.tar.zst
+http://localhost:3000/#/git/git/Pre-Install.md
+http://localhost:3000/#/git/git/Intro---Version-Control.md
+http://localhost:3000/#/git/git/Installing-Git.md
+http://localhost:3000/#/git/git/Changing-Editor.md
+http://localhost:3000/#/git/git/Setup.md
+
+# git/github-setup.tar.zst
+http://localhost:3000/#/git/github-setup/Intro---Version-Control.md
+http://localhost:3000/#/git/github-setup/Sign-up.md
+http://localhost:3000/#/git/github-setup/Add-SSH-key--optional-.md
+
+# git/setting-up-your-github-projects.tar.zst
+http://localhost:3000/#/git/setting-up-your-github-projects/Intro.md
+http://localhost:3000/#/git/setting-up-your-github-projects/Project-Details.md
+http://localhost:3000/#/git/setting-up-your-github-projects/README-File.md
+http://localhost:3000/#/git/setting-up-your-github-projects/Profile.md
+http://localhost:3000/#/git/setting-up-your-github-projects/Now-You.md
+
+# python-basics/conditions.tar.zst
+http://localhost:3000/#/python-basics/conditions/Intro.md
+http://localhost:3000/#/python-basics/conditions/If-Statement.md
+http://localhost:3000/#/python-basics/conditions/Code-Blocks.md
+http://localhost:3000/#/python-basics/conditions/Else.md
+http://localhost:3000/#/python-basics/conditions/Spot-Check.md
+http://localhost:3000/#/python-basics/conditions/Elif.md
+http://localhost:3000/#/python-basics/conditions/Complex---Nested-Conditions.md
+http://localhost:3000/#/python-basics/conditions/Spot-Check.md
+http://localhost:3000/#/python-basics/conditions/Ternary.md
+http://localhost:3000/#/python-basics/conditions/Exercises.md
+http://localhost:3000/#/python-basics/conditions/Comprehension-Check.md
+
+# python-basics/functions.tar.zst
+http://localhost:3000/#/python-basics/functions/Intro.md
+http://localhost:3000/#/python-basics/functions/Syntax.md
+http://localhost:3000/#/python-basics/functions/Parameters.md
+http://localhost:3000/#/python-basics/functions/Multiple-Parameters.md
+http://localhost:3000/#/python-basics/functions/Spot-Check.md
+http://localhost:3000/#/python-basics/functions/The--return--Statement.md
+http://localhost:3000/#/python-basics/functions/Functions-Calling-Functions.md
+http://localhost:3000/#/python-basics/functions/Spot-Check.md
+http://localhost:3000/#/python-basics/functions/Default-Parameters.md
+http://localhost:3000/#/python-basics/functions/Exercises.md
+http://localhost:3000/#/python-basics/functions/Comprehension-Check.md
+
+# python-basics/islasho--user-input-and-output.tar.zst
+http://localhost:3000/#/python-basics/islasho--user-input-and-output/Basic--I-O.md
+http://localhost:3000/#/python-basics/islasho--user-input-and-output/Spot-Check.md
+http://localhost:3000/#/python-basics/islasho--user-input-and-output/Exercises.md
+
+# python-basics/lists.tar.zst
+http://localhost:3000/#/python-basics/lists/Intro.md
+http://localhost:3000/#/python-basics/lists/List-Basics.md
+http://localhost:3000/#/python-basics/lists/Accessing-List-Items--Indices.md
+http://localhost:3000/#/python-basics/lists/Values-from-Lists.md
+http://localhost:3000/#/python-basics/lists/Overwriting-List--Items.md
+http://localhost:3000/#/python-basics/lists/Updating-List-Items.md
+http://localhost:3000/#/python-basics/lists/Adding-to-Lists.md
+http://localhost:3000/#/python-basics/lists/Checking-if-Item-in-List.md
+http://localhost:3000/#/python-basics/lists/Spot-Check.md
+http://localhost:3000/#/python-basics/lists/Removing-from-List.md
+http://localhost:3000/#/python-basics/lists/Reference-Type.md
+http://localhost:3000/#/python-basics/lists/Slicing.md
+http://localhost:3000/#/python-basics/lists/List-Methods.md
+http://localhost:3000/#/python-basics/lists/List-Comprehension.md
+http://localhost:3000/#/python-basics/lists/Exercises.md
+http://localhost:3000/#/python-basics/lists/Comprehension-Check.md
+
+# python-basics/loops.tar.zst
+http://localhost:3000/#/python-basics/loops/Intro.md
+http://localhost:3000/#/python-basics/loops/For-in.md
+http://localhost:3000/#/python-basics/loops/Spot-Check.md
+http://localhost:3000/#/python-basics/loops/Solving-Problems--For-in.md
+http://localhost:3000/#/python-basics/loops/Spot-Check.md
+http://localhost:3000/#/python-basics/loops/in-Range.md
+http://localhost:3000/#/python-basics/loops/Solving-Problems--in-range.md
+http://localhost:3000/#/python-basics/loops/Spot-Check.md
+http://localhost:3000/#/python-basics/loops/While.md
+http://localhost:3000/#/python-basics/loops/Solving-Problems---While.md
+http://localhost:3000/#/python-basics/loops/Spot-Check.md
+http://localhost:3000/#/python-basics/loops/For-Else.md
+http://localhost:3000/#/python-basics/loops/Exercises.md
+http://localhost:3000/#/python-basics/loops/Comprehension-Check.md
+
+# python-basics/strings.tar.zst
+http://localhost:3000/#/python-basics/strings/Intro.md
+http://localhost:3000/#/python-basics/strings/len.md
+http://localhost:3000/#/python-basics/strings/String-Operations.md
+http://localhost:3000/#/python-basics/strings/String---Formatting.md
+http://localhost:3000/#/python-basics/strings/Escaping.md
+http://localhost:3000/#/python-basics/strings/Accesssing-Characters.md
+http://localhost:3000/#/python-basics/strings/Exercises.md
+http://localhost:3000/#/python-basics/strings/Extension.md
+
+# python-basics/variables-and-fundamentals.tar.zst
+http://localhost:3000/#/python-basics/variables-and-fundamentals/Intro.md
+http://localhost:3000/#/python-basics/variables-and-fundamentals/Variables.md
+http://localhost:3000/#/python-basics/variables-and-fundamentals/Defining-Variables.md
+http://localhost:3000/#/python-basics/variables-and-fundamentals/Comments.md
+http://localhost:3000/#/python-basics/variables-and-fundamentals/Types--Strings--Numbers--and-Booleans.md
+http://localhost:3000/#/python-basics/variables-and-fundamentals/Spot-Check.md
+http://localhost:3000/#/python-basics/variables-and-fundamentals/Types--Floats.md
+http://localhost:3000/#/python-basics/variables-and-fundamentals/Operators--Mathematical--Comparison--Logical.md
+http://localhost:3000/#/python-basics/variables-and-fundamentals/Spot-Check.md
+http://localhost:3000/#/python-basics/variables-and-fundamentals/Concatenation.md
+http://localhost:3000/#/python-basics/variables-and-fundamentals/Overwriting-and-Updating-Variables.md
+http://localhost:3000/#/python-basics/variables-and-fundamentals/Special-Operators.md
+http://localhost:3000/#/python-basics/variables-and-fundamentals/Errors-and-Bugs.md
+http://localhost:3000/#/python-basics/variables-and-fundamentals/Exercises.md
+http://localhost:3000/#/python-basics/variables-and-fundamentals/Extension.md
+http://localhost:3000/#/python-basics/variables-and-fundamentals/Comprehension-Check.md
+
+# python-intermediate/collections-and-data-types.tar.zst
+http://localhost:3000/#/python-intermediate/collections-and-data-types/Intro.md
+http://localhost:3000/#/python-intermediate/collections-and-data-types/Everything-is-an-Object.md
+http://localhost:3000/#/python-intermediate/collections-and-data-types/is-vs---.md
+http://localhost:3000/#/python-intermediate/collections-and-data-types/Type-Conversion.md
+http://localhost:3000/#/python-intermediate/collections-and-data-types/Collection-Operations-and-Functions.md
+http://localhost:3000/#/python-intermediate/collections-and-data-types/Mutable-vs-Immutable.md
+http://localhost:3000/#/python-intermediate/collections-and-data-types/Ordered-vs-Unordered.md
+http://localhost:3000/#/python-intermediate/collections-and-data-types/Iterable.md
+
+# python-intermediate/date-and-time.tar.zst
+http://localhost:3000/#/python-intermediate/date-and-time/Intro.md
+http://localhost:3000/#/python-intermediate/date-and-time/The-time-Module.md
+http://localhost:3000/#/python-intermediate/date-and-time/The-datetime-Module.md
+http://localhost:3000/#/python-intermediate/date-and-time/Exercises.md
+http://localhost:3000/#/python-intermediate/date-and-time/Extension.md
+
+# python-intermediate/decorators.tar.zst
+http://localhost:3000/#/python-intermediate/decorators/Intro.md
+http://localhost:3000/#/python-intermediate/decorators/Simple-Decorator.md
+http://localhost:3000/#/python-intermediate/decorators/Decorators.md
+http://localhost:3000/#/python-intermediate/decorators/Exercises.md
+
+# python-intermediate/file-islasho.tar.zst
+http://localhost:3000/#/python-intermediate/file-islasho/Intro.md
+http://localhost:3000/#/python-intermediate/file-islasho/Reading---txt--Files.md
+http://localhost:3000/#/python-intermediate/file-islasho/Spot-Check-1.md
+http://localhost:3000/#/python-intermediate/file-islasho/Writing-to---txt--file.md
+http://localhost:3000/#/python-intermediate/file-islasho/Spot-Check-2.md
+http://localhost:3000/#/python-intermediate/file-islasho/Reading-JSON-files.md
+http://localhost:3000/#/python-intermediate/file-islasho/Writing-to-JSON-files.md
+http://localhost:3000/#/python-intermediate/file-islasho/Spot-Check-3.md
+http://localhost:3000/#/python-intermediate/file-islasho/Reading---csv--files.md
+http://localhost:3000/#/python-intermediate/file-islasho/Writing-to---csv--files.md
+http://localhost:3000/#/python-intermediate/file-islasho/Spot-Check-4.md
+http://localhost:3000/#/python-intermediate/file-islasho/Exercises.md
+http://localhost:3000/#/python-intermediate/file-islasho/Comprehension-Check.md
+
+# python-intermediate/functions-intermediate.tar.zst
+http://localhost:3000/#/python-intermediate/functions-intermediate/args-and-kwargs.md
+http://localhost:3000/#/python-intermediate/functions-intermediate/Multiple-Return-Values.md
+http://localhost:3000/#/python-intermediate/functions-intermediate/The-Function-Object.md
+http://localhost:3000/#/python-intermediate/functions-intermediate/Nested-Funcitons.md
+http://localhost:3000/#/python-intermediate/functions-intermediate/Spot-Check.md
+http://localhost:3000/#/python-intermediate/functions-intermediate/Namespace.md
+http://localhost:3000/#/python-intermediate/functions-intermediate/Function-Scope.md
+http://localhost:3000/#/python-intermediate/functions-intermediate/Global-Keyword.md
+http://localhost:3000/#/python-intermediate/functions-intermediate/Nested-Scope.md
+http://localhost:3000/#/python-intermediate/functions-intermediate/Closure.md
+http://localhost:3000/#/python-intermediate/functions-intermediate/Extra-Material--Print-as-an-example.md
+http://localhost:3000/#/python-intermediate/functions-intermediate/Exercises.md
+http://localhost:3000/#/python-intermediate/functions-intermediate/Extension-Exercise.md
+
+# python-intermediate/lambda-functions--map--filter-.tar.zst
+http://localhost:3000/#/python-intermediate/lambda-functions--map--filter-/Intro.md
+http://localhost:3000/#/python-intermediate/lambda-functions--map--filter-/The--filter--Function.md
+http://localhost:3000/#/python-intermediate/lambda-functions--map--filter-/Spot-Check-1.md
+http://localhost:3000/#/python-intermediate/lambda-functions--map--filter-/Lambda-Functions.md
+http://localhost:3000/#/python-intermediate/lambda-functions--map--filter-/Lambda--and-Filter.md
+http://localhost:3000/#/python-intermediate/lambda-functions--map--filter-/Spot-Check-2.md
+http://localhost:3000/#/python-intermediate/lambda-functions--map--filter-/The--map--Function.md
+http://localhost:3000/#/python-intermediate/lambda-functions--map--filter-/Spot--Check-3.md
+http://localhost:3000/#/python-intermediate/lambda-functions--map--filter-/Decode-Exercise.md
+http://localhost:3000/#/python-intermediate/lambda-functions--map--filter-/Exercises.md
+http://localhost:3000/#/python-intermediate/lambda-functions--map--filter-/Extension-Exercise.md
+http://localhost:3000/#/python-intermediate/lambda-functions--map--filter-/Comprehension-Check.md
+
+# python-intermediate/modules.tar.zst
+http://localhost:3000/#/python-intermediate/modules/Intro.md
+http://localhost:3000/#/python-intermediate/modules/Built-in-Modules.md
+http://localhost:3000/#/python-intermediate/modules/Spot-Check---built-in-modules.md
+http://localhost:3000/#/python-intermediate/modules/Custom-Modules.md
+http://localhost:3000/#/python-intermediate/modules/Relative-Imports.md
+http://localhost:3000/#/python-intermediate/modules/init-file.md
+http://localhost:3000/#/python-intermediate/modules/Module-and-Package-Naming.md
+http://localhost:3000/#/python-intermediate/modules/Spot-Check---custom-modules.md
+http://localhost:3000/#/python-intermediate/modules/sys-path.md
+http://localhost:3000/#/python-intermediate/modules/Circular-Dependency.md
+http://localhost:3000/#/python-intermediate/modules/pip.md
+http://localhost:3000/#/python-intermediate/modules/Main-Scope-Script.md
+http://localhost:3000/#/python-intermediate/modules/Exercises.md
+
+# python-intermediate/naming-conventions.tar.zst
+http://localhost:3000/#/python-intermediate/naming-conventions/Intro.md
+http://localhost:3000/#/python-intermediate/naming-conventions/Variables.md
+http://localhost:3000/#/python-intermediate/naming-conventions/Functions.md
+http://localhost:3000/#/python-intermediate/naming-conventions/Class.md
+http://localhost:3000/#/python-intermediate/naming-conventions/Modules-and-Packages.md
+http://localhost:3000/#/python-intermediate/naming-conventions/Underscores.md
+http://localhost:3000/#/python-intermediate/naming-conventions/Underscore-Summary.md
+http://localhost:3000/#/python-intermediate/naming-conventions/Styling-Conventions.md
+
+# python-intermediate/one-liner-exercises.tar.zst
+http://localhost:3000/#/python-intermediate/one-liner-exercises/Exercises.md
+http://localhost:3000/#/python-intermediate/one-liner-exercises/Extensions.md
+
+# python-intermediate/oop-inheritance.tar.zst
+http://localhost:3000/#/python-intermediate/oop-inheritance/Intro.md
+http://localhost:3000/#/python-intermediate/oop-inheritance/Syntax.md
+http://localhost:3000/#/python-intermediate/oop-inheritance/Overriding-Methods.md
+http://localhost:3000/#/python-intermediate/oop-inheritance/Adding-Attributes---super-.md
+http://localhost:3000/#/python-intermediate/oop-inheritance/Spot-Check-1.md
+http://localhost:3000/#/python-intermediate/oop-inheritance/-type--and--isinstance-.md
+http://localhost:3000/#/python-intermediate/oop-inheritance/Comprehension-Check.md
+
+# python-intermediate/oop-intro.tar.zst
+http://localhost:3000/#/python-intermediate/oop-intro/Intro.md
+http://localhost:3000/#/python-intermediate/oop-intro/Classes--Instances----Attributes.md
+http://localhost:3000/#/python-intermediate/oop-intro/-init--and--self-.md
+http://localhost:3000/#/python-intermediate/oop-intro/Spot-Check-1.md
+http://localhost:3000/#/python-intermediate/oop-intro/Methods.md
+http://localhost:3000/#/python-intermediate/oop-intro/Spot-Check-2.md
+http://localhost:3000/#/python-intermediate/oop-intro/UML.md
+http://localhost:3000/#/python-intermediate/oop-intro/Exercises.md
+http://localhost:3000/#/python-intermediate/oop-intro/Comprehension-check.md
+
+# python-intermediate/pytest-features.tar.zst
+http://localhost:3000/#/python-intermediate/pytest-features/Intro.md
+http://localhost:3000/#/python-intermediate/pytest-features/Skip-xfail-Tests.md
+http://localhost:3000/#/python-intermediate/pytest-features/Mark-Tests.md
+http://localhost:3000/#/python-intermediate/pytest-features/Spot-Check.md
+http://localhost:3000/#/python-intermediate/pytest-features/Parallel-Tests.md
+http://localhost:3000/#/python-intermediate/pytest-features/Parameterized-Tests.md
+http://localhost:3000/#/python-intermediate/pytest-features/Fixtures.md
+http://localhost:3000/#/python-intermediate/pytest-features/Exercises.md
+
+# python-intermediate/pytest.tar.zst
+http://localhost:3000/#/python-intermediate/pytest/Intro.md
+http://localhost:3000/#/python-intermediate/pytest/Setup.md
+http://localhost:3000/#/python-intermediate/pytest/Usage---simple-test.md
+http://localhost:3000/#/python-intermediate/pytest/Running-Pytest.md
+http://localhost:3000/#/python-intermediate/pytest/Assertions-in-Pytest.md
+http://localhost:3000/#/python-intermediate/pytest/Command-line-options.md
+http://localhost:3000/#/python-intermediate/pytest/Exercises.md
+
+# python-intermediate/python-iterators.tar.zst
+http://localhost:3000/#/python-intermediate/python-iterators/Intro.md
+http://localhost:3000/#/python-intermediate/python-iterators/Enumerate.md
+http://localhost:3000/#/python-intermediate/python-iterators/Iterables.md
+http://localhost:3000/#/python-intermediate/python-iterators/Iterator-Protocol.md
+http://localhost:3000/#/python-intermediate/python-iterators/How-for-loop-actually-works-.md
+http://localhost:3000/#/python-intermediate/python-iterators/Building-an-iterator.md
+http://localhost:3000/#/python-intermediate/python-iterators/Generators.md
+http://localhost:3000/#/python-intermediate/python-iterators/Generator-Expressions.md
+http://localhost:3000/#/python-intermediate/python-iterators/Exercises.md
+
+# python-intermediate/sets.tar.zst
+http://localhost:3000/#/python-intermediate/sets/Intro.md
+http://localhost:3000/#/python-intermediate/sets/Update-Set.md
+http://localhost:3000/#/python-intermediate/sets/Set-Operations.md
+http://localhost:3000/#/python-intermediate/sets/Other-Set-Methods.md
+http://localhost:3000/#/python-intermediate/sets/Set-Usage.md
+http://localhost:3000/#/python-intermediate/sets/Frozen-Set.md
+http://localhost:3000/#/python-intermediate/sets/Exercises.md
+
+# python-intermediate/strings-and-unicode.tar.zst
+http://localhost:3000/#/python-intermediate/strings-and-unicode/Intro.md
+http://localhost:3000/#/python-intermediate/strings-and-unicode/ASCII.md
+http://localhost:3000/#/python-intermediate/strings-and-unicode/Unicode.md
+http://localhost:3000/#/python-intermediate/strings-and-unicode/Spot-Check.md
+http://localhost:3000/#/python-intermediate/strings-and-unicode/Raw-Strings.md
+http://localhost:3000/#/python-intermediate/strings-and-unicode/Bytes.md
+http://localhost:3000/#/python-intermediate/strings-and-unicode/Exercises.md
+
+# python-intermediate/tuples.tar.zst
+http://localhost:3000/#/python-intermediate/tuples/Intro.md
+http://localhost:3000/#/python-intermediate/tuples/Tuple-Basics.md
+http://localhost:3000/#/python-intermediate/tuples/Accessing-Tuple-Items--Indices.md
+http://localhost:3000/#/python-intermediate/tuples/Access-Tuple-Elements--Slicing.md
+http://localhost:3000/#/python-intermediate/tuples/Spot-Check-1.md
+http://localhost:3000/#/python-intermediate/tuples/Updating-Tuples.md
+http://localhost:3000/#/python-intermediate/tuples/Additional-Ways-to-Create-Tuples.md
+http://localhost:3000/#/python-intermediate/tuples/Exercises.md
+
+# python-intermediate/warnings-and-exceptions.tar.zst
+http://localhost:3000/#/python-intermediate/warnings-and-exceptions/Intro.md
+http://localhost:3000/#/python-intermediate/warnings-and-exceptions/Warnings.md
+http://localhost:3000/#/python-intermediate/warnings-and-exceptions/Exception-Handling.md
+http://localhost:3000/#/python-intermediate/warnings-and-exceptions/More-Exceptions.md
+http://localhost:3000/#/python-intermediate/warnings-and-exceptions/Multiple-Exceptions.md
+http://localhost:3000/#/python-intermediate/warnings-and-exceptions/User-defined-Exceptions.md
+http://localhost:3000/#/python-intermediate/warnings-and-exceptions/Exercises.md

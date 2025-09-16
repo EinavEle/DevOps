@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2179193288",
+	"source": {
+		"name": "Question 1",
+		"showName": true,
+		"instructions": "A user started a process and logged out from the terminal. Which command di he use if the process is still running in the background:",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "5d0d1df4-53de-a3ce-f66d-d2aa5fba70ab",
+				"correct": false,
+				"answer": "`nokill`"
+			},
+			{
+				"_id": "68e3ccf7-d101-207f-80dd-8764fbcccde1",
+				"correct": true,
+				"answer": "`nohup`"
+			},
+			{
+				"_id": "f5bd0f33-d063-fb29-d563-d4ab5a1c36da",
+				"correct": false,
+				"answer": "`nofg`"
+			},
+			{
+				"_id": "fdb8eb2a-c009-866f-71ed-3d99c1ff7f7e",
+				"correct": false,
+				"answer": "`bg`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

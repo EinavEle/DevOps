@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3586091094",
+	"source": {
+		"name": "Question 4",
+		"showName": true,
+		"instructions": "According to the following line, taken from the `pstree` output, how many login and non-login shells are opened? Hint: the first bash process is considered a login terminal session.\n```bash\n├─gnome-terminal───bash───bash───bash───bash───pstree\n```",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "68be9ffa-d68d-9ebd-1075-8ac35daa1aa5",
+				"correct": false,
+				"answer": "4 non-login"
+			},
+			{
+				"_id": "b66ea98e-a80f-d9ea-0957-d1431804eb3d",
+				"correct": false,
+				"answer": "1 non-login, 3 login"
+			},
+			{
+				"_id": "654f249c-4491-1c4d-2b86-052cf488982e",
+				"correct": true,
+				"answer": "3 non-login, 1 login"
+			},
+			{
+				"_id": "2955dba6-25fc-1ad1-6203-89c7e0499987",
+				"correct": false,
+				"answer": "4 login"
+			},
+			{
+				"_id": "008bb860-993a-1d41-20f4-135a474e9b16",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-245333276",
+	"source": {
+		"name": "Copy of Question 8",
+		"showName": true,
+		"instructions": "Running the `ip address` command from within the container (you can install the command by `apt update && apt install iproute2`):",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "146538c8-09b2-ac39-2fb3-71b0a830dc6b",
+				"correct": true,
+				"answer": "Lists the network interfaces of the host machine."
+			},
+			{
+				"_id": "33fbcdd4-711a-d7d3-841e-0edf231435f5",
+				"correct": false,
+				"answer": "Lists the network interfaces used by docker daemon."
+			},
+			{
+				"_id": "0d4bba6d-d7a8-f993-e8c9-0433421c621e",
+				"correct": false,
+				"answer": "Lists the network interfaces of the container."
+			},
+			{
+				"_id": "7cb15207-f9b3-ab43-cdf9-f46d4df4d218",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

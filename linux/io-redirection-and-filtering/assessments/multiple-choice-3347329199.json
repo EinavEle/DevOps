@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3347329199",
+	"source": {
+		"name": "Question 7",
+		"showName": true,
+		"instructions": "Which of the following commands would successfully redirect the output of the `cal` command to the file `lsout.txt`?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "b711a9d3-1afb-b7e8-2eac-8f4a179d0953",
+				"correct": false,
+				"answer": "`lsout.txt > cal`"
+			},
+			{
+				"_id": "20801b24-e42e-7091-ef0b-f4bdf03b0c57",
+				"correct": false,
+				"answer": "`cal ==> lsout.txt`"
+			},
+			{
+				"_id": "c608cc03-ece8-785d-fddd-903de6c94b99",
+				"correct": true,
+				"answer": "`cal > lsout.txt`"
+			},
+			{
+				"_id": "7dd3bf2f-cca8-625c-b994-c90a1bef4f27",
+				"correct": false,
+				"answer": "`cal } lsout.txt`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

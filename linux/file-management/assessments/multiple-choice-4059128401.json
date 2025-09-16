@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-4059128401",
+	"source": {
+		"name": "Question 10",
+		"showName": true,
+		"instructions": "Why would you expect trouble from the following command?\n```bash\n[bob@station bob]$ head /bin/ls\n```",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "0c2d8c17-a5de-8654-4bf2-6e38d9274223",
+				"correct": false,
+				"answer": "The user bob does not have permissions to read the file `/bin/ls`."
+			},
+			{
+				"_id": "f8227d87-0999-a92c-9954-065670a2b3f8",
+				"correct": false,
+				"answer": "The head command must be called with the `-n` command line switch, to specify how many lines to show."
+			},
+			{
+				"_id": "e0fb5073-f4c6-de04-9d1d-6a19904ad131",
+				"correct": false,
+				"answer": "The file `/bin/ls` is too small for the head command."
+			},
+			{
+				"_id": "696fd397-8271-6a2d-e075-f2911b1778e6",
+				"correct": true,
+				"answer": "The file `/bin/ls` is a binary file, and the head command works primarily on text files."
+			},
+			{
+				"_id": "925db85f-2bea-71cb-51fe-70078b8acde8",
+				"correct": false,
+				"answer": "None of the above."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

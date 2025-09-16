@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3999617273",
+	"source": {
+		"name": "Question 11",
+		"showName": true,
+		"instructions": "The [official `mysql` image](https://hub.docker.com/_/mysql) is running by the following command: `docker run -e MYSQL_ROOT_PASSWORD=1234 mysql`.\n\nChoose the correct answer:\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "e3d371b8-df3c-e356-10bb-aac7a7a942de",
+				"correct": false,
+				"answer": "The MySQL database is accessible from the host machine by `localhost:3306`."
+			},
+			{
+				"_id": "971e713c-066f-f99e-7d6b-7a0eee97ae05",
+				"correct": false,
+				"answer": "The MySQL database is accessible from the host machine on port `localhost:8080`."
+			},
+			{
+				"_id": "3127fedb-0661-fcb8-7e65-8c18a0e7716e",
+				"correct": false,
+				"answer": "The MySQL database is accessible from the host machine on port `localhost:80`."
+			},
+			{
+				"_id": "db2cc43d-30b4-f111-b89b-6d5cb6077244",
+				"correct": false,
+				"answer": "The database can never be accessed from the host machine."
+			},
+			{
+				"_id": "7b3d02d4-e920-8016-4dce-05be3b442f9f",
+				"correct": true,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

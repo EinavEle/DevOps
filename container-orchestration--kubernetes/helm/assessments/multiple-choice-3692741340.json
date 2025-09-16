@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3692741340",
+	"source": {
+		"name": "Q3",
+		"showName": true,
+		"instructions": "How does a `values.yaml` file may look like with an override for the `injector` port to be `8081`?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "eedb6887-6dec-f84f-5482-dd7f08b4ea39",
+				"correct": false,
+				"answer": "```yaml \n      injector.port: 8081\n      ```"
+			},
+			{
+				"_id": "2a52ae9a-32f1-40a7-1730-7a866d3b3ede",
+				"correct": false,
+				"answer": "```yaml \n      port: 8081\n      ```"
+			},
+			{
+				"_id": "e3943f1e-85e5-8056-6dc1-635054bd4d45",
+				"correct": true,
+				"answer": "```yaml \n      injector:\n        port: 8081\n      ```"
+			},
+			{
+				"_id": "2c3892de-a8c6-f14d-7d1a-927c0bc0b9c5",
+				"correct": false,
+				"answer": "There is no need to override since the default port is `8081`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

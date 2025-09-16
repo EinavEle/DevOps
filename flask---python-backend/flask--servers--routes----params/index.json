@@ -1,0 +1,25 @@
+{
+	"title": "Flask: Servers, Routes, & Params-1",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Intro-48f2",
+		"Flask---Building-Simple-Server-Part-I-a7a4",
+		"Flask---Building-Simple-Server-Part-II-016c",
+		"Flask---Defining-Routes-5031",
+		"Flask---Parsing-JSON-2b86",
+		"Flask---Serving-Resources-d88e",
+		"Flask---Summary-e00d",
+		"Exercises-3e1b"
+	]
+}

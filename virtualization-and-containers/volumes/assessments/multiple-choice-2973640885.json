@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2973640885",
+	"source": {
+		"name": "Question 3",
+		"showName": true,
+		"instructions": "Given the below container running command:\n```bash\ndocker run -v /home/elvis/data:/data mysql\n```",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "9c319a8c-b58f-9e46-fa7e-07a66dec1497",
+				"correct": true,
+				"answer": "`/home/elvis/data` is a path in the host machine."
+			},
+			{
+				"_id": "6ebfb425-55b7-dae0-7c07-64fd2dcd96ea",
+				"correct": false,
+				"answer": "`/home/elvis/data` is a path in the container."
+			},
+			{
+				"_id": "d7e156b5-81be-c4fa-c27b-2f94cbff1549",
+				"correct": true,
+				"answer": "`/data` is a path in the container."
+			},
+			{
+				"_id": "f6447a65-03ec-b607-7019-179e2859340b",
+				"correct": false,
+				"answer": "`/data` is a path in the host machine."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

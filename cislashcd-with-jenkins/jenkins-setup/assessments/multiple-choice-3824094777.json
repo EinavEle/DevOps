@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3824094777",
+	"source": {
+		"name": "Q1",
+		"showName": true,
+		"instructions": "Having backups of your Jenkins instance is critically important. \n\nWhen backing up Jenkins, you should copy the entire Jenkins home directory (`/var/lib/jenkins`). \nThis directory contains all the configuration files, job configurations, plugin settings, logs, and other essential data needed to restore Jenkins to a working state.\n\nThe **controller key** file (`$JENKINS_HOME/secrets/hudson.util.Secret`) is used to encrypt data in the secrets directory that secures credentials.\nThis controller key file is **encrypted** by another key file (`$JENKINS_HOME/secrets/master.key`).\n\nNever include the `master.key` in your Jenkins backup!\n\nWhat is a recommended approach for securely storing a backup of Jenkins?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "c1c5620e-aca4-2357-7d5f-4f8adb1031cc",
+				"correct": false,
+				"answer": "Store a copy of the entire Jenkins home directory every day."
+			},
+			{
+				"_id": "9c2c8b0f-54f4-4d0f-9724-d1010ffdbae1",
+				"correct": false,
+				"answer": "Store a copy of the entire Jenkins home directory every day, excluding the `master.key` as we don't need it."
+			},
+			{
+				"_id": "7cfad170-8d25-f3fc-beed-bd45a95a1733",
+				"correct": true,
+				"answer": "Store a copy of the entire Jenkins home directory every day, excluding the `master.key`, which should be stored separately in a secure place."
+			},
+			{
+				"_id": "16834314-e0e1-0e16-8041-55d9037325de",
+				"correct": false,
+				"answer": "Store a copy of the entire Jenkins home directory every day, excluding the `hudson.util.Secret` as we don't need it."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

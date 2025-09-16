@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3295558726",
+	"source": {
+		"name": "Q11",
+		"showName": true,
+		"instructions": "Choose the correct sentence(s) regarding container resources request and limit: \n",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "6e4b59af-5556-26e3-81e5-e72ac0c5630b",
+				"correct": true,
+				"answer": "Total resource limits in a node can be more than 100%.\n"
+			},
+			{
+				"_id": "e67622b7-e11e-1948-8cf2-dd57077a9663",
+				"correct": false,
+				"answer": "Total resource requests in a node can be more than 100%.\n"
+			},
+			{
+				"_id": "fe72a7e1-3705-291f-0ca3-a5f7a2678fb0",
+				"correct": true,
+				"answer": "Node where all pod's resource requests = resource limit, shouldn't experience node pressure.\n"
+			},
+			{
+				"_id": "dfe2cd5b-2d65-beca-cbec-e5be86bd5b96",
+				"correct": false,
+				"answer": "Node where all pod's resource requests = resource limit, might experience node pressure."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

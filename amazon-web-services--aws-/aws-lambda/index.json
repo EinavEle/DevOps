@@ -1,0 +1,29 @@
+{
+	"title": "AWS Lambda",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Slides-1b0d",
+		"Agenda-and-Learning-Goals-60e5",
+		"Intro-to-serverless--6200",
+		"Face-blurring-using-Lambda-and-Step-Function-State-Machine-4e32",
+		"Create-the--face-detection--function-f869",
+		"Create-the--check-rekognition-job-status--function-325f",
+		"Create-the--get-rekognized-faces--function-59df",
+		"Create-the--blur-faces--function-c625",
+		"Create-Step-Function-state-machine-f189",
+		"Test-the-system-0ccd",
+		"Exercises-3f49",
+		"Comprehension-Check-7ba4"
+	]
+}

@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3563042153",
+	"source": {
+		"name": "Question 1",
+		"showName": true,
+		"instructions": "If `/home/student` is a directory, then the command `rm /home/student` will",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "1c2f4f26-e402-8f69-d64d-e3327b0de5a7",
+				"correct": false,
+				"answer": "remove all files in the directory"
+			},
+			{
+				"_id": "e2e04c10-172a-14ef-1a6e-0eec0e10df06",
+				"correct": false,
+				"answer": "delete the directory from the filesystem"
+			},
+			{
+				"_id": "e615269e-0a52-fbb1-6120-0a6d9b0fafa9",
+				"correct": false,
+				"answer": "delete the student user account"
+			},
+			{
+				"_id": "c1d65b7e-c8d3-611c-17eb-facd38660355",
+				"correct": true,
+				"answer": "produce an error message"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

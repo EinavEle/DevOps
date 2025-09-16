@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1582311654",
+	"source": {
+		"name": "q5",
+		"showName": true,
+		"instructions": "Which pne of the below statements corresponding to a public subnet:\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "a2c9cac8-6022-ec96-775a-ac060a65ade1",
+				"correct": false,
+				"answer": "Public subnet includes a route in its associated routing table that routes traffic to a NAT gateway.\n"
+			},
+			{
+				"_id": "5d235ee2-9915-f058-29d2-65df194e2a2f",
+				"correct": true,
+				"answer": "Public subnet includes a route in its associated routing table that routes traffic to an internet gateway.\n"
+			},
+			{
+				"_id": "99a967e1-c6a9-6b27-f3a9-1af79280f0a3",
+				"correct": false,
+				"answer": "Public subnet has a security group allowed inbound traffic from `0.0.0.0/0`.\n"
+			},
+			{
+				"_id": "6903e3b0-ebf3-52dc-290f-830e78b6a6a0",
+				"correct": false,
+				"answer": "None of the above."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

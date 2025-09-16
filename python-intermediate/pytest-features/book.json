@@ -1,0 +1,53 @@
+{
+ "name": "Pytest Features",
+ "children": [
+  {
+   "title": "Intro",
+   "id": "5ffc6ba4-b5bb-f367-cdd2-68593baf39cf",
+   "type": "page",
+   "pageId": "5ffc6ba4-b5bb-f367-cdd2-68593baf39cf"
+  },
+  {
+   "title": "Skip/xfail Tests",
+   "id": "3f1aaa37-cee9-76b0-fb95-9ebfdbc5ba86",
+   "type": "page",
+   "pageId": "3f1aaa37-cee9-76b0-fb95-9ebfdbc5ba86"
+  },
+  {
+   "title": "Mark Tests",
+   "id": "ec413dab-c1aa-0bb7-caa9-e4a2d8da4d28",
+   "type": "page",
+   "pageId": "8ea44055-1695-2f14-7010-677d4a378485"
+  },
+  {
+   "id": "5e3e98a9-33bc-cf7f-6a6a-16af94b96d92",
+   "title": "Spot Check",
+   "pageId": "40f4aedc-e033-3c33-e897-d48c6f3d6c70",
+   "type": "page"
+  },
+  {
+   "id": "5422b39f-b998-016f-0fec-05fb98a2799e",
+   "title": "Parallel Tests",
+   "pageId": "1861c7cb-212a-a085-1929-331f9b6a0354",
+   "type": "page"
+  },
+  {
+   "id": "68c0b05c-4cbd-a53f-85e7-64295d45e9b6",
+   "title": "Parameterized Tests",
+   "pageId": "ac8ce5ef-62a9-4d0d-4d5f-9dc9ed690947",
+   "type": "page"
+  },
+  {
+   "id": "cb834d4e-a942-ac01-394a-69fb54f91ae5",
+   "title": "Fixtures",
+   "pageId": "40d20ded-af12-6751-4b95-47d33797a2d4",
+   "type": "page"
+  },
+  {
+   "id": "bb483406-cbf9-c6fa-869e-1f7abf74f776",
+   "title": "Exercises",
+   "pageId": "5f33eda1-6df1-9cd2-39b0-56dd2e1e953d",
+   "type": "page"
+  }
+ ]
+}

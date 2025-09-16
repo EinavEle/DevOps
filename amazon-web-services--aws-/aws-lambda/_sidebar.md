@@ -1,0 +1,16 @@
+- [Aws Lambda Home](./README.md)
+
+- [Slides](./Slides.md "Slides")
+- [Agenda-and-Learning-Goals](./Agenda-and-Learning-Goals.md "Agenda-and-Learning-Goals")
+- [Intro-to-serverless-](./Intro-to-serverless-.md "Intro-to-serverless-")
+- [Face-blurring-using-Lambda-and-Step-Function-State-Machine](./Face-blurring-using-Lambda-and-Step-Function-State-Machine.md "Face-blurring-using-Lambda-and-Step-Function-State-Machine")
+- [Create-the--face-detection--function](./Create-the--face-detection--function.md "Create-the--face-detection--function")
+- [Create-the--check-rekognition-job-status--function](./Create-the--check-rekognition-job-status--function.md "Create-the--check-rekognition-job-status--function")
+- [Create-the--get-rekognized-faces--function](./Create-the--get-rekognized-faces--function.md "Create-the--get-rekognized-faces--function")
+- [Create-the--blur-faces--function](./Create-the--blur-faces--function.md "Create-the--blur-faces--function")
+- [Create-Step-Function-state-machine](./Create-Step-Function-state-machine.md "Create-Step-Function-state-machine")
+- [Test-the-system](./Test-the-system.md "Test-the-system")
+- [Exercises](./Exercises.md "Exercises")
+
+- [⬅ Back to Module](../README.md)
+- [⬅ Back to Course](../../README.md)

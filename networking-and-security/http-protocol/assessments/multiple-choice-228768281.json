@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-228768281",
+	"source": {
+		"name": "Question 7",
+		"showName": true,
+		"instructions": "Assume the RES bash variable contains the response status of some request. Which condition will catch all possible failures (both client and server)?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "c5629bac-624c-bab1-4bc8-e21676f0b0d7",
+				"correct": false,
+				"answer": "response_code != 200"
+			},
+			{
+				"_id": "bfd03fed-ecf0-386f-f936-cafae863bdfb",
+				"correct": false,
+				"answer": "response_code > 200"
+			},
+			{
+				"_id": "820e4b53-4f1d-7459-8598-8f7b548d9057",
+				"correct": false,
+				"answer": "response_code < 500"
+			},
+			{
+				"_id": "e788e5b8-51ab-5da5-1a7a-34b11f95adc6",
+				"correct": true,
+				"answer": "response_code >= 400"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

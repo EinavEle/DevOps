@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-773521503",
+	"source": {
+		"name": "Q1",
+		"showName": true,
+		"instructions": "Choose the correct sentence:\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "f1860f6d-a6f0-4820-38a9-2d70b1aa72cd",
+				"correct": false,
+				"answer": "`nginx` and `sidecar-container` containers will run on different nodes.\n"
+			},
+			{
+				"_id": "0e8eba8e-b6e4-8bd1-4086-7a752c5d2ed3",
+				"correct": true,
+				"answer": "`nginx` and `sidecar-container` containers will not run on different nodes.\n"
+			},
+			{
+				"_id": "554a9027-5ff5-456f-b002-6d65db2b8885",
+				"correct": false,
+				"answer": "`nginx` and `sidecar-container` containers may run on different nodes, depending on the scheduler.\n"
+			},
+			{
+				"_id": "74719352-42dd-f8d8-9980-850ffceb397c",
+				"correct": false,
+				"answer": "The YAML is not a valid Pod manifest."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

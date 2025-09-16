@@ -1,0 +1,47 @@
+{
+ "name": "Strings and Unicode",
+ "children": [
+  {
+   "title": "Intro",
+   "id": "1e62ade9-1cfb-865a-4a98-bf001ed34949",
+   "type": "page",
+   "pageId": "e39851c9-a27d-23dd-8a38-0a724ec8cb20"
+  },
+  {
+   "title": "ASCII",
+   "id": "9fb64d21-febb-79ad-70bc-ae7618433c05",
+   "type": "page",
+   "pageId": "a56d5114-b747-60bc-3c66-d4e35152e289"
+  },
+  {
+   "title": "Unicode",
+   "id": "34e7430d-c2cc-3bad-e662-a1954fa2541e",
+   "type": "page",
+   "pageId": "1d3c39c9-cb13-7121-db44-87c53ee15d39"
+  },
+  {
+   "title": "Spot Check",
+   "id": "5eeca734-7bf0-c22a-27df-84b742a65d7a",
+   "type": "page",
+   "pageId": "18d68c2c-65f4-fa6c-fe6c-241cc33a5ca0"
+  },
+  {
+   "title": "Raw Strings",
+   "id": "5b5190a1-44a5-4de0-13b0-e2972bd34e86",
+   "type": "page",
+   "pageId": "5b5190a1-44a5-4de0-13b0-e2972bd34e86"
+  },
+  {
+   "title": "Bytes",
+   "id": "6838656e-ab23-b125-34b0-4c160803d065",
+   "type": "page",
+   "pageId": "6838656e-ab23-b125-34b0-4c160803d065"
+  },
+  {
+   "title": "Exercises",
+   "id": "6f6159a2-3d9e-2b49-aa0c-83b5c5a1cc93",
+   "type": "page",
+   "pageId": "8692a8cd-6712-09a9-8a8f-ecacde2d6a2f"
+  }
+ ]
+}

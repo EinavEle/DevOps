@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3346193321",
+	"source": {
+		"name": "Question 8",
+		"showName": true,
+		"instructions": "In order to verify the authenticity of messages from Alice, Bob basically needs:",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "f3486df7-f990-1976-68c6-8e2cb8a35bfa",
+				"correct": false,
+				"answer": "Alice's private key"
+			},
+			{
+				"_id": "d96728c4-261f-5a21-036d-6d921a5039fa",
+				"correct": true,
+				"answer": "Alice's public key"
+			},
+			{
+				"_id": "e598c46a-b168-6a03-65e8-550baed8d128",
+				"correct": false,
+				"answer": "Both public and private keys of Alice"
+			},
+			{
+				"_id": "bbabb9a6-8fc8-f92d-0ca4-b569f2beeab1",
+				"correct": false,
+				"answer": "Bob's own public key"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

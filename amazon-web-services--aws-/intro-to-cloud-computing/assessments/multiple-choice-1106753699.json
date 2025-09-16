@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1106753699",
+	"source": {
+		"name": "Question 4",
+		"showName": true,
+		"instructions": "In the terminal, your current working directory is `/home/user/app` and you want to build a Docker image for your application located in the `/home/user/app/src` directory. The Dockerfile is also located in `/home/user/app/src`.\n\nWhich of the following command(s) will build the app?",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "b301ed22-3c1f-fb1f-1648-455c4bbe1bff",
+				"correct": false,
+				"answer": "`docker build -t myapp .`"
+			},
+			{
+				"_id": "d4b77533-943b-af37-fe2f-90371186d45f",
+				"correct": false,
+				"answer": "`docker build -t myapp ../`"
+			},
+			{
+				"_id": "43ec67e1-5da5-5215-e619-3801c7d2b789",
+				"correct": true,
+				"answer": "`docker build -t myapp src/`"
+			},
+			{
+				"_id": "23f4d7de-8767-1737-463d-835db11c9f9f",
+				"correct": true,
+				"answer": "`docker build -t myapp /home/user/app/src`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

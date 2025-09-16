@@ -1,0 +1,24 @@
+{
+	"title": "Loops Brief",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Agenda-and-Learning-Goals-3ec5",
+		"for-Loops-4c0e",
+		"Spot-Check-8379",
+		"while-Loops-a74e",
+		"New-Page-7f7e",
+		"Exercises-d626",
+		"Comprehension-Check-db97"
+	]
+}

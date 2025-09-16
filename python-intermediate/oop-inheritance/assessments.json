@@ -1,0 +1,154 @@
+[
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-98908107",
+  "source": {
+   "name": "Question 1",
+   "showName": true,
+   "instructions": "What does `super` do?",
+   "multipleResponse": false,
+   "isRandomized": false,
+   "answers": [
+    {
+     "_id": "daccc7a6-205d-36f6-e0f0-ac3c699c0428",
+     "correct": false,
+     "answer": "Give us access to the instance of the class"
+    },
+    {
+     "_id": "36463f6d-90e2-dd0a-c11e-66fe22f98792",
+     "correct": false,
+     "answer": "Gives us access to the child class"
+    },
+    {
+     "_id": "c367934f-aefd-f319-76f1-4dd7059b6372",
+     "correct": true,
+     "answer": "Gives us access to the parent class"
+    },
+    {
+     "_id": "34e9020a-187f-7b1b-6658-4e1d05077aee",
+     "correct": false,
+     "answer": "Invokes the constructor method"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   },
+   "maxAttemptsCount": 1,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3485095280",
+  "source": {
+   "name": "Question 2",
+   "showName": true,
+   "instructions": "What does `isinstance` return?",
+   "multipleResponse": false,
+   "isRandomized": false,
+   "answers": [
+    {
+     "_id": "308dd4a7-6ccd-c29a-4758-cd462616096a",
+     "correct": true,
+     "answer": "checks if the object is an instance of a class"
+    },
+    {
+     "_id": "a4fb38c0-28a4-8dac-924d-51df8e1df1f9",
+     "correct": false,
+     "answer": "checks if the object was initialized"
+    },
+    {
+     "_id": "c6bc1129-f29c-6346-b577-284c4bd93ac5",
+     "correct": false,
+     "answer": "creates a variable named is which is an instance"
+    },
+    {
+     "_id": "5f0aa23c-9149-76f6-2481-4a826d34b95f",
+     "correct": false,
+     "answer": "creates an instance of the class that is passed"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   },
+   "maxAttemptsCount": 1,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-120697554",
+  "source": {
+   "name": "Question 3",
+   "showName": true,
+   "instructions": "What will the following code output? Assume the classes exist.\n",
+   "multipleResponse": false,
+   "isRandomized": false,
+   "answers": [
+    {
+     "_id": "d9a4b701-d5cf-3ef7-3fea-d94f93cfbabc",
+     "correct": true,
+     "answer": "1"
+    },
+    {
+     "_id": "47b7faba-e063-b117-0199-7d926b2135a6",
+     "correct": false,
+     "answer": "2"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   },
+   "maxAttemptsCount": 1,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ }
+]

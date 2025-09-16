@@ -1,0 +1,92 @@
+[
+ {
+  "type": "free-text",
+  "taskId": "free-text-933897075",
+  "source": {
+   "name": "Exercise2",
+   "showName": true,
+   "instructions": "Prime number\n\n\nCreate a class file called primes.py\n\nIn this file write two function:\n\n    is_prime(number) - this function return True if number is prime, False otherwise\n    are_prime_numbers(*args) - this function return True if all given number are primes, False otherwise\n\n    Remember *args?\n\n\nCreate a tests class file called primesTest.py write the following tests using primes.py :\n\n    test_is_three_prime() - assert if number 3 is prime\n    test_five_six_seven() - asser if numbers 5,6,7 are primes\n    test_one() - assert if zero is not a prime number (This test is a negative number)\n\n\n",
+   "guidance": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   },
+   "maxAttemptsCount": 0,
+   "previewType": "NONE",
+   "arePartialPointsAllowed": false,
+   "points": 20,
+   "rubrics": [],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Free Text"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-3532066363",
+  "source": {
+   "name": "Exercise3",
+   "showName": true,
+   "instructions": "Create file called listTest.py and implement the following tests:\n\n\nmy_list = ['I', 2, 'Love', 4, 56, 'Coding', \"Python\", \"in\", [8,9,10]]  def test_number():   ﻿assert ... #Should assert if number 3 is in my_list﻿   ﻿assert ... #Should assert if number 56 is in my_list﻿  def test_str():    assert ... #Should assert if \"I\", \"Love\" and ﻿\"Coding\" are in my_list﻿   def test_upper_str():    assert ... #Should assert if all the strings in my_list are in upper case﻿  def test_negative():   ﻿assert ... #Should assert if number 6 is no﻿t in﻿ my_list - result should be true﻿﻿ ",
+   "guidance": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   },
+   "maxAttemptsCount": 0,
+   "previewType": "NONE",
+   "arePartialPointsAllowed": false,
+   "points": 20,
+   "rubrics": [],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Free Text"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "free-text",
+  "taskId": "free-text-1508105841",
+  "source": {
+   "name": "Exercise1",
+   "showName": true,
+   "instructions": "Create a file called exercise_1_test.py\n\n\nIn this file write two tests:\n\n    Failure test\n    Success test\n\nRun these two tests together and check the output.",
+   "guidance": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   },
+   "maxAttemptsCount": 0,
+   "previewType": "NONE",
+   "arePartialPointsAllowed": false,
+   "points": 20,
+   "rubrics": [],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Free Text"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ }
+]

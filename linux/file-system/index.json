@@ -1,0 +1,28 @@
+{
+	"title": "File System",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Slideshow-10bb",
+		"Agenda-and-Learning-Goals-689b",
+		"File-System-Fundamentals-1f9f",
+		"Spot-Check-a79d",
+		"User-Home-Directory-dd44",
+		"File-Path-1bf6",
+		"Spot-Check-ef0f",
+		"Important-Directories-d66d",
+		"Block-Devices-and-Standards-Streams-9ad7",
+		"Exercises-3d2b",
+		"Comprehension-Check-ff85"
+	]
+}

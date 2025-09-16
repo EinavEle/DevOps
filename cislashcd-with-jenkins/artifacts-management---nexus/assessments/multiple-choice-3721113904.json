@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3721113904",
+	"source": {
+		"name": "Question 5",
+		"showName": true,
+		"instructions": "What is wrong in the bellow Dockerfile:\n```bash\nFROM python:3.10.15\nWORKDIR /test\nCOPY ../ .\nRUN pip install -r requirements.txt\n\nCMD [\"python3\", \"app.py\"]\n```",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "8f82d6aa-e4d6-4563-777a-6f44a89cc2e4",
+				"correct": false,
+				"answer": "The workdir should be `/app`."
+			},
+			{
+				"_id": "565e36bc-555f-d584-91e0-f15bf61d3aaa",
+				"correct": true,
+				"answer": "The base image `python:3.10.15` doesn't exist."
+			},
+			{
+				"_id": "455414e8-0626-3815-be1e-06261f2ccab6",
+				"correct": true,
+				"answer": "Docker doesn't allow copying files from outside the build context (`../`)"
+			},
+			{
+				"_id": "008d238b-c5a3-1195-eb10-a0792ed456d3",
+				"correct": false,
+				"answer": "The `CMD` should be `CMD \"python app.py\"`."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

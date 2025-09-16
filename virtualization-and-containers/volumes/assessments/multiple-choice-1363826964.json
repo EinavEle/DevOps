@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1363826964",
+	"source": {
+		"name": "Question 5",
+		"showName": true,
+		"instructions": "You want to mount the path `/etc/resolv.conf` from your host machine into the container file system. So the container will share the content of `/etc/resolv.conf` as it's defined in the host machine.\n\nWhich method will work?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "eea94777-53b9-2df5-891f-676175cb0978",
+				"correct": true,
+				"answer": "Bind-mount."
+			},
+			{
+				"_id": "a74f118c-0025-8585-c00a-19f4eaa0a8ec",
+				"correct": false,
+				"answer": "Volumes."
+			},
+			{
+				"_id": "71885ab9-c54f-0d2c-ed4a-fb9e8c00fe5e",
+				"correct": false,
+				"answer": "Both bind-mount and volumes will work."
+			},
+			{
+				"_id": "bc2c7c3e-fb82-c549-f6d8-0a2527f25296",
+				"correct": false,
+				"answer": "`tmpfs` mounts"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

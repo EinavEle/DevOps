@@ -1,0 +1,22 @@
+{
+	"title": "Volumes",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Agenda-and-Learning-Goals-0a7e",
+		"Docker-Data-Persistence-0b25",
+		"Summary-0e9a",
+		"Exercises-c47b",
+		"Comprehension-Check-57d8"
+	]
+}

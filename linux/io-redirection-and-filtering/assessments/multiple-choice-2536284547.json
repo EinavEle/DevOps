@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2536284547",
+	"source": {
+		"name": "Question 13",
+		"showName": true,
+		"instructions": "What will be in `out.txt`?\n```bash\nls nonexistentfile | grep \"No such file\" > out.txt\n```",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "00acb28c-c89d-914b-7e43-b2d14e006696",
+				"correct": false,
+				"answer": "No such file"
+			},
+			{
+				"_id": "fe0683e3-eda0-97bd-59d2-1d04f1cc404e",
+				"correct": false,
+				"answer": "ls: cannot access nonexistentfile: No such file or directory"
+			},
+			{
+				"_id": "0a3d334e-fb71-87d7-03f0-ab24db6734cd",
+				"correct": true,
+				"answer": "Nothing, out.txt will be empty."
+			},
+			{
+				"_id": "b33555d0-bf56-63cf-b44e-b449440a228e",
+				"correct": false,
+				"answer": "It will be the contents of nonexistentfile."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

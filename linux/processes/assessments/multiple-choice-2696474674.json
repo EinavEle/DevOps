@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2696474674",
+	"source": {
+		"name": "Question 10",
+		"showName": true,
+		"instructions": "Which of the following would deliver a SIGKILL to the `xscreensaver` command?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "6b58ff5a-dc43-f12c-309c-13ba4884b963",
+				"correct": true,
+				"answer": "`kill -9 4846`"
+			},
+			{
+				"_id": "580b57df-d73a-1903-22a7-e27c71d5633c",
+				"correct": false,
+				"answer": "`kill xscreensaver`"
+			},
+			{
+				"_id": "2c400b79-a665-a244-fac0-63af61e880d8",
+				"correct": false,
+				"answer": "`kill -KILL xscreensaver`"
+			},
+			{
+				"_id": "c26b79d1-e863-4727-8da6-9bf2f082dae7",
+				"correct": false,
+				"answer": "`kill -15 4846`"
+			},
+			{
+				"_id": "722e7102-376b-aa94-5ef4-3d8bcc3a8c8b",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

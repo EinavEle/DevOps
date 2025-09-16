@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1016412235",
+	"source": {
+		"name": "Question 4",
+		"showName": true,
+		"instructions": "Assume the above request was responded with an HTML page consisting of some text and three images.\n\nConsider the following statement:\n**For this page, the client will send one request message and receive four response messages.**",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "0c805a2c-22fe-f939-6c34-2683623618dd",
+				"correct": false,
+				"answer": "True, this is the expected behavior in HTTP/1.1."
+			},
+			{
+				"_id": "74678de0-67e1-349a-7138-5cbe993c4ee7",
+				"correct": false,
+				"answer": "True, as she uses the Keep-Alive header."
+			},
+			{
+				"_id": "64fb5609-4e4b-32cf-c0a2-74deb406c3f8",
+				"correct": false,
+				"answer": "False, the text including the three images will be sent on the same response of the original message."
+			},
+			{
+				"_id": "96f2e831-23e7-1002-92cf-41c85099cb52",
+				"correct": true,
+				"answer": "False, the browser will perform other three HTTP requests per image"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

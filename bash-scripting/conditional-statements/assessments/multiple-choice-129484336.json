@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-129484336",
+	"source": {
+		"name": "Question 6",
+		"showName": true,
+		"instructions": "\nThe code below seems to work and outputs \"8 is greater than 5\". However, what unexpected result will tell you it is not functioning properly?\n```bash\n#!/bin/bash\nvar=\"8\"\nif [ $var > 5 ]; then\n\techo \"$var is greater than 5\"\nfi\n```",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "38642d5e-23c1-e506-0365-f52102c3dc9e",
+				"correct": true,
+				"answer": " There will be no unexpected results. This script works as is and the output will be \"8 is greater than 5\"."
+			},
+			{
+				"_id": "f2bceee8-506f-ed5f-1c0e-b53bbf8b09e3",
+				"correct": false,
+				"answer": "The comparison will not be able to handle floating-point numbers, as Bash only handles integers. So this example will output an error message if the value of $var is changed to \"8.8\"."
+			},
+			{
+				"_id": "e097cdaa-db68-c5a0-f073-fb3d0ab22f5e",
+				"correct": false,
+				"answer": "There will be a file in the current directory named 5."
+			},
+			{
+				"_id": "156fbefe-b4a6-de54-32a5-5eb2c1930c9f",
+				"correct": false,
+				"answer": "The variable `$var` is not quoted, which will lead to word splitting. This script will fail with a \"unary operator expected\" message."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

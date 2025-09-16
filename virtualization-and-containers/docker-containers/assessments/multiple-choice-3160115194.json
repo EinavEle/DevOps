@@ -1,0 +1,49 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3160115194",
+	"source": {
+		"name": "Question 8",
+		"showName": true,
+		"instructions": "Was the container run with the `-it` flags?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "2040f219-e689-7501-a543-9b3e504e00a9",
+				"correct": false,
+				"answer": "Yes"
+			},
+			{
+				"_id": "9548ed1f-6608-b351-4710-fcf5a2c40f5c",
+				"correct": true,
+				"answer": "No"
+			},
+			{
+				"_id": "32e03674-557b-2a09-01de-b9d7451d0cf4",
+				"correct": false,
+				"answer": "We can't know from the output alone"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

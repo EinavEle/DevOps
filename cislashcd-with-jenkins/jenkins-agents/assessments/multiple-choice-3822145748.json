@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3822145748",
+	"source": {
+		"name": "Question 9",
+		"showName": true,
+		"instructions": "Your Flask app is expecting an environment variable called `FLASK_APP`. How can you define this variable in the build time, within your Dockerfile?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "20dc00af-fb1b-b90e-f2b2-5bf85ded2b8c",
+				"correct": true,
+				"answer": "By the instruction `ENV FLASK_APP=app.py`."
+			},
+			{
+				"_id": "d1c392d7-4601-4d69-0a1d-0479cbb5a625",
+				"correct": false,
+				"answer": "By the instruction `ENV FLASK_APP app.py`."
+			},
+			{
+				"_id": "f329e9ba-767b-e0f6-f48c-13bd8b3a8ddc",
+				"correct": false,
+				"answer": "By the instruction `ARG FLASK_APP=app.py`."
+			},
+			{
+				"_id": "c8b2157f-afcc-bff8-fdcc-1d485d152551",
+				"correct": false,
+				"answer": "By the instruction `RUN FLASK_APP=app.py`."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

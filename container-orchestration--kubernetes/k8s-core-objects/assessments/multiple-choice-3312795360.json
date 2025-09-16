@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3312795360",
+	"source": {
+		"name": "Q13",
+		"showName": true,
+		"instructions": "Below is an example YAML manifest for a Deployment:\n\n```yaml \napiVersion: apps/v1\nkind: Deployment\nmetadata:\n  name: example-deployment\nspec:\n  replicas: 5\n  strategy:\n    type: Recreate\n  selector:\n    matchLabels:\n      app: myapp\n  template:\n    metadata:\n      labels:\n        app: myapp\n    spec:\n      containers:\n      - name: myapp-container\n        image: nginx:1.25.2\n```\n\nThe current version of the application is `nginx:1.25.2`. \nYou want to perform an update to deploy a new version of the application, `nginx:1.25.3`. \n\nWhat is the minimum number of Pod might be observed during version update? \n\n\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "43138d36-ce97-86b8-2c4c-5f1014402053",
+				"correct": false,
+				"answer": "5\n"
+			},
+			{
+				"_id": "9541b82f-0c85-7087-9a94-fbd7d928ee3e",
+				"correct": false,
+				"answer": "4\n"
+			},
+			{
+				"_id": "62bd075a-7d8a-0c7d-05dc-5620209730b0",
+				"correct": false,
+				"answer": "3\n"
+			},
+			{
+				"_id": "2f76917e-a7c8-4bd1-886c-95240ce541f5",
+				"correct": true,
+				"answer": "0"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

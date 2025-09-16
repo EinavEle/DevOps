@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3489403519",
+	"source": {
+		"name": "Q3",
+		"showName": true,
+		"instructions": "Imagine you are designing an Elasticsearch index to store information about products in an e-commerce platform.\nYou need to index the **product is** for search purposes. Here is an example of a few products ids:\n\n```text\nf1b2e9e7-8a3c-4d6f-ba8e-9c7d3f2a1b5a\n7d9a6bc4-3fe0-4fb2-8d2b-1a4f5e6d8c9f\na2c8f2d3-9e5b-47a1-b6c0-8d7f9e0a3c8d\n```\n\nWhich field type would you choose and why?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "e7386f92-df88-cc06-8092-a12150f7eb2b",
+				"correct": false,
+				"answer": "Use a `text` field because it allows for full-text search and is analyzed.\n"
+			},
+			{
+				"_id": "d1bee99a-bb19-3975-93e2-61910578fc1d",
+				"correct": true,
+				"answer": "Use a `keyword` field because it ensures exact matching and is not analyzed.\n"
+			},
+			{
+				"_id": "290e6e7e-2af7-3eb9-c526-26ee6374c1a2",
+				"correct": false,
+				"answer": "Both `text` and `keyword` field types are suitable, but it depends on the specific search requirements.\n"
+			},
+			{
+				"_id": "f8bd847b-7ee3-76fc-073d-86f0a627b157",
+				"correct": false,
+				"answer": "Use a `text` field because it provides partial matching capabilities and is not analyzed."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

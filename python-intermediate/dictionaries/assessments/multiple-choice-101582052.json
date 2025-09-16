@@ -1,0 +1,51 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "29e3ff7c-4e30-d8fb-6723-15897c30f0cb",
+				"answer": "Alphabetically",
+				"correct": false
+			},
+			{
+				"_id": "8d5122a6-8e74-fac3-1d07-6d35137a437a",
+				"answer": "Order they are defined",
+				"correct": false
+			},
+			{
+				"_id": "0d6af0d3-550f-4bea-5f8e-715c801831bf",
+				"answer": "Length of key",
+				"correct": false
+			},
+			{
+				"_id": "7278f903-d335-0d0d-4267-0e4c2f2f2f4b",
+				"answer": "None of the above",
+				"correct": true
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"guidance": "",
+		"incorrectPoints": 0,
+		"instructions": "What is the order in which Python dict keys?",
+		"isRandomized": false,
+		"learningObjectives": "",
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "Q2",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponse": false,
+		"showName": true
+	},
+	"taskId": "multiple-choice-101582052",
+	"type": "multiple-choice"
+}

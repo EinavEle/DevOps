@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3267156444",
+	"source": {
+		"name": "Q11",
+		"showName": true,
+		"instructions": "\nAssume the following terraform project structure:\n\n```terraform\nmy-terraform-project/\n|-- main.tf\n|-- variables.tf\n|-- outputs.tf\n|-- child-module/\n|   |-- main.tf\n|   |-- variables.tf\n|   |-- outputs.tf\n|-- terraform.tfvars\n|-- backend.tf\n```\n\nHow are the outputs of child-module accessed in the root module?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "6331ad21-15d5-a5e4-712f-1f649b5a1db7",
+				"correct": false,
+				"answer": "`child-module.<OUTPUT NAME>`\n"
+			},
+			{
+				"_id": "8ffdcb2d-3dcd-97e5-0ac2-3d1a6d59195e",
+				"correct": false,
+				"answer": "`module.<OUTPUT NAME>`\n"
+			},
+			{
+				"_id": "e25a3274-18f7-368e-e466-1a09fbe813c1",
+				"correct": true,
+				"answer": "`module.child-module.<OUTPUT NAME>`\n"
+			},
+			{
+				"_id": "3fff8646-7678-eaea-3a05-63abbf428ac1",
+				"correct": false,
+				"answer": "`output.child-module.<OUTPUT NAME>`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

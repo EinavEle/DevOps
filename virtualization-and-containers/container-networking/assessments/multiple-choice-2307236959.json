@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2307236959",
+	"source": {
+		"name": "Question 3",
+		"showName": true,
+		"instructions": "The `mynginx` container was detached from `mynet5` network and attached to the default bridge network. Choose the correct sentence.\n\nThe `mynginx` container:",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "8d42795a-09e6-a563-fd8b-17c2a180e832",
+				"correct": false,
+				"answer": "Is accessible from the host machine using `http://localhost:80`."
+			},
+			{
+				"_id": "fd851334-37b5-ff62-aa0a-380f34c06c32",
+				"correct": false,
+				"answer": "Is accessible from the host machine using `http://172.18.0.2:80`."
+			},
+			{
+				"_id": "9f6828d0-520e-b544-8121-5ba8b859500f",
+				"correct": false,
+				"answer": "Is accessible from other containers attached to network `mynet5` using `http://172.18.0.2:80`."
+			},
+			{
+				"_id": "c0d5ed00-3e81-16a7-0fb2-648f61fe11a7",
+				"correct": false,
+				"answer": "Is accessible from other containers attached to network `mynet5` using `http://mynginx:80`."
+			},
+			{
+				"_id": "2f5d6f3d-5715-b1c0-ae97-2e221988ed3e",
+				"correct": true,
+				"answer": "None of the above."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

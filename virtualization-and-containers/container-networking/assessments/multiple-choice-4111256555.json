@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-4111256555",
+	"source": {
+		"name": "Question 11",
+		"showName": true,
+		"instructions": "Assume port `6378` is bound to another process in the host machine, while port `6379` is free. What would happen if instead of running the original command, the user ran:\n```bash\ndocker run -p 6378:6379 --network host redis\n```",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "2a12aa3a-46a9-0083-0444-2a1b5ea54248",
+				"correct": false,
+				"answer": "The container will fail since port `6378`, which is published on the host machine, is already in use."
+			},
+			{
+				"_id": "f77c2e28-f541-47d9-4cc7-24ff1a7f5ed2",
+				"correct": true,
+				"answer": "The container will run since port `6379` is not bound to any process."
+			},
+			{
+				"_id": "a74d7fc1-9616-6361-1d2f-ddaba9ce27f5",
+				"correct": false,
+				"answer": "The container will fail since port `6379`, which is published on the host machine, is already in use."
+			},
+			{
+				"_id": "e6e2fc84-d4cb-352b-e2e5-40f6b5bbcf4d",
+				"correct": false,
+				"answer": "The container will run since port 6378 is not bound to any process."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

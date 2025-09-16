@@ -1,0 +1,216 @@
+[
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2489258116",
+  "source": {
+   "name": "Q1",
+   "showName": true,
+   "instructions": "The `return` statement",
+   "multipleResponse": false,
+   "isRandomized": false,
+   "answers": [
+    {
+     "_id": "23951291-9d0c-8a6e-bd96-735019eca36a",
+     "correct": false,
+     "answer": "Is optional"
+    },
+    {
+     "_id": "55ab8eec-6832-f607-ab26-38c450c58ce9",
+     "correct": false,
+     "answer": "Ends a function"
+    },
+    {
+     "_id": "c0ed4f96-1003-a854-0851-2ba39b0c85b9",
+     "correct": false,
+     "answer": "Gives an output"
+    },
+    {
+     "_id": "cca5dafa-d1df-981c-02ba-0c315773295d",
+     "correct": true,
+     "answer": "All of the above"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3596002539",
+  "source": {
+   "name": "Q2",
+   "showName": true,
+   "instructions": "What will this code output? \nPlease do not execute this code before answering\n```\ndef y(babi):\n\treturn babi + 10\n\ndef x(why):\n\treturn y(y(why))\n\nprint(x(5))\n```",
+   "multipleResponse": false,
+   "isRandomized": false,
+   "answers": [
+    {
+     "_id": "352ec9b0-4eeb-e1be-7be3-dbcd9f044f99",
+     "correct": true,
+     "answer": "25"
+    },
+    {
+     "_id": "b53408ef-716e-7c21-5ba8-d4bc305efe37",
+     "correct": false,
+     "answer": "20"
+    },
+    {
+     "_id": "2c257b28-6992-a2c5-513b-8dc5d6e78825",
+     "correct": false,
+     "answer": "15"
+    },
+    {
+     "_id": "2f7e0aef-b019-c50c-8279-1e761e9b84b5",
+     "correct": false,
+     "answer": "10"
+    },
+    {
+     "_id": "0e1b22ae-bc27-eeeb-82f0-b440558ceed5",
+     "correct": false,
+     "answer": "Nothing"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3189012543",
+  "source": {
+   "name": "Q3",
+   "showName": true,
+   "instructions": "What will the following code output? \nPlease don't run this code before answering.\n```\ndef is_longer_than_five(x):\n\tx > 5\n\nprint(is_longer_than_five(12))﻿\n```",
+   "multipleResponse": false,
+   "isRandomized": false,
+   "answers": [
+    {
+     "_id": "c7a052c8-5436-f6e7-25c9-8726ce21613f",
+     "correct": false,
+     "answer": "True"
+    },
+    {
+     "_id": "cfb30949-e441-039e-44c2-ef278fb5132f",
+     "correct": false,
+     "answer": "False"
+    },
+    {
+     "_id": "eaf7d190-9f2f-387f-311a-e18ffe5a4aea",
+     "correct": false,
+     "answer": "5"
+    },
+    {
+     "_id": "17ffc940-a156-6978-bab9-241d53c1f252",
+     "correct": false,
+     "answer": "12"
+    },
+    {
+     "_id": "7901c84c-b113-0dd8-b35d-b1d3052bdf04",
+     "correct": true,
+     "answer": "Nothing"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1361570934",
+  "source": {
+   "name": "Q4",
+   "showName": true,
+   "instructions": "What will the following code output? \nPlease don't run this code before answering.\n```\ndef wish_happy_birthday(name, age):\n\tprint(\"Happy Birthday, \" + name + \"! You are \" + age + \" years old\")\n```",
+   "multipleResponse": false,
+   "isRandomized": false,
+   "answers": [
+    {
+     "_id": "a0687697-f295-ae00-d61e-f574ca77bc20",
+     "correct": false,
+     "answer": "Happy Birthday! You are years old"
+    },
+    {
+     "_id": "44f034f4-c0eb-c7f0-215f-83f32734b03d",
+     "correct": false,
+     "answer": "An error"
+    },
+    {
+     "_id": "8824770f-1e5c-3496-4103-99cfa9e1e06d",
+     "correct": true,
+     "answer": "Nothing"
+    },
+    {
+     "_id": "dbd46cb5-656c-79aa-bb34-9d514fdfe166",
+     "correct": false,
+     "answer": "None of the above"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ }
+]

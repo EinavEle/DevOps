@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2969590549",
+	"source": {
+		"name": "q12",
+		"showName": true,
+		"instructions": "You are developing an AWS Lambda function that needs to access other AWS resources within your account, \nsuch as an Amazon DynamoDB table and an Amazon S3 bucket. \n\nHow can you enable the Lambda function to securely access these resources?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "e4674c3d-aa66-76a3-f976-910d4395b4a4",
+				"correct": true,
+				"answer": "Attach an IAM role to the Lambda function with the necessary permissions to access the DynamoDB table and S3 bucket.\n"
+			},
+			{
+				"_id": "4ab4d6d3-5180-1726-2712-e23a4975a7a6",
+				"correct": false,
+				"answer": "Embed the AWS access key and secret access key directly in the Lambda function code to authenticate and access the DynamoDB table and S3 bucket.\n"
+			},
+			{
+				"_id": "c16a1f81-d20b-d8d2-4161-a6818c6c968c",
+				"correct": false,
+				"answer": "Open the security group of the Lambda function to allow inbound access from the DynamoDB table and S3 bucket.\n"
+			},
+			{
+				"_id": "bcb0559d-b4d8-1351-6a42-3f91744ad075",
+				"correct": false,
+				"answer": "Enable AWS Trusted Advisor to automatically grant access to the Lambda function for the DynamoDB table and S3 bucket."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

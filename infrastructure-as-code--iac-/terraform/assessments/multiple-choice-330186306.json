@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-330186306",
+	"source": {
+		"name": "Q3",
+		"showName": true,
+		"instructions": "Which of the following commands will automatically refresh the state? \nChoose all correct answers.",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "e7800df6-25b4-0c2e-e943-8925957c3098",
+				"correct": true,
+				"answer": "`terraform plan`\n"
+			},
+			{
+				"_id": "c73d0689-191a-f72d-edac-a55c4cbb7000",
+				"correct": false,
+				"answer": "`terraform state`\n"
+			},
+			{
+				"_id": "ccdfe871-abfc-876e-95c8-56895e16e1f3",
+				"correct": true,
+				"answer": "`terraform apply`\n"
+			},
+			{
+				"_id": "c3717f34-664c-c9f1-300d-5876eb66910a",
+				"correct": false,
+				"answer": "`terraform validate`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

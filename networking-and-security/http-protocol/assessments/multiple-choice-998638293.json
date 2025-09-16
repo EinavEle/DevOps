@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-998638293",
+	"source": {
+		"name": "Question 9",
+		"showName": true,
+		"instructions": "Which of the following statements is a misconception of cookies?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "3dc2b09b-8f99-7c8e-401a-9b1d872142cf",
+				"correct": false,
+				"answer": "Cookies can track users’ browsing activity to serve them relevant ads."
+			},
+			{
+				"_id": "7c69ad3d-7109-92cc-b8a6-1769347fbf1a",
+				"correct": false,
+				"answer": "Cookies can help to manage the browsing session of users, i.e. to keep users logged in even when refreshing the page or closing the website tab."
+			},
+			{
+				"_id": "8e6db8ca-974d-bee5-d34f-8c82da810453",
+				"correct": false,
+				"answer": "Cookies can personalize websites to improve user experience, such as selected language or accessibility preferences."
+			},
+			{
+				"_id": "ec951c43-eb20-524e-43a4-3886b1e71e19",
+				"correct": true,
+				"answer": "Cookies can contain code that may be executed locally on the client machine and cause potential damage."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,197 @@
+[
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1458489509",
+  "source": {
+   "name": "Q1",
+   "showName": true,
+   "instructions": "The `map` and `filter` functions need to a receive a...",
+   "multipleResponse": true,
+   "isRandomized": false,
+   "answers": [
+    {
+     "_id": "9ac5729f-c595-983b-486f-a4d8016d2f4f",
+     "correct": true,
+     "answer": "Function and a list"
+    },
+    {
+     "_id": "437b668f-93cc-3c66-f4ba-c5bc7e0ec1c6",
+     "correct": true,
+     "answer": "Function and a dict"
+    },
+    {
+     "_id": "80cebcc3-fd60-52dd-b8a8-9669538c67d3",
+     "correct": false,
+     "answer": "Lambda function and a list"
+    },
+    {
+     "_id": "12a22778-1fef-239d-0dd1-2653c1d5fd83",
+     "correct": false,
+     "answer": "Lambda function and a dict"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   },
+   "maxAttemptsCount": 1,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "exercises.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 3,
+      "content": "exercises.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3880050727",
+  "source": {
+   "name": "Q2",
+   "showName": true,
+   "instructions": "A lambda function...",
+   "multipleResponse": false,
+   "isRandomized": false,
+   "answers": [
+    {
+     "_id": "309498e6-e901-3d1e-37fa-3638d9230a5b",
+     "correct": false,
+     "answer": "Doesn't return anything"
+    },
+    {
+     "_id": "15e16252-627d-f8c0-d931-33a5e37ba5c6",
+     "correct": false,
+     "answer": "Doesn't receive parameters"
+    },
+    {
+     "_id": "571a0184-0b10-3c14-ffbc-bd6bc9f2c45e",
+     "correct": true,
+     "answer": "Is only for `filter` or `map` or similar functions"
+    },
+    {
+     "_id": "28082fdb-620e-573e-c33c-510ce84377be",
+     "correct": false,
+     "answer": "None of the above"
+    }
+   ],
+   "guidance": "",
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "exercises.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 3,
+      "content": "exercises.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3493424040",
+  "source": {
+   "name": "Q3",
+   "showName": true,
+   "instructions": "What will the following code output? \n\nPlease don't execute the code before answering\n\n```python\nimport json\npokemon_data = json.load(open(\"pokemon.json\"))\n\nprint(list(\n    map(lambda n: n[0],\n        map(lambda fp: fp[\"name\"],\n            filter(lambda p:\n                   p[\"weight\"] > 80 and\n                   p[\"height\"] > 5,\n                   pokemon_data)))))\n```",
+   "multipleResponse": false,
+   "isRandomized": false,
+   "answers": [
+    {
+     "_id": "5ba85b6f-0f88-5d8a-a5fb-f95bc79de8a9",
+     "correct": false,
+     "answer": "An error"
+    },
+    {
+     "_id": "202ce522-724e-76cb-70cb-819c0bb70ca5",
+     "correct": false,
+     "answer": "All the Pokémon with a weight over 80 and height over 5"
+    },
+    {
+     "_id": "65051ce3-5416-b64f-2b5c-6d0935759c09",
+     "correct": false,
+     "answer": "The names of all the Pokémon with a weight over 80 and height over 5"
+    },
+    {
+     "_id": "5b9892db-6c3e-5e5a-761e-ed7c319be7ee",
+     "correct": true,
+     "answer": "The first letter of the names of all the Pokémon with a weight over 80 and height over 5"
+    },
+    {
+     "_id": "d41b3601-d40d-1fb6-f4c9-01237c5c74b7",
+     "correct": false,
+     "answer": "The first Pokémon with a weight over 80 and height over 5"
+    },
+    {
+     "_id": "8fe5e9b9-a6e2-59c6-38d8-24d568f5f294",
+     "correct": false,
+     "answer": "The name of the first Pokémon with a weight over 80 and height over 5"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   },
+   "maxAttemptsCount": 1,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [
+     "exercises.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 3,
+      "content": "exercises.py"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ }
+]

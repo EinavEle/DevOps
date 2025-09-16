@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3999392931",
+	"source": {
+		"name": "q4",
+		"showName": true,
+		"instructions": "Consider the following lambda function \n\n\n```python\nimport boto3\n\ndynamodb_client = boto3.client('dynamodb')\n\nCOUNTER = 0\n\ndef lambda_handler(event, context):\n    global COUNTER\n    COUNTER += 1\n    \n    dynamodb_client.put_item(\n        TableName='fruitSalad',\n        Item={\n            'counter':{'S': str(COUNTER)}\n        }\n    )\n```\n\nGiven two successful different invocation on the same execution environment, as described bellow:\n\n![.guides/img/lambda_invoke2](.guides/img/lambda_invoke2.png)\n\nWhat would be the value of `counter` in DynamoDB `fruitSalad` table? (assume there were no additional invocations except the above two)\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "0d092ca5-c8d0-098a-2a5d-4976447ad82a",
+				"correct": false,
+				"answer": "1\n"
+			},
+			{
+				"_id": "86d0a953-fe07-0cea-be34-2b26a42cfaad",
+				"correct": true,
+				"answer": "2\n"
+			},
+			{
+				"_id": "658fdfb8-f451-7c59-a6cc-1ef690480dc2",
+				"correct": false,
+				"answer": "Either 1 or 2 as this is a race condition\n"
+			},
+			{
+				"_id": "80b721c1-ced9-c957-27e7-737aaccebd7f",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

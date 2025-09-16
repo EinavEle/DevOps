@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3828341618",
+	"source": {
+		"name": "q1",
+		"showName": true,
+		"instructions": "You are designing the architecture for a web application that will be deployed on AWS.\nThe application consists of multiple services running on Amazon EC2 instances. The services communicate over both HTTP and TCP protocols. \n\nWhich type of Elastic Load Balancer (ELB) would be most suitable for this scenario?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "ee0b2c88-560e-6a3a-b451-9023f8428bb0",
+				"correct": false,
+				"answer": "Application Load Balancer (ALB)\n"
+			},
+			{
+				"_id": "f0569419-15e9-cce7-0820-94c35cbb4011",
+				"correct": true,
+				"answer": "Network Load Balancer (NLB)\n"
+			},
+			{
+				"_id": "371564a7-af63-8d28-a7d2-68688eb040b2",
+				"correct": false,
+				"answer": "Gateway Load Balancer (GWLB)\n"
+			},
+			{
+				"_id": "8a3f02bc-3b28-5c9f-44c7-e575d34830ca",
+				"correct": false,
+				"answer": "Classic Load Balancer (CLB)"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

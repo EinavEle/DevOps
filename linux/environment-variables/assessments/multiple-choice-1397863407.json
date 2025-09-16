@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1397863407",
+	"source": {
+		"name": "Question 2",
+		"showName": true,
+		"instructions": "Which of the following could not be used as the name of an environment variable?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "f3e71c94-89f3-47e0-1bd4-7cfba7dd7f3a",
+				"correct": false,
+				"answer": "NAME"
+			},
+			{
+				"_id": "a631fb58-05e0-98f3-200f-bcb0812a3d01",
+				"correct": false,
+				"answer": "PHONE_1"
+			},
+			{
+				"_id": "e73a3738-44ea-3762-0dcb-2a56ae1263da",
+				"correct": false,
+				"answer": "Addr2"
+			},
+			{
+				"_id": "6ceafcd4-b5ca-bec9-231d-ca8ffe3f85ee",
+				"correct": false,
+				"answer": "ZipCode"
+			},
+			{
+				"_id": "7531ab39-f86b-b72c-a62a-30874ea67ced",
+				"correct": true,
+				"answer": "All of the above could be used as the name of an environmental variable."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3271516845",
+	"source": {
+		"name": "Question 2",
+		"showName": true,
+		"instructions": "Choose the correct sentence:",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "97b32fca-9a2c-e261-f389-95fcbcbc7c90",
+				"correct": true,
+				"answer": "The package `libnvidia-cfg1-470` depends on `libc6`."
+			},
+			{
+				"_id": "b8c83581-b7c6-6e46-0c77-822d572afd9c",
+				"correct": false,
+				"answer": "The package `libc6` depends on `libnvidia-cfg1-470`."
+			},
+			{
+				"_id": "a2e82e27-1c81-408e-fef8-6fb106e8a139",
+				"correct": false,
+				"answer": "There is no dependency between `libnvidia-cfg1-470` and `libc6`."
+			},
+			{
+				"_id": "89af5d55-0059-e372-140f-ce345c2dc610",
+				"correct": false,
+				"answer": "Starting from version 2.7 of the package `libnvidia-cfg1-470`, it depends on `libc6` version `470.182.03-0ubuntu0.20.04.1` "
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

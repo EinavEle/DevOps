@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3056915138",
+	"source": {
+		"name": "Question 2",
+		"showName": true,
+		"instructions": "Upon a new terminal session, commands from what file are automatically executed by bash?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "19e9fb00-472d-3d26-2cd9-a60d81164e1d",
+				"correct": false,
+				"answer": "~/bash_startup"
+			},
+			{
+				"_id": "f0db4863-609c-66fc-76d2-14dee4ded48f",
+				"correct": false,
+				"answer": "~/.bash_startup"
+			},
+			{
+				"_id": "11fad36e-b873-c2c9-d6be-418e29529fd2",
+				"correct": false,
+				"answer": "~/.bash"
+			},
+			{
+				"_id": "bab83e4e-078b-9ced-7d40-a79ec7c8b1ca",
+				"correct": true,
+				"answer": "~/.bashrc"
+			},
+			{
+				"_id": "68e2e87b-1081-fa75-34f9-962d55fc8aed",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-331953618",
+	"source": {
+		"name": "Q2",
+		"showName": true,
+		"instructions": "Given the below output to the command `docker ps`, what is the most likely reason(s) for the error?\n\n```text\nCannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?\n```",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "75ea7e11-56cb-e215-d47c-414e1dd3af68",
+				"correct": false,
+				"answer": "The docker client is not running.\n"
+			},
+			{
+				"_id": "56e8db17-ceb2-7a2e-ffbc-e77848df9c79",
+				"correct": true,
+				"answer": "The docker daemon is not running.\n"
+			},
+			{
+				"_id": "27e5ef2e-11fd-3e83-841b-2ff841868f4b",
+				"correct": false,
+				"answer": "The user cannot write to `/var/run/docker.sock`.\n"
+			},
+			{
+				"_id": "cc994ac4-a8ff-a08f-22c4-1ff5040a7b35",
+				"correct": false,
+				"answer": "The user cannot read the daemon's answer from `/var/run/docker.sock`."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

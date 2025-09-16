@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2946960211",
+	"source": {
+		"name": "q2",
+		"showName": true,
+		"instructions": "You are building a real-time messaging application where users can send and receive messages to each other.\nYou use an SQS queue as the underlying mechanism to transfer messages between users. \n\nWhich SQS queue best fits for this task? \n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "5e8f00b4-0f8e-2694-656c-0b2942831d78",
+				"correct": false,
+				"answer": "Standard\n"
+			},
+			{
+				"_id": "cc432412-8f28-4c41-2423-3ce4f3bffb29",
+				"correct": true,
+				"answer": "FIFO\n"
+			},
+			{
+				"_id": "d90f73d5-7179-f492-c43f-91fc38838ee8",
+				"correct": false,
+				"answer": "Both standard or FIFO\n"
+			},
+			{
+				"_id": "475ad3ff-b258-eff6-19ee-22eca0e380b2",
+				"correct": false,
+				"answer": "Dead letter queue"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

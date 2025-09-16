@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2295192959",
+	"source": {
+		"name": "q5",
+		"showName": true,
+		"instructions": "An EC2 instance applies 4 different security groups. \nNaive cloud architect wanted port 8080 to be opened in the machine, \nso he went to one of the security groups and added a rule that allows inbound traffic on port 8080. \n\nWhat are the potential risks associated with the architect's action?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "9b84e7c0-2e01-1b1d-691b-171a90df3ba1",
+				"correct": true,
+				"answer": "Other instances that belong to the same security groups will also be exposed to port 8080, potentially creating a security vulnerability.\n\n\n"
+			},
+			{
+				"_id": "9375eeea-2787-2a1c-b7fb-f5a77a345af7",
+				"correct": false,
+				"answer": "The rule may not have been applied correctly."
+			},
+			{
+				"_id": "a767b8ac-fecc-5464-3783-cdd3b916297e",
+				"correct": false,
+				"answer": "If the security group is used across multiple regions or accounts, the port may be exposed to machines outside of the intended region."
+			},
+			{
+				"_id": "c5ca0dca-f4a4-1a03-c150-7f478f502b2d",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3315285721",
+	"source": {
+		"name": "q12",
+		"showName": true,
+		"instructions": "You need to run a compute-intensive job that should last 3 hours during the weekend. Since the job can be restarted if it fails, you are wondering what would be the preferred way to launch the instances to reduce the cost while ensuring the job completes within the required timeframe.\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "cde992c9-174f-8e8f-f18a-b0441bd1c04a",
+				"correct": true,
+				"answer": "Use the spot instances\n"
+			},
+			{
+				"_id": "d13249b9-1235-1ea3-cf49-fd0ad63e0237",
+				"correct": false,
+				"answer": "Use the on-demand\n"
+			},
+			{
+				"_id": "768d041a-62d4-4a45-6d1c-5670a18587bd",
+				"correct": false,
+				"answer": "Use IO optimized on-demand instance\n"
+			},
+			{
+				"_id": "ee80a095-8fc9-f990-b207-1e79516d8aa1",
+				"correct": false,
+				"answer": "Use compute optimized dedicated instances"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

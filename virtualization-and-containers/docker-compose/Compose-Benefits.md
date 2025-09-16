@@ -1,0 +1,4 @@
+Using Docker Compose offers several benefits:
+- **Simplified Container Orchestration**: Docker Compose allows for the definition and management of multi-container applications as a single unit.
+- **Reproducible Environments**: Since compose is defined in a YAML file, it's easy to deploy the same environment in different machines without missing any `docker run` command. This ensures that the application runs consistently across different machines.
+- **Automate Volumes and Networking**: Docker Compose automatically creates a network for the application and assigns a unique DNS name to each service. No need to create networks and volumes.

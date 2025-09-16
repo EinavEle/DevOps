@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2384481573",
+	"source": {
+		"name": "q3",
+		"showName": true,
+		"instructions": "You manage a web application on EC2 instances. Your website occasionally experiences brief but large spikes in traffic that cause your EC2 instances’ resources to become overwhelmed and the application to freeze up and lose recently submitted requests from end users. \nYou use Auto Scaling to deploy additional resources to handle the load during spikes, but the new instances do not deploy fast enough to prevent the existing application servers from freezing.\nAssuming you cannot find a pattern to when these spikes occur, which of the following is likely to provide the most cost-effective solution to avoid losing recently submitted requests?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "053edfb4-59d5-a67b-77af-9d0c8424da10",
+				"correct": false,
+				"answer": "Use larger instances for your application.\n"
+			},
+			{
+				"_id": "631b3751-6e97-34db-bb1b-d81018130d65",
+				"correct": false,
+				"answer": "Keep one extra EC2 instance always powered on in case a spike occurs.\n"
+			},
+			{
+				"_id": "da153440-30fe-cd92-9302-83e339b5e8a6",
+				"correct": false,
+				"answer": "Pre-warm your Elastic Load Balancer.\n"
+			},
+			{
+				"_id": "00d28cde-d4a8-0a87-f10d-505fd522dbda",
+				"correct": true,
+				"answer": "Use an SQS queue to decouple the application components."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

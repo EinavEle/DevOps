@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2236674442",
+	"source": {
+		"name": "Question 12",
+		"showName": true,
+		"instructions": "In TCP, how does the server know the client IP address and the port number to reply to in response to a received message?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "06aec57a-aaa1-f064-6f33-53cb79fdf598",
+				"correct": false,
+				"answer": "Using the DNS protocol."
+			},
+			{
+				"_id": "a6b493b3-701b-3756-c057-7173110627a7",
+				"correct": false,
+				"answer": "Every message sent by the client contains the IP number and port."
+			},
+			{
+				"_id": "946f3b40-2869-2c23-012d-302d9e21b8f9",
+				"correct": true,
+				"answer": "The accept() syscall creates a new socket that is bound to the specific client, which is established using the IP and port number of the client."
+			},
+			{
+				"_id": "40f13147-7f76-fcfe-29ad-dca8e2016304",
+				"correct": false,
+				"answer": "The server looks for the correct port number in the `/etc/services` file."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

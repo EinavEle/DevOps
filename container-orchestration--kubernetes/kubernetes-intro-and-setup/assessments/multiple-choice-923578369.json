@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-923578369",
+	"source": {
+		"name": "Q12",
+		"showName": true,
+		"instructions": "In a Kubernetes kubeconfig file, the `certificate-authority` field, under `cluster`, is used for:\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "4ffef722-7666-9ee7-48ec-17a8c0deaa6a",
+				"correct": false,
+				"answer": "Certificate authority (CA) file that the Kubernetes API server should use to verify the authenticity of the client (`kubectl`).\n\n\n"
+			},
+			{
+				"_id": "f91cde54-b3d1-25d3-0717-0e90a1f97286",
+				"correct": false,
+				"answer": "Certificate authority (CA) file that the Kubernetes client (`kubectl`) should use to sign the Kubernetes API server certificate."
+			},
+			{
+				"_id": "2d6d30ca-94cf-cd59-297f-e016e2e43783",
+				"correct": false,
+				"answer": "Certificate authority (CA) file that the Kubernetes API server should use to sign the authenticity of the client (`kubectl`)."
+			},
+			{
+				"_id": "9b4da750-1eef-8013-e132-75aef4971661",
+				"correct": true,
+				"answer": "Certificate authority (CA) file that the Kubernetes client (`kubectl`) should use to verify the authenticity of the Kubernetes API server."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

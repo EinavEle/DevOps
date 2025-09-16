@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-4090446495",
+	"source": {
+		"name": "Question 11",
+		"showName": true,
+		"instructions": "Which of the following commands would apply changes made to the file `~/.bashrc` to the current shell?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "d117ed1f-7bc4-929c-2424-8e498bcafaeb",
+				"correct": true,
+				"answer": "`. ~/.bashrc`"
+			},
+			{
+				"_id": "14d8fe13-4caf-511a-6fd9-cd4e24fb4d9d",
+				"correct": false,
+				"answer": "`. ~/.bash_profile`"
+			},
+			{
+				"_id": "b22828d9-b7b9-dfbb-acfb-834c2199c4d3",
+				"correct": false,
+				"answer": "A and B"
+			},
+			{
+				"_id": "435fa1ce-1ae1-f5d1-30af-c1bf580f7cde",
+				"correct": false,
+				"answer": "`. /etc/profile`"
+			},
+			{
+				"_id": "e1aad5d5-8464-4ac7-3de3-e7c61a099ccc",
+				"correct": false,
+				"answer": "All of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

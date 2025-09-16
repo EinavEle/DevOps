@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-900809431",
+	"source": {
+		"name": "q6",
+		"showName": true,
+		"instructions": "Given a VPC with a custom route table that contains multiple entries.\nThe route table has the following routes:\n\n- Destination: `10.0.0.0/16`, Target: Local\n- Destination: `0.0.0.0/0`, Target: Internet Gateway (IGW)\n- Destination: `10.0.1.0/24`, Target: Virtual Private Gateway (VGW)\n- Destination: `10.0.0.0/24`, Target: NAT Gateway (NATGW)\n\nGiven an outgoing network traffic with a destination IP address of `10.0.0.10`, which route will take precedence for this traffic?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "9978c822-a184-7fc8-8134-a39dd9e96726",
+				"correct": false,
+				"answer": "Route 1: Destination: 10.0.0.0/16, Target: Local\n"
+			},
+			{
+				"_id": "fc2d16c5-8cee-7ffd-309a-be6d5d295659",
+				"correct": false,
+				"answer": "Route 2: Destination: 0.0.0.0/0, Target: Internet Gateway (IGW)\n"
+			},
+			{
+				"_id": "72fd7a86-7045-35b1-e7cb-d4d9859180f3",
+				"correct": false,
+				"answer": "Route 3: Destination: 10.0.1.0/24, Target: Virtual Private Gateway (VGW)\n"
+			},
+			{
+				"_id": "4c5137ae-bfbd-c28b-0711-af93845f6bf7",
+				"correct": true,
+				"answer": "Route 4: Destination: 10.0.2.0/24, Target: NAT Gateway (NATGW)"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2130113391",
+	"source": {
+		"name": "Question 10",
+		"showName": true,
+		"instructions": "What is the purpose of a `cookie` header value in an HTTP **GET reques**t?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "0c892c63-0db2-0b72-0a26-18765fa95fac",
+				"correct": true,
+				"answer": "This is a value that was returned by a web server to this client during an earlier interaction."
+			},
+			{
+				"_id": "c271fc62-6fcb-2b95-6348-1303e198c18a",
+				"correct": false,
+				"answer": "It encodes the format the client prefers to get the response."
+			},
+			{
+				"_id": "5f155e54-a22d-8a9c-da02-991bcdcf240e",
+				"correct": false,
+				"answer": "It indicates server HTTP protocol version."
+			},
+			{
+				"_id": "4b99bec8-96c2-5caa-8598-febcc1d95128",
+				"correct": false,
+				"answer": "It encodes a default setting of the client's browser."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"title": "Jenkins setup",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Agenda-and-Learning-Goals-60e5",
+		"Install-Jenkins-Server-on-EC2-6200",
+		"Configure-a-GitHub-webhook-4e32",
+		"Managing-Jenkins-f869",
+		"Exercises-3f49",
+		"Comprehension-Check-7ba4"
+	]
+}

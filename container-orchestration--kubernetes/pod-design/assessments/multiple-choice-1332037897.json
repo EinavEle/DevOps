@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1332037897",
+	"source": {
+		"name": "Q6",
+		"showName": true,
+		"instructions": "Given the following snippet from `kubectl describe pod` command:\n\n```text \nEvents:\n  Type     Reason            Age   From               Message\n  ----     ------            ----  ----               -------\n  Warning  FailedScheduling  23s   default-scheduler  0/42 nodes available: insufficient cpu\n```\n\nWhat can you do? ",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "d92c4076-576e-2611-79cb-439dc15c73b5",
+				"correct": true,
+				"answer": "Add more nodes to the cluster.\n"
+			},
+			{
+				"_id": "265f36cb-f522-b6c8-cd51-ee45b3775c7c",
+				"correct": true,
+				"answer": "Terminate unneeded Pods to make room for pending Pods.\n"
+			},
+			{
+				"_id": "8f8d196e-1c4d-19ef-5303-f825f730e262",
+				"correct": true,
+				"answer": "Check that the Pod is not larger than all the nodes. For example, if all the nodes have a capacity of cpu: 1, then a Pod with a request of cpu: 1.1 will never be scheduled.\n"
+			},
+			{
+				"_id": "06a92a99-d76b-c8c8-b1a4-c8dc430e8b94",
+				"correct": true,
+				"answer": "Check for node taints. If most of your nodes are tainted, and the new Pod does not tolerate that taint, the scheduler only considers placements onto the remaining nodes that don't have that taint."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

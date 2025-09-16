@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-568857199",
+	"source": {
+		"name": "q3",
+		"showName": true,
+		"instructions": "You have set up a VPC with public and private subnets.\nThe public subnet contains an Application Load Balancer (ALB) to receive incoming traffic, while the private subnet hosts your backend EC2 instances.\nHowever, the backend instances in the private subnet are unable to establish outbound internet connectivity.\nAfter inspecting the configuration, you discover that the route table associated with the private subnet is misconfigured. \n\nWhat could be the misconfiguration causing this issue?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "a7222ba0-5f83-95a9-d6d1-b062bc6f9687",
+				"correct": false,
+				"answer": "The route table for the private subnet should not have an internet gateway entry.\n"
+			},
+			{
+				"_id": "b80cad01-deaf-0488-aa9d-6a04af226c80",
+				"correct": true,
+				"answer": "The route table for the private subnet should have a NAT gateway entry pointing to the public subnet.\n"
+			},
+			{
+				"_id": "6e51030d-9e2c-9102-cc92-424fc729991b",
+				"correct": false,
+				"answer": "The route table for the private subnet should have a route pointing directly to the internet gateway.\n"
+			},
+			{
+				"_id": "094b8a45-d03c-04f3-04f5-dee746a073aa",
+				"correct": false,
+				"answer": "The route table for the private subnet should have a VPN gateway entry for secure outbound connectivity."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

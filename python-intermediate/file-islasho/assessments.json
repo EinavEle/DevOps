@@ -1,0 +1,158 @@
+[
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-972437380",
+  "source": {
+   "name": "Question #1",
+   "showName": true,
+   "instructions": "When Python reads a file, the initial input is in the form of a...\n",
+   "multipleResponse": false,
+   "isRandomized": true,
+   "answers": [
+    {
+     "_id": "3de21029-66ad-2934-1c1d-5d18e7889848",
+     "correct": true,
+     "answer": "a `.txt` file"
+    },
+    {
+     "_id": "c32c5ce6-1e96-1b10-7d28-d7871bd710d3",
+     "correct": false,
+     "answer": "a python file with text inside of it"
+    },
+    {
+     "_id": "fcbdc850-79ec-8791-73ee-486b157a5691",
+     "correct": false,
+     "answer": "any file that is text"
+    },
+    {
+     "_id": "7e419a0e-d7c3-5221-a8f3-9cbbc087de5b",
+     "correct": false,
+     "answer": "a file with a special export"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   },
+   "maxAttemptsCount": 1,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     },
+     {
+      "name": "Programming Language",
+      "value": "python"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1277518106",
+  "source": {
+   "name": "Question 2",
+   "showName": true,
+   "instructions": "What does `w` mean when opening a file?",
+   "multipleResponse": false,
+   "isRandomized": false,
+   "answers": [
+    {
+     "_id": "712c700a-04fb-26b2-06e9-8cf1679e7fb8",
+     "correct": true,
+     "answer": "a keyword for 'open' function to open a text file for writing text\n"
+    },
+    {
+     "_id": "28cf17f2-4ab4-b193-420a-fd30bd44c566",
+     "correct": false,
+     "answer": "a keyword that indicates there is going to be a \"word\" added"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   },
+   "maxAttemptsCount": 1,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2674031476",
+  "source": {
+   "name": "Question 3",
+   "showName": true,
+   "instructions": "When we use the `writerow` command, we need to make sure the data is a...",
+   "multipleResponse": false,
+   "isRandomized": false,
+   "answers": [
+    {
+     "_id": "d6f6215b-9c7c-3968-cf5d-808d25f4e277",
+     "correct": true,
+     "answer": "the data is a list"
+    },
+    {
+     "_id": "ab356e3f-f4df-baa8-9eed-a023b7c5c27c",
+     "correct": false,
+     "answer": "the data is not empty"
+    },
+    {
+     "_id": "2bd30c67-8c64-6b34-f5a4-c00b5fb1b597",
+     "correct": false,
+     "answer": "the data is dictionary"
+    },
+    {
+     "_id": "5ef1262b-6d31-e6df-773a-81cd76f89e2f",
+     "correct": false,
+     "answer": "the data has no requirements"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   },
+   "maxAttemptsCount": 1,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ }
+]

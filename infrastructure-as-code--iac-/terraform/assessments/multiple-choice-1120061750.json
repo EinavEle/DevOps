@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1120061750",
+	"source": {
+		"name": "Q2",
+		"showName": true,
+		"instructions": "What happens when you apply Terraform configuration? Choose all correct answers.\n",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "b28ebf65-1a6f-2f9a-82cf-5eabd960aa40",
+				"correct": true,
+				"answer": "Terraform makes any infrastructure changes defined in your configuration.\n"
+			},
+			{
+				"_id": "1c6c7f07-8be7-7375-b7b3-0ad81cd9dba8",
+				"correct": false,
+				"answer": "Terraform gets the plugins that the configuration requires.\n"
+			},
+			{
+				"_id": "26957e33-f3e2-e779-5f55-41d2430ac74b",
+				"correct": true,
+				"answer": "Terraform updates the state file with any configuration changes it made.\n"
+			},
+			{
+				"_id": "ddc41695-fbdc-3101-fa69-8dd22b213c67",
+				"correct": false,
+				"answer": "Terraform corrects formatting errors in your configuration.\n"
+			},
+			{
+				"_id": "9afbd220-c378-a4f4-0a40-409418ae066c",
+				"correct": false,
+				"answer": "Terraform destroys and recreates all your infrastructure from scratch."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

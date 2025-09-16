@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1082725587",
+	"source": {
+		"name": "Question 3",
+		"showName": true,
+		"instructions": "Which command would display the current shell's process id (pid)?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "6aca2448-26e2-57a2-3df6-6bb28097022d",
+				"correct": true,
+				"answer": "`echo $$`"
+			},
+			{
+				"_id": "03f00036-7284-29a2-a3cd-5becb9566ae3",
+				"correct": false,
+				"answer": "`echo $!`"
+			},
+			{
+				"_id": "68cc6704-a2e3-6e62-fddd-0a62cb28acf1",
+				"correct": false,
+				"answer": "`echo $PID`"
+			},
+			{
+				"_id": "35a3c770-5dde-dfd6-5e7d-46297a7ba930",
+				"correct": false,
+				"answer": "`echo $BASH_PID`"
+			},
+			{
+				"_id": "f62c523d-cd03-05a5-e21a-9fc6e54fa7b0",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

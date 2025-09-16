@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1320160880",
+	"source": {
+		"name": "q2",
+		"showName": true,
+		"instructions": "The Lambda function service is:\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "864398d1-7bce-892b-df5e-43975f03a5c9",
+				"correct": false,
+				"answer": "IaaS\n"
+			},
+			{
+				"_id": "c85a403a-1e1d-956e-58c8-e93c2ab36cc7",
+				"correct": true,
+				"answer": "PaaS\n"
+			},
+			{
+				"_id": "ddc9c171-c4db-07bf-e41f-78883a6d9e71",
+				"correct": false,
+				"answer": "SaaS\n"
+			},
+			{
+				"_id": "f8e27ddf-e9bd-0f07-6019-018b69f03115",
+				"correct": false,
+				"answer": "GaaS"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

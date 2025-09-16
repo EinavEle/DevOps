@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-244909331",
+	"source": {
+		"name": "Question 5",
+		"showName": true,
+		"instructions": "When the user `plato` runs the following command, what is the name of the file that is written to?\n```bash\ncal > calendar.$(id -un).txt\n```",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "a6c3764f-be99-ccf8-2888-c54c10209653",
+				"correct": false,
+				"answer": "calendar.txt"
+			},
+			{
+				"_id": "01544077-41d6-4ece-1468-a5edbe2b3019",
+				"correct": true,
+				"answer": "calendar.plato.txt"
+			},
+			{
+				"_id": "93e4f727-37a7-a1c7-340a-be24c3959158",
+				"correct": false,
+				"answer": "calendar.id-un.txt"
+			},
+			{
+				"_id": "aeb3ba4d-9d7a-fcb3-8f63-79bb791fbfe0",
+				"correct": false,
+				"answer": "calendar.512.txt"
+			},
+			{
+				"_id": "7f1e71cd-58b8-cb09-65f1-42444362dbcf",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

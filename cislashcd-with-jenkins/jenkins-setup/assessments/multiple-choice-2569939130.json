@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2569939130",
+	"source": {
+		"name": "Q3",
+		"showName": true,
+		"instructions": "When launching Jenkins as a Docker container, what is the default jenkins home directory? \n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "f9d8e7e8-5906-05e9-ecff-aacfdc20a705",
+				"correct": false,
+				"answer": "`/var/lib/jenkins`\n"
+			},
+			{
+				"_id": "161d37f0-72cd-f0d4-a520-af27c295da36",
+				"correct": false,
+				"answer": "`/home/jenkins`\n"
+			},
+			{
+				"_id": "b2ab2b4b-86ef-a6c1-b21f-bf341d24226c",
+				"correct": true,
+				"answer": "`/var/jenkins_home`\n"
+			},
+			{
+				"_id": "64d505a6-a011-7a61-6ecf-9e0225f07a9d",
+				"correct": false,
+				"answer": "`JENKINS_HOME`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

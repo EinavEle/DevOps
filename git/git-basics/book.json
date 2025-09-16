@@ -1,0 +1,77 @@
+{
+ "name": "Git Basics",
+ "children": [
+  {
+   "title": "Pre Install",
+   "id": "e779a64b-f1b9-78b0-e2fd-cf5ef8747693",
+   "pageId": "e779a64b-f1b9-78b0-e2fd-cf5ef8747693",
+   "type": "page"
+  },
+  {
+   "title": "Intro & Version Control",
+   "id": "d5955d35-d76e-4608-25d5-79da6ecacc37",
+   "pageId": "d5955d35-d76e-4608-25d5-79da6ecacc37",
+   "type": "page"
+  },
+  {
+   "id": "dfe447f2-8700-d35f-08a2-8a9c8aa7eb97",
+   "title": "Installing Git",
+   "pageId": "4b26b8fd-78e7-b4ab-e811-f7432ac783c2",
+   "type": "page"
+  },
+  {
+   "id": "5c668f4a-140f-00b8-ba41-1d8b6ff0220f",
+   "title": "Setup",
+   "pageId": "28061771-ed71-5b98-2a9b-c83683a5e3a0",
+   "type": "page"
+  },
+  {
+   "id": "9b68bee3-4754-2eb4-2515-058f74b34b90",
+   "title": "Creating a Local Repository",
+   "pageId": "1c05f12e-e6b0-cfed-2d92-8e3e08a87229",
+   "type": "page"
+  },
+  {
+   "id": "c494072b-a470-212b-940c-e4737d2fb017",
+   "title": "Tracking Files",
+   "pageId": "a4c67420-8c87-ff1c-44e0-22106b12e8df",
+   "type": "page"
+  },
+  {
+   "id": "cf88be76-d215-4881-078e-9537bb087616",
+   "title": "Github",
+   "pageId": "50210f15-1932-1728-4dc3-48b180f50749",
+   "type": "page"
+  },
+  {
+   "id": "96129f0b-79c1-8409-2094-247c7e42e665",
+   "title": "Making Changes",
+   "pageId": "05a896e0-cf43-042b-c455-79ad9bc691fd",
+   "type": "page"
+  },
+  {
+   "id": "87360129-8a71-6dd7-7356-46fe9ef61b80",
+   "title": "Going Backwards",
+   "pageId": "dc400e05-7488-0e93-fec6-9e8c73322ea8",
+   "type": "page"
+  },
+  {
+   "id": "4ee79deb-b16f-a85b-75c6-eb0eb7ad3644",
+   "title": "Cloning",
+   "pageId": "25c61178-a296-5a2c-1e7c-634fddc999b7",
+   "type": "page"
+  },
+  {
+   "id": "579281dc-3696-c653-faf3-2dd78000ab31",
+   "title": "Cheat Sheet",
+   "pageId": "740548fa-9236-cdca-ffd6-e3289ba66dd5",
+   "type": "page"
+  },
+  {
+   "id": "27612f05-4d14-753f-bc36-f34034ad2f90",
+   "title": "Practice",
+   "pageId": "66b22dbc-66a2-f5ac-38af-c316cb132f12",
+   "type": "page"
+  }
+ ]
+}

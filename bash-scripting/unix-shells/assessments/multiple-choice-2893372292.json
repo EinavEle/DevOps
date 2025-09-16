@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2893372292",
+	"source": {
+		"name": "Question 7",
+		"showName": true,
+		"instructions": "Consider the below terminal output:\n```bash\nmyuser@hostname:~$ echo hi > file.txt\n?????: file.txt: restricted: cannot redirect output\n```\nWhich is most likely the running shell?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "0afd7e76-b7ce-6651-3880-5d3ae42bc483",
+				"correct": false,
+				"answer": "sh"
+			},
+			{
+				"_id": "a9851e49-426d-c46b-58df-14b0d2f5522d",
+				"correct": false,
+				"answer": "bash"
+			},
+			{
+				"_id": "90e71a22-2e69-714a-9f0b-934e28415f2e",
+				"correct": false,
+				"answer": "zsh"
+			},
+			{
+				"_id": "3e5fdbd4-6a76-feed-46dc-1ce52c36199b",
+				"correct": true,
+				"answer": "rbash"
+			},
+			{
+				"_id": "d1d36bae-e751-cdf1-b26f-a6e4dd21da6d",
+				"correct": false,
+				"answer": "We can't determine"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-4155952312",
+	"source": {
+		"name": "Question 4",
+		"showName": true,
+		"instructions": "Given the following description of each DNS server in the hierarchy, match the DNS server type according to the following order:\n1. Highest level of the DNS hierarchy, knows how to reach servers responsible for a given domain (e.g., *.com, *.edu).\n1. Replies to DNS query requested by a local user. Requesting all other DNS servers to answer the query on behalf of the user.\n1. Responsible for a domain (e.g., *.com, *.edu); knows how to contact authoritative name servers.\n1. Provides hostname to IP mappings for organization’s domain.",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "51ab3e8a-c364-25e8-9ff3-47db3a00531a",
+				"correct": true,
+				"answer": "Root-level, local DNS, TLD DNS, authoritative DNS"
+			},
+			{
+				"_id": "0ff39ac5-61bb-87ee-a61d-f786887be9f7",
+				"correct": false,
+				"answer": "TLD DNS, Root-level, local DNS, authoritative DNS"
+			},
+			{
+				"_id": "33710e85-68bf-64a2-1d95-9586bcee87a7",
+				"correct": false,
+				"answer": " Root-level, local DNS, authoritative DNS, TLD DNS"
+			},
+			{
+				"_id": "93c9c53c-f77d-0f0d-8b3d-70bc1c95faa8",
+				"correct": false,
+				"answer": "local DNS, Root-level TLD DNS, authoritative DNS"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

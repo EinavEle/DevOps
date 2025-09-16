@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1643911468",
+	"source": {
+		"name": "Question 4",
+		"showName": true,
+		"instructions": "The command `cp item.1 item.2` will copy an entire subdirectory tree",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "d4b19f1d-572e-98bc-ba80-ec0c7670babd",
+				"correct": false,
+				"answer": "only if `item.2` is an existing directory"
+			},
+			{
+				"_id": "31d14980-55b9-6924-f787-e25e5f0355bc",
+				"correct": true,
+				"answer": "only if special command options are used"
+			},
+			{
+				"_id": "b104a9a1-7266-2a25-d569-45524715c56c",
+				"correct": false,
+				"answer": "only if `item.2` is empty"
+			},
+			{
+				"_id": "42fca50d-6eea-8553-1440-26f54e407711",
+				"correct": false,
+				"answer": "only if `item.1` is empty"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3129674645",
+	"source": {
+		"name": "Question 9",
+		"showName": true,
+		"instructions": "When logging in from a virtual console, myuser sees the following:\n```bash\nWelcome to Ubuntu 22.04.1 LTS (GNU/Linux 5.19.0-1022-aws x86_64)\nstation login: myuser\nPassword:\nLast login: Wed Sep 3 09:54:31 on tty2\nsourcing ~/.bashrc\nsourcing ~/.bash_profile\n[blondie@station blondie]$\n```\nWhy does the file `~/.bashrc` get sourced before the file `~/.bash_profile`?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "b25b3613-3879-1c9b-22d1-429e91f8b257",
+				"correct": true,
+				"answer": "That is the behavior of the bash executable for login shells."
+			},
+			{
+				"_id": "f73c105f-70cc-a6a0-a871-a29a04e0efd6",
+				"correct": false,
+				"answer": "The two files are sourced in order of modification time, and the file ~/.bashrc had the least recent modification time."
+			},
+			{
+				"_id": "2ededab8-cba5-2f01-4738-cf49d4b215e3",
+				"correct": false,
+				"answer": "The file `~/.bashrc` is not sourced first. For login shells, the bash shell only sources the file\n`~/.bash_profile directly`. In the default Ubuntu configuration, this file sources the file `~/.bashrc`. The line sourcing `~/.bashrc` comes before the line containing the echo command blondie added above."
+			},
+			{
+				"_id": "464a5fd0-54df-1947-edf0-b4cb265283de",
+				"correct": false,
+				"answer": "Neither of the files are sourced by bash directly. Instead, they are both sourced by the file /etc/login, in the order implied above."
+			},
+			{
+				"_id": "888cb2f7-e54b-7379-1ed2-366a6ac5ce0c",
+				"correct": false,
+				"answer": "None of the above apply."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2448431791",
+	"source": {
+		"name": "Q2",
+		"showName": true,
+		"instructions": "Performing `curl http://nginx-service:80` from another pod in the cluster located in the `default` namespace:\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "d4bf63f8-edf9-3f15-f4a8-4a39e6e90fbe",
+				"correct": true,
+				"answer": "The `nginx` container will receive the HTTP request.\n"
+			},
+			{
+				"_id": "19f365ca-aa54-2749-f424-77c052377b28",
+				"correct": false,
+				"answer": "The `sidecar-container` container will receive the HTTP request.\n"
+			},
+			{
+				"_id": "fdd371c2-f926-c382-3445-2e00a10017cf",
+				"correct": false,
+				"answer": "The HTTP request fails due to Connection Error.\n"
+			},
+			{
+				"_id": "8bde6c02-80b6-5281-a573-f3508f90eab1",
+				"correct": false,
+				"answer": "None of the above."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

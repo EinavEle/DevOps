@@ -1,0 +1,64 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1442228902",
+	"source": {
+		"name": "Question 6",
+		"showName": true,
+		"instructions": "Which of the domains require 8 seconds to be resolved? ",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "855318a8-44d2-89be-68db-e0ccc7aa8c0a",
+				"correct": true,
+				"answer": "1"
+			},
+			{
+				"_id": "42141b07-53d9-04d2-01db-eccc206fde68",
+				"correct": true,
+				"answer": "2"
+			},
+			{
+				"_id": "691e6fb5-76bd-c3f7-c857-040894a77fbc",
+				"correct": false,
+				"answer": "3"
+			},
+			{
+				"_id": "258f290b-bd60-31aa-5778-a3dd3cc6672d",
+				"correct": false,
+				"answer": "4"
+			},
+			{
+				"_id": "21a2aa4e-83ea-6872-baea-4fd54c4c635c",
+				"correct": false,
+				"answer": "5"
+			},
+			{
+				"_id": "f8f37f64-89cb-086b-9801-29a41594525e",
+				"correct": false,
+				"answer": "6"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3441559953",
+	"source": {
+		"name": "Q13",
+		"showName": true,
+		"instructions": "Given the below output resulted by `terraform plan` command: \n\n```text\n# Terraform Plan Output\n\nTerraform will perform the following actions:\n\n  # aws_instance.example\n  - resource \"aws_instance\" \"example\" {\n      - ami           = \"ami-0c55b159cbfafe1f0\" # (forces new resource)\n      - instance_type = \"t2.micro\" # (unchanged)\n    }\n\n  # aws_security_group.example\n  + resource \"aws_security_group\" \"example\" {\n      + description = \"Allow inbound traffic\"\n      + id          = (known after apply)\n      + name        = \"example\"\n      + vpc_id      = \"vpc-0123456789abcdef0\"\n    }\n\nPlan: 1 to add, 0 to change, 1 to destroy.\n```\n\nChoose the correct sentence(s):",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "189cf7f3-2b43-6ed6-8454-907e61abd2da",
+				"correct": false,
+				"answer": "The configurations for the `aws_instance.example` resource was deleted (hence the resource be destroyed), while the `aws_security_group.example` security group was created.\n"
+			},
+			{
+				"_id": "2dc5e384-9536-2f4c-fb14-d0262427032b",
+				"correct": true,
+				"answer": "The `aws_instance.example` resource has a new AMI, and the `aws_security_group.example` resource is a new configured resource.\n"
+			},
+			{
+				"_id": "98cdf0b4-67df-ff1e-052a-a8647aff90ad",
+				"correct": false,
+				"answer": "Both the `aws_instance.example` and `aws_security_group.example` resources exist before applying the above configuration.\n"
+			},
+			{
+				"_id": "23b1728e-32a3-2dbb-264b-5c8d96323096",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

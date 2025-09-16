@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3884474997",
+	"source": {
+		"name": "Question 8",
+		"showName": true,
+		"instructions": "Given an IP address of `10101010 11110000 00111111 00001111`, which of the below routes would be taken when using the longest prefix match algorithm?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "76024f3e-0d77-5fce-ca55-562361b306ea",
+				"correct": false,
+				"answer": "10000000 00000000 00000000 00000000/3"
+			},
+			{
+				"_id": "6f2ae7d1-d3a4-a244-5df7-d25833093285",
+				"correct": false,
+				"answer": "11000000 00000000 00000000 00000000/3"
+			},
+			{
+				"_id": "0d32739a-17f3-b080-5ee9-da6c396c22d9",
+				"correct": true,
+				"answer": "10100000 00000000 00000000 00000000/3"
+			},
+			{
+				"_id": "9cbd01d9-44f1-b66f-3115-6344af946855",
+				"correct": false,
+				"answer": "10000000 00000000 00000000 00000000/3"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

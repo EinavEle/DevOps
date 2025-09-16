@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1335508245",
+	"source": {
+		"name": "Question 12",
+		"showName": true,
+		"instructions": "Which of these is most likely not someone's home directory?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "1f3081f4-b599-4c7b-5618-8a46e710d594",
+				"correct": false,
+				"answer": "`/home/student`"
+			},
+			{
+				"_id": "cc921e17-5731-6c89-83fb-1ea0a5fdf53f",
+				"correct": false,
+				"answer": "`/root`"
+			},
+			{
+				"_id": "57395d26-f8b6-d4b8-400e-c7c7669004a1",
+				"correct": true,
+				"answer": "`/`"
+			},
+			{
+				"_id": "d7b487f4-74a9-1cac-a9db-b06138361372",
+				"correct": false,
+				"answer": "None of these - all are likely to be home directories"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

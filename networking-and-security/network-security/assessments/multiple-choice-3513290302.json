@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3513290302",
+	"source": {
+		"name": "Question 2",
+		"showName": true,
+		"instructions": "Self-signed certificate are useful for:",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "c673a86e-9d89-f6e0-7d70-cd7ab50be182",
+				"correct": true,
+				"answer": "Issuing certificates for organization’s local domain (e.g. testing.testenv.cooperation)"
+			},
+			{
+				"_id": "99df1a99-b620-5b94-e309-4f3076ad4bb4",
+				"correct": false,
+				"answer": "Using for the unsecured HTTP protocol"
+			},
+			{
+				"_id": "6358922b-bff3-c540-b046-2f6f90585c27",
+				"correct": false,
+				"answer": "Using when the server asks for a certificate from the client"
+			},
+			{
+				"_id": "1204ffa1-b15e-259b-c1cf-1332d1256bad",
+				"correct": false,
+				"answer": "Creating a CSR for Certificate Authority"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-861412235",
+	"source": {
+		"name": "Question 15",
+		"showName": true,
+		"instructions": "What is most likely the CIDR of the subnet host Y belongs to? ",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "0298c228-1708-65a2-148a-cd71a9cac145",
+				"correct": false,
+				"answer": "192.168.1.0/16"
+			},
+			{
+				"_id": "81b055ac-19af-af44-d066-26693970dafe",
+				"correct": true,
+				"answer": "192.168.1.0/24"
+			},
+			{
+				"_id": "df0ea77c-52b3-993b-d67b-739adfbb1d6a",
+				"correct": false,
+				"answer": "10.0.0.1/24"
+			},
+			{
+				"_id": "f0999f2b-b880-b871-988e-b86d7462d094",
+				"correct": false,
+				"answer": "192.168.1.0/32"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

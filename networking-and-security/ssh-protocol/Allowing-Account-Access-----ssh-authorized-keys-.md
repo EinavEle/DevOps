@@ -1,0 +1,3 @@
+SSH access to a server is granted by obtaining a copy of the public key of the person who is to be granted access, and storing it in the server's `~/.ssh/authorized_keys` file. More people can be granted access to an account by simply appending their public keys to the `~/.ssh/authorized_keys` files, one public key per line.
+
+The `~/.ssh/authorized_keys` file, and the whole `~/.ssh` directory, must only be readable by the user. How the copy of the public key is obtained does not matter. It could be emailed, scped (as discussed in a moment), or transferred from one terminal to another using the mouse's cut and paste buffer.

@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-855380980",
+	"source": {
+		"name": "Question 9",
+		"showName": true,
+		"instructions": "What is the output of this script?\n```bash\n#!/bin/bash\nfname=john\njohn=thomas\necho ${!fname}\n```",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "abc807cd-5369-f333-1958-bd74c549da92",
+				"correct": false,
+				"answer": "john"
+			},
+			{
+				"_id": "a46dd958-f081-f091-5db1-36cefc51f69e",
+				"correct": true,
+				"answer": "thomas"
+			},
+			{
+				"_id": "8193825c-5a69-b862-820a-b9a9bb4b91ff",
+				"correct": false,
+				"answer": "Syntax error"
+			},
+			{
+				"_id": "64136b01-9370-36bf-10a1-754e3fe88ec2",
+				"correct": false,
+				"answer": "blank"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

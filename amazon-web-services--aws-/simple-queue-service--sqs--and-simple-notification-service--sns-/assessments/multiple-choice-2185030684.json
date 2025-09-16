@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2185030684",
+	"source": {
+		"name": "q5",
+		"showName": true,
+		"instructions": "You are tasked with designing a real-time AI system for a cloud-based application that processes user-generated content.\nThe application consists of several microservices that handle different aspects of content processing, such as image recognition, text analysis, and sentiment analysis.\n \nTo achieve this, you plan to utilize SNS in conjunction with multiple SQS queues. Which architectural approach would be most suitable for implementing this system?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "b172a269-dcfb-10a1-6d8c-1e25cf7e1a72",
+				"correct": false,
+				"answer": "Each microservice will have its own separate SNS topic. Content processing job will be directly sent to the SQS queue, which will then distribute messages to the appropriate topic.\n"
+			},
+			{
+				"_id": "c61568c8-ceb6-b152-9fd6-a585e9fb6156",
+				"correct": false,
+				"answer": "Each microservice will send its notifications directly to a centralized SQS queue, and SNS will be used solely for email notifications.\n"
+			},
+			{
+				"_id": "a9bc0a16-adc2-e79a-f73e-ef08a13c4c09",
+				"correct": true,
+				"answer": "Each microservice will have its own separate SQS queue. Content processing job will be directly sent to the SNS topic, which will then distribute messages to the appropriate SQS queues.\n"
+			},
+			{
+				"_id": "96a80b23-8808-faf3-4f06-b385c04f77de",
+				"correct": false,
+				"answer": "All microservices will send their notifications directly to a single SQS queue, and SNS will be used for distributing messages to subscribers.\n"
+			},
+			{
+				"_id": "cfad30e2-df8e-e3c9-f954-909ad918ce98",
+				"correct": false,
+				"answer": "SNS will handle all notifications and directly send them to subscribers, eliminating the need for SQS queues."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

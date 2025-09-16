@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3716100807",
+	"source": {
+		"name": "Q2",
+		"showName": true,
+		"instructions": "Below are two example kubeconfig YAML files:\n\n\n```yaml \n# kubeconfig1.yaml\napiVersion: v1\nkind: Config\n\nclusters:\n- name: cluster1\n  cluster:\n    server: https://cluster1.example.com\n    certificate-authority-data: <base64-encoded-ca-cert>\n\nusers:\n- name: user1\n  user:\n    client-certificate-data: <base64-encoded-client-cert>\n    client-key-data: <base64-encoded-client-key>\n\ncontexts:\n- name: overlapping-context\n  context:\n    cluster: cluster1\n    user: user1\n    namespace: namespace1\n```\n\nAnd \n\n```yaml\n# kubeconfig2.yaml\n\napiVersion: v1\nkind: Config\n\nclusters:\n- name: cluster2\n  cluster:\n    server: https://cluster2.example.com\n    certificate-authority-data: <base64-encoded-ca-cert>\n\nusers:\n- name: user2\n  user:\n    client-certificate-data: <base64-encoded-client-cert>\n    client-key-data: <base64-encoded-client-key>\n\ncontexts:\n- name: overlapping-context\n  context:\n    cluster: cluster2\n    user: user2\n    namespace: namespace2\n```\n\nNow, let's set the KUBECONFIG environment variable to include both kubeconfigs:\n\n```bash\nexport KUBECONFIG=kubeconfig1.yaml:kubeconfig2.yaml\n```\n\nGiven the below commands:\n\n```bash\nkubectl config set-context overlapping-context\nkubectl run nginx --image=nginx --restart=Never\n```\n\nIn which namespace the nginx would be created?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "623f80b5-ce8c-d3f2-dfe7-af4871d6c785",
+				"correct": false,
+				"answer": "`default`\n"
+			},
+			{
+				"_id": "f8fc8a5b-73f7-b206-2c3a-bff47d7f52fd",
+				"correct": true,
+				"answer": "`namespace2`\n"
+			},
+			{
+				"_id": "b60ae080-d28a-aab2-40e9-9ed054af5288",
+				"correct": false,
+				"answer": "`namespace1`\n"
+			},
+			{
+				"_id": "580e5e54-617a-d62e-4b61-991a492c9c27",
+				"correct": false,
+				"answer": "Can not be determined."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

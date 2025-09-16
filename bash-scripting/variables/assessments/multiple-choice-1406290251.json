@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1406290251",
+	"source": {
+		"name": "Question 1",
+		"showName": true,
+		"instructions": "Which of the following commands would append the directory `/opt/bin` to the current value of the `PATH` environment variable?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "69b92b38-4e1b-db83-94ed-18a6736dc268",
+				"correct": true,
+				"answer": "`PATH=$PATH:/opt/bin`"
+			},
+			{
+				"_id": "a44328f2-537f-b2cd-b900-d7790223bf17",
+				"correct": false,
+				"answer": "`PATH+=/opt/bin`"
+			},
+			{
+				"_id": "b3dcff5a-96d4-a694-d4dc-a87ae716cd6a",
+				"correct": false,
+				"answer": "`PATH=${PATH}+\"/opt/bin\"`"
+			},
+			{
+				"_id": "b176c994-d455-bdeb-d7bb-6d503bec2fdb",
+				"correct": false,
+				"answer": "A and B"
+			},
+			{
+				"_id": "2c975c05-edfd-b49f-5363-210eb9b3ae07",
+				"correct": false,
+				"answer": "All of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

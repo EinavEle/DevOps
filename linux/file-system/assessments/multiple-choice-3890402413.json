@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3890402413",
+	"source": {
+		"name": "Question 4",
+		"showName": true,
+		"instructions": "Following the command `cd ~`, which is the most likely result from `pwd`?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "fb369ac1-5936-c51d-4506-d9a87e073017",
+				"correct": true,
+				"answer": "`/home/myuser`"
+			},
+			{
+				"_id": "721f9a71-4943-9045-a4a0-53ca55d0cb4e",
+				"correct": false,
+				"answer": "`/etc`"
+			},
+			{
+				"_id": "b2b86691-1425-ea6f-0fb9-fffa432ca107",
+				"correct": false,
+				"answer": "`..`"
+			},
+			{
+				"_id": "9df7dedc-833a-51ee-ce1f-d9649bd1aea2",
+				"correct": false,
+				"answer": "`~`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

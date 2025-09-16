@@ -1,0 +1,69 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2746228062",
+	"source": {
+		"name": "q6",
+		"showName": true,
+		"instructions": "\nGiven the below list, choose 1 usage of SNS for customer facing purpose (application-to-person messaging), and one usage for internal systems (application-to-application messaging). \n",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "52fb0abb-e8b8-384a-38a5-c85071090d70",
+				"correct": false,
+				"answer": "Streaming real-time analytics data from a database to an Amazon S3 bucket for long-term storage.\n"
+			},
+			{
+				"_id": "2547f422-d698-cc10-3a22-47e5cbabc495",
+				"correct": true,
+				"answer": "Distributing messages among microservices within an application to ensure inter-service communication.\n"
+			},
+			{
+				"_id": "8d0284a2-3756-6cc2-e988-baa657c5d1b3",
+				"correct": false,
+				"answer": "Storing backups of Amazon RDS database snapshots in Amazon SNS for instant recovery in case of data loss.\n"
+			},
+			{
+				"_id": "f702edea-a8ce-4971-d958-afd5c35c5d1b",
+				"correct": false,
+				"answer": "Replicating data between Amazon S3 buckets across different AWS region for data redundancy.\n"
+			},
+			{
+				"_id": "6ee8542d-5b3d-4d90-92fd-73b4f1ec5331",
+				"correct": false,
+				"answer": "Managing user authentication and authorization for an application by centralizing user profiles and access control lists.\n"
+			},
+			{
+				"_id": "69130c54-0c63-58fc-9de6-292032d03c57",
+				"correct": false,
+				"answer": "Triggering automated scaling of Amazon EC2 instances based on CPU utilization metrics.\n"
+			},
+			{
+				"_id": "aa9ee434-9248-92cf-66c5-6e4b222ba6fd",
+				"correct": true,
+				"answer": "Notifying subscribers about stock market price changes in real time.\n"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

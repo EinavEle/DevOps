@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-481177070",
+	"source": {
+		"name": "q10",
+		"showName": true,
+		"instructions": "\nYou need to ensure that your company's data is stored on physical hardware that is not shared with any other company due to a compliance requirement.\nWhat option should you choose?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "4d7b08b9-2512-3499-61ae-1a3b38507700",
+				"correct": false,
+				"answer": "Put the hardware inside a private VPC\n"
+			},
+			{
+				"_id": "81f3499b-bc5a-2977-94c0-f7c4d15048b0",
+				"correct": true,
+				"answer": "Use a dedicated instance\n"
+			},
+			{
+				"_id": "34eb5768-a127-a607-3c2a-4b05db3cf905",
+				"correct": false,
+				"answer": "Use a reserved instance\n"
+			},
+			{
+				"_id": "148ca563-4ed8-5b22-41b6-923cb5ebd500",
+				"correct": false,
+				"answer": "Use a marketplace instance"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

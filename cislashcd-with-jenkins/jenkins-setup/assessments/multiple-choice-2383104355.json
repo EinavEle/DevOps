@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2383104355",
+	"source": {
+		"name": "Question 3",
+		"showName": true,
+		"instructions": "Given a linux machine with OS architecture of `arm/v5`. What happens when running the following command:\n```bash\ndocker run nginx:1.24.0\n```",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "d7b6ee38-0554-3655-c0c1-5afc7fc80cc4",
+				"correct": false,
+				"answer": "The command fails since this architecture is not supported by the `nginx:1.24.0` image."
+			},
+			{
+				"_id": "8e35817c-0e60-db4f-0c3e-9a8ad2084585",
+				"correct": true,
+				"answer": "The running succeeds since this architecture is supported by the `nginx:1.24.0` image and docker automatically selects the image that matches your OS and architecture."
+			},
+			{
+				"_id": "1beab54c-4914-dcc2-75b3-f334e364b96b",
+				"correct": false,
+				"answer": "The running fails. Although this architecture is supported by the `nginx:1.24.0` image, you should tell docker this type of OS and architecture."
+			},
+			{
+				"_id": "20127d17-dd12-75d9-c2f6-e093fe20fcf3",
+				"correct": false,
+				"answer": "The running succeeds since your OS architecture does not matter. The container can be run everywhere."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

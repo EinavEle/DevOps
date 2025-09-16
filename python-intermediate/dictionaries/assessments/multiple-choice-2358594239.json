@@ -1,0 +1,56 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "60b51a04-5e6f-d276-18b6-51b01d54eb5d",
+				"answer": "4",
+				"correct": false
+			},
+			{
+				"_id": "376a48ff-bf83-1d1e-fa99-b8357c2e6c6c",
+				"answer": "blue",
+				"correct": false
+			},
+			{
+				"_id": "3276d8c4-d1f9-77c5-e964-95c1d0d991fa",
+				"answer": "wheels",
+				"correct": false
+			},
+			{
+				"_id": "9cffa252-4c64-f671-9144-27763e55edfe",
+				"answer": "color",
+				"correct": false
+			},
+			{
+				"_id": "c9e439bf-1856-78d4-fe1b-0df3eb254401",
+				"answer": "An Error",
+				"correct": true
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"guidance": "",
+		"incorrectPoints": 0,
+		"instructions": "What will the following code output? \nPlease don't run this code before answering.\n```\ncar = {\n\twheels: 4,\n\tcolor: \"blue\"\n}\n\nprint(car[\"wheels\"])\n\n```",
+		"isRandomized": false,
+		"learningObjectives": "",
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "Q1",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponse": false,
+		"showName": true
+	},
+	"taskId": "multiple-choice-2358594239",
+	"type": "multiple-choice"
+}

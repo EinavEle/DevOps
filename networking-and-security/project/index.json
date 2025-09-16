@@ -1,0 +1,26 @@
+{
+	"title": "Project",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Agenda-and-Learning-Goals-83b3",
+		"Preliminaries-98f5",
+		"Build-VPC-in-AWS--Amazon-Web-Services--0425",
+		"Extending-Your-VPC-17c1",
+		"SSH-Bastion-Host-7524",
+		"SSH-Keys-Rotation-f004",
+		"TLS-Handshake-facd",
+		"Submission--7008",
+		"For-course-staff-only-6223"
+	]
+}

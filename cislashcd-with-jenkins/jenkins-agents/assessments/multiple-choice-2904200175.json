@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2904200175",
+	"source": {
+		"name": "Q2",
+		"showName": true,
+		"instructions": "In your Jenkins environment, you have a Jenkins master and several Jenkins agents configured to handle different types of workloads.\nA Jenkinsfile is defined with the agent directive as `agent any`.\n\nGiven this configuration, in which node will the job be scheduled?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "7341aaab-659f-2972-4397-0ea652ba12fc",
+				"correct": false,
+				"answer": "The Jenkins master.\n"
+			},
+			{
+				"_id": "92b76549-4732-642c-c906-96fa0b81f1f8",
+				"correct": false,
+				"answer": "One of the agents.\n"
+			},
+			{
+				"_id": "56586ad4-db1d-062d-4608-0352214d7dd9",
+				"correct": false,
+				"answer": "The largest configured node.\n"
+			},
+			{
+				"_id": "93650d67-a512-eb24-4473-448314a3bb27",
+				"correct": true,
+				"answer": "It cannot be determined."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

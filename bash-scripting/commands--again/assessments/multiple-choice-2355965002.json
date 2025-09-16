@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2355965002",
+	"source": {
+		"name": "Question 1",
+		"showName": true,
+		"instructions": "After running a command line from an interactive bash prompt, the following messages are displayed:\n```bash\nbash: timelog: Permission denied\ntimestamp failed\n```\nWhich of the following command lines could have produced the messages?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "daeab27c-6b22-4245-a44b-63917febbe26",
+				"correct": false,
+				"answer": "`date >> timelog || echo timestamp failed`"
+			},
+			{
+				"_id": "db154c89-ba53-8aa8-6e25-1bd6a2a5dd28",
+				"correct": false,
+				"answer": "`date >> timelog && echo timestamp failed`"
+			},
+			{
+				"_id": "03a52329-d489-6b96-7822-5be42bf1267f",
+				"correct": false,
+				"answer": "`date >> timelog ; echo timestamp failed`"
+			},
+			{
+				"_id": "fa7ddb3d-e67e-2eb1-7a8e-2f79a23c693d",
+				"correct": true,
+				"answer": "A and C"
+			},
+			{
+				"_id": "596162a2-5f59-4bfe-cf8c-f8c95d530322",
+				"correct": false,
+				"answer": "All of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

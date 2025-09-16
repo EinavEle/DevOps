@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-75825568",
+	"source": {
+		"name": "Q4",
+		"showName": true,
+		"instructions": "Choose the correct sentence:\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "1276aded-73f6-1b38-86f7-a95d046e5003",
+				"correct": true,
+				"answer": "Requests to `nginx-service` Service can be routed to `nginx-deployment`s Pods.\n"
+			},
+			{
+				"_id": "92dfde42-1f0c-9804-ed79-63a86f06be24",
+				"correct": false,
+				"answer": "Requests to `nginx-service` Service cannot be routed to `nginx-deployment`s Pods.\n"
+			},
+			{
+				"_id": "68ff2744-58ea-8a9b-4a53-9c8477927362",
+				"correct": false,
+				"answer": "Requests to `nginx-service` Service can be routed to `nginx-deployment`s Pods only if the two Pod's spec is identical.\n"
+			},
+			{
+				"_id": "23f8bb6f-d47b-613a-7085-b3dbc3c93597",
+				"correct": false,
+				"answer": "This behavior is not defined well in Kubernetes."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

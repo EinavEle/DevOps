@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1687811639",
+	"source": {
+		"name": "Question 7",
+		"showName": true,
+		"instructions": "Choose the correct sentence.",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "b3ae69e9-2579-53d0-709c-80de55237943",
+				"correct": false,
+				"answer": "69.57.79.162 is connected to elvis station over SSH protocol"
+			},
+			{
+				"_id": "d1e1641d-6b49-9de2-652c-cd3e861473bd",
+				"correct": true,
+				"answer": "66.187.233.200 is connected to elvis station over SSH protocol"
+			},
+			{
+				"_id": "4a747855-5c7e-ec35-b707-23216905376f",
+				"correct": false,
+				"answer": "69.57.79.162 is connected to elvis station using port 35954"
+			},
+			{
+				"_id": "be535e51-2c6d-bd2a-6b5a-fe52f50e2bc9",
+				"correct": false,
+				"answer": "66.187.233.200 is connected to elvis station using port 35954"
+			},
+			{
+				"_id": "42f622ee-0bec-7a29-a32b-9ca5af157411",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

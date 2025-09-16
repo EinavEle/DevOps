@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2122340916",
+	"source": {
+		"name": "Question 10",
+		"showName": true,
+		"instructions": "The user tries to run another redis container as follows:\n```bash\ndocker run --network host redis\n```\nWhy does the command fail?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "f1888168-e0c1-6080-c7e6-984ce3d65b49",
+				"correct": false,
+				"answer": "The container must have a name other than `redis`."
+			},
+			{
+				"_id": "8b8e8451-5029-e989-b7ba-35dc50a7a78f",
+				"correct": false,
+				"answer": "Only one container can be run on the `host` network for each docker image."
+			},
+			{
+				"_id": "928e5295-75aa-b368-ccbf-f2a98dd16af9",
+				"correct": false,
+				"answer": "The network `host` doesn't exist in the host machine."
+			},
+			{
+				"_id": "70e92d23-a2ca-417b-95ca-572f4fd69044",
+				"correct": true,
+				"answer": "Port `6379` is already in use by the first running `redis`."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

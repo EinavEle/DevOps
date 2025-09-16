@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-666189996",
+	"source": {
+		"name": "Q3",
+		"showName": true,
+		"instructions": "\n```text\nPLAY RECAP ******************************************************************************************************************************\nserver        : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   \n```",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "d217613a-ad77-d547-cd99-fcf94cbd313d",
+				"correct": true,
+				"answer": "The `restart apache` handler have been called once.\n"
+			},
+			{
+				"_id": "f2ad103a-1920-45bc-2e79-4f7d40a3da2b",
+				"correct": false,
+				"answer": "The `restart apache` handler have been called 2 times.\n"
+			},
+			{
+				"_id": "491aff3d-d002-9d52-d0e1-f7c63a0a14c0",
+				"correct": false,
+				"answer": "The `restart apache` handler have been called 3 times once.\n"
+			},
+			{
+				"_id": "025d5d13-4909-4dcc-b5ac-2f77bab3191d",
+				"correct": false,
+				"answer": "The `restart apache` handler have not been called."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

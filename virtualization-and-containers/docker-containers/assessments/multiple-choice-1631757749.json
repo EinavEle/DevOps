@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1631757749",
+	"source": {
+		"name": "Question 6",
+		"showName": true,
+		"instructions": "How many ports are exposed by the container?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "3eb7b252-a123-0c96-7564-88d39dc95269",
+				"correct": false,
+				"answer": "0"
+			},
+			{
+				"_id": "67431152-4ad4-0b9c-8000-fde1b796a82d",
+				"correct": false,
+				"answer": "1"
+			},
+			{
+				"_id": "41b5d6d0-e619-805c-bb97-373b1111bea3",
+				"correct": true,
+				"answer": "2"
+			},
+			{
+				"_id": "70eb726b-1ec3-f166-37ff-63cde7067554",
+				"correct": false,
+				"answer": "3"
+			},
+			{
+				"_id": "1830f367-b5bb-087f-412d-3b6e5d1c77bc",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

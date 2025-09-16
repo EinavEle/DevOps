@@ -1,0 +1,198 @@
+[
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2331385555",
+  "source": {
+   "name": "Question 1",
+   "showName": true,
+   "instructions": "What is a class?",
+   "multipleResponse": false,
+   "isRandomized": false,
+   "answers": [
+    {
+     "_id": "b09d3eaf-722e-388a-ebe9-ec2d32707e94",
+     "correct": true,
+     "answer": "a class is a blueprint for an object"
+    },
+    {
+     "_id": "a0a31aae-e6e9-38d7-077d-6c37c2303873",
+     "correct": false,
+     "answer": "a class is a library that helps us organize our code."
+    },
+    {
+     "_id": "9c9b22a7-6f45-17b5-86ea-12d13c8dde38",
+     "correct": false,
+     "answer": "a class is an implementation of an object"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   },
+   "maxAttemptsCount": 1,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2615852489",
+  "source": {
+   "name": "Question 2",
+   "showName": true,
+   "instructions": "![alt text](.guides/img/oopintro1.png)\nWhat will the following code output? Please don't execute before answering",
+   "multipleResponse": false,
+   "isRandomized": false,
+   "answers": [
+    {
+     "_id": "635e7a29-21f0-f86b-ae89-4a100f1f5ec9",
+     "correct": false,
+     "answer": "1"
+    },
+    {
+     "_id": "bc530160-09eb-e0c3-b856-efecaa375018",
+     "correct": true,
+     "answer": "2"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   },
+   "maxAttemptsCount": 1,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3159699051",
+  "source": {
+   "name": "Question 3",
+   "showName": true,
+   "instructions": "Does `init` have to receive parameters aside from `self`?\n",
+   "multipleResponse": false,
+   "isRandomized": false,
+   "answers": [
+    {
+     "_id": "db43b9ee-6e6e-71df-f8e6-f282dda5cac4",
+     "correct": false,
+     "answer": "it should only receive `init`"
+    },
+    {
+     "_id": "03afbf22-7f0c-e66c-93cb-cbb2ffbcb9b9",
+     "correct": false,
+     "answer": "it should receive parameters of type string"
+    },
+    {
+     "_id": "deafbb2f-4d9f-ce46-dacf-b917120342d2",
+     "correct": true,
+     "answer": "it can receive any parameter that is relevant to the class"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   },
+   "maxAttemptsCount": 1,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1185400810",
+  "source": {
+   "name": "Question 4",
+   "showName": true,
+   "instructions": "![alt text](.guides/img/oop_intro2.png)\nWhat will the following code output? Please don't execute before answering",
+   "multipleResponse": false,
+   "isRandomized": false,
+   "answers": [
+    {
+     "_id": "708d9fef-a3f2-2d4c-c1d2-ae2343e16ff8",
+     "correct": true,
+     "answer": "Nothing"
+    },
+    {
+     "_id": "8115fe89-668e-0f19-fc77-96ef32525925",
+     "correct": false,
+     "answer": "Throw an Error"
+    },
+    {
+     "_id": "11ffc63c-7b7c-1766-8b44-6c357378a34a",
+     "correct": false,
+     "answer": "Print Woof"
+    },
+    {
+     "_id": "1f8b14f2-c0a8-c29e-f380-121fbcedd3b2",
+     "correct": false,
+     "answer": "Print Snoopy Woof"
+    }
+   ],
+   "guidance": "",
+   "showGuidanceAfterResponseOption": {
+    "type": "Never"
+   },
+   "maxAttemptsCount": 1,
+   "showExpectedAnswer": true,
+   "points": 20,
+   "incorrectPoints": 0,
+   "arePartialPointsAllowed": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ }
+]

@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2687848308",
+	"source": {
+		"name": "Q5",
+		"showName": true,
+		"instructions": "A StatefulSet uses `hostPath` for storage. After performing a rolling update, some Pod was scheduled on a different node than it was scheduled originally. \n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "ab257ac7-3aa6-fe63-6aee-eaadff2626a6",
+				"correct": false,
+				"answer": "The data on the `hostPath` is automatically replicated to the new node.\n"
+			},
+			{
+				"_id": "a29d83a8-b6e5-c8cd-27f8-d7ed64df9d77",
+				"correct": false,
+				"answer": "The Pod fails to start on the new node, and the data remains on the original node.\n"
+			},
+			{
+				"_id": "8e5f5fc0-f3ed-618c-bdaa-7c7fa2817fde",
+				"correct": true,
+				"answer": "The data on the `hostPath` is lost since `hostPath` is specific to the node's local filesystem.\n"
+			},
+			{
+				"_id": "1fe17f61-d657-0099-9b27-0c1321918fa6",
+				"correct": false,
+				"answer": "In a StatefulSet, Pods are always scheduled on the same node they were scheduled originally."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

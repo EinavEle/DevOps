@@ -1,0 +1,29 @@
+{
+	"title": "Bash and Other Shells",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Agenda-and-Learning-662f",
+		"Motivation-ec43",
+		"Bash-Scripting---Shell-Types-b5f5",
+		"Which-shell-should-run-the-script--ed5b",
+		"Running-bash-Programs-5da2",
+		"Bash-System-Wide-Configuration-Files-9a01",
+		"Spot-Check-0dfb",
+		"Bash-User-Wide-Configuration-Files-d91b",
+		"Spot-Check-bb15",
+		"Sourcing-Files-b761",
+		"Exercises-9ef3",
+		"Comprehension-Check-e987"
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"title": "Networking",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Agenda-and-Learning-Goals-c6b5",
+		"Kubernetes-networking-bf90",
+		"Ingress-and-Ingress-controller-29a8",
+		"Exercise-2332",
+		"Comprehension-Checks-9ade"
+	]
+}

@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3619870778",
+	"source": {
+		"name": "Q6",
+		"showName": true,
+		"instructions": "When a PV is configured with the `retain` reclaim policy, what happens if the associated PVC is deleted?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "457ecba6-f8ff-ff64-5c27-8908915728d7",
+				"correct": false,
+				"answer": "Both PV and PVC are deleted, freeing up the storage resources.\n"
+			},
+			{
+				"_id": "29a26dce-0f60-5bb2-6894-fb40b1053f9c",
+				"correct": true,
+				"answer": "PV is retained, and the associated PVC is deleted, leaving the PV intact.\n"
+			},
+			{
+				"_id": "8ce16776-07bd-6998-34d0-638caa4012d7",
+				"correct": false,
+				"answer": "Both PV and PVC are retained, preserving the storage resources.\n"
+			},
+			{
+				"_id": "8b6fe2d7-5df9-97ab-d598-be7a3cb9e982",
+				"correct": false,
+				"answer": "PV is deleted, and the associated PVC is retained, allowing the PV to be used by another PVC."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

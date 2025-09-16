@@ -1,0 +1,25 @@
+{
+	"title": "Variables",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Agenda-and-Learning-Goals-7a7d",
+		"Bash-Variables-a357",
+		"Assigning-and-Referencing-Variables-1790",
+		"Script-Position-Variables-cf41",
+		"Special-Bash-Variables-163f",
+		"Variable-Expansion-88e3",
+		"Exercises-1076",
+		"Comprehension-Check-5e8c"
+	]
+}

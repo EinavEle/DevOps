@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-565051862",
+	"source": {
+		"name": "Question 9",
+		"showName": true,
+		"instructions": "Choose the correct sentences regarding local DNS server:",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "494a3865-3a58-e57e-6bcc-432b76afa718",
+				"correct": true,
+				"answer": "Records for a remote host are sometimes different from that of the authoritative server for that host."
+			},
+			{
+				"_id": "96ffab6c-ca84-13f1-0a64-3a9ee9d550ce",
+				"correct": true,
+				"answer": "Can decrease the resolution time. "
+			},
+			{
+				"_id": "02222d6c-0f9f-1754-aae7-7384e683232d",
+				"correct": false,
+				"answer": "Holds only A records, but not NS records."
+			},
+			{
+				"_id": "188c91aa-0060-c912-1bc8-dcb3c6a792ea",
+				"correct": false,
+				"answer": "Is only contacted by a client if that client is unable to resolve a name via recursive queries into the DNS hierarchy."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

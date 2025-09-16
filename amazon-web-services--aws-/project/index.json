@@ -1,0 +1,23 @@
+{
+	"title": "FInal project",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Provision-the-Object-Detection-Service-in-AWS-0845",
+		"Provision-the--polybot--microservice-e84d",
+		"Provision-the--yolo5--microservice-5e9f",
+		"Scaling-the-Yolo5-service--Provision-the--metricStreamer--microservice-56e5",
+		"General-guidelines-a295",
+		"Submission-47de"
+	]
+}

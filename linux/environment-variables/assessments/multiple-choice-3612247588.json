@@ -1,0 +1,64 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3612247588",
+	"source": {
+		"name": "Question 6",
+		"showName": true,
+		"instructions": "The user elvis performs the following command:\n```bash\n[elvis@station elvis]$ export STYLE=terse\n```\nWhich of the following commands would delete the environment variable STYLE? ",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "107bba7d-3cbe-e695-5d99-1a9a180b9427",
+				"correct": false,
+				"answer": "set"
+			},
+			{
+				"_id": "11602a1a-84d4-7144-51ca-f2c643ac6a90",
+				"correct": false,
+				"answer": "env STYLE"
+			},
+			{
+				"_id": "76e9fc30-43bc-7716-d14b-f7b640ec3773",
+				"correct": false,
+				"answer": "rm /proc/$$/environ"
+			},
+			{
+				"_id": "58287633-3ada-a8d2-f1f7-7cd82f640c3a",
+				"correct": false,
+				"answer": "import STYLE"
+			},
+			{
+				"_id": "ec9b6f09-92f2-2ea6-366c-59f6981c9eca",
+				"correct": true,
+				"answer": "unset STYLE"
+			},
+			{
+				"_id": "48191da9-08a2-33be-1dc2-e9b4697f1916",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

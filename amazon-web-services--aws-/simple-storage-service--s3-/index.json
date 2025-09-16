@@ -1,0 +1,27 @@
+{
+	"title": "Simple Storage Service (S3)",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Slides-5449",
+		"Agenda-and-Learning-Goals-60e5",
+		"Simple-Storage-Service--S3--6200",
+		"Create-a-Bucket-4e32",
+		"Upload-objects-to-S3-bucket-from-an-EC2-instance-f869",
+		"Attach-IAM-role-to-your-EC2-Instance-with-permissions-over-S3-325f",
+		"Enable-versioning-on-your-bucket-59df",
+		"Create-lifecycle-rule-to-manage-non-current-versions-c625",
+		"Exercises-3f49",
+		"Comprehension-Check-7ba4"
+	]
+}

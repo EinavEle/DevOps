@@ -1,0 +1,64 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3219334314",
+	"source": {
+		"name": "Question 7",
+		"showName": true,
+		"instructions": "Which of the following files would be included in the output of the command `ls [aeiou]???`?",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "d7170eb6-8066-39df-6b29-798089f40005",
+				"correct": true,
+				"answer": "ebbs"
+			},
+			{
+				"_id": "11e4f724-b0c9-64b5-53bc-1b9f7aa9bdd3",
+				"correct": false,
+				"answer": "lead"
+			},
+			{
+				"_id": "9354dc72-88b1-02d0-7e69-20e53ff18474",
+				"correct": false,
+				"answer": "oft"
+			},
+			{
+				"_id": "28e7d8ed-d2dc-86d7-201b-b7d60e9c509d",
+				"correct": false,
+				"answer": "whip"
+			},
+			{
+				"_id": "a47b49cd-0e2f-03b8-39cf-b8242fc7583d",
+				"correct": true,
+				"answer": "oaks"
+			},
+			{
+				"_id": "e5f824bc-db7e-f986-e845-71c090488190",
+				"correct": true,
+				"answer": "oust"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

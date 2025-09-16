@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3876924531",
+	"source": {
+		"name": "Q8",
+		"showName": true,
+		"instructions": "In a case where the Kubernetes control plane node is unavailable, would that impact containers running on the worker nodes?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "eb0fdf8b-72b3-70c2-d0b8-c805b64e29c8",
+				"correct": false,
+				"answer": "Worker node would stop functioning, as so containers."
+			},
+			{
+				"_id": "7039bc39-0981-86f3-0e2d-3e9bc1306079",
+				"correct": true,
+				"answer": "Containers will keep running, but communicating with the API server and cluster orchestration would work."
+			},
+			{
+				"_id": "73fbdb3b-1e16-39f1-89ec-96358d89992b",
+				"correct": false,
+				"answer": "Containers will keep running, one of the worker nodes would be the master now."
+			},
+			{
+				"_id": "52f0b0ef-7253-253f-2604-cb4464069f37",
+				"correct": false,
+				"answer": "None of the above."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

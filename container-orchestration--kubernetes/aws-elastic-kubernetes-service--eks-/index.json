@@ -1,0 +1,26 @@
+{
+	"title": "AWS Elastic Kubernetes Service (EKS)",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Agenda-and-Learning-Goals-6484",
+		"AWS-Elastic-Kubernetes-Service--EKS--695f",
+		"Manage-Nodes-3f13",
+		"Install-EBS-CSI-driver-0806",
+		"Provision-the-Online-Boutique-service-b590",
+		"Nodes-Autoscaling-b41a",
+		"Cleanup-your-experimental-clusters-0469",
+		"Exercises-1331",
+		"Comprehension-Checks-03d4"
+	]
+}

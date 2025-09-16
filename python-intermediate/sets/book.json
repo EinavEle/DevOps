@@ -1,0 +1,47 @@
+{
+ "name": "Sets",
+ "children": [
+  {
+   "title": "Intro",
+   "id": "0a1c66c5-9927-4caf-5be0-2231675bfd67",
+   "pageId": "0a1c66c5-9927-4caf-5be0-2231675bfd67",
+   "type": "page"
+  },
+  {
+   "title": "Update Set",
+   "id": "49f4aa7d-477d-fafb-3143-41b2b3273c09",
+   "pageId": "49f4aa7d-477d-fafb-3143-41b2b3273c09",
+   "type": "page"
+  },
+  {
+   "id": "d1e659ee-9869-c821-3cc6-41aae8cbc82a",
+   "title": "Set Operations",
+   "pageId": "a740ec6e-692d-6401-3ed5-9582c74e6663",
+   "type": "page"
+  },
+  {
+   "id": "f62652db-f033-bf07-c399-8f95c2e00cf9",
+   "title": "Other Set Methods",
+   "pageId": "de3a6d86-14bc-1cf2-00bb-997a06a91d0c",
+   "type": "page"
+  },
+  {
+   "id": "2248c070-820d-fbd6-2e1d-4e0c959141d7",
+   "title": "Set Usage",
+   "pageId": "a1f151ea-e9cb-c75c-0f86-a844de85a2b2",
+   "type": "page"
+  },
+  {
+   "id": "747532b3-8988-3e01-b871-79b9e07b206a",
+   "title": "Frozen Set",
+   "pageId": "13e1dcc7-818e-144f-6cc9-327262e59bcc",
+   "type": "page"
+  },
+  {
+   "id": "4bc2b874-b9b7-5e86-09d6-d9cefc9c5ff0",
+   "title": "Exercises",
+   "pageId": "0856245a-25b6-1425-53ba-119c4b0a295c",
+   "type": "page"
+  }
+ ]
+}

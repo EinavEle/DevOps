@@ -1,0 +1,24 @@
+{
+	"title": "Docker Images",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Slides-4dac",
+		"Agenda-and-Learning-Goals-60e5",
+		"What-is-cloud-computing-6200",
+		"Region-and-Zones-4e32",
+		"SLA-f869",
+		"Exercises-3f49",
+		"Comprehension-Check-7ba4"
+	]
+}

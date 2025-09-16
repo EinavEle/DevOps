@@ -1,0 +1,23 @@
+{
+	"title": "StatefulSet and Storage",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Agenda-and-Learning-Goals-3df9",
+		"Kubernetes-StatefulSet-and-Storage-5a42",
+		"StatefulSet-characteristics-e7c0",
+		"More-on-Volumes-f7ae",
+		"Exercises-6d37",
+		"Comprehension-check-b15a"
+	]
+}

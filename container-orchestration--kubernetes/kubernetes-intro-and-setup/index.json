@@ -1,0 +1,24 @@
+{
+	"title": "Kubernetes intro and setup",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Agenda-and-Learning-Goals-d92f",
+		"Installing-Minikube--1e20",
+		"Controlling-the-cluster-c406",
+		"Kubernetes-main-components-87c4",
+		"Deploy-applications-in-the-cluster-1996",
+		"Comprehension-Checks-8a72",
+		"Exercises-5e05"
+	]
+}

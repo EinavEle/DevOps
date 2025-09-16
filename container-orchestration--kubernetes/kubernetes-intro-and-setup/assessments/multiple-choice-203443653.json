@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-203443653",
+	"source": {
+		"name": "Q13",
+		"showName": true,
+		"instructions": "In a Kubernetes kubeconfig file, the `client-certificate` and the `client-key` fields, under `user`, is used to:\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "964a9009-ca41-29ca-da05-c46b6930dd7b",
+				"correct": false,
+				"answer": "Specify the API server certificate and private key that the Kubernetes uses to authenticate itself to the client (`kubectl`).\n\n\n"
+			},
+			{
+				"_id": "fde16568-8280-f1b0-f1f7-da2d70b0ed38",
+				"correct": true,
+				"answer": "Specify the client certificate and private key that the Kubernetes client (`kubectl`) uses to authenticate itself to the Kubernetes API server when making requests."
+			},
+			{
+				"_id": "0c145788-565f-9545-3cf9-beaf5eba53ba",
+				"correct": false,
+				"answer": "Specify the client certificate and private key that the Kubernetes client (`kubectl`) uses to authenticate itself to Minikube."
+			},
+			{
+				"_id": "5f357262-59b1-f2f3-7834-95fa813c9012",
+				"correct": false,
+				"answer": "None of the above."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

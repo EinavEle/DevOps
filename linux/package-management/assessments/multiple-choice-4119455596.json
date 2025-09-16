@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-4119455596",
+	"source": {
+		"name": "Question 3",
+		"showName": true,
+		"instructions": "Which of the Ubuntu versions the package `libnvidia-cfg1-470` is most likely to be installed on?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "50be75b0-751f-a32c-5ac0-fa63bb3d5618",
+				"correct": true,
+				"answer": "`Ubuntu 20.04`"
+			},
+			{
+				"_id": "9678a3b8-618b-a4fe-f4e6-7fdb00b06323",
+				"correct": false,
+				"answer": "`Ubuntu 22.04`"
+			},
+			{
+				"_id": "3ab4e396-7f97-3fa5-aea2-e385e6ba3158",
+				"correct": false,
+				"answer": "`Ubuntu 14.04`"
+			},
+			{
+				"_id": "f37f63f1-ec86-a424-fe15-f0f1a5c1b5e8",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

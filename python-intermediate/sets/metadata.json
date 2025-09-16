@@ -1,0 +1,119 @@
+{
+ "sections": [
+  {
+   "id": "0a1c66c5-9927-4caf-5be0-2231675bfd67",
+   "title": "Intro",
+   "files": [],
+   "layout": "1-panel-guides-left",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Intro-0a1c.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  },
+  {
+   "id": "49f4aa7d-477d-fafb-3143-41b2b3273c09",
+   "title": "Update Set",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Update-Set-49f4.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  },
+  {
+   "id": "a740ec6e-692d-6401-3ed5-9582c74e6663",
+   "title": "Set Operations",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Set-Operations-a740.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  },
+  {
+   "id": "de3a6d86-14bc-1cf2-00bb-997a06a91d0c",
+   "title": "Other Set Methods",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Other-Set-Methods-de3a.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  },
+  {
+   "id": "a1f151ea-e9cb-c75c-0f86-a844de85a2b2",
+   "title": "Set Usage",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Set-Usage-a1f1.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  },
+  {
+   "id": "13e1dcc7-818e-144f-6cc9-327262e59bcc",
+   "title": "Frozen Set",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Frozen-Set-13e1.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  },
+  {
+   "id": "0856245a-25b6-1425-53ba-119c4b0a295c",
+   "title": "Exercises",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "exercises.py",
+     "panel": 3,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree-guides-left",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercises-0856.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": false,
+   "learningObjectives": ""
+  }
+ ],
+ "theme": "light",
+ "scripts": [],
+ "lexikonTopic": "",
+ "suppressPageNumbering": false,
+ "useSubmitButtons": true,
+ "useMarkAsComplete": true,
+ "hideMenu": false,
+ "allowGuideClose": false,
+ "collapsedOnStart": false,
+ "hideSectionsToggle": false,
+ "hideBackToDashboard": false,
+ "protectLayout": false
+}

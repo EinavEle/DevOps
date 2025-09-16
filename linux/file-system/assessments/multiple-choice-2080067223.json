@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2080067223",
+	"source": {
+		"name": "Question 8",
+		"showName": true,
+		"instructions": "Use the `file` command to help answer the question.\n\nWhat type of file is `/dev/log`?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "28644b04-dd9e-7338-b875-aad25e46a383",
+				"correct": false,
+				"answer": "A character special file"
+			},
+			{
+				"_id": "e27c191e-a061-ac5e-301a-b3e7c22d9fac",
+				"correct": false,
+				"answer": "A block special file"
+			},
+			{
+				"_id": "ace7aacf-447e-2370-013c-74089053e4e8",
+				"correct": false,
+				"answer": "A socket"
+			},
+			{
+				"_id": "61bf2de7-349b-5292-6980-9ddbf1665374",
+				"correct": true,
+				"answer": "A symbolic link"
+			},
+			{
+				"_id": "467b678f-9240-405a-58f4-4437b5389a52",
+				"correct": false,
+				"answer": "A compiled ELF object"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,59 @@
+{
+ "name": "OOP Intro",
+ "children": [
+  {
+   "title": "Intro",
+   "id": "a3e39c63-a122-f52b-72c0-e9cbb96017e0",
+   "pageId": "a3e39c63-a122-f52b-72c0-e9cbb96017e0",
+   "type": "page"
+  },
+  {
+   "title": "Classes, Instances, & Attributes",
+   "id": "d546b3ff-7b41-3b94-d839-ec45daebe321",
+   "pageId": "d546b3ff-7b41-3b94-d839-ec45daebe321",
+   "type": "page"
+  },
+  {
+   "id": "5192143d-a7ec-dbe1-ebfb-1af13e2d33a2",
+   "title": "`init` and `self`",
+   "pageId": "714159fe-b959-6bcb-a20a-b2a46c47201a",
+   "type": "page"
+  },
+  {
+   "id": "024f2ce0-5a94-f091-75c1-a9b6fecb657e",
+   "title": "Spot Check 1",
+   "pageId": "a4b56e5b-3562-c7dd-1352-3fcbdbcbf9c1",
+   "type": "page"
+  },
+  {
+   "id": "22b838be-e1ac-7f7e-7d55-6d624aa69be4",
+   "title": "Methods",
+   "pageId": "70047c80-2872-b846-5682-236a33c03348",
+   "type": "page"
+  },
+  {
+   "id": "bc086b94-b613-a9a0-f7a8-17bba58a840e",
+   "title": "Spot Check 2",
+   "pageId": "d9385db4-b507-533a-e204-0cfa5d288487",
+   "type": "page"
+  },
+  {
+   "id": "35927eb2-6d26-2906-0732-385c81ca6363",
+   "title": "UML",
+   "pageId": "dd604ead-9677-9e9a-cff0-be2c284081bc",
+   "type": "page"
+  },
+  {
+   "id": "20214d5d-5b7e-db79-7640-295e14f1836e",
+   "title": "Exercises",
+   "pageId": "2db5863e-8b01-b361-d864-43c4e0fb829d",
+   "type": "page"
+  },
+  {
+   "id": "a0c3600a-f6b2-e228-5c68-0589f05e0be9",
+   "title": "Comprehension check",
+   "pageId": "4a7aa819-f443-c234-a357-aa166e94a8d3",
+   "type": "page"
+  }
+ ]
+}

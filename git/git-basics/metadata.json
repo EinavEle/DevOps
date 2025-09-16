@@ -1,0 +1,166 @@
+{
+ "sections": [
+  {
+   "id": "e779a64b-f1b9-78b0-e2fd-cf5ef8747693",
+   "title": "Pre Install",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Pre-Install-e779.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "d5955d35-d76e-4608-25d5-79da6ecacc37",
+   "title": "Intro & Version Control",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Intro---Version-Control-d595.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "4b26b8fd-78e7-b4ab-e811-f7432ac783c2",
+   "title": "Installing Git",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Installing-Git-4b26.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "28061771-ed71-5b98-2a9b-c83683a5e3a0",
+   "title": "Setup",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Setup-2806.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "1c05f12e-e6b0-cfed-2d92-8e3e08a87229",
+   "title": "Creating a Local Repository",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Creating-a-Local-Repository-1c05.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "a4c67420-8c87-ff1c-44e0-22106b12e8df",
+   "title": "Tracking Files",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Tracking-Files-a4c6.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "50210f15-1932-1728-4dc3-48b180f50749",
+   "title": "Github",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Github-5021.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "05a896e0-cf43-042b-c455-79ad9bc691fd",
+   "title": "Making Changes",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Making-Changes-05a8.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "dc400e05-7488-0e93-fec6-9e8c73322ea8",
+   "title": "Going Backwards",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Going-Backwards-dc40.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "25c61178-a296-5a2c-1e7c-634fddc999b7",
+   "title": "Cloning",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Cloning-25c6.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "740548fa-9236-cdca-ffd6-e3289ba66dd5",
+   "title": "Cheat Sheet",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Cheat-Sheet-7405.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "66b22dbc-66a2-f5ac-38af-c316cb132f12",
+   "title": "Practice",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Practice-66b2.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  }
+ ],
+ "theme": "light",
+ "scripts": [],
+ "lexikonTopic": "",
+ "suppressPageNumbering": false,
+ "useSubmitButtons": true,
+ "useMarkAsComplete": true,
+ "hideMenu": false,
+ "allowGuideClose": false,
+ "collapsedOnStart": false,
+ "hideSectionsToggle": false,
+ "hideBackToDashboard": false,
+ "protectLayout": false
+}

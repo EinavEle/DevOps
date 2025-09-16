@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1289419501",
+	"source": {
+		"name": "Q11",
+		"showName": true,
+		"instructions": "A k8s developer wanted to review all existed pods in the cluster. She performed:\n\n```bash\nkubectl get pods\n```",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "df066652-e358-8d3f-0254-5fd7d65a90b0",
+				"correct": false,
+				"answer": "The command is good.\n"
+			},
+			{
+				"_id": "545db8ec-bdb6-e406-c8ad-6c3ca3682d3a",
+				"correct": false,
+				"answer": "Adding the `-n kube-system` flag will list all pods.\n"
+			},
+			{
+				"_id": "f7e2c6fd-9aae-281d-a357-533db882a4d3",
+				"correct": true,
+				"answer": "The command lists only some of the pods in the cluster.\n"
+			},
+			{
+				"_id": "32bfd510-78c3-3113-7c63-87be4b191fee",
+				"correct": false,
+				"answer": "None of the above."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

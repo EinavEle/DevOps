@@ -1,0 +1,32 @@
+{
+	"title": "File Management",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Agenda-and-Learning-Goals-e315",
+		"Manipulating-Files-19d8",
+		"Spot-Check-bbd9",
+		"Linux-Text-Editor-4401",
+		"Spot-Check-efed",
+		"Hidden-Files-9b4d",
+		"Wildcards-7cb3",
+		"Spot-Check-1d02",
+		"File-Permissions-323e",
+		"The-root-user-and-the-sudo-command-9b85",
+		"Spot-Check-282d",
+		"Links-22bd",
+		"Spot-Check-7705",
+		"Exercises-eff2",
+		"Comprehension-Check-3910"
+	]
+}

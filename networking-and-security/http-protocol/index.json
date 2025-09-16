@@ -1,0 +1,26 @@
+{
+	"title": "HTTP",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Agenda-and-Learning-Goals-8af1",
+		"Overview-4507",
+		"HTTP-Request-and-Response-1d77",
+		"Flask-Webserver-1d4b",
+		"What-is-API-0c18",
+		"Cookies-1b22",
+		"Introducing-Postman-e4ac",
+		"Exercises-eb87",
+		"Comprehension-Check-0a87"
+	]
+}

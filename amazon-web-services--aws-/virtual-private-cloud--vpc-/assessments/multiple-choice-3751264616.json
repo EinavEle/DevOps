@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3751264616",
+	"source": {
+		"name": "q7",
+		"showName": true,
+		"instructions": "You have a VPC with two instances, Instance A and Instance B.\nInstance A is located in Subnet A with a CIDR block of 10.0.1.0/24, \nand Instance B is located in Subnet B with a CIDR block of 10.0.2.0/24.\nBoth instances have security groups configured as follows:\n\nInstance A Security Group inbound rules:\n\n- Allow All Traffic from the same security group (self-reference)\n- Allow SSH (TCP port 22) from 0.0.0.0/0 (anywhere)\n\nInstance B Security Group inbound rules:  \n\n- Allow All Traffic from the same security group (self-reference)\n- Allow HTTP (TCP port 80) from the security group of Instance A\n\nHowever, you notice that Instance A is unable to establish a connection with Instance B on port 80.\n\nWhat could be the issue preventing communication between the two instances?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "098a8fb9-9796-ddf2-e574-24034ba9ca81",
+				"correct": false,
+				"answer": "The security group of Instance B does not allow outbound traffic.\n"
+			},
+			{
+				"_id": "08221979-392e-c766-fbbb-2f433532edb0",
+				"correct": false,
+				"answer": "The security group of Instance A does not allow outbound traffic.\n"
+			},
+			{
+				"_id": "54d9f407-c09e-c75a-3d7c-a5768967b8d2",
+				"correct": false,
+				"answer": "The CIDR blocks of Subnet A and Subnet B are overlapping.\n"
+			},
+			{
+				"_id": "713f8ecf-d6ee-e0e7-146d-ba60f4b823fd",
+				"correct": false,
+				"answer": "The security groups of both instances do not allow inbound traffic."
+			},
+			{
+				"_id": "3632c4a5-bdb5-58ba-cc23-d4287fb8b31f",
+				"correct": true,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

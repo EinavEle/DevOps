@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2150240658",
+	"source": {
+		"name": "Q3",
+		"showName": true,
+		"instructions": "Given:\n\n```text\npipeline {\n    agent any\n\n    environment {\n        TEST_PREFIX = \"test\" \n        TEST_IMAGE = \"${env.TEST_PREFIX}:${env.BUILD_NUMBER}\"\n        REGISTRY_AUTH = credentials(\"docker-registry\")\n        IS_NEW_VERSION = \"YES\"\n        REGISTRY_ADDRESS = \"hub.docker.io\"\n    }\n\n    stages {\n        stage(\"Login\") {\n            when {\n                environment name: \"IS_NEW_VERSION\", value: \"YES\"\n            }\n\n            steps {\n                script {\n                    env.IS_NEW_VERSION = sh(returnStdout: true, script: echo 'NO'\").trim()\n                }\n                \n                sh \"docker login -u=$REGISTRY_AUTH_USR -p=$REGISTRY_AUTH_PSW ${env.REGISTRY_ADDRESS}\"\n            }\n        }\n        stage(\"Sample stage\") {\n            when {\n                environment name: \"IS_NEW_VERSION\", value: \"YES\"\n            }\n\n            steps {                \n                sh \"echo worked!\"\n            }\n        }\n    }\n}\n```\n\nAssuming the `Login` stage has been executed successfully, will the `Sample stage` stage be executed?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "05f6e8bb-8ef8-20c4-96b1-a7c4d34e6acf",
+				"correct": false,
+				"answer": "Yes\n"
+			},
+			{
+				"_id": "1c579dcb-e1a9-a88f-1268-ed81370dc121",
+				"correct": true,
+				"answer": "No\n"
+			},
+			{
+				"_id": "e2759f59-4a15-7d83-8a82-a39350bc8695",
+				"correct": false,
+				"answer": "Depending on the value of the `TEST_IMAGE` variable\n"
+			},
+			{
+				"_id": "e2713b74-2fa7-42ae-82e1-2ec9514fe0c8",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-4175544826",
+	"source": {
+		"name": "Question 5",
+		"showName": true,
+		"instructions": "Given the below terminal output:\n```bash\nmyuser@localhost:~$ sleep 600 &\nmyuser@localhost:~$ sleep 600 &\nmyuser@localhost:~$ sleep 600 &\n```\nWhich command could be used to know how many processes are running in the background terminal session?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "06416ce7-2663-12c1-73a3-24c22806b292",
+				"correct": false,
+				"answer": "`process`"
+			},
+			{
+				"_id": "bfda88d1-54c0-bc4d-1844-ca410c867087",
+				"correct": true,
+				"answer": "`jobs`"
+			},
+			{
+				"_id": "7c97fdd7-dd4f-a1b2-5b04-5b62a89077af",
+				"correct": false,
+				"answer": "`work`"
+			},
+			{
+				"_id": "f18af4a8-ed66-2356-3c62-3a34a1084239",
+				"correct": false,
+				"answer": "`list`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

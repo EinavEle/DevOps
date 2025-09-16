@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-4031484959",
+	"source": {
+		"name": "Question 13",
+		"showName": true,
+		"instructions": "What does the `who` command report?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "f0050af7-4a16-a981-4b95-b094d71e8247",
+				"correct": false,
+				"answer": "The users who have logged onto the machine since midnight."
+			},
+			{
+				"_id": "b3677f59-ff38-4333-633c-d01bfff24b51",
+				"correct": true,
+				"answer": "The users who are currently logged onto the machine."
+			},
+			{
+				"_id": "1829ea75-06c7-c12f-b7fc-4f906c30fff0",
+				"correct": false,
+				"answer": "Prints the lyrics of the well known song who let the dogs out."
+			},
+			{
+				"_id": "46e8a616-d3da-4ce7-0f82-c7110e3e98df",
+				"correct": false,
+				"answer": "The command is used to lookup users from an Internet database of all users."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

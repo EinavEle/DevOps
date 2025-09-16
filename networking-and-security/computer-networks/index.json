@@ -1,0 +1,30 @@
+{
+	"title": "Computer Networks",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Agenda-and-Learning-Goals-0f73",
+		"Intro-b768",
+		"Subnets-6401",
+		"Spot-Check-a76a",
+		"Route-Table-and-Default-Giveaway-4639",
+		"Network-Interfaces-0561",
+		"The-traceroute-Command-d3db",
+		"Spot-Check-29fb",
+		"New-IP-Address-Allocation-and-the-DHCP-5d84",
+		"IP-Address-for-Private-Subnets-bfab",
+		"Spot-Check-791e",
+		"Exercises-3d7e",
+		"Comprehension-Check-457f"
+	]
+}

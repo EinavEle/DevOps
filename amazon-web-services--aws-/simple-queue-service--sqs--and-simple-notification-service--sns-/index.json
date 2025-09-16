@@ -1,0 +1,33 @@
+{
+	"title": "SQS and SNS",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Slides-c242",
+		"Agenda-and-Learning-Goals-60e5",
+		"Motivation-for-queueing-systems--6200",
+		"Synchronous-architecture-discussion--4e32",
+		"Introducing-message-broker--queue--3f49",
+		"Working-with-SQS-f869",
+		"Run-the-service-11e4",
+		"Asynchronous-architecture-discussion-564d",
+		"Storing-results-in-a-database--DynamoDB--9ce0",
+		"Spot-Check-86fc",
+		"Optimize-the-architecture-cost---introducing-SNS-topic-b1b7",
+		"Spot-Check-5e65",
+		"Working-with-SNS-a55a",
+		"Run-the-service-5d6e",
+		"Exercises-7ba4",
+		"Comprehension-Check-64f3"
+	]
+}

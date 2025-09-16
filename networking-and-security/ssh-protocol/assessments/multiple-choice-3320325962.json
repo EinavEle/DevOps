@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3320325962",
+	"source": {
+		"name": "Question 2",
+		"showName": true,
+		"instructions": "When using SSH public key authentication, which file must exist on the remote machine?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "f56f7aee-90fe-4bf6-967a-e64c795bf243",
+				"correct": false,
+				"answer": "~/.ssh/id_dsa.pub"
+			},
+			{
+				"_id": "b07bbba0-90f7-4fb6-b6e4-fe7d9cf8b0ca",
+				"correct": false,
+				"answer": "~/.ssh/known_hosts"
+			},
+			{
+				"_id": "39c6155a-006d-6d3d-52f1-4a4b3e7c519b",
+				"correct": true,
+				"answer": "~/.ssh/authorized_keys"
+			},
+			{
+				"_id": "64692899-ccbc-e6cb-4a0a-16280b62d30f",
+				"correct": false,
+				"answer": "A and C"
+			},
+			{
+				"_id": "2ee1d22e-98f8-3775-9ce9-ad343d839b10",
+				"correct": false,
+				"answer": "All of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

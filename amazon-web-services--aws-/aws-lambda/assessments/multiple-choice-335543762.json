@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-335543762",
+	"source": {
+		"name": "q6",
+		"showName": true,
+		"instructions": "Given the below lambda function \n\n```python\nimport boto3\nimport pymysql\n\ndef lambda_handler(event, context):\n    database_username = \"admin\"\n    database_password = \"secretpassword\"\n    connection = pymysql.connect(\n        host='...',\n        user=database_username,\n        password='database_password',\n        database='mydb'\n    )\n```\n\nThe code above contains sensitive data, directly hardcoded in the code. \n\nHow could that vulnerability be mitigated?",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "38efa9f5-c439-b07d-e8eb-28f6321b157b",
+				"correct": true,
+				"answer": "Store the credentials in AWS Secrets Manager and read it during runtime.\n"
+			},
+			{
+				"_id": "1c692a2f-941e-9c2c-5ba7-76bf7b72073d",
+				"correct": true,
+				"answer": "Define the credentials as environment variable and access them during runtime.\n"
+			},
+			{
+				"_id": "5ac0b057-7f18-e93f-7c3f-8178e3383c5c",
+				"correct": false,
+				"answer": "Encrypt the sensitive data.\n"
+			},
+			{
+				"_id": "c2dfaa78-3a41-5cf4-959f-7fca9e403e15",
+				"correct": false,
+				"answer": "Use lambda layers to hide the sensitive code."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

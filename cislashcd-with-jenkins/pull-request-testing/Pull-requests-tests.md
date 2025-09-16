@@ -1,0 +1,3 @@
+
+Automated testing is a very broad topic. In this section we will lightly cover 3 types of testing: **unittests**, **code linting**, **functional testing**. But the are many more...
+

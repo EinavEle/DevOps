@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1169807709",
+	"source": {
+		"name": "Question 1",
+		"showName": true,
+		"instructions": "Consider the following handshake process:\n1. Server sends a certificate to the client.\n1. Client generates public-private key pair.\n1. Client encrypts the master-key with the generated public key.\n1. Client sends the encrypted master-key to the server.\n\nWhat is wrong with the described handshake?",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "ca67019d-fe14-d29e-82e5-225b66a90216",
+				"correct": false,
+				"answer": "The sent data is not encrypted"
+			},
+			{
+				"_id": "07a99f9c-37dc-7e69-5808-fd847a2e2b39",
+				"correct": true,
+				"answer": "Server can not decrypt the encrypted master-key"
+			},
+			{
+				"_id": "872d88d3-001d-a2c2-b476-953e990bf7cc",
+				"correct": false,
+				"answer": "The client should use an HTTPS to send the data to the server"
+			},
+			{
+				"_id": "e51b5c64-da27-7ff3-9c23-5f5679db5a32",
+				"correct": true,
+				"answer": "Client should verify the server certificate"
+			},
+			{
+				"_id": "aa4733b3-b47c-e427-c1e4-b35d2e1cae75",
+				"correct": false,
+				"answer": "Data integrity was broken"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

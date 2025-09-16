@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-73000996",
+	"source": {
+		"name": "Question 6",
+		"showName": true,
+		"instructions": "For the user `elvis`, with `/home/elvis` for a home directory, which of the following commands would succeed on a default Ubuntu Linux installation?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "306ea6eb-b431-bbc6-c7cb-bad9ef145e4d",
+				"correct": false,
+				"answer": "`ls /etc > /etc/lsetc.txt`"
+			},
+			{
+				"_id": "e0262362-f071-b965-4898-1dbd99089cb3",
+				"correct": false,
+				"answer": "`/etc/lsetc.txt < ls /etc`"
+			},
+			{
+				"_id": "133385d7-819b-75e7-dce2-64ff932e2e4b",
+				"correct": true,
+				"answer": "`ls /etc > /home/elvis/lsetc.txt`"
+			},
+			{
+				"_id": "72724cc2-1cce-f676-95de-1792af20dccb",
+				"correct": false,
+				"answer": "`/home/elvis/lsetc.txt < ls /etc`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

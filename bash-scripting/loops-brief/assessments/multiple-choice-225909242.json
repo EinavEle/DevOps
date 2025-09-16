@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-225909242",
+	"source": {
+		"name": "Question 3",
+		"showName": true,
+		"instructions": "What does the variable `i` iterate through (assuming the syntax error mentioned above is fixed)?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "1391847b-bb2a-3000-bed1-1479fb6a1022",
+				"correct": false,
+				"answer": "All (non-hidden) files in the local directory"
+			},
+			{
+				"_id": "a1901ce7-7f13-a777-c27d-255f866c9b55",
+				"correct": false,
+				"answer": "All files in the local directory"
+			},
+			{
+				"_id": "606aa4d2-780a-3702-11e1-611c468f265f",
+				"correct": false,
+				"answer": "All files which were previously defined in the environment variable named *."
+			},
+			{
+				"_id": "567eb82c-e25f-f82f-c30a-91557a15b290",
+				"correct": true,
+				"answer": "All of the command line arguments provided when the script was invoked."
+			},
+			{
+				"_id": "1202c9e3-5de2-375d-3fac-e763a0aa5ed4",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

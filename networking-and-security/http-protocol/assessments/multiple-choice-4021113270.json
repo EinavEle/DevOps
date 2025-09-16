@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-4021113270",
+	"source": {
+		"name": "Question 8",
+		"showName": true,
+		"instructions": "A **load balancer** is a piece of software that efficiently distributes incoming network traffic across multiple servers.\n\nBy default, a load balancer redirects an incoming requests to a random server:\n![alt text](.guides/img/compcheckpic.png)\nSometimes, it is useful to redirect incoming requests to the same server with which a given user was originally redirected to. For example, if a given user was redirected to server B when initially accessed the website, from now on, the load balancer will redirect every request of this user to server B/\n\nThis process is called a **Sticky Session**. The load balancer creates an affinity between a client and a specific server for the duration of a session.\n\nHow could that be achieved using cookies?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "a453d6c0-37f8-aa95-776d-0e5876bafded",
+				"correct": false,
+				"answer": "The load balancer caches the information mapping users to the server by client IP."
+			},
+			{
+				"_id": "9b0e9736-e5a6-8781-d555-d64afd3a90b8",
+				"correct": true,
+				"answer": "The load balancer adds a cookie to the server response containing the server ID for which this client is redirected in further requests."
+			},
+			{
+				"_id": "21fa4703-dbd6-f310-8c4e-05807b68185b",
+				"correct": false,
+				"answer": "The client sends a cookie to the load balancer containing the server ID for which the client wants to communicate with."
+			},
+			{
+				"_id": "e4c27100-86cc-4950-fd10-0b21b640fdbb",
+				"correct": false,
+				"answer": "The server uses the `Path` attribute to indicate which paths the client is allowed to access."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

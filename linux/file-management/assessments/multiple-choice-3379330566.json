@@ -1,0 +1,64 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3379330566",
+	"source": {
+		"name": "Question 6",
+		"showName": true,
+		"instructions": "Which of the following files would be included in the output of the command `ls r??`?",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "2d9b1358-2321-3e8a-ad79-af99f698c9a7",
+				"correct": false,
+				"answer": "eras"
+			},
+			{
+				"_id": "2abc8de3-3258-8dd2-3d45-9989704fb3e0",
+				"correct": true,
+				"answer": "row"
+			},
+			{
+				"_id": "3d91a1d1-fe7b-9fad-032a-3ad4ec8fe0b5",
+				"correct": false,
+				"answer": "riots"
+			},
+			{
+				"_id": "1de63bae-961c-07d7-f3e2-363d69fe78ed",
+				"correct": true,
+				"answer": "rho"
+			},
+			{
+				"_id": "f1e5a3b3-f3ca-0635-95f5-40f2a1635f15",
+				"correct": false,
+				"answer": "wet"
+			},
+			{
+				"_id": "ddc49877-45d8-8f3b-0b20-c74c19ce262f",
+				"correct": true,
+				"answer": "run"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

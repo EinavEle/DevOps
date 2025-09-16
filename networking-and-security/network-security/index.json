@@ -1,0 +1,28 @@
+{
+	"title": "Network Security",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Agenda-and-Learning-Goals-2382",
+		"Motivation-48d6",
+		"Encryption-881e",
+		"Symmetric-Key-Encryption-1f07",
+		"Asymmetric-Key-Encryption-ee57",
+		"Digital-Signature-f72d",
+		"Digital-Certificates-f15d",
+		"Putting-it-all-Together---HTTPS-Protocol-and-the-TLS-Handshake-51ae",
+		"Hash-Functions-3964",
+		"Exercises-9866",
+		"Comprehension-Check-c2bb"
+	]
+}

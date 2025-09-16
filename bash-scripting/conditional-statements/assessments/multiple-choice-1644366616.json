@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1644366616",
+	"source": {
+		"name": "Question 3",
+		"showName": true,
+		"instructions": "What is the result of this script?\n```bash\ntxt=Penguins\n[[ $txt =~ [a-z]{8} ]]; echo $?\n```",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "f7351147-c277-570f-3bf7-3f053d4997dc",
+				"correct": false,
+				"answer": "0, representing 'true', because the variable \"txt\" contains eight letters"
+			},
+			{
+				"_id": "12b0761a-fea4-b164-0d08-5a19c7bf51c0",
+				"correct": false,
+				"answer": "0, representing 'true', because everybody loves penguins!"
+			},
+			{
+				"_id": "7db1546d-7269-0701-b432-b42d20a1bf08",
+				"correct": false,
+				"answer": "1, representing 'false', because the variable \"txt\" is longer than eight characters"
+			},
+			{
+				"_id": "57678ac8-1efd-b41f-023f-092270bcc248",
+				"correct": true,
+				"answer": "1, representing 'false', because the variable \"txt\" does not contain eight lowercase letters between a and z"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

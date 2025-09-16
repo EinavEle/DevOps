@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2548629246",
+	"source": {
+		"name": "Question 1",
+		"showName": true,
+		"instructions": "What is wrong in the following command:\n```bash\ndocker run -it -v ../../etc/resolv.conf:/etc/resolv.conf busybox /bin/sh\n```",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "5a4d382c-d2ac-0b5e-3d94-c340361101bb",
+				"correct": false,
+				"answer": "There is no such image `busybox`."
+			},
+			{
+				"_id": "52ca52a6-37b5-f280-524d-5bd02f5bf2cb",
+				"correct": false,
+				"answer": "The file `/etc/resolv.conf` doesn't exist in the container."
+			},
+			{
+				"_id": "b7f433fd-8371-9b5b-654d-c5cc42677d4d",
+				"correct": true,
+				"answer": "Relative path is not allowed in the first part of `-v` value."
+			},
+			{
+				"_id": "27bd6ee3-43d5-b846-7d2a-e6aeae7bde35",
+				"correct": false,
+				"answer": "The flag `--name` is missing."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

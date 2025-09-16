@@ -1,0 +1,44 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3991058237",
+	"source": {
+		"name": "Q2",
+		"showName": true,
+		"instructions": "When branch `main` is protected from being pushed from developer's local machines:\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "5125cdb6-8f9a-ff9c-91f5-001fe80db436",
+				"correct": true,
+				"answer": "Developers can potentially **merge** their branches to the `main` branch **locally**. "
+			},
+			{
+				"_id": "77ff5a4d-594d-80be-1a25-f3740041d0dd",
+				"correct": false,
+				"answer": "Developers can not **merge** their branches to the `main` branch **locally**. "
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

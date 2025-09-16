@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3141306537",
+	"source": {
+		"name": "Question 5",
+		"showName": true,
+		"instructions": "```bash\n[elvis@statio]$ ssh ec2-user@69.57.97.126 mkdir tmp\n[elvis@statio]$ scp .bashrc jules@69.57.97.126:tmp/.bashrc\n100% |*****************************| \t124  00:00\n```\nWhich file on the remote machine contains a copy of the local file `~/.bashrc`?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "19257a77-e152-10cb-1ae0-a60c8f2897f7",
+				"correct": false,
+				"answer": " `~/.bashrc`"
+			},
+			{
+				"_id": "2f0bd5f7-d111-1cfe-2b97-c7c512f1c8b8",
+				"correct": true,
+				"answer": "` ~/tmp/.bashrc`"
+			},
+			{
+				"_id": "1ea131e1-f978-a0d2-8a9c-301a32c3d91c",
+				"correct": false,
+				"answer": "`/tmp/.bashrc`"
+			},
+			{
+				"_id": "89a3810e-1531-40cd-8428-50592507bd67",
+				"correct": false,
+				"answer": "`~/tmp`"
+			},
+			{
+				"_id": "fecc55e9-6a56-8df0-2b70-5d4633dfc5a5",
+				"correct": false,
+				"answer": "Not enough information is provided"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

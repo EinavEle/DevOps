@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1633299685",
+	"source": {
+		"name": "Question 3",
+		"showName": true,
+		"instructions": "After a while, what is the status of the container started by:\n```bash\ndocker run ubuntu ps\n```",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "72bfebfe-e733-5cd9-6449-b613e3f6ab90",
+				"correct": false,
+				"answer": "Running"
+			},
+			{
+				"_id": "9fd8d43a-4ef4-72b4-9732-b942e84971aa",
+				"correct": false,
+				"answer": "Stopped"
+			},
+			{
+				"_id": "afbde8d5-9b37-bd76-11c4-426203d7aba0",
+				"correct": true,
+				"answer": "Existed"
+			},
+			{
+				"_id": "53d39be2-8d5c-fae8-537c-5e55cb32893c",
+				"correct": false,
+				"answer": "Created"
+			},
+			{
+				"_id": "ebfcfb72-edf7-85ea-86e0-1200d78e5723",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

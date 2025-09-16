@@ -1,0 +1,18 @@
+- [Functions Intermediate Home](./README.md)
+
+- [args-and-kwargs](./args-and-kwargs.md "args-and-kwargs")
+- [Multiple-Return-Values](./Multiple-Return-Values.md "Multiple-Return-Values")
+- [The-Function-Object](./The-Function-Object.md "The-Function-Object")
+- [Nested-Funcitons](./Nested-Funcitons.md "Nested-Funcitons")
+- [Spot-Check](./Spot-Check.md "Spot-Check")
+- [Namespace](./Namespace.md "Namespace")
+- [Function-Scope](./Function-Scope.md "Function-Scope")
+- [Global-Keyword](./Global-Keyword.md "Global-Keyword")
+- [Nested-Scope](./Nested-Scope.md "Nested-Scope")
+- [Closure](./Closure.md "Closure")
+- [Extra-Material--Print-as-an-example](./Extra-Material--Print-as-an-example.md "Extra-Material--Print-as-an-example")
+- [Exercises](./Exercises.md "Exercises")
+- [Extension-Exercise](./Extension-Exercise.md "Extension-Exercise")
+
+- [⬅ Back to Module](../README.md)
+- [⬅ Back to Course](../../README.md)

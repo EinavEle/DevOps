@@ -1,0 +1,59 @@
+{
+ "sections": [
+  {
+   "id": "d592a0b0-322a-9cab-7b3e-b3b022301d5a",
+   "title": "Basic  I/O",
+   "files": [
+    {
+     "path": "work.py",
+     "panel": 2,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-guides-left",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Basic--I-O-d592.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "c7538029-d8de-c20f-f4bd-8a8b3ef5a79b",
+   "title": "Spot Check",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Spot-Check-c753.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "e9e32a39-3225-306c-855d-588ab5b19b1e",
+   "title": "Exercises",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercises-e9e3.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  }
+ ],
+ "theme": "light",
+ "scripts": [],
+ "lexikonTopic": "",
+ "suppressPageNumbering": false,
+ "useSubmitButtons": true,
+ "useMarkAsComplete": true,
+ "hideMenu": false,
+ "allowGuideClose": false,
+ "collapsedOnStart": false,
+ "hideSectionsToggle": false,
+ "hideBackToDashboard": false,
+ "protectLayout": false
+}

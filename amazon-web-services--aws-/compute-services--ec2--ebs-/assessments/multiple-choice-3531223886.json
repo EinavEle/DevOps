@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3531223886",
+	"source": {
+		"name": "q14",
+		"showName": true,
+		"instructions": "You want to run a high cpu load instance, which instance family would you use? \n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "6aed057f-6139-bf3d-327a-1396721b0a4b",
+				"correct": false,
+				"answer": "`t2`\n"
+			},
+			{
+				"_id": "a36aabbb-daa7-6261-104b-f68aec317f32",
+				"correct": false,
+				"answer": "`x1`\n"
+			},
+			{
+				"_id": "e1da2a75-0cd2-78ca-b18e-e385f5c1028c",
+				"correct": true,
+				"answer": "`c5`\n"
+			},
+			{
+				"_id": "5838a5e2-3fa0-06b6-bcbe-0296d0ed1d12",
+				"correct": false,
+				"answer": "`p4`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

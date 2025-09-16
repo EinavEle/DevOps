@@ -1,0 +1,32 @@
+{
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideBackToDashboard": false,
+	"hideMenu": false,
+	"hideSectionsToggle": false,
+	"lexikonTopic": "",
+	"order": [
+		"Intro-ccdf",
+		"Dict-Syntax-c3db",
+		"Accessing-Values-669f",
+		"Spot-Check-f9c2",
+		"Modifying-Dicts-5e56",
+		"Nested-Dicts-d85d",
+		"Spot-Check-2a3a",
+		"Reference-type-9548",
+		"Deleting-Properties-0f3e",
+		"Loops-0161",
+		"Dictionary-Comprehension-c0f9",
+		"Spot-Check-054e",
+		"Exercises-f6ca",
+		"Extension---Common-Words-Challenge-a9bb",
+		"Comprehension-Check-09ec"
+	],
+	"protectLayout": false,
+	"scripts": [],
+	"suppressPageNumbering": false,
+	"theme": "light",
+	"title": "Dictionaries",
+	"useMarkAsComplete": true,
+	"useSubmitButtons": true
+}

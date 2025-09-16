@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3584792181",
+	"source": {
+		"name": "Question 2",
+		"showName": true,
+		"instructions": "If you use `-v` to bind-mount a file or directory that does not yet exist on the host machine.\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "4631f3f1-8ffd-23a6-146c-985481a6614a",
+				"correct": true,
+				"answer": "`-v` creates the endpoint for you. It is always created as a directory."
+			},
+			{
+				"_id": "7847d821-dd06-02df-d245-e65dfd6c7f0d",
+				"correct": false,
+				"answer": "`-v` doesn't create the endpoint for you."
+			},
+			{
+				"_id": "0df0fec5-babc-876a-49e6-8489034df904",
+				"correct": false,
+				"answer": "`-v` creates either the file or directory endpoint for you."
+			},
+			{
+				"_id": "7265f579-6fef-2d84-9e43-b5ee7b910478",
+				"correct": false,
+				"answer": "The docker daemon exits with an Error: `Path not found`."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

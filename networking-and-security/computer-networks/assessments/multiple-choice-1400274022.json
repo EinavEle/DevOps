@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1400274022",
+	"source": {
+		"name": "Question 5",
+		"showName": true,
+		"instructions": "Which of the following error messages most likely appear when madonna sends traffic to 16.74.114.3?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "aace5350-4af5-316e-ef35-e97b08b57939",
+				"correct": false,
+				"answer": "Host is not resolvable"
+			},
+			{
+				"_id": "c5837346-068a-9fb8-0660-1da4ee379659",
+				"correct": false,
+				"answer": "404 page not found"
+			},
+			{
+				"_id": "ecd01cc6-320b-2f70-244d-14d897ddf28f",
+				"correct": false,
+				"answer": "Internal server error"
+			},
+			{
+				"_id": "0ead0f59-3195-f0be-0fe9-e9731252a7de",
+				"correct": true,
+				"answer": "No route to host"
+			},
+			{
+				"_id": "b11a7b54-8691-24d6-108d-b9b8057dd0af",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

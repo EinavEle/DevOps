@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1879403338",
+	"source": {
+		"name": "Q17",
+		"showName": true,
+		"instructions": "Given the below Pod: \n\n```yaml \napiVersion: v1\nkind: Pod\nmetadata:\n  name: multi-container-pod\nspec:\n  containers:\n  - name: container1\n    image: alpine\n    command: [\"/bin/sh\", \"-c\", \"sleep 5\"]\n```\n\nYou apply the Pod in your cluster. What is the Pod status after 1 minute? ",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "c7f19ca2-c03a-77dc-15c9-e25c7d479bd8",
+				"correct": true,
+				"answer": "Succeeded\n"
+			},
+			{
+				"_id": "b18b0563-5eb2-fd1d-07a6-e1c527c9d9d9",
+				"correct": false,
+				"answer": "Running\n"
+			},
+			{
+				"_id": "f135834e-bfab-8cd6-7de2-07561bccd6eb",
+				"correct": false,
+				"answer": "Pending\n"
+			},
+			{
+				"_id": "4123f735-2bec-0f43-ebce-4b3a6d3f3a1f",
+				"correct": false,
+				"answer": "Failed"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,47 @@
+{
+ "name": "Warnings and Exceptions",
+ "children": [
+  {
+   "title": "Intro",
+   "id": "f7a6297b-550e-ab22-93f8-d0e4653c41ff",
+   "pageId": "f7a6297b-550e-ab22-93f8-d0e4653c41ff",
+   "type": "page"
+  },
+  {
+   "id": "824d8eed-5e68-d6f1-aa9b-387b14f9c0b1",
+   "title": "Warnings",
+   "pageId": "05976e2f-e5a0-3350-3aae-afee9391d920",
+   "type": "page"
+  },
+  {
+   "id": "9b119e9c-d7e0-9476-ffd3-68c9e76343af",
+   "title": "Exception Handling",
+   "pageId": "7396dfe0-3882-cab1-2a61-e17268448229",
+   "type": "page"
+  },
+  {
+   "id": "ea8830bc-2eda-b9c8-8bab-e2aa8160e281",
+   "title": "More Exceptions",
+   "pageId": "2e775561-2aac-ac1b-da51-2b26877bf635",
+   "type": "page"
+  },
+  {
+   "id": "d8217959-c52a-83da-8c2a-8d29e4f6e57e",
+   "title": "Multiple Exceptions",
+   "pageId": "b977b02f-69cb-c713-3d79-5a50be8090f8",
+   "type": "page"
+  },
+  {
+   "id": "0f1bab88-4c6e-1299-6eca-ab8325e59c83",
+   "title": "User-defined Exceptions",
+   "pageId": "b4dce509-7923-541f-ba3d-f147648a405e",
+   "type": "page"
+  },
+  {
+   "title": "Exercises",
+   "id": "26972e91-b80e-8c20-08bf-d5871bb0e713",
+   "pageId": "26972e91-b80e-8c20-08bf-d5871bb0e713",
+   "type": "page"
+  }
+ ]
+}

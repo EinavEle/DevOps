@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1083947334",
+	"source": {
+		"name": "q11",
+		"showName": true,
+		"instructions": "How long does EBS remain unavailable while taking a snapshot of it?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "be67e70c-9a56-5059-ed4d-9deb04e2c01e",
+				"correct": true,
+				"answer": "The volume will be available immediately.\n"
+			},
+			{
+				"_id": "016d9e57-9977-b8d2-0a81-fd906ea1f6ca",
+				"correct": false,
+				"answer": "Depends on the volume size.\n"
+			},
+			{
+				"_id": "a62b6028-60de-b8e3-0cfb-99b5a3c4435d",
+				"correct": false,
+				"answer": "Depends on the actual data stored in the EBS volume.\n"
+			},
+			{
+				"_id": "b97226fb-8b52-3585-d051-a17edae134f8",
+				"correct": false,
+				"answer": "Depending on the instance type the volume is attached to."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

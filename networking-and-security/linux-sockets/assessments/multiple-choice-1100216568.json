@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1100216568",
+	"source": {
+		"name": "Question 4",
+		"showName": true,
+		"instructions": "Which port number serves as a boundary between privileged and non-privileged ports?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "c47f48a2-db4e-ecbf-b6e6-80e6204aa8bc",
+				"correct": false,
+				"answer": "25"
+			},
+			{
+				"_id": "d69c93fc-1292-58f0-9c11-a59fff54b07e",
+				"correct": false,
+				"answer": "991"
+			},
+			{
+				"_id": "0c801577-edec-a575-4d1e-2d4b4f87cb5b",
+				"correct": true,
+				"answer": "1024"
+			},
+			{
+				"_id": "f837b6c0-1c88-a5ea-3995-43f8c031e3e5",
+				"correct": false,
+				"answer": "6000"
+			},
+			{
+				"_id": "2217cc1a-efab-eff6-43b6-f05cdb4c8290",
+				"correct": false,
+				"answer": "65535"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

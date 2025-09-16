@@ -1,0 +1,25 @@
+{
+	"title": "Commands Again",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": false,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Agenda-and-Learning-Goals-f0c5",
+		"Exit-Status-and----de69",
+		"Spot-Check-60a9",
+		"Running-Multiple-Commands--Conditionally--c48c",
+		"Spot-Check-9e7f",
+		"Command-Substitution-0b2c",
+		"Exercise-503c",
+		"Comprehension-Check-8bbd"
+	]
+}

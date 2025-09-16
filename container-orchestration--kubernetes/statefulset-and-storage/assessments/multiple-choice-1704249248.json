@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1704249248",
+	"source": {
+		"name": "Q3",
+		"showName": true,
+		"instructions": "\nDuring `RollingUpdate`, the StatefulSet controller will delete and recreate each Pod in the StatefulSet, \nin reverse ordinal order. \n\nHere is the Pod status before the rolling update:\n\n```console\n$ kubectl get pod -l app=mysql\nNAME        READY     STATUS    RESTARTS   AGE\nmysql-0     1/1       Running   0          7m\nmysql-1     1/1       Running   0          7m\nmysql-2     1/1       Running   0          8m\n```\n\nAnd **during** the rolling update (using the `-w` flag to \"watch\" the output updates in real-time):\n\n```console\n$ kubectl get pod -l app=mysql -w\nNAME        READY     STATUS              RESTARTS   AGE\nmysql-2     1/1       Terminating         0          8m\nmysql-2     1/1       Terminating         0          8m\nmysql-2     0/1       Terminating         0          8m\nmysql-2     0/1       Terminating         0          8m\nmysql-2     0/1       Terminating         0          8m\nmysql-2     0/1       Terminating         0          8m\nmysql-1     1/1       Terminating         0          0s\nmysql-1     0/1       Terminating         0          0s\nmysql-1     0/1       Terminating         0          0s\nmysql-1     0/1       Terminating         0          19s\nmysql-2     0/1       Pending             0          8m\nmysql-2     0/1       Pending             0          8m\nmysql-2     0/1       ContainerCreating   0          8m\nmysql-2     1/1       Running             0          8m\nmysql-1     0/1       Pending             0          0s\nmysql-1     0/1       Pending             0          0s\nmysql-1     0/1       ContainerCreating   0          0s\nmysql-1     1/1       Running             0          6s\nmysql-0     1/1       Terminating         0          7m\nmysql-0     1/1       Terminating         0          7m\nmysql-0     0/1       Terminating         0          7m\nmysql-0     0/1       Terminating         0          7m\nmysql-0     0/1       Terminating         0          7m\nmysql-0     0/1       Terminating         0          7m\nmysql-0     0/1       Pending             0          0s\nmysql-0     0/1       Pending             0          0s\nmysql-0     0/1       ContainerCreating   0          0s\nmysql-0     1/1       Running             0          10s\n```\n\nWhat's wrong with the above output? \n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "66c2586e-c852-04a0-13e3-832ad603c635",
+				"correct": false,
+				"answer": "The output is ok.\n"
+			},
+			{
+				"_id": "369e0a26-9d4c-7445-f541-fea559fb4c0a",
+				"correct": false,
+				"answer": "The pods should be terminated in a reverse order: `mysql-0` first, then `mysql-1`, and `mysql-3` last.\n"
+			},
+			{
+				"_id": "957b9616-0603-22c5-8b98-f696f83001e1",
+				"correct": true,
+				"answer": "`mysql-1` is terminating before `mysql-2` is Running.\n"
+			},
+			{
+				"_id": "954e53c0-b206-019b-6d45-05b639ee73df",
+				"correct": false,
+				"answer": "None of the above."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

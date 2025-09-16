@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1551020301",
+	"source": {
+		"name": "Question 1",
+		"showName": true,
+		"instructions": "What is wrong in the request?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "0766ffba-dbf9-b9d4-0712-90714bd067b8",
+				"correct": false,
+				"answer": "You can’t perform a GET request for an HTML pages"
+			},
+			{
+				"_id": "2f0c60a2-d53b-7025-37f2-06d2ac9e661d",
+				"correct": false,
+				"answer": "An HTML page is requested, but the client doesn’t accept HTML content type."
+			},
+			{
+				"_id": "adfeb9d4-33d3-1d15-1e25-88c8094f6862",
+				"correct": false,
+				"answer": "The Host header must start with `http://`"
+			},
+			{
+				"_id": "b3d0232b-3608-295d-129a-d3889fe171ec",
+				"correct": true,
+				"answer": "The specified resource must be an absolute path (starts with `/`)"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

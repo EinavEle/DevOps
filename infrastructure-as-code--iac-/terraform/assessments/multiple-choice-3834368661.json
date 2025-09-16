@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3834368661",
+	"source": {
+		"name": "Q10",
+		"showName": true,
+		"instructions": "\nGiven `varialbes.tf`:\n\n```terraform\nvariable \"region\" {\n  type = string\n  default = \"us-west-2\"\n}\n```\n\nAnd `main.tf`:\n\n```terraform\n...\n\nprovider \"aws\" {\n  region = var.region\n}\n\n...\n```\n\nAnd `prod.tfvars`:\n\n```terraform\nregion = \"us-east-1\"\n```\n\nWhile performing the below command:\n\n```bash\nexport TF_VAR_region=eu-central-1\nterraform apply -var=\"region=eu-north-1\" -var-file=prod.tfvars\n```\n\nIn which region the AWS provider would be operated? \n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "eacb7442-8cd8-c95a-6c41-91a6b19bf461",
+				"correct": false,
+				"answer": "`us-west-2`\n"
+			},
+			{
+				"_id": "55be314a-1ded-4df6-2ea2-02c8e538ee73",
+				"correct": false,
+				"answer": "`eu-north-1`\n"
+			},
+			{
+				"_id": "4241209f-bb00-0adf-1bed-4df84443d504",
+				"correct": true,
+				"answer": "`us-east-1`\n"
+			},
+			{
+				"_id": "085b1442-c069-163b-b1e6-182251b7acc3",
+				"correct": false,
+				"answer": "`eu-central-1`\n"
+			},
+			{
+				"_id": "4f4efb7a-af1e-7404-1f24-f709e63fbde9",
+				"correct": false,
+				"answer": "The command would produce an error"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

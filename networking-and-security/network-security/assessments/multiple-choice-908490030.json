@@ -1,0 +1,89 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-908490030",
+	"source": {
+		"name": "Question 3",
+		"showName": true,
+		"instructions": "Choose the correct sentences:",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "a531a224-0428-638b-3e92-c5a3997b66e9",
+				"correct": false,
+				"answer": "In public key encryption, the same key is used for encryption and decryption"
+			},
+			{
+				"_id": "bd084f47-77d0-5b61-4fa7-b72947cfee9e",
+				"correct": false,
+				"answer": "In public key encryption, the message is encrypted using sender private key"
+			},
+			{
+				"_id": "795a02f0-cf7a-ff66-2c41-a5f0330ac52d",
+				"correct": false,
+				"answer": "In public key encryption, the message is encrypted using sender public key"
+			},
+			{
+				"_id": "82be8d13-d81c-5b1a-5a8f-846ea9cb58c0",
+				"correct": true,
+				"answer": "In public key encryption, the message is encrypted using the recipient’s public key"
+			},
+			{
+				"_id": "a05fbbe7-c9c6-f1c0-7520-0b95fe1cbdac",
+				"correct": false,
+				"answer": "In public key encryption, the message is encrypted using the recipient’s private key"
+			},
+			{
+				"_id": "70e82093-5c12-9799-196e-b84944e6b01e",
+				"correct": true,
+				"answer": "In public key encryption, the message is decrypted using the recipient’s private key"
+			},
+			{
+				"_id": "0a03aeff-6190-0fc6-872a-ab670d9b2b64",
+				"correct": false,
+				"answer": "In public key encryption, the message is decrypted using the recipient’s public key"
+			},
+			{
+				"_id": "89548d80-04fc-a42c-6a01-03b394d40200",
+				"correct": false,
+				"answer": "In public key encryption, the message is decrypted using sender private key"
+			},
+			{
+				"_id": "f66fc96b-c535-c42a-8baf-31b78d3a1d04",
+				"correct": false,
+				"answer": "In public key encryption, the message is decrypted using sender public key"
+			},
+			{
+				"_id": "c548c5b1-914d-63da-9d1f-8822d8febd74",
+				"correct": false,
+				"answer": "It is impossible to encrypt using the public key and decrypt using the private key"
+			},
+			{
+				"_id": "c9a5dd31-59b3-ac7f-3785-2dbe8f9a0e88",
+				"correct": false,
+				"answer": "It is impossible to encrypt using the private key and decrypt using the public key"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

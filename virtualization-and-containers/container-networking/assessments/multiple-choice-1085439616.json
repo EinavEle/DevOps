@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1085439616",
+	"source": {
+		"name": "Question 5",
+		"showName": true,
+		"instructions": "Given the following running container:\n```bash\ndocker run -it busybox /bin/sh\n```\nDNS queries requested from within this container:",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "45e48be7-84d6-b74a-eeeb-360d50a51312",
+				"correct": false,
+				"answer": "Uses Docker's embedded DNS server."
+			},
+			{
+				"_id": "1d58520d-3985-c5ab-394e-bc023dc554ab",
+				"correct": true,
+				"answer": "Uses the DNS servers configured on the host machine."
+			},
+			{
+				"_id": "bdd3b778-09dd-a82e-63b5-c064b2f0fb7a",
+				"correct": false,
+				"answer": "Uses the bridge custom DNS server."
+			},
+			{
+				"_id": "864b7c56-fdde-e489-27fd-34b1bf32087b",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

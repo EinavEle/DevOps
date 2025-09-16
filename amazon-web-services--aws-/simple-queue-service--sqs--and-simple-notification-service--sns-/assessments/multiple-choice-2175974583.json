@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2175974583",
+	"source": {
+		"name": "q7",
+		"showName": true,
+		"instructions": "You are designing a notification system using SNS for an application that sends critical alerts to different endpoints.\nHowever, you are aware that subscribers' endpoints might experience occasional short outages, causing message delivery failures.\n\nTo ensure message delivery and prevent data loss, what strategy can you employ based on SNS features?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "75d239d7-8cce-3076-c514-ea5a28e7bef9",
+				"correct": false,
+				"answer": "Manually re-send the messages to the subscribers once their endpoints become available.\n"
+			},
+			{
+				"_id": "4901ee04-b92f-e401-d822-382db249fef9",
+				"correct": false,
+				"answer": "Enable a paid feature of SNS to automatically re-send the messages until subscribers' endpoints become available.\n"
+			},
+			{
+				"_id": "d0e4faf7-2334-809d-6918-545fcb792a85",
+				"correct": false,
+				"answer": "Use \"Try and catch\" mechanism within the SNS topic.\n"
+			},
+			{
+				"_id": "55eee492-8660-118f-e5a4-dfa31885bbdf",
+				"correct": false,
+				"answer": "Create a dead-letter queue to store any messages that aren't delivered before the delivery retry policy ends.\n"
+			},
+			{
+				"_id": "fba997f0-dec5-1d7e-0e29-d1f3d5f03822",
+				"correct": true,
+				"answer": "No need to create any strategy as retry mechanism is already built in SNS."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

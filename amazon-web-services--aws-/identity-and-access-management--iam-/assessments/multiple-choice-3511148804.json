@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3511148804",
+	"source": {
+		"name": "q6",
+		"showName": true,
+		"instructions": "\nYour EC2 instance should read objects from `mybucket` S3 bucket.\nYour instance assumes a role with the following policy: \n\n```json\n{\n  \"Version\": \"2012-10-17\",\n  \"Statement\": [\n    {\n      \"Action\": [\n        \"s3:GetObject\",\n        \"s3:GetObjectVersion\"\n      ],\n      \"Effect\": \"Allow\",\n      \"Resource\": \"arn:aws:s3:::mybucket\"\n    }\n  ]\n}\n```\n\nHowever, when the app running in the EC2 tries to read object, you receive the error: \n\n```text\nAction does not apply to any resource(s) in the statement.\n```\n\nHow can you fix the error?",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "2bc1ee78-6624-c6f7-c4bc-7904a17d2ca3",
+				"correct": false,
+				"answer": "Change the IAM permissions by applying `PutBucketPolicy` permissions.\n"
+			},
+			{
+				"_id": "426c4618-197c-5151-9ba1-5c9cd352ba2b",
+				"correct": false,
+				"answer": "Verify that the policy has the same name as the EC2 instance.\n"
+			},
+			{
+				"_id": "4961951f-ea53-6e21-d21b-1d93d9893573",
+				"correct": true,
+				"answer": "Add ``arn:aws:s3:::mybucket/*`` to the `Resource` section.\n"
+			},
+			{
+				"_id": "40876b34-75d7-c9ef-a2ba-bda7fece1c4a",
+				"correct": true,
+				"answer": "Add an action `s3:ListBucket`."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-387711468",
+	"source": {
+		"name": "Q2",
+		"showName": true,
+		"instructions": "You are told that when the StatefulSet has been deployed for the first time, for some reason, readiness probes of pod `mysql-1` were failed. \n\nChoose the correct statement(s) regarding the [Pod status](https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#pod-phase) and [Pod condition](https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#pod-conditions) of `mysql-0` and `mysql-2`: \n",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "454eeb83-1a95-8fa1-a7a1-e09ac3470003",
+				"correct": true,
+				"answer": "Pod `mysql-2` status is Pending.\n"
+			},
+			{
+				"_id": "9dad27f9-a693-c919-87c2-689ceb4c17c2",
+				"correct": false,
+				"answer": "Pod `mysql-2` status is Unknown and the Initialized condition is met.\n"
+			},
+			{
+				"_id": "88920a7d-aa6b-183e-e81e-c3c8fffa1b81",
+				"correct": true,
+				"answer": "Pod `mysql-0` status is Running and the Ready condition is met.\n"
+			},
+			{
+				"_id": "3d15e4af-11d5-e038-eb45-501ffdcf74f6",
+				"correct": false,
+				"answer": "Pod `mysql-0` status is Terminating and the Ready condition is met."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

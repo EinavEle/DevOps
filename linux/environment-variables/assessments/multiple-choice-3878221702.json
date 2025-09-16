@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3878221702",
+	"source": {
+		"name": "Question 3",
+		"showName": true,
+		"instructions": "Which of the following would correctly set the environment variable `ADDR` to “123 Elm St.”?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "c59af27a-82db-2a6b-4f67-691a66afd504",
+				"correct": false,
+				"answer": "ADDR= 123_Elm_St."
+			},
+			{
+				"_id": "8070852b-049d-a230-9ab5-5182bf27b50a",
+				"correct": false,
+				"answer": "export ADDR=123 Elm St."
+			},
+			{
+				"_id": "3b52be07-c2a1-6e3d-a347-deb1a034ee51",
+				"correct": true,
+				"answer": "export ADDR=\"123 Elm St.\""
+			},
+			{
+				"_id": "d227e372-3263-7930-4fe0-373513b6017d",
+				"correct": false,
+				"answer": "export ADDR=123_Elm_St."
+			},
+			{
+				"_id": "e26b518c-b844-5fc8-ec5f-e7ee22a3e115",
+				"correct": false,
+				"answer": "None of the above."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

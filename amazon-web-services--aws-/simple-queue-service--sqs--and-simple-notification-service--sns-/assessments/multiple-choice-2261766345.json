@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2261766345",
+	"source": {
+		"name": "Question 7",
+		"showName": true,
+		"instructions": "You are told that the `python` docker image consists of 8 layers. You build a new image according to the following dockerfile:\n```bash\nFROM python\nWORKDIR /test\n```\nHow many layers will your image consist of?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "33cea89c-cbda-3915-3e59-5af3651752a2",
+				"correct": false,
+				"answer": "8 layers since `WORKDIR /test` doesn't add a new layer."
+			},
+			{
+				"_id": "999a9bcd-0d83-432f-7568-627fcdcbafe8",
+				"correct": true,
+				"answer": "9 layers since `WORKDIR /test` adds 1 new layer."
+			},
+			{
+				"_id": "6b7ae5bb-49da-fbae-afb6-ddab5cd283fd",
+				"correct": false,
+				"answer": "10 layers since `WORKDIR /test` adds 2 new layers."
+			},
+			{
+				"_id": "890fac21-701c-0be9-d1eb-a79c81fba633",
+				"correct": false,
+				"answer": "You can't know the number of layers."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

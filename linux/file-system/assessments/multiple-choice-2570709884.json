@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2570709884",
+	"source": {
+		"name": "Question 10",
+		"showName": true,
+		"instructions": "What type of file is `/usr/bin/md5sum`?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "2dff8a14-384c-becb-92e5-589a198c5ee0",
+				"correct": true,
+				"answer": "A compiled ELF object"
+			},
+			{
+				"_id": "d772f1ed-73d2-8741-bcf8-9f8ccad3dbe2",
+				"correct": false,
+				"answer": "An Awk script"
+			},
+			{
+				"_id": "f96e6889-2d3b-8229-85bc-394a64048ed0",
+				"correct": false,
+				"answer": "A Bash (Bourne-Again) shell script"
+			},
+			{
+				"_id": "c04207c2-edbc-9496-b55c-3ff9fc777e90",
+				"correct": false,
+				"answer": "A Symbolic link"
+			},
+			{
+				"_id": "78ea52d8-74dc-e2af-37b8-4e812e52df8b",
+				"correct": false,
+				"answer": "A /usr/bin/perl script"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

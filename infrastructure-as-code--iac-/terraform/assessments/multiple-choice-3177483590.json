@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3177483590",
+	"source": {
+		"name": "Q5",
+		"showName": true,
+		"instructions": "You have manually provisioned some EC2 instances, and a few additional related resources.\nNow you want to use Terraform to manage these resources.\n\nWhat are the step(s) to achieve this?",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "7534b3ae-56bc-8922-1cfd-43e198501385",
+				"correct": false,
+				"answer": "Provision new resources using Terraform with the same names.\n"
+			},
+			{
+				"_id": "9adf9ffa-b9a6-5c5e-92a5-10cea3361cf6",
+				"correct": true,
+				"answer": "Use the `terraform import` command for the existing resources.\n"
+			},
+			{
+				"_id": "39cfe109-6ab0-58e3-e8c7-92599d382eda",
+				"correct": true,
+				"answer": "Write Terraform configuration for the resources.\n"
+			},
+			{
+				"_id": "ff14d37d-67b3-1117-087d-638f7b51fac9",
+				"correct": false,
+				"answer": "Run the `terraform sync` command."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

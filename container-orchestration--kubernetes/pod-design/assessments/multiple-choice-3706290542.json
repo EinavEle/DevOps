@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3706290542",
+	"source": {
+		"name": "Q9",
+		"showName": true,
+		"instructions": "What happened if resources requests and limit are not specified? \n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "cee26913-a84e-8c7c-4544-c2f1f270e6b6",
+				"correct": true,
+				"answer": "The Pod will use the default resource values defined at the cluster level.\n"
+			},
+			{
+				"_id": "674d3154-762f-0c46-7915-a8a129e5b266",
+				"correct": false,
+				"answer": "The Pod will be scheduled on any available node regardless of resource availability.\n"
+			},
+			{
+				"_id": "56445e2e-878f-2419-6cda-42eed28b3247",
+				"correct": false,
+				"answer": "Kubernetes will automatically assign random resource values to the Pod.\n"
+			},
+			{
+				"_id": "e764f6d7-8e86-d1b0-80d6-cfa648c156fc",
+				"correct": false,
+				"answer": "The Pod will fail to schedule, and Kubernetes will return a scheduling error."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

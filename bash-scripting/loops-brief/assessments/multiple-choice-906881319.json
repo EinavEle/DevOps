@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-906881319",
+	"source": {
+		"name": "Question 4",
+		"showName": true,
+		"instructions": "The following text is found in the file `/etc/bashrc`.\n```bash\nif [ \"$(id -gn)\" = \"$(id -un)\" -a \"$(id -u)\" -gt \"99\" ]; then\n  umask 002\nelse\n  umask 022\nfi\n```\nWhich of the following best describes the execution of this text?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "360f5d2e-22ee-8fa3-0530-f6afb2cc6c90",
+				"correct": false,
+				"answer": "If the current user is a member of more than one group, then set the current shell's umask to\n002, otherwise set it to 022."
+			},
+			{
+				"_id": "dc5195d5-6a32-3d16-7ac4-5a9e75d92267",
+				"correct": false,
+				"answer": "If the current user's group name is the same as the user's username, or the user has a userid\ngreater than 99, set the shell's umask to 002, otherwise set it to 022."
+			},
+			{
+				"_id": "1f9bd2ab-84a9-f914-86f9-9e3bfbc4e35a",
+				"correct": false,
+				"answer": "If the user is a member of more than 99 groups, set the shell's umask to 002, otherwise set\nit to 022."
+			},
+			{
+				"_id": "d707b11e-1a82-bc7d-0238-c672e564c057",
+				"correct": false,
+				"answer": " If the current user is the root user, set current shell's umask to 002, otherwise set it to 022."
+			},
+			{
+				"_id": "d0d65bc1-5369-d270-e03a-08c4def35192",
+				"correct": true,
+				"answer": "If the current user's group name is the same as the user's username, and the user has a userid\ngreater than 99, set the shell's umask to 002, otherwise set it to 022."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

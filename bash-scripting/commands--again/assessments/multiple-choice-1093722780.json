@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1093722780",
+	"source": {
+		"name": "Question 2",
+		"showName": true,
+		"instructions": "Which of the following would run the `chmod` command only if the `mkdir` command succeeds?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "6f982716-cf3f-e1ba-1791-7449ded0eb28",
+				"correct": false,
+				"answer": "`mkdir mail || chmod 700 mail`"
+			},
+			{
+				"_id": "22f1e3fb-3042-c821-4eac-134179a14eb0",
+				"correct": true,
+				"answer": "`mkdir mail && chmod 700 mail`"
+			},
+			{
+				"_id": "222d33c0-0a5d-4d59-61fe-38e7fc2a7a12",
+				"correct": false,
+				"answer": "`mkdir mail ; chmod 700 mail`"
+			},
+			{
+				"_id": "f8062480-c869-e1c3-6668-adf164710bfa",
+				"correct": false,
+				"answer": "`mkdir mail | chmod 700 mail`"
+			},
+			{
+				"_id": "00aace2d-2f5d-9aac-7545-eb1095e6ee1e",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

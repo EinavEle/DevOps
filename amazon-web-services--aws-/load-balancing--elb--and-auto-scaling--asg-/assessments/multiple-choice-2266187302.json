@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2266187302",
+	"source": {
+		"name": "q5",
+		"showName": true,
+		"instructions": "You are managing a web service that has two types of requests: short-lived requests that require quick response time, and heavy, long-lived requests that involve significant processing and take a longer time to be completed.\nThe service runs on multiple instances behind an Application Load Balancer (ALB).\n\nThere is a risk that the heavy, long-lived requests could potentially monopolize the resources of some instances, causing degradation in the performance and responsiveness of the short-lived requests. \n\nConsidering this scenario, which load balancing algorithm would be the preferred choice for distributing traffic to the instances?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "c6d71570-597f-d35c-2107-dcd9e953a6f2",
+				"correct": false,
+				"answer": "Round-robin\n"
+			},
+			{
+				"_id": "f16c1986-50f0-7514-0ce9-10b7d1683a4b",
+				"correct": false,
+				"answer": "Weighted Target Groups\n"
+			},
+			{
+				"_id": "f800a8d6-9756-eab0-0bec-37d63ae24e24",
+				"correct": false,
+				"answer": "Lease privilege principal\n"
+			},
+			{
+				"_id": "9a32099e-ad50-7dac-b3d6-0b666d5d2c5a",
+				"correct": true,
+				"answer": "Least Outstanding Requests"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2008549966",
+	"source": {
+		"name": "Q2",
+		"showName": true,
+		"instructions": "In you EKS cluster, a specific pod requires access to a AWS Secret Manager, and an engineer assigned the necessary permissions directly to the node group role.\n\nWhat potential risks may arise from this approach?\n\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "2d441f85-82f9-9ee7-9b4c-b5d0c40750f9",
+				"correct": false,
+				"answer": "There is no risk.\n"
+			},
+			{
+				"_id": "1dea38ed-2e12-cf00-103f-57e3fd60b10a",
+				"correct": false,
+				"answer": "The pod might experience latency issues when accessing the Secret Manager.\n"
+			},
+			{
+				"_id": "3b51705a-d5f4-c232-a093-a51686d95c4c",
+				"correct": true,
+				"answer": "Unauthorized pods in the same node group could potentially access the Secret Manager.\n"
+			},
+			{
+				"_id": "5d5845e9-4930-6488-cdfa-e31f09ec2135",
+				"correct": false,
+				"answer": "The engineer should have assigned permissions directly to the Deployment, bypassing the node group role."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

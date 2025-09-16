@@ -1,0 +1,1 @@
+If you already have Docker Engine and Docker CLI installed, you can install the Compose plugin from: https://docs.docker.com/compose/install/linux/#install-using-the-repository

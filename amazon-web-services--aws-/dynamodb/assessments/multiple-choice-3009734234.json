@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3009734234",
+	"source": {
+		"name": "q3",
+		"showName": true,
+		"instructions": "\nConsider the following JSON sample of an item in an DynamoDB table:\n\n```json\n{\n    \"item_id\": \"123456789\",\n    \"timestamp\": \"2022-05-10T10:30:00Z\",\n    \"name\": \"Product A\",\n    \"category\": \"Electronics\",\n    \"price\": 99.99,\n    \"quantity\": 10\n}\n```\n\nWhich key from the item JSON sample would be most suitable as the partition key for the DynamoDB table?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "fd524b42-9cdd-409e-8d9f-e5ce0f856328",
+				"correct": true,
+				"answer": "`item_id`\n"
+			},
+			{
+				"_id": "7b8c328a-9211-5512-2d88-af5156a314c8",
+				"correct": false,
+				"answer": "`name`\n"
+			},
+			{
+				"_id": "a8c53ba0-eaa1-705c-14b1-a83b00541079",
+				"correct": false,
+				"answer": "`category`\n"
+			},
+			{
+				"_id": "bf2a1af2-9da6-315d-cf1e-6c0f250ebc51",
+				"correct": false,
+				"answer": "`price`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

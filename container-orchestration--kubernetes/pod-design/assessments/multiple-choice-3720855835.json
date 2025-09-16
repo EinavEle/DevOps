@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3720855835",
+	"source": {
+		"name": "Q8",
+		"showName": true,
+		"instructions": "Given: \n\n```console\n$ kubectl describe service myservice\nName:              myservice\nNamespace:         default\nLabels:            <none>\nAnnotations:       <none>\nSelector:          app=myapp\nType:              ClusterIP\nIP Family Policy:  SingleStack\nIP Families:       IPv4\nIP:                10.97.201.254\nIPs:               10.97.201.254\nPort:              grpc  9555/TCP\nTargetPort:        9555/TCP\nEndpoints:         10.244.0.46:9555,10.244.0.15:9555\nSession Affinity:  None\nEvents:            <none>\n```\n\nResolving `myservice` from one of the cluster's Pod returns:",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "c2fe32c8-174e-3d91-b2f6-62b092461fe6",
+				"correct": false,
+				"answer": "`10.96.0.10`\n"
+			},
+			{
+				"_id": "6097c850-5ec6-fa9c-edd6-25a9c63b1cf4",
+				"correct": false,
+				"answer": "`10.244.0.46`\n"
+			},
+			{
+				"_id": "0a7970fa-9c2a-ae3a-d950-ef3a2584f81c",
+				"correct": false,
+				"answer": "`10.244.0.15`\n"
+			},
+			{
+				"_id": "191df710-346e-3820-5123-d10cfc945c1d",
+				"correct": false,
+				"answer": "`10.244.0.46` or `10.244.0.15`\n"
+			},
+			{
+				"_id": "502bd331-f324-87cc-71ad-5cfd03f1946e",
+				"correct": true,
+				"answer": "`10.97.201.254`"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

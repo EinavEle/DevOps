@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-4293556310",
+	"source": {
+		"name": "Q1",
+		"showName": true,
+		"instructions": "Choose the correct sentence(s) regarding Ingress and Ingress Controller\n",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "72d6ddbe-0853-a06e-4cb9-b68e8cde1f73",
+				"correct": false,
+				"answer": "Ingress and Ingress Controller are the same.\n"
+			},
+			{
+				"_id": "79c01c70-cec0-0c16-b2c7-5cbfabdfdc1f",
+				"correct": true,
+				"answer": "Ingress Controller fulfill Ingress requirements.\n"
+			},
+			{
+				"_id": "a37ce6e8-450b-67da-6882-7a2714073b1f",
+				"correct": false,
+				"answer": "Ingress fulfill Ingress Controller requirements.\n"
+			},
+			{
+				"_id": "397a4db6-8b22-3ec3-7256-3dbd2bcde885",
+				"correct": true,
+				"answer": "Ingress without Ingress Controller has no actual impact on the cluster."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

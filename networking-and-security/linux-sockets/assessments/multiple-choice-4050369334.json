@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-4050369334",
+	"source": {
+		"name": "Question 5",
+		"showName": true,
+		"instructions": "If on one machine, Elvis was using both the Firefox and Chrome web browsers to access the same website, what parameter would differ for the two involved sockets?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "178697a1-b448-cca1-5e87-9a2c30d425a6",
+				"correct": false,
+				"answer": "The client IP Address"
+			},
+			{
+				"_id": "c29071ab-a51a-7d8a-7acb-37c0dde383df",
+				"correct": false,
+				"answer": "The server port number"
+			},
+			{
+				"_id": "d4d7e7c1-95a7-4436-233a-b70bcee5ae42",
+				"correct": true,
+				"answer": "The client port number"
+			},
+			{
+				"_id": "e157b4f9-68ee-ad05-6cea-1a49a5797741",
+				"correct": false,
+				"answer": "The server IP Address"
+			},
+			{
+				"_id": "13a1abd7-fd7e-6691-52f0-88129cc49520",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

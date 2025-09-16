@@ -1,0 +1,155 @@
+{
+ "sections": [
+  {
+   "id": "a9ba5f15-13e6-c08e-6f97-7c5abb784c6f",
+   "title": "Intro",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Intro-a9ba.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "91ddf976-83e6-ba6e-4b6d-5e71f1ea9306",
+   "title": "Syntax",
+   "files": [
+    {
+     "path": "work.py",
+     "panel": 2,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-guides-left",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Syntax-91dd.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "dd57ce2c-493e-5489-3d46-fb5375805bf4",
+   "title": "Parameters",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Parameters-dd57.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "d5282215-96f7-1096-d64d-fa4476a48b57",
+   "title": "Multiple Parameters",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Multiple-Parameters-d528.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "26ec6dd1-73e2-82d1-b7a5-ca45bf518a2a",
+   "title": "Spot Check",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Spot-Check-26ec.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "5b6602b4-a97b-fb27-e5a6-1bd7fac14f73",
+   "title": "The 'return' Statement",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/The--return--Statement-5b66.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "7e4a711b-7e90-bdb4-e1de-8179e4c07fdc",
+   "title": "Functions Calling Functions",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Functions-Calling-Functions-7e4a.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "893da536-2b73-0f66-4db2-ad7f72278965",
+   "title": "Spot Check",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Spot-Check-893d.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "73bad847-5561-edc9-1446-0a0cfd86ebf3",
+   "title": "Default Parameters",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Default-Parameters-73ba.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "fde91dbf-fce4-3ab0-5ef6-8a873e6f73aa",
+   "title": "Exercises",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Exercises-fde9.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "78728795-ec05-919d-a992-f2b22fcc1b08",
+   "title": "Comprehension Check",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Comprehension-Check-7872.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  }
+ ],
+ "theme": "light",
+ "scripts": [],
+ "lexikonTopic": "",
+ "suppressPageNumbering": false,
+ "useSubmitButtons": true,
+ "useMarkAsComplete": true,
+ "hideMenu": false,
+ "allowGuideClose": false,
+ "collapsedOnStart": false,
+ "hideSectionsToggle": false,
+ "hideBackToDashboard": false,
+ "protectLayout": false
+}

@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2314723217",
+	"source": {
+		"name": "Question 3",
+		"showName": true,
+		"instructions": "Which of the following command lines would list every line which contains the text `cdrom` from the file `README`, along with two lines of context before and after the matching line?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "6fe3c68a-0637-ef5e-e679-5c6e8ee5a34d",
+				"correct": false,
+				"answer": "`grep cdrom README | head -2 | tail -2`"
+			},
+			{
+				"_id": "2926ff98-be41-8603-8b9e-d2023161019b",
+				"correct": true,
+				"answer": "`grep -n2 cdrom README`"
+			},
+			{
+				"_id": "a2358e60-3b36-80eb-4d06-cec3b382355e",
+				"correct": false,
+				"answer": "`grep -n2 README cdrom`"
+			},
+			{
+				"_id": "33d79516-9cb4-4f7f-f3e7-d9dbdea71015",
+				"correct": false,
+				"answer": "`grep -k2 cdrom README`"
+			},
+			{
+				"_id": "791a2866-1f65-2f93-5350-e7bcedf9b4ac",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

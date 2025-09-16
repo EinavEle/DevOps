@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2310533226",
+	"source": {
+		"name": "q3",
+		"showName": true,
+		"instructions": "Your private and public DNS of a running ec2 instance are:\n\n`ip-172-31-46-24.eu-north-1.compute.internal`    \n`ec2-13-49-241-109.eu-north-1.compute.amazonaws.com`",
+		"multipleResponse": true,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "0ac1ac7f-ac45-2d8f-82c4-766085e74cea",
+				"correct": false,
+				"answer": "The private DNS can be resolved from your local machine.\n"
+			},
+			{
+				"_id": "540e1512-0972-f911-2756-dfbf75eb3919",
+				"correct": true,
+				"answer": "The private DNS can be resolved from within the instance.\n\n"
+			},
+			{
+				"_id": "ae6bdf5f-594b-b20d-ee22-a7b758b54d40",
+				"correct": true,
+				"answer": "The public DNS can be resolved from your local machine."
+			},
+			{
+				"_id": "b6db075a-fc4b-759b-4e81-ab3c1c9e0cee",
+				"correct": true,
+				"answer": "The public DNS can be resolved from within the instance."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

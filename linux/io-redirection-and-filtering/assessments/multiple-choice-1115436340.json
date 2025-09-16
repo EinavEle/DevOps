@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1115436340",
+	"source": {
+		"name": "Question 4",
+		"showName": true,
+		"instructions": "Which of the following command lines would list the names of files (and only the names of files) found underneath the `/etc` directory which contain the word `network` (i.e., the word \"networking\" would not count).",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "c2afe1a5-8bf4-a954-8fda-a9b99eda387e",
+				"correct": true,
+				"answer": "`grep -rwl network /etc`"
+			},
+			{
+				"_id": "d8c084a2-9182-fb8d-f4b8-64df71d451f2",
+				"correct": false,
+				"answer": "`grep -wl network /etc`"
+			},
+			{
+				"_id": "d29d64ba-f263-19da-43a8-c8bc612a78fa",
+				"correct": false,
+				"answer": "`grep -rl network /etc`"
+			},
+			{
+				"_id": "31e4cbc4-4b51-9ad8-c009-9254582d4c6b",
+				"correct": false,
+				"answer": "`grep -ilw network /etc`"
+			},
+			{
+				"_id": "c89da331-8962-7cbd-5784-33b07ddbf388",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

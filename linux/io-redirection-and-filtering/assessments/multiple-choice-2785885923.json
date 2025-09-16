@@ -1,0 +1,59 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2785885923",
+	"source": {
+		"name": "Question 1",
+		"showName": true,
+		"instructions": "To allow the search pattern `HELLO` to match both `hello` and `HELLO`, you would use the `grep` command with which command line switch?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "c9528bf7-9cc1-ac57-e8d6-41588d4d6059",
+				"correct": true,
+				"answer": "`-i`"
+			},
+			{
+				"_id": "bffc918a-39bd-3ca3-6df9-c914cb4abd5a",
+				"correct": false,
+				"answer": "`-r`"
+			},
+			{
+				"_id": "3987f163-8c8c-7bda-018c-ceae38b15d4d",
+				"correct": false,
+				"answer": "`-w`"
+			},
+			{
+				"_id": "e533cc9a-e390-2877-3116-f71d5aa11421",
+				"correct": false,
+				"answer": "`-k`"
+			},
+			{
+				"_id": "4b295404-ff70-67f1-972a-3b45e65f4a9b",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

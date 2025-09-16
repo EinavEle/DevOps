@@ -1,0 +1,64 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1297537615",
+	"source": {
+		"name": "Question 5",
+		"showName": true,
+		"instructions": "Immediately after the `pstree` command, the user executed the `exit` command. Which of the following statements most describe what happened after?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "a912f3e0-4926-bc5d-a1bb-a3d628e6d5f0",
+				"correct": false,
+				"answer": "The terminal window was closed"
+			},
+			{
+				"_id": "ce04c572-5b3e-c5cd-2e25-da1be655e6d6",
+				"correct": false,
+				"answer": "The current prompt belongs to the 3rd bash session"
+			},
+			{
+				"_id": "ecb44f5f-7351-b956-c09f-03252d1cc96c",
+				"correct": false,
+				"answer": "The computer is turning off"
+			},
+			{
+				"_id": "e4505ed3-77b4-9824-60a8-617588132f3f",
+				"correct": false,
+				"answer": "The 4th bash process was terminated"
+			},
+			{
+				"_id": "f92f0f25-3de9-2efa-4700-f1f3136029c2",
+				"correct": true,
+				"answer": "B and D correct"
+			},
+			{
+				"_id": "e04ef717-af79-1c72-6300-1fd4aa87ba3b",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

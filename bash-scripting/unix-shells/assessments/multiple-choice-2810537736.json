@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2810537736",
+	"source": {
+		"name": "Question 8",
+		"showName": true,
+		"instructions": "The user myuser adds the following lines to the files `~/.bashrc` and `~/.bash_profile`.\n```bash\n[myuser@station]$ echo 'echo \"sourcing ~/.bashrc\"' >> ~/.bashrc\n[myuser@station]$ echo 'echo \"sourcing ~/.bash_profile\"' >> ~/.bash_profile\n```\nShe then starts a new bash subshell.\n```bash\n[myuser@station]$ bash\nsourcing ~/.bashrc\n[myuser@station]$\n```\nWhy did myuser not see the line `sourcing ~/.bash_profile`?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "ecb7e9e6-cafe-c206-d1ff-8dc18b1f41fc",
+				"correct": false,
+				"answer": "She neglected to add execute permissions to the file `~/.bash_profile`."
+			},
+			{
+				"_id": "393bf1fc-bfce-995f-be9c-b884e84c3aa0",
+				"correct": true,
+				"answer": "Because the subshell is a non-login shell, the file `~/.bash_profile` does not get sourced."
+			},
+			{
+				"_id": "b0c87f47-24d5-646f-88cc-5bb5fb32a99a",
+				"correct": false,
+				"answer": "For her changes to take effect, myuser must log out and log back in again."
+			},
+			{
+				"_id": "9818a7f9-fce4-b2c7-6f11-ffd3a0bf709f",
+				"correct": false,
+				"answer": "None of the above reasons apply."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

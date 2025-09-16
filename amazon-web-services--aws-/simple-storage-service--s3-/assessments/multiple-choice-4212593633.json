@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-4212593633",
+	"source": {
+		"name": "q8",
+		"showName": true,
+		"instructions": "In which storage class would you prefer to store your data based on the given scenario?\n\nMonthly data stored size: 100 GB     \nAverage monthly GET requests: 10,000     \nAverage monthly PUT requests: 1,000     ",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "66eef4d4-49ed-dc38-8946-ec288921fe33",
+				"correct": true,
+				"answer": "Standard Storage Class\n"
+			},
+			{
+				"_id": "6f7a22fb-6123-6876-e20f-8b2b2cb71af1",
+				"correct": false,
+				"answer": "Infrequent Access Storage Class\n"
+			},
+			{
+				"_id": "8b0ce78f-29aa-83b2-60ec-d269902ff565",
+				"correct": false,
+				"answer": "Glacier Storage Class\n"
+			},
+			{
+				"_id": "a7f7491b-c428-83c8-673b-161e0a72d07d",
+				"correct": false,
+				"answer": "Deep Archive Storage Class"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

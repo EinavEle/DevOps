@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3230939952",
+	"source": {
+		"name": "Q4",
+		"showName": true,
+		"instructions": "What is the different between a PV and a PVC?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "a15eb676-27ab-99eb-3b12-0fe460ab5b98",
+				"correct": false,
+				"answer": "PV is used by Pods, while PVC is used by PersistentVolumeClaims.\n"
+			},
+			{
+				"_id": "02dfe821-ca21-aec1-874e-a2de26d6b8d1",
+				"correct": false,
+				"answer": "PV is dynamically created by Kubernetes, while PVC is statically provisioned by cluster administrators.\n"
+			},
+			{
+				"_id": "bcb649b3-f585-6aeb-a5d5-581a269309f4",
+				"correct": true,
+				"answer": "PV represents physical storage resources, while PVC is a request for storage resources.\n"
+			},
+			{
+				"_id": "c97ae51a-ebb7-e523-066a-41c8ec1ba84e",
+				"correct": false,
+				"answer": "PV is namespace-specific, while PVC is cluster-wide."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3456440540",
+	"source": {
+		"name": "Q5",
+		"showName": true,
+		"instructions": "\nWhat is the primary purpose of discarding concurrent builds in a **deployment** pipeline?\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "ae8f3405-9ddb-2cad-b49d-275ef42935d4",
+				"correct": false,
+				"answer": "To speed up the deployment process by deploying multiple builds simultaneously.\n"
+			},
+			{
+				"_id": "cbcd06a9-fe54-ed2c-e58a-7fb6be54c7f9",
+				"correct": true,
+				"answer": "To ensure that only one build is deployed to production at a time.\n"
+			},
+			{
+				"_id": "663ddf5a-14a6-844b-e7b9-9ff4eaf16dad",
+				"correct": false,
+				"answer": "To create redundancy in case of deployment failures.\n"
+			},
+			{
+				"_id": "2f1d61d5-c0a1-3cdd-d0da-bf3d0efd611d",
+				"correct": false,
+				"answer": "To test the stability of the production environment with multiple builds."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

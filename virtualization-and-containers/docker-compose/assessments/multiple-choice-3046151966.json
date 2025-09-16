@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3046151966",
+	"source": {
+		"name": "Question 1",
+		"showName": true,
+		"instructions": "What is the data type of each key?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "d634af05-41b0-868b-f051-11f7aa0f41dd",
+				"correct": false,
+				"answer": "`hosts` is null, `spec` is a list, `volume` is string, `nothing` isn't valid syntax."
+			},
+			{
+				"_id": "b38acad5-622a-2d58-a5b9-c677ce895159",
+				"correct": true,
+				"answer": "`hosts` is a list, `spec` is a dictionary, `volume` is string, `nothing is null."
+			},
+			{
+				"_id": "f1c2ae2a-c497-a59d-7280-5b50f37c15dc",
+				"correct": false,
+				"answer": "`hosts` is a list, `spec` isn't valid syntax, `volume` is string, `nothing` isn't valid syntax."
+			},
+			{
+				"_id": "e9842d6f-c618-45aa-8baf-f8aae868a822",
+				"correct": false,
+				"answer": "`hosts` isn't a valid syntax, `spec` is a dictionary, `volume` isn't valid syntax, `nothing` is null."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

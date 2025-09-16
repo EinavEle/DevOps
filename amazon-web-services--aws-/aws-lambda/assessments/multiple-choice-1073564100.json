@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1073564100",
+	"source": {
+		"name": "q1",
+		"showName": true,
+		"instructions": "A video processing lambda function is being triggered upon new video uploading to S3.\nThe function performs resizing and upload the processed video to another S3 bucket. \n\nWhat could be a potential limit?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "752eaa29-3ac3-a85f-6734-65557adc7d03",
+				"correct": false,
+				"answer": "This architecture is not scalable - only one lambda function can be executed concurrently.\n"
+			},
+			{
+				"_id": "b643a317-91f2-c843-dc31-37babdb4d48e",
+				"correct": false,
+				"answer": "Lambda functions cannot have permission on S3 buckets.\n"
+			},
+			{
+				"_id": "505b68d5-57d8-c32e-78d1-e35678b7dcae",
+				"correct": true,
+				"answer": "Long video files can reach function execution timeout (900 seconds).\n"
+			},
+			{
+				"_id": "1598b6b2-ddb7-f63a-92fa-eea5927b3868",
+				"correct": false,
+				"answer": "There will not be enough CPU to process the video."
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

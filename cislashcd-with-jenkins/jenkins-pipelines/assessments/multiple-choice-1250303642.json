@@ -1,0 +1,54 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1250303642",
+	"source": {
+		"name": "Q4",
+		"showName": true,
+		"instructions": "Given the following pipeline:\n\n```text\npipeline {\n    agent any\n\n    environment {\n        IS_NEW_VERSION = \"YES\"\n    }\n\n    stages {\n        stage(\"Deploy to production\") {\n            when {\n                environment name: \"IS_NEW_VERSION\", value: \"YES\"\n            }\n\n            steps {\n                sh \"exit 5\"\n            }\n\n            post {\n                success {\n                    slackSend(\n                            teamDomain: \"${env.SLACK_TEAM_DOMAIN}\",\n                            token: \"${env.SLACK_TOKEN}\",\n                            channel: \"${env.SLACK_CHANNEL}\",\n                            color: \"good\",\n                            message: \"${env.STACK_PREFIX} production deploy: *${env.DEPLOY_VERSION}*. <${env.DEPLOY_URL}|Access service> - <${env.BUILD_URL}|Check build>\"\n                    )\n                }\n\n                failure {\n                    slackSend(\n                            teamDomain: \"${env.SLACK_TEAM_DOMAIN}\",\n                            token: \"${env.SLACK_TOKEN}\",\n                            channel: \"${env.SLACK_CHANNEL}\",\n                            color: \"danger\",\n                            message: \"${env.STACK_PREFIX} production deploy failed: *${env.DEPLOY_VERSION}*. <${env.BUILD_URL}|Check build>\"\n                    )\n                }\n            }\n        }\n    }\n}\n```\n\nAssuming the [Slack Notification](https://plugins.jenkins.io/slack/) was installed and configured properly in the Jenkins server:\n",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "9c9097aa-4ab8-db1a-8210-f9b2bc9ea249",
+				"correct": false,
+				"answer": "Success message would be sent to the Slack channel\n"
+			},
+			{
+				"_id": "7292a0ed-0d35-5b07-f5cd-f58593c4e39b",
+				"correct": true,
+				"answer": "Failure message would be sent to the Slack channel\n"
+			},
+			{
+				"_id": "992f1781-1a77-509f-1397-c9dd144f4c46",
+				"correct": false,
+				"answer": "The stage wouldn't be running\n"
+			},
+			{
+				"_id": "eafd9674-e131-31e1-45d0-49c104ef0368",
+				"correct": false,
+				"answer": "None of the above"
+			}
+		],
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 1,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

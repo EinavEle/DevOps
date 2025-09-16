@@ -1,0 +1,56 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "5562f351-eff9-f9bd-a4a4-5b5b4cdcedf8",
+				"answer": "1997, 2001",
+				"correct": false
+			},
+			{
+				"_id": "49f05b86-1407-b681-5fb4-c127b1477fd8",
+				"answer": "1997, 1997\n",
+				"correct": false
+			},
+			{
+				"_id": "1024f66e-ae1b-ae75-c3bb-5786ba46b549",
+				"answer": "1954, 2001",
+				"correct": false
+			},
+			{
+				"_id": "305ab150-5db8-23a7-7ef8-cc088092f4ae",
+				"answer": "1954, 1954",
+				"correct": true
+			},
+			{
+				"_id": "cad6ef99-0028-7b98-1bf8-3d9bf9258789",
+				"answer": "An Error",
+				"correct": false
+			}
+		],
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"guidance": "",
+		"incorrectPoints": 0,
+		"instructions": "What will the following code output? \nPlease don't run the code before answering.\n\n```\nmovies = {\n    \"Endgame\": 2019,\n    \"Potter\": 2001,\n    \"King\": 1994,\n    \"Rings\": 2001\n}\n\nbooks = movies\nbooks[\"Potter\"] = 1997\nbooks[\"Rings\"] = 1954\n\nprint(books[\"Rings\"])\nprint(movies[\"Rings\"])\n```",
+		"isRandomized": false,
+		"learningObjectives": "",
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "Q4",
+		"points": 20,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponse": false,
+		"showName": true
+	},
+	"taskId": "multiple-choice-4125164946",
+	"type": "multiple-choice"
+}
